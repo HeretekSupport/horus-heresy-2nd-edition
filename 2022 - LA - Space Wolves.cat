@@ -3146,7 +3146,7 @@
           </profiles>
           <rules>
             <rule id="2616-9adc-9752-6cdb" name="Fearsome Ruin" hidden="false">
-              <description>Assault phase: any unit that suffers ≥1 casualty from this weapon rolls +1D6 for Morale checks, keeping the two highest.</description>
+              <description>Assault phase: any unit that suffers ≥1 casualty from this weapon rolls +**1D6** for Morale checks, keeping the two highest.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3415,7 +3415,7 @@
         </rule>
         <rule id="05cd-cb2a-96d1-863c" name="The Dreams of the Death Wolf" hidden="false">
           <description>Assault phase: if a Deathsworn model is slain before attacking, set it aside instead of removing it.
-- I1: each set-aside model makes 1 attack, then is removed as a casualty.
+- **I1**: each set-aside model makes **1** attack, then is removed as a casualty.
 - These casualties count toward combat resolution.</description>
         </rule>
       </rules>
@@ -6393,7 +6393,7 @@ When declaring a Charge, may activate Stasis Bombs (lasts until start of your ne
           </profiles>
           <rules>
             <rule id="25c8-a095-eede-ea41" name="Battle Cunning" hidden="false">
-              <description>Up to 3 friendly all-Infantry units in Hvarl Red-Blade's Detachment gain Scout.</description>
+              <description>Up to **3** friendly all-Infantry units in Hvarl Red-Blade's Detachment gain Scout.</description>
             </rule>
           </rules>
           <infoLinks>

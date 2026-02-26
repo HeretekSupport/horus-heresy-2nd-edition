@@ -2995,8 +2995,8 @@
           </profiles>
           <rules>
             <rule id="1654-4021-8098-0327" name="The Shadowed Lord" hidden="false" publicationId="817a-6288-e016-7469" page="333">
-              <description>- Hit &amp; Run: roll 1 extra distance die, discard any 1 die.
-- After Hit &amp; Run: re-roll Shrouded fails of 1 for Corvus Corax and his unit until start of your next turn.</description>
+              <description>- Hit &amp; Run: roll **1** extra distance die, discard any **1** die.
+- After Hit &amp; Run: re-roll Shrouded fails of **1** for Corvus Corax and his unit until start of your next turn.</description>
             </rule>
           </rules>
           <infoLinks>

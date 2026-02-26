@@ -141,7 +141,7 @@
               <description>- All Legiones Astartes (Raven Guard) models gain Preferred Enemy (Independent Characters).
 - Units deployed via Deep Strike or Flanking Assault gain Shrouded (5+) for that Game Turn.
 - Slay the Warlord awards +2 Victory points (VP missions only).
-- Max 1 Heavy Support choice.
+- Max **1** Heavy Support choice.
 - No Fortifications.</description>
             </rule>
           </rules>
@@ -272,7 +272,7 @@
           </profiles>
           <rules>
             <rule id="bb2a-6e7e-84ea-8219" name="Phase Shift" publicationId="15a4-fc68-502d-48a9" page="117" hidden="false">
-              <description>To Wound 6+: auto-wound, no Armour/Invulnerable/Damage Mitigation saves. No effect vs models without T.</description>
+              <description>To Wound 6+: auto-wound, no Armour/Invuln/Damage Mitigation saves. No effect vs models without T.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -442,7 +442,7 @@
       <rules>
         <rule id="e861-087c-bd75-1112" name="Frenzon Rage (3)" publicationId="15a4-fc68-502d-48a9" page="119" hidden="false">
           <description>Start of Assault phase: +3A until end of turn.
-- Each unmodified To Hit of 1: attacking model suffers 1 Wound (Armour Save allowed).
+- Each unmodified To Hit of 1: attacking model suffers **1** Wound (Armour Save allowed).
 - These Wounds don't count for combat resolution.</description>
         </rule>
       </rules>
@@ -499,7 +499,7 @@
           </constraints>
           <rules>
             <rule id="5bc6-a9cb-0ca3-c216" name="Biological Overload" publicationId="15a4-fc68-502d-48a9" page="119" hidden="false">
-              <description>When reduced to 0W, before removal: every model within D6" suffers S4 AP3 hit (Fleshbane). Counts as a Flame weapon Shooting Attack.</description>
+              <description>When reduced to 0W, before removal: every model within **D6**" suffers **S4** **AP3** hit (Fleshbane). Counts as a Flame weapon Shooting Attack.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -570,8 +570,8 @@
       <rules>
         <rule id="856e-b57c-3474-c865" name="Noospheric Interloper" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false">
           <description>Instead of Shooting, take a Ld test:
-- **Passed:** target 1 Automata within 12"; it suffers D3 Wounds (no Saves or Damage Mitigation). If killed, target 1 additional Automata within 12"; it suffers D3 Wounds (no Saves or Damage Mitigation). No further wounds after this.
-- **Failed:** this model suffers 1 Wound (no Saves or Damage Mitigation).</description>
+- **Passed:** target **1** Automata within 12"; it suffers **D3** Wounds (no Saves or Damage Mitigation). If killed, target **1** additional Automata within 12"; it suffers **D3** Wounds (no Saves or Damage Mitigation). No further wounds after this.
+- **Failed:** this model suffers **1** Wound (no Saves or Damage Mitigation).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -724,7 +724,7 @@
           </profiles>
           <rules>
             <rule id="97db-5ae5-b100-1424" name="The Venem" publicationId="15a4-fc68-502d-48a9" page="123" hidden="false">
-              <description>- If model suffers ≥1 unsaved Wounds: Start of each battle turn, roll D6; on 5+ suffer 1 Wound (no saves of any kind).
+              <description>- If model suffers ≥1 unsaved Wounds: Start of each battle turn, roll **D6**; on 5+ suffer **1** Wound (no saves of any kind).
 - Model suffering ≥1 unsaved Wounds counts as destroyed for VP purposes (unless Eternal Warrior).</description>
             </rule>
           </rules>
@@ -980,7 +980,7 @@
       </profiles>
       <rules>
         <rule id="d861-12d0-78ac-0105" name="Osmeotic Regeneration" publicationId="53a4-0d21-2f8a-2c45" page="223" hidden="false">
-          <description>End of turn: roll 1D6 per unsaved Wound dealt that turn; each 5+: regain 1 lost Wound (can't exceed starting W).</description>
+          <description>End of turn: roll **1D6** per unsaved Wound dealt that turn; each 5+: regain **1** lost Wound (can't exceed starting W).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1653,7 +1653,7 @@
       <description>Can be taken as a non-Compulsory HQ in any faction's army. Can't be Warlord.</description>
     </rule>
     <rule id="3379-5303-2e43-2925" name="The Emperor Protects" hidden="false">
-      <description>On first death, roll D6: 4+ → survive with 1W.</description>
+      <description>On first death, roll **D6**: 4+ → survive with 1W.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

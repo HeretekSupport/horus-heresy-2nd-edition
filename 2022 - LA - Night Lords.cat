@@ -3223,7 +3223,7 @@
           </profiles>
           <rules>
             <rule id="22cf-ebe1-449e-0cab" name="Dirty Fighter" hidden="false">
-              <description>In a Challenge vs WS5+ model: all attacks gain Instant Death.</description>
+              <description>In a Challenge vs **WS5**+ model: all attacks gain Instant Death.</description>
             </rule>
             <rule id="2181-0c34-3234-ecf6" name="Dark Dreams" hidden="false">
               <description>Can only use Shadows of Past and Future; gains no other Disciplines, Powers, or Psychic Weapons.</description>
@@ -4536,8 +4536,8 @@
     <selectionEntry id="837e-c3ca-437e-dfbf" name="Contekar Terminator Squad" publicationId="09c5-eeae-f398-b653" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="33de-beff-3d71-ba95" name="Lords of the Night" hidden="false">
-          <description>- 1 Contekar Terminator Squad (≤10 models) can fill a Compulsory HQ slot if neither Sevatar nor Konrad Curze are in the army.
-- In a Detachment including Sevatar, 1 Contekar Terminator Squad can be taken as a Retinue Squad (no Force Org slot):
+          <description>- **1** Contekar Terminator Squad (≤10 models) can fill a Compulsory HQ slot if neither Sevatar nor Konrad Curze are in the army.
+- In a Detachment including Sevatar, **1** Contekar Terminator Squad can be taken as a Retinue Squad (no Force Org slot):
   - Counts as part of Sevatar's unit; Sevatar is its Leader.
   - Must deploy with Sevatar; Sevatar can't voluntarily leave.</description>
         </rule>
@@ -5274,7 +5274,7 @@
           </profiles>
           <rules>
             <rule id="6ea2-325c-94b0-f3e0" name="Narphagia" hidden="false">
-              <description>End of turn (while alive, below starting Wounds, joined to unit with ≥1 Legiones Astartes (Night Lords) model): roll D6; on 4+, regain 1 Wound — 1 Legiones Astartes (Night Lords) model in the same unit suffers 1 wound, no Armour or Damage Mitigation saves allowed.
+              <description>End of turn (while alive, below starting Wounds, joined to unit with ≥1 Legiones Astartes (Night Lords) model): roll **D6**; on 4+, regain **1** Wound — **1** Legiones Astartes (Night Lords) model in the same unit suffers **1** wound, no Armour or Damage Mitigation saves allowed.
 
 All Infantry/Cavalry models in Mawdrym's unit gain Feel No Pain (5+) (excludes Artillery sub-type).</description>
             </rule>
@@ -5438,8 +5438,8 @@ All Infantry/Cavalry models in Mawdrym's unit gain Feel No Pain (5+) (excludes A
           </constraints>
           <rules>
             <rule id="c884-b7be-1496-edd6" name="The Bloody Aegis" hidden="false">
-              <description>- 4+ Invulnerable Save (3+ in close combat).
-- In Challenges: each opposing To Hit roll of 1 inflicts 1 S4 AP— wound on the challenger.</description>
+              <description>- 4+ Invuln Save (3+ in close combat).
+- In Challenges: each opposing To Hit roll of **1** inflicts **1** **S4** AP— wound on the challenger.</description>
             </rule>
           </rules>
           <costs>
@@ -5581,10 +5581,10 @@ All Infantry/Cavalry models in Mawdrym's unit gain Feel No Pain (5+) (excludes A
           </profiles>
           <rules>
             <rule id="886d-44ad-5de4-05a8" name="Electro-charge" hidden="false">
-              <description>Unsaved wound: target's I reduced to 1 until end of their next turn.</description>
+              <description>Unsaved wound: target's I reduced to **1** until end of their next turn.</description>
             </rule>
             <rule id="f69b-1fc7-e877-31bd" name="Web of Steel" hidden="false">
-              <description>Forfeit all attacks: make 1 attack vs each enemy model within 2" (using Flay-whip profile); Electro-charge can't trigger.</description>
+              <description>Forfeit all attacks: make **1** attack vs each enemy model within 2" (using Flay-whip profile); Electro-charge can't trigger.</description>
             </rule>
           </rules>
           <costs>

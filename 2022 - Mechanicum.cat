@@ -2547,15 +2547,15 @@
               <rules>
                 <rule id="f428-4adb-1218-2667" name="Reductor" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
                   <description>**Demolisher:** Models with Battlesmith (X) in a Detachment incl. a Reductor model can target Buildings with Battlesmith (X), in addition to normal valid targets. Battlesmith (X) can't restore Wounds/Hull Points or repair Weapon Destroyed/Immobilised results. Choose from:
-- Target Building or Vehicle loses 1 Hull Point.
+- Target Building or Vehicle loses **1** Hull Point.
 - Auto Wound, no saves, vs Dreadnought or Automata (can be used even if locked in combat).
 - Auto Weapon Destroyed on Building or Vehicle (no Hull Point lost).
 - Auto Immobilised on Vehicle (no Hull Point lost).
 
-**Harbinger of Devastation:** During set-up, before Objectives placed or deployment determined, nominate up to 3 terrain areas, Buildings, or Fortifications:
+**Harbinger of Devastation:** During set-up, before Objectives placed or deployment determined, nominate up to **3** terrain areas, Buildings, or Fortifications:
 - Area terrain with Cover Save: Cover Save removed; counts as Difficult and Dangerous Terrain.
 - Building/Fortification: all Building Damage table rolls gain +1.
-- If multiple players have this rule: roll off, alternate nominations (winner first) until each has nominated 3 or passed. Each piece can only be nominated once.
+- If multiple players have this rule: roll off, alternate nominations (winner first) until each has nominated **3** or passed. Each piece can only be nominated once.
 
 **Secrets of Annihilation:** Gains Artificia Reductor Cybertheurgic Arcana. Can't select any other Cyberthe</description>
                 </rule>
@@ -4279,7 +4279,7 @@
       </profiles>
       <rules>
         <rule id="6634-4243-b2d0-39e6" name="Hazardous Munitions" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-          <description>Explodes result: S8 AP4 hit to every model within D6+6" (replaces normal Explodes damage/radius).</description>
+          <description>Explodes result: **S8** **AP4** hit to every model within **D6**+6" (replaces normal Explodes damage/radius).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4534,8 +4534,8 @@
             <rule id="8e53-b538-e67a-4966" name="Sonic Wave" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
               <description>- Place Large Blast (5") with edge touching firing model's Front hull; no scatter.
 - Move template in a straight line within 45° forward arc until max range or off-table.
-- All models passed over: 1 auto hit (incl. Flyers).
-- vs Knights/Titans/Super-heavy Vehicles/Buildings/Fortifications: S10.</description>
+- All models passed over: **1** auto hit (incl. Flyers).
+- vs Knights/Titans/Super-heavy Vehicles/Buildings/Fortifications: **S10**.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4605,7 +4605,7 @@
 - Place an Apocalyptic Blast (10") marker ≥1" from enemy models, battlefield edges, and Impassable Terrain; then scatter it.
 - If final position is within 1" of any enemy model, battlefield edge, or Impassable Terrain: opponent moves marker to any position within 18" meeting placement restrictions; if none exists within 18", opponent places it anywhere on battlefield meeting restrictions.
 - Place model with marker centre under its hull, ≥1" from enemy models.
-- On placement: each Fortification within 6" suffers D6 S10 AP2 hits; each unit suffers 1 S10 AP2 hit per model within 6"; any unit suffering ≥1 hit takes an immediate Pinning test.
+- On placement: each Fortification within 6" suffers **D6** **S10** **AP2** hits; each unit suffers **1** **S10** **AP2** hit per model within 6"; any unit suffering ≥1 hit takes an immediate Pinning test.
 - Marker area counts as Difficult and Dangerous Terrain for remainder of battle.</description>
         </rule>
       </rules>

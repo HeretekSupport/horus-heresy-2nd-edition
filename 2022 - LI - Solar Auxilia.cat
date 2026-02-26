@@ -4840,7 +4840,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
           <rules>
             <rule id="8e38-8b21-ccef-d170" name="Medicae Support" publicationId="15a4-fc68-502d-48a9" page="135" hidden="false">
               <description>Before Turn 1, before deployment, assign each model in this detachment to a separate friendly Infantry unit (same Detachment):
-- Max 1 Auxilia Medicae per unit.
+- Max **1** Auxilia Medicae per unit.
 - Can't assign to units containing Independent Characters or Unique models (though such models can join a unit containing an Auxilia Medicae normally).
 - Once assigned: permanent — can't leave; removed if host unit is destroyed.
 - Gains all host unit's special rules (except those that forbid it, e.g. Bitter Duty) and Sub-types, but no access to host unit's Wargear options.
@@ -5016,7 +5016,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
           <rules>
             <rule id="6496-831a-2c8a-acee" name="Death Frenzy" publicationId="15a4-fc68-502d-48a9" page="131" hidden="false">
               <description>All-[Death Frenzy] unit fails Morale check: treated as passed; no Fall Back. Instead:
-- Remove 1 model in the unit as a casualty (no Armour or Damage Mitigation saves).
+- Remove **1** model in the unit as a casualty (no Armour or Damage Mitigation saves).
 - For the next player turn, all models in that unit gain +1A.</description>
             </rule>
           </rules>
@@ -9938,8 +9938,8 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
                       <modifiers>
                         <modifier type="set" field="name" value="Field Repair (5+)"/>
                       </modifiers>
-                      <description>Shooting phase: instead of shooting, roll D6 vs X to repair one friendly Vehicle within 3":
-- Restore 1 lost Hull Point.
+                      <description>Shooting phase: instead of shooting, roll **D6** vs X to repair one friendly Vehicle within 3":
+- Restore **1** lost Hull Point.
 - Repair a Weapon Destroyed result (repaired weapon can't fire this phase).
 - Repair an Immobilised result.</description>
                     </rule>
@@ -11515,7 +11515,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
                   </profiles>
                   <rules>
                     <rule id="6056-96bf-7e43-8734" name="Auxilia Static Artillerists" hidden="false">
-                      <description>- Start of Shooting phase: Artillery Platforms can shoot = number of Auxilia Gunners (max 1 per Platform required).
+                      <description>- Start of Shooting phase: Artillery Platforms can shoot = number of Auxilia Gunners (max **1** per Platform required).
 - While Auxilia Gunners ≥ Artillery Platforms: immune to Pinning (auto-pass Pinning tests).</description>
                     </rule>
                   </rules>
@@ -12070,10 +12070,10 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
         <selectionEntry id="fe04-c096-f846-a6fd" name="Reborn Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="05af-452b-0e23-3b16" name="Reborn Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false">
-              <description>- All-Infantry: +1 Ld, Stubborn; I counts as 1 for Running/Sweeping Advance/Reaction moves; –1 I in Assault.
+              <description>- All-Infantry: +1 Ld, Stubborn; I counts as **1** for Running/Sweeping Advance/Reaction moves; –1 I in Assault.
 - Shooting (if unit didn't move this turn): re-roll To Hit of 1.
-- Max 1 Auxilia Armoured Tercio.
-- Max 1 Auxilia Artillery Tercio.</description>
+- Max **1** Auxilia Armoured Tercio.
+- Max **1** Auxilia Artillery Tercio.</description>
             </rule>
           </rules>
           <costs>
@@ -12094,8 +12094,8 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
         <selectionEntry id="1974-9f9a-5b14-e449" name="Armoured Fist Pattern Cohorts (Check Limitations manually)" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="a28b-aeef-6d88-8985" name="Armoured Fist Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false">
-              <description>- Auxilia Armoured Tercios can be taken as non-Compulsory Troops; each such choice = 1 Solar Auxilia Leman Russ Strike Squadron.
-- Primary Detachment: must take 1 Solar Auxilia Armoured Command Section (single Leman Russ Command Tank) as HQ; it gains Cohort Doctrines, must be Warlord, and must use Armoured Legate Warlord Trait.
+              <description>- Auxilia Armoured Tercios can be taken as non-Compulsory Troops; each such choice = **1** Solar Auxilia Leman Russ Strike Squadron.
+- Primary Detachment: must take **1** Solar Auxilia Armoured Command Section (single Leman Russ Command Tank) as HQ; it gains Cohort Doctrines, must be Warlord, and must use Armoured Legate Warlord Trait.
 - Warlord must be a Vehicle; overrides any other Warlord-selection rules.
 
 **Warlord Trait — Armoured Legate:** Gains Cohort Doctrines, 5+ Inv. Save, +1 BS.
@@ -12138,7 +12138,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
           <rules>
             <rule id="bf71-d394-4968-20e3" name="Siege Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="73" hidden="false">
               <description>- Auxilia Artillery Tercios &amp; Solar Auxilia Armoured Batteries count as both Elites and Heavy Support choices.
-- Shooting with Barrage/Blast weapons: can re-roll Scatter dice (not scatter distance D6).
+- Shooting with Barrage/Blast weapons: can re-roll Scatter dice (not scatter distance **D6**).
 - All units with a Dedicated Transport option must take one (at normal cost); need not start Embarked.</description>
             </rule>
           </rules>
@@ -12152,8 +12152,8 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
               <description>- Castellax Maniples &amp; Thallax Squads available as Elites choices (see Liber Mechanicum).
 - Legate Marshal, Auxilia Marshal, or Auxilia Captain can take a cortex controller (+15pts each; see Liber Mechanicum).
 - Legate Marshal gains Master of Automata.
-- Max 1 Auxilia Armoured Tercio.
-- Max 1 Auxilia Artillery Tercio.</description>
+- Max **1** Auxilia Armoured Tercio.
+- Max **1** Auxilia Artillery Tercio.</description>
             </rule>
           </rules>
           <costs>
@@ -12165,8 +12165,8 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
             <rule id="dd51-13b7-cd51-37ef" name="Solar Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="70" hidden="false">
               <description>- Auxilia Veletaris Tercios count as Troops; gain Line sub-type when selected as Troops.
 - Veletaris Tercio units can take Arvus Transports as Dedicated Transports.
-- Max 1 Auxilia Armoured Tercio.
-- Max 1 Auxilia Artillery Tercio.</description>
+- Max **1** Auxilia Armoured Tercio.
+- Max **1** Auxilia Artillery Tercio.</description>
             </rule>
           </rules>
           <costs>
@@ -12177,9 +12177,9 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
           <rules>
             <rule name="Reconnaissance Pattern Cohorts" id="7e04-8329-9f52-1bc1" hidden="false" publicationId="d882-d2a-5da1-92c4" page="179">
               <description>- Hermes Light Sentinel Squadrons can be taken as Troops; compulsory Troops selections gain the Line subtype.
-- Aethon Heavy Sentinel Squadrons can include up to 4 additional models (not 2).
-- Max 1 Auxilia Armoured Tercio.
-- Max 1 Auxilia Artillery Tercio.</description>
+- Aethon Heavy Sentinel Squadrons can include up to **4** additional models (not 2).
+- Max **1** Auxilia Armoured Tercio.
+- Max **1** Auxilia Artillery Tercio.</description>
             </rule>
             <rule name="Outflank (Ambiguous Recon Cohorts)" id="bdd0-1f0c-cf43-37fb" hidden="false">
               <description>*Rule text is unclear/incomplete — verify source. Assumed effect:* Unit gains Outflank.</description>
@@ -12217,7 +12217,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
 - While Auxilia Gunners ≥ Rapier Carriers: immune to Pinning (auto-pass Pinning tests).</description>
     </rule>
     <rule id="a217-f49a-7a73-981d" name="Demolition Vehicle" publicationId="15a4-fc68-502d-48a9" page="131" hidden="false">
-      <description>Assault phase: instead of normal attacks, 1 auto hit vs chosen model in base contact (S10 AP1, Armourbane (Melee), Instant Death, Brutal (2)), then auto-removed as casualty (doesn't count toward Assault result).</description>
+      <description>Assault phase: instead of normal attacks, **1** auto hit vs chosen model in base contact (**S10** **AP1**, Armourbane (Melee), Instant Death, Brutal (2)), then auto-removed as casualty (doesn't count toward Assault result).</description>
     </rule>
     <rule id="2d37-470b-462f-9c99" name="Independent Operators" publicationId="15a4-fc68-502d-48a9" page="133" hidden="false">
       <description>- On deployment/arrival/disembark: place within coherency, then each model immediately splits into its own 1-model unit.

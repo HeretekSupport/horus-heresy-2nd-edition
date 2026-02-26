@@ -3811,7 +3811,7 @@
       </modifiers>
       <rules>
         <rule id="7d3f-816a-0e4e-60f8" name="Shield Wall" hidden="false">
-          <description>Models with boarding shield, in base contact with ≥2 other boarding shield models, not Falling Back/Pinned: +1 Invulnerable Save (max 3+).
+          <description>Models with boarding shield, in base contact with ≥2 other boarding shield models, not Falling Back/Pinned: +1 Invuln Save (max 3+).
 - Joined Independent Characters also benefit if unit includes ≥3 Shield Wall models.</description>
         </rule>
         <rule id="1337-2916-168f-e27c" name="Lock-step" hidden="false">
@@ -4311,7 +4311,7 @@
         </rule>
         <rule id="f45a-801b-3494-7cb6" name="Dolorous Fighter" hidden="false">
           <description>- Challenges incl. Sigismund must always be accepted/issued by Sigismund (both players).
-- In Challenges: opponent re-rolls successful Invulnerable Saves vs Sigismund's attacks.</description>
+- In Challenges: opponent re-rolls successful Invuln Saves vs Sigismund's attacks.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4466,7 +4466,7 @@
       </constraints>
       <rules>
         <rule id="95f4-2519-0de5-29e2" name="Hammer Blow" hidden="false">
-          <description>Instead of normal attacks, make 1 "Hammer Blow" attack (no bonus attacks from charging, extra weapons, or special rules).</description>
+          <description>Instead of normal attacks, make **1** "Hammer Blow" attack (no bonus attacks from charging, extra weapons, or special rules).</description>
         </rule>
         <rule id="9127-eec5-af47-8715" name="Void Commander" hidden="false">
           <description>- Auto-pass or -fail any Pinning test for Polux and his unit.

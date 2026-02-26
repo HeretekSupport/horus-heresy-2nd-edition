@@ -3560,7 +3560,7 @@
     <selectionEntry id="a6e3-baab-45b9-7fea" name="Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="aee3-ea29-a584-363c" name="Moving Bulwark" hidden="false">
-          <description>In base contact with another Moving Bulwark model: both improve Inv. save by 1 step (max 4+).</description>
+          <description>In base contact with another Moving Bulwark model: both improve Inv. save by **1** step (max 4+).</description>
         </rule>
         <rule id="9928-677a-8d79-4db0" name="The Shield of the Iron Tyrant" hidden="false">
           <modifiers>

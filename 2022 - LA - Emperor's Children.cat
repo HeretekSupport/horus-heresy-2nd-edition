@@ -3145,7 +3145,7 @@
 Sire of the Emperor’s Children - All friendly models with the Legiones Astartes (Emperor’s Children) that can draw a line of sight to Fulgrim may use Fulgrim’s Leadership Characteristic for all Morale and Pinning checks they are required to take and all friendly units with the Legiones Astartes (Emperor’s Children) special rule on the battlefield while Fulgrim is also on the battlefield gain +1 to the Wound value used to calculate if the unit has won a close combat. In addition, the first Reaction made in each Game Turn by Fulgrim and any unit he has joined does not use up a point of the controlling player’s Reaction Allotment.</description>
             </rule>
             <rule id="fb22-25ac-6bd6-52ee" name="The Gilded Panoply" hidden="false">
-              <description>Sv2+; 3+ Inv vs melee; 4+ Inv vs all other wounds.</description>
+              <description>**Sv2**+; 3+ Inv vs melee; 4+ Inv vs all other wounds.</description>
             </rule>
             <rule id="89df-f48f-5c11-d109" name="Sublime Swordsman" hidden="false">
               <description>In a Challenge: +A equal to Fulgrim's I minus opponent's I (min 0).</description>
@@ -4725,7 +4725,7 @@ If any of these are true then Captain Saul Tarvitz and any friendly units with a
           <description>Can replace Dedicated Transport with a Defence Line (no Fortification FOC slot; points still count toward army total).</description>
         </rule>
         <rule id="4ddb-6ad8-15eb-a95f" name="Designated Quarry" publicationId="09b3-d525-cdea-260c" page="14" hidden="false">
-          <description>After deployment (incl. Infiltrators), choose 1 enemy Gargantuan/Super-heavy/Knight/Titan unit as Designated Quarry:
+          <description>After deployment (incl. Infiltrators), choose **1** enemy Gargantuan/Super-heavy/Knight/Titan unit as Designated Quarry:
 - Shooting vs Quarry: re-roll failed To Wound of 1.
 - Shooting vs Quarry with Armour Value: +1 to Vehicle Damage chart results.</description>
         </rule>
@@ -6068,7 +6068,7 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
           </profiles>
           <rules>
             <rule name="Serpentine Daemonform" hidden="false" id="e3b2-8fb5-bcc7-5a7">
-              <description>- Sv2+, Inv4+.
+              <description>- **Sv2**+, I**nv4**+.
 - While W≤4: +1 to It Will Not Die (X) rolls.
 - Start of player turn: if W≤2 and not in combat, can remove Fulgrim Transfigured as a casualty — opponent scores no Objectives/Secondary Objectives from his removal.</description>
             </rule>
@@ -6077,8 +6077,8 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
 - Can't include alongside Fulgrim.</description>
             </rule>
             <rule name="Resplendent Wings" hidden="false" id="c3ef-7907-9642-bdcd" publicationId="7f9d-5e88-241d-e861" page="105">
-              <description>Start of Movement phase: can activate (M14 for the turn):
-- Move up to 14" regardless of profile M; gains all M14 benefits (incl. Charge bonus).
+              <description>Start of Movement phase: can activate (**M14** for the turn):
+- Move up to 14" regardless of profile M; gains all **M14** benefits (incl. Charge bonus).
 - Ignores terrain while Moving/Charging; treat Difficult Terrain as Dangerous Terrain; must still take Dangerous Terrain tests when beginning/ending in Dangerous Terrain.
 - Can move over friendly/enemy models; must end ≥1" from other units.
 - Run: move up to 14+I"; ignores terrain and other units' models while doing so. Can't shoot or Charge that turn.

@@ -8249,13 +8249,13 @@ Barrage: always treated as out of LoS when scattering.</characteristic>
 
 Sisters of Silence Detachments only:
 - Chamber of Vigilance: unlimited (FOC slots only).
-- Other Chambers: per HQ with that Chamber, include up to 3 other non-HQ choices of the same Chamber.
+- Other Chambers: per HQ with that Chamber, include up to **3** other non-HQ choices of the same Chamber.
 - Dedicated Transports and Retinue units don't count against these limits.</description>
     </rule>
     <rule id="7982-9292-ef54-8e84" name="Ex-Oblivio" publicationId="15a4-fc68-502d-48a9" page="132" hidden="false">
-      <description>Start of any combat, before I10: declare use, then roll D6; pick 1 enemy model in base contact (incl. Challenged model) — that model's WS reduced to 1 for the current player turn.
+      <description>Start of any combat, before **I10**: declare use, then roll **D6**; pick **1** enemy model in base contact (incl. Challenged model) — that model's WS reduced to **1** for the current player turn.
 - 2–6: no further effect.
-- 1: model with this rule suffers 1 Wound (no Armour/Cover/Invulnerable Saves; Damage Mitigation allowed).</description>
+- 1: model with this rule suffers **1** Wound (no Armour/Cover/Invuln Saves; Damage Mitigation allowed).</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

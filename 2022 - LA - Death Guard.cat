@@ -4322,7 +4322,7 @@
           </profiles>
           <rules>
             <rule id="5a33-d42e-c49a-56b7" name="Overcharged" hidden="false">
-              <description>After each combat (if ≥1 attack made): roll 1d6 — on a 1, suffer 1 Wound (Invulnerable Saves only).</description>
+              <description>After each combat (if ≥1 attack made): roll **1d6** — on a 1, suffer **1** Wound (Invuln Saves only).</description>
             </rule>
           </rules>
           <infoLinks>

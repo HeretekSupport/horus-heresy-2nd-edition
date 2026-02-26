@@ -4512,7 +4512,7 @@
         <rule id="9566-305a-70c3-4a11" name="Red Sands" hidden="false">
           <description>- Can issue one Challenge per enemy Character/Primarch locked in combat with him, up to his current Attacks.
 - Fight all Challenges during the Challenge step in an order of Angron's player's choice; Primarchs must be fought first.
-- Divide Attacks between Challenges; minimum 1 Attack per Challenge.
+- Divide Attacks between Challenges; minimum **1** Attack per Challenge.
 - All challenged models and Angron count as in a Challenge until: all challengers are removed, Angron is removed, or a rule ends it.</description>
         </rule>
       </rules>

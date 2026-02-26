@@ -3067,7 +3067,7 @@
         </rule>
         <rule id="1703-b985-b67c-004c" name="Great Wings" hidden="false">
           <description>Start of Movement phase or when Deep Striking, can set M to 14 for the turn:
-- Moves up to 14", gaining all M14 benefits (incl. Charge distance bonus).
+- Moves up to 14", gaining all **M14** benefits (incl. Charge distance bonus).
 - Can move over Impassable Terrain, vertical terrain, and any models without penalty.
 - Can't end movement in Impassable Terrain or within 1" of any non-allied unit.
 - Difficult Terrain counts as Dangerous Terrain; must take Dangerous Terrain tests when moving through or ending/beginning movement or a Charge in Dangerous Terrain.
@@ -3227,7 +3227,7 @@
                   </profiles>
                   <rules>
                     <rule id="4b20-b0ac-50cd-f9f1" name="Moonsliver" hidden="false">
-                      <description>Unsaved wounds vs. Daemon or Psyker models count as 2 wounds. No spill-over.</description>
+                      <description>Unsaved wounds vs. Daemon or Psyker models count as **2** wounds. No spill-over.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -3335,7 +3335,7 @@
       </modifiers>
       <rules>
         <rule id="808d-da54-f3db-be02" name="Ghost of Saiph" hidden="false" publicationId="4934-46f7-208b-b4af" page="159">
-          <description>First time removed as a casualty, roll D6. On 4+: placed in Reserves with W1 instead.
+          <description>First time removed as a casualty, roll **D6**. On 4+: placed in Reserves with **W1** instead.
 - If this occurs on Turn 4+: auto-enters play at start of your next turn.</description>
         </rule>
         <rule name="Captain of the Inductii" id="e01a-f779-01d7-ff56" hidden="false" publicationId="4934-46f7-208b-b4af" page="159">
@@ -3477,7 +3477,7 @@ While a Warlord with this Trait is within 6&quot; of one or more models with bot
 - Outnumbered: Feel No Pain (5+)
 - Outnumbered ≥2×: Feel No Pain (4+)
 - Independent Characters joining the unit neither benefit from nor count toward this rule.
-- Each Crimson Paladin/Exemplar counts as 2 models (Bulky (2)); enemy Bulky (X) models count per their Transport Capacity value.
+- Each Crimson Paladin/Exemplar counts as **2** models (Bulky (2)); enemy Bulky (X) models count per their Transport Capacity value.
 - vs multiple enemy units: combine all enemy unit sizes to determine if outnumbered.</description>
         </rule>
       </rules>
@@ -4684,7 +4684,7 @@ Those models also gain the Feel No Pain (5+) special rule when locked in combat 
       <rules>
         <rule id="308f-78bb-90b4-76f9" name="Paragon of Restoration" hidden="false">
           <description>- Feel No Pain (5+).
-- First time reduced to 0W: roll D6; on 4+ remain in play with 1W instead of being removed.</description>
+- First time reduced to 0W: roll **D6**; on 4+ remain in play with 1W instead of being removed.</description>
         </rule>
       </rules>
       <infoLinks>

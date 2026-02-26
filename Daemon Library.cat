@@ -23,7 +23,7 @@
           </constraints>
           <rules>
             <rule id="4438-874e-901d-f86" name="Encroaching Ruin" publicationId="8775-88f5-cfdd-24f6" page="3" hidden="false">
-              <description>- All-Daemon units failing Morale: 1 auto Wound (no saves) instead of D3.
+              <description>- All-Daemon units failing Morale: **1** auto Wound (no saves) instead of **D3**.
 - Gains Move Through Cover.</description>
             </rule>
           </rules>
@@ -98,10 +98,10 @@
           </constraints>
           <rules>
             <rule id="3546-bb80-a1d7-7d1d" name="Formless Distortion" publicationId="8775-88f5-cfdd-24f6" page="4" hidden="false">
-              <description>Start of Fight sub-phase: roll D3 for each all-Formless Distortion unit locked in combat. Close combat attacks by models with this rule gain effects until end of phase:
-- 1 – Coruscating Ectoplasma: Concussive (1), Lance
-- 2 – Lashing Pseudopods: Reach (1)
-- 3 – Vorpal Talons: Shred, Sunder</description>
+              <description>Start of Fight sub-phase: roll **D3** for each all-Formless Distortion unit locked in combat. Close combat attacks by models with this rule gain effects until end of phase:
+- **1** – Coruscating Ectoplasma: Concussive (1), Lance
+- **2** – Lashing Pseudopods: Reach (1)
+- **3** – Vorpal Talons: Shred, Sunder</description>
             </rule>
           </rules>
           <infoLinks>
@@ -163,7 +163,7 @@
           <rules>
             <rule id="94eb-7da4-953-529f" name="Putrid Corruption" publicationId="8775-88f5-cfdd-24f6" page="3" hidden="false">
               <description>- Gains Heavy sub-type.
-- Damage Mitigation: roll D6 per unsaved Wound; 5+: negate wound.
+- Damage Mitigation: roll **D6** per unsaved Wound; 5+: negate wound.
 - Can't use vs Instant Death, Psychic Focus, or Force wounds.</description>
             </rule>
           </rules>
@@ -268,7 +268,7 @@
           </constraints>
           <rules>
             <rule id="c488-ac28-c303-57b" name="Malevolent Artifice" publicationId="8775-88f5-cfdd-24f6" page="4" hidden="false">
-              <description>Re-roll failed Armour Saves vs wounds where S &lt; T. No effect on Cover or Invulnerable Saves.</description>
+              <description>Re-roll failed Armour Saves vs wounds where S &lt; T. No effect on Cover or Invuln Saves.</description>
             </rule>
           </rules>
           <costs>
@@ -395,7 +395,7 @@
           </constraints>
           <rules>
             <rule name="Malevolent Artifice" id="cd2b-b7fb-4496-7504" hidden="false" publicationId="4934-46f7-208b-b4af" page="127">
-              <description>Re-roll failed Armour Saves vs wounds where S &lt; T. No effect on Cover or Invulnerable Saves.</description>
+              <description>Re-roll failed Armour Saves vs wounds where S &lt; T. No effect on Cover or Invuln Saves.</description>
             </rule>
           </rules>
           <costs>
@@ -420,10 +420,10 @@
   </categoryEntries>
   <sharedRules>
     <rule id="e05e-ed23-64fb-a535" name="Æthereal Invulnerability (X)" publicationId="cb13-da24-e6da-75b3" page="Various" hidden="false">
-      <description>Invulnerable Save (X). Can't be used vs weapons with Force.</description>
+      <description>Invuln Save (X). Can't be used vs weapons with Force.</description>
     </rule>
     <rule id="c694-20c8-455-baca" name="Empyrean Avatar" publicationId="cb13-da24-e6da-75b3" page="16" hidden="false">
-      <description>Instant Death wounds: lose D3 Wounds instead of being removed immediately.</description>
+      <description>Instant Death wounds: lose **D3** Wounds instead of being removed immediately.</description>
     </rule>
     <rule name="The Ætheric Dominion (X) Corrupted Engines" id="58e5-d2ef-f25e-496d" hidden="false" publicationId="4934-46f7-208b-b4af" page="127">
       <description>- All models in a unit must share the same Ætheric Dominion variant.

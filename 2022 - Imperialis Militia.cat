@@ -737,7 +737,7 @@
           </profiles>
           <rules>
             <rule id="7200-67f2-84a8-9bad" name="The Muster of Worlds" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>- Detachment with a Force Commander can take up to 2 Provenances (max 2 regardless of Force Commanders present).
+              <description>- Detachment with a Force Commander can take up to **2** Provenances (max **2** regardless of Force Commanders present).
 - Effects apply to all Militia Sub-type units in the Detachment unless noted.
 - Mechanised Sub-type units never benefit unless the Provenance explicitly states otherwise.
 - Some Provenances can't be combined or impose army-wide restrictions — choose before building the rest of the army.
@@ -1418,7 +1418,7 @@
                 <rule id="fef0-61ab-c1ec-1110" name="Militia Medicae Support" publicationId="48c2-d023-0069-001a" page="22" hidden="false">
                   <description>Before Turn 1, before deployment, each model must be assigned to a unit:
 - Only all-Infantry, all-Militia Sub-type units eligible.
-- Max 1 Militia Medicae per unit.
+- Max **1** Militia Medicae per unit.
 - Permanently joins unit; can't leave. Removed with unit if destroyed.
 - No Victory Points awarded for removing as casualty.
 - Gains unit's special rules (except those forbidding it, e.g. Bitter Duty) and Sub-types; no access to unit's Wargear options.
@@ -1736,14 +1736,14 @@
           </profiles>
           <rules>
             <rule id="b0c9-5a50-c3fd-c3ed" name="Instil Order" publicationId="48c2-d023-0069-001a" page="13" hidden="false">
-              <description>Failed Morale check: re-roll allowed; if taken, suffer D3 Wounds at AP— allocated by controlling player (not to Independent Characters, the Discipline Master, or Militia Medicae).</description>
+              <description>Failed Morale check: re-roll allowed; if taken, suffer **D3** Wounds at AP— allocated by controlling player (not to Independent Characters, the Discipline Master, or Militia Medicae).</description>
             </rule>
             <rule id="c4fc-6361-79b1-0c04" name="Among the Ranks" publicationId="48c2-d023-0069-001a" page="13" hidden="false">
-              <description>- Fills 1 Force Org slot; bought normally.
+              <description>- Fills **1** Force Org slot; bought normally.
 - Before deployment, each model must be assigned to a same-Detachment unit:
   - Standard: all-Infantry, Militia sub-type units only.
   - Mounted Discipline Master: Imperialis Militia Cavalry Squad only.
-- Max 1 Discipline Master per unit.
+- Max **1** Discipline Master per unit.
 - Once assigned: permanent — can't leave; removed if host unit is destroyed.
 - Never awards Victory Points when killed.
 - Gains host unit's special rules (except those that forbid it, e.g. Bitter Duty) and Sub-types, but not its Wargear options.</description>
@@ -8634,7 +8634,7 @@
               <rules>
                 <rule id="1e01-7a98-dc6f-561f" name="Man the Guns" publicationId="48c2-d023-0069-001a" page="34" hidden="false">
                   <description>- Max firing Gun Carriages = number of Militia Gunners in unit; choose which fire.
-- If Militia Gunners &lt; 2 per Gun Carriage: all Gun Carriages shoot at BS1; re-roll Hit results on Scatter dice.
+- If Militia Gunners &lt; **2** per Gun Carriage: all Gun Carriages shoot at **BS1**; re-roll Hit results on Scatter dice.
 - If unit Falls Back: all models removed as casualties.</description>
                 </rule>
               </rules>

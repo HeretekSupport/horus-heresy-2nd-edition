@@ -3028,7 +3028,7 @@ Options:
 - Stubborn</description>
             </rule>
             <rule id="4aa8-fbc4-30c9-9f24" name="Calculating Swordsman" hidden="false">
-              <description>In a Challenge, from round 2 onward: re-roll To Hit 1s.</description>
+              <description>In a Challenge, from round **2** onward: re-roll To Hit 1s.</description>
             </rule>
           </rules>
           <infoLinks>

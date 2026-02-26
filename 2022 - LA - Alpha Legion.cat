@@ -6672,7 +6672,7 @@
       </constraints>
       <rules>
         <rule id="523b-f763-4a49-cc39" name="Everywhere and Nowhere" publicationId="09c5-eeae-f398-b653" page="337" hidden="false">
-          <description>Before deployment: grant Alpharius Infiltrate, Scout, or Deep Strike; up to 3 friendly all-Legiones Astartes (Alpha Legion) units gain the same rule.</description>
+          <description>Before deployment: grant Alpharius Infiltrate, Scout, or Deep Strike; up to **3** friendly all-Legiones Astartes (Alpha Legion) units gain the same rule.</description>
         </rule>
         <rule id="e9f2-c215-0152-8111" name="Insidious Mastermind" publicationId="09c5-eeae-f398-b653" page="337" hidden="false">
           <description>Start of your turn (while Alpharius on battlefield, incl. Embarked): grant one of the following to all non-Vehicle Legiones Astartes (Alpha Legion) models until your next turn. Each can only be chosen once per battle:

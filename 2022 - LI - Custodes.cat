@@ -2539,7 +2539,7 @@
           </profiles>
           <rules>
             <rule id="9670-4400-52c0-e763" name="Measured Strike" publicationId="15a4-fc68-502d-48a9" page="135" hidden="false">
-              <description>Always makes exactly 1 attack, regardless of A value, Charging, extra weapons, or other special rules.</description>
+              <description>Always makes exactly **1** attack, regardless of A value, Charging, extra weapons, or other special rules.</description>
             </rule>
           </rules>
           <infoLinks>

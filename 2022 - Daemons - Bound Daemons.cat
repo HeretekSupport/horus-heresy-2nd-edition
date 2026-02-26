@@ -559,10 +559,10 @@ The End and the Death – When fighting in a Challenge, successful Invulnerable 
       <rules>
         <rule id="d2bf-13ec-b74e-0e49" name="Eternal Rivalry" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false">
           <description>- Sanguinius slain in Challenge vs Ka'bandha: Ka'bandha's player gains +2 VP (in addition to Slay the Warlord).
-- Ka'bandha slain in Challenge vs Sanguinius: Ka'bandha's player loses 1 VP.</description>
+- Ka'bandha slain in Challenge vs Sanguinius: Ka'bandha's player loses **1** VP.</description>
         </rule>
         <rule id="8ed4-f0ee-376a-7a5b" name="Scythe of Hatred" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false">
-          <description>End of Assault phase (after Sweeping Advances/Consolidations): place Hellstorm template touching Ka'bandha's base. Each unit under template suffers X auto S6 AP- hits, where X = unsaved Wounds Ka'bandha caused by melee this phase (excl. Combat result modifiers).</description>
+          <description>End of Assault phase (after Sweeping Advances/Consolidations): place Hellstorm template touching Ka'bandha's base. Each unit under template suffers X auto **S6** AP- hits, where X = unsaved Wounds Ka'bandha caused by melee this phase (excl. Combat result modifiers).</description>
         </rule>
       </rules>
       <infoLinks>

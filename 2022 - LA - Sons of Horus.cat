@@ -4688,7 +4688,7 @@
         <rule id="cc22-87b0-6a3b-bbb6" name="Born Survivor" hidden="false">
           <description>First time reduced to 0W or removed as casualty: Leadership test.
 - Fail: removed as normal.
-- Pass: remains in play, regains D3W.</description>
+- Pass: remains in play, regains **D3**W.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6094,10 +6094,10 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
       </constraints>
       <rules>
         <rule id="a3ca-1402-2721-8e22" name="The First Reaver" publicationId="53a4-0d21-2f8a-2c45" page="213" hidden="false">
-          <description>- Select 1 Reaver Attack Squad alongside Vheren Ashurhaddon (no Force Org slot).
+          <description>- Select **1** Reaver Attack Squad alongside Vheren Ashurhaddon (no Force Org slot).
 - Forms a single unit; Vheren Ashurhaddon must deploy with and can't voluntarily leave it.
 - That squad gains the Line sub-type.
-- Only 1 Retinue Squad can be selected this way regardless of available options.</description>
+- Only **1** Retinue Squad can be selected this way regardless of available options.</description>
         </rule>
       </rules>
       <infoLinks>

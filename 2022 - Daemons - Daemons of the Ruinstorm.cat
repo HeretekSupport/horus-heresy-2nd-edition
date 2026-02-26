@@ -2622,10 +2622,10 @@ Skull Keeper – All models with the Daemon Unit Type and the Ætheric Dominion 
       <rules>
         <rule id="1937-7193-1baa-f839" name="Eternal Rivalry" publicationId="8775-88f5-cfdd-24f6" page="19" hidden="false">
           <description>- Sanguinius slain in Challenge vs Ka'bandha: Ka'bandha's player gains +2 VP (in addition to Slay the Warlord).
-- Ka'bandha slain in Challenge vs Sanguinius: Ka'bandha's player loses 1 VP.</description>
+- Ka'bandha slain in Challenge vs Sanguinius: Ka'bandha's player loses **1** VP.</description>
         </rule>
         <rule id="9d1a-b131-9bc-6bb8" name="Scythe of Hatred" publicationId="8775-88f5-cfdd-24f6" page="19" hidden="false">
-          <description>End of Assault phase (after Sweeping Advances/Consolidations): place Hellstorm template touching Ka'bandha's base. Each unit under template suffers X auto S6 AP- hits, where X = unsaved Wounds Ka'bandha caused by melee this phase (excl. Combat result modifiers).</description>
+          <description>End of Assault phase (after Sweeping Advances/Consolidations): place Hellstorm template touching Ka'bandha's base. Each unit under template suffers X auto **S6** AP- hits, where X = unsaved Wounds Ka'bandha caused by melee this phase (excl. Combat result modifiers).</description>
         </rule>
       </rules>
       <constraints>
@@ -2786,7 +2786,7 @@ Lord of Decay – All units with the Daemon Unit Type and the Ætheric Dominion 
         </rule>
         <rule name="Noisome Tide of Flesh" hidden="false" id="9061-4463-fd6e-2096" publicationId="8775-88f5-cfdd-24f6" page="20">
           <description>- Ignores Difficult Terrain penalties for movement and charges.
-- On death: each non-Daemon model within 5" inflicts 1 S6 AP- hit on its unit; any unit hit must take a Pinning test. Then remove model.</description>
+- On death: each non-Daemon model within 5" inflicts **1** **S6** AP- hit on its unit; any unit hit must take a Pinning test. Then remove model.</description>
         </rule>
       </rules>
       <constraints>
@@ -3317,7 +3317,7 @@ Cannot activate during Reactions. Models arriving from reserve count as activate
       <description>Can't be included alongside this model's Bound version.</description>
     </rule>
     <rule name="Herald of Unreality" hidden="false" id="76ba-1913-c091-2860" publicationId="8775-88f5-cfdd-24f6" page="22">
-      <description>- Each model with this rule allows 2 Daemon units from the same Detachment to be placed in Reserve (no Reserves rolls); each additional model with this rule adds 1 more.
+      <description>- Each model with this rule allows **2** Daemon units from the same Detachment to be placed in Reserve (no Reserves rolls); each additional model with this rule adds **1** more.
 - Instead of Shooting: place a Blast (3") marker in base contact with this model, not over any models (Warp Rift).
 - Move one reserved Daemon unit onto the battlefield from any point along the Warp Rift marker's edge, treating it as your battlefield edge (for this purpose only).
 - Remove marker once all models have deployed.

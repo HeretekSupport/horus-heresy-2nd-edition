@@ -3916,7 +3916,7 @@
               </profiles>
               <rules>
                 <rule id="28f4-6161-a17a-cd6e" name="Moonsilver" hidden="false">
-                  <description>Unsaved wounds vs Daemon or Psyker models count as 2 wounds. Excess wounds don't spill over.</description>
+                  <description>Unsaved wounds vs Daemon or Psyker models count as **2** wounds. Excess wounds don't spill over.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4251,7 +4251,7 @@
               </constraints>
               <rules>
                 <rule id="7e7d-c43f-5b32-e3de" name="The Deathbringer’s Aegis" hidden="false">
-                  <description>Sv2+, Inv4+, Feel No Pain (5+).</description>
+                  <description>**Sv2**+, I**nv4**+, Feel No Pain (5+).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4585,7 +4585,7 @@
             <selectionEntry id="c79d-c85d-fc09-195f" name="Slayers of Kings" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="c9b1-e3ce-0a55-a54d" name="Slayers of Kings" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>Melee: re-roll To Hit 1s vs models with WS5+, or in Challenges vs WS5+.</description>
+                  <description>Melee: re-roll To Hit 1s vs models with **WS5**+, or in Challenges vs **WS5**+.</description>
                 </rule>
               </rules>
               <costs>
@@ -4595,8 +4595,8 @@
             <selectionEntry id="6c3a-bc38-62a2-fb14" name="Hunter of Beasts" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="9db7-54d9-ad3c-bbae" name="Hunter of Beasts" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>- vs T5 unit: re-roll To Wound 1s.
-- vs T6+: re-roll all failed To Wound.</description>
+                  <description>- vs **T5** unit: re-roll To Wound 1s.
+- vs **T6**+: re-roll all failed To Wound.</description>
                 </rule>
               </rules>
               <costs>
@@ -5085,7 +5085,7 @@
               </profiles>
               <rules>
                 <rule id="1d7b-d4fd-ae65-eca7" name="Fearsome Ruin" hidden="false">
-                  <description>Assault phase: any unit that suffers ≥1 casualty from this weapon rolls +1D6 for Morale checks, keeping the two highest.</description>
+                  <description>Assault phase: any unit that suffers ≥1 casualty from this weapon rolls +**1D6** for Morale checks, keeping the two highest.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -5142,7 +5142,7 @@
       </constraints>
       <rules>
         <rule id="14a8-3cea-225b-a998" name="Ancient of War" hidden="false">
-          <description>After deployment, before Turn 1: choose 1 enemy Faction (incl. Agents of Emperor/Warmaster) from the Allies in the Age of Darkness table.
+          <description>After deployment, before Turn 1: choose **1** enemy Faction (incl. Agents of Emperor/Warmaster) from the Allies in the Age of Darkness table.
 - Marduk Sedras and all friendly Legiones Astartes (Dark Angels) units with ≥1 model within 6" of him (or his Transport) gain Preferred Enemy (chosen Faction) for the battle.
 - No effect if Marduk Sedras is in Reserves.</description>
         </rule>
@@ -5191,7 +5191,7 @@
           </profiles>
           <rules>
             <rule id="3735-3e91-99a3-ebc0" name="Curse of Dead Worlds" hidden="false">
-              <description>Invulnerable Saves vs this weapon: -1 (min 6+).</description>
+              <description>Invuln Saves vs this weapon: -1 (min 6+).</description>
             </rule>
           </rules>
           <infoLinks>
