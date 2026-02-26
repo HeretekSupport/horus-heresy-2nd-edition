@@ -565,7 +565,7 @@
       </constraints>
       <rules>
         <rule id="79ce-8870-0b12-79ab" name="Heavy Sub-type" publicationId="e77a-823a-da94-16b9" page="197" hidden="false">
-          <description>Units composed entirely of Heavy models may re-roll failed Armour Saves vs. Template and Blast weapons. Units containing any Heavy models may not Run and move −1" when reacting via Initiative.</description>
+          <description>Whole unit of Heavy models re-roll failed Armour Saves vs. Template and Blast weapons. If at least 1 Heavy then can't Run and move −1" when reacting via Initiative.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -1161,7 +1161,7 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
     <categoryEntry id="e929-a5c3-451c-6f19" name="Mechanised Unit Sub-type" publicationId="48c2-d023-0069-001a" page="5" hidden="false">
       <rules>
         <rule id="5e61-e299-05c8-e0c8" name="Mechanised Unit Sub-type" publicationId="48c2-d023-0069-001a" page="5" hidden="false">
-          <description>Poisoned/Fleshbane wounds must be re-rolled; Armourbane failed To Wound rolls must be re-rolled. May fire all weapons in a Shooting Attack (including Reactions); may fire Heavy/Ordnance weapons as stationary even after moving, and may Charge regardless of Shooting made that turn. Affected by Haywire, Detonation, and Battlesmith (X) as if Dreadnought type. Only models with this sub-type may join such units.</description>
+          <description>Poisoned/Fleshbane wounds must be re-rolled; Armourbane failed To Wound must be re-rolled. May fire all weapons in a Shooting Attack (including Reactions); may fire Heavy/Ordnance weapons as stationary even after moving, and may Charge regardless of Shooting made that turn. Affected by Haywire, Detonation, and Battlesmith (X) as if Dreadnought type. Only models with this sub-type may join such units.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -10971,7 +10971,7 @@ The Perfect Counter – This Advanced Reaction may be made once per battle durin
               <characteristics>
                 <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction is available only to units composed entirely of models with the Legiones Astartes (Iron Warriors) special rule. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
 
-Bitter Fury – Bitter Fury – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a friendly unit under the Reactive player’s control composed entirely of models with the Legiones Astartes (Iron Warriors) special rule. Once the Active player has resolved all To Hit and To Wound rolls, and Armour Saves are made, but before any Damage Mitigation rolls are made or casualties removed, the Reactive player may make a Shooting Attack, targeting the unit that triggered this Reaction, with all weapons making twice their normal number of attacks but gaining the Gets Hot special rule. To Hit rolls for weapons that already possess the Gets Hot special rule trigger that special rule on a roll of 1 or 2 during this Shooting Attack, instead of only on a 1. A unit that makes a Shooting Attack as part of a Bitter Fury Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapon or special rule that otherwise ignore line of sight, and Vehicles may only fire Defensive weapons. Template weapons used as part of a Bitter Fury Reaction use the Wall of Death rule instead of firing normally.</characteristic>
+Bitter Fury – Bitter Fury – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a friendly unit under the Reactive player’s control composed entirely of models with the Legiones Astartes (Iron Warriors) special rule. Once the Active player has resolved all To Hit and To Wound, and Armour Saves are made, but before any Damage Mitigation rolls are made or casualties removed, the Reactive player may make a Shooting Attack, targeting the unit that triggered this Reaction, with all weapons making twice their normal number of attacks but gaining the Gets Hot special rule. To Hit rolls for weapons that already possess the Gets Hot special rule trigger that special rule on a roll of 1 or 2 during this Shooting Attack, instead of only on a 1. A unit that makes a Shooting Attack as part of a Bitter Fury Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapon or special rule that otherwise ignore line of sight, and Vehicles may only fire Defensive weapons. Template weapons used as part of a Bitter Fury Reaction use the Wall of Death rule instead of firing normally.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11158,7 +11158,7 @@ The Savage Tide – This Advanced Reaction may be made once per battle during th
               <characteristics>
                 <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction is available only to units composed entirely of models with the Legiones Astartes (Ultramarines) special rule. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
 
-Unity of Purpose – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy player declares a Shooting Attack targeting a friendly unit under the Reactive player’s control composed entirely of models with the Legiones Astartes (Ultramarines) special rule. Once the Active player has resolved all To Hit rolls, To Wound rolls, and Armour Saves are made, but before any Damage Mitigation rolls are made or casualties removed, the Reactive player may choose to expend one of their Reactions for that Phase to have both the unit targeted by the Shooting Attack and one other unit composed entirely of models with the Legiones Astartes (Ultramarines) special rule make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. Any unit that makes a Shooting Attack as part of a Unity of Purpose Reaction may not make any attacks indirectly (without line of sight) including Barrage weapons or other weapons or special rules that otherwise ignore line of sight, and models with the Vehicle Unit Type may only fire Defensive weapons. Template weapons may only be used as part of a Unity of Purpose Reaction if the target unit is within 8&quot; and must use the Wall of Death special rule instead of firing normally. Both units that make Shooting Attacks as part of this Reaction are considered to have made a Reaction this Phase and as such may not make any further Reactions.</characteristic>
+Unity of Purpose – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy player declares a Shooting Attack targeting a friendly unit under the Reactive player’s control composed entirely of models with the Legiones Astartes (Ultramarines) special rule. Once the Active player has resolved all To Hit rolls, To Wound, and Armour Saves are made, but before any Damage Mitigation rolls are made or casualties removed, the Reactive player may choose to expend one of their Reactions for that Phase to have both the unit targeted by the Shooting Attack and one other unit composed entirely of models with the Legiones Astartes (Ultramarines) special rule make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. Any unit that makes a Shooting Attack as part of a Unity of Purpose Reaction may not make any attacks indirectly (without line of sight) including Barrage weapons or other weapons or special rules that otherwise ignore line of sight, and models with the Vehicle Unit Type may only fire Defensive weapons. Template weapons may only be used as part of a Unity of Purpose Reaction if the target unit is within 8&quot; and must use the Wall of Death special rule instead of firing normally. Both units that make Shooting Attacks as part of this Reaction are considered to have made a Reaction this Phase and as such may not make any further Reactions.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11198,7 +11198,7 @@ Remorseless Advance – This Advanced Reaction may be made once per battle durin
               <characteristics>
                 <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction is available only to units composed entirely of models with both the Legiones Astartes (Thousand Sons) special rule and the Psyker Sub-type. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
 
-Fortress of the Mind – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a unit under the Reactive player’s control, made up entirely of models with the Legiones Astartes (Thousand Sons) special rule and the Psyker Sub-type. Once the Active player has resolved all To Hit and To Wound rolls, but before any Armour Saves are made, the Reactive player must make a Psychic check. If the Check is passed, the Reacting unit gains a 3+ Invulnerable Save against all Wounds inflicted as part of the Shooting Attack that triggered the Reaction. If the Check is failed then the Reacting unit gains only a 5+ Invulnerable Save and both the attacking unit and the reacting unit suffer Perils of the Warp, removing any casualties immediately before resolving any unsaved Wounds inflicted by the Shooting Attack that triggered this Reaction.</characteristic>
+Fortress of the Mind – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a unit under the Reactive player’s control, made up entirely of models with the Legiones Astartes (Thousand Sons) special rule and the Psyker Sub-type. Once the Active player has resolved all To Hit and To Wound, but before any Armour Saves are made, the Reactive player must make a Psychic check. If the Check is passed, the Reacting unit gains a 3+ Invulnerable Save against all Wounds inflicted as part of the Shooting Attack that triggered the Reaction. If the Check is failed then the Reacting unit gains only a 5+ Invulnerable Save and both the attacking unit and the reacting unit suffer Perils of the Warp, removing any casualties immediately before resolving any unsaved Wounds inflicted by the Shooting Attack that triggered this Reaction.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11238,7 +11238,7 @@ Death Dealers – This Advanced Reaction may be made once per battle during the 
               <characteristics>
                 <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction is available only to units composed entirely of models with the Legiones Astartes (Word Bearers) special rule. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
 
-Glorious Martyrdom – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a friendly unit under the Reactive player’s control with the Legiones Astartes (Word Bearers) special rule. Once this Reaction has been declared, a single model in the Reacting unit with the Legiones Astartes (Word Bearers) special rule is selected by the Reacting unit’s controlling player – that model is removed as a casualty immediately without any To Hit or To Wound rolls being made by the attacking unit and with no Armour Saves or Damage Mitigation rolls made by the Reactive player. This ends the Shooting Attack, with no further rolls or Tests being made – if any of the weapons in the attacking unit would normally inflict further Hits after causing an unsaved Wound (such as weapons with the Deflagrate special rule) or other effects due to inflicting Hits or Unsaved Wounds (such as weapons with the Blind or Concussive (X) special rules) then these additional Hits or effects are ignored and have no effect. Any attacks made with weapons with the Ordnance or Destroyer types or the Blast or Template special rules ignore the effect of this Reaction and are resolved as normal.</characteristic>
+Glorious Martyrdom – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a friendly unit under the Reactive player’s control with the Legiones Astartes (Word Bearers) special rule. Once this Reaction has been declared, a single model in the Reacting unit with the Legiones Astartes (Word Bearers) special rule is selected by the Reacting unit’s controlling player – that model is removed as a casualty immediately without any To Hit or To Wound being made by the attacking unit and with no Armour Saves or Damage Mitigation rolls made by the Reactive player. This ends the Shooting Attack, with no further rolls or Tests being made – if any of the weapons in the attacking unit would normally inflict further Hits after causing an unsaved Wound (such as weapons with the Deflagrate special rule) or other effects due to inflicting Hits or Unsaved Wounds (such as weapons with the Blind or Concussive (X) special rules) then these additional Hits or effects are ignored and have no effect. Any attacks made with weapons with the Ordnance or Destroyer types or the Blast or Template special rules ignore the effect of this Reaction and are resolved as normal.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12204,7 +12204,7 @@ In any Phase in which one or more Wounds has been allocated to a Warlord with th
                 <profile id="8b2e-cdb8-25b1-9f43" name="Pride’s Dark Power" publicationId="817a-6288-e016-7469" page="292" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
                   <characteristics>
                     <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord Trait may only be selected by a model with the Traitor Allegiance.
-Once per battle, a Warlord with this Warlord Trait may, at the start of any one Phase in either players’ turn, choose to use his Leadership Characteristic in place of his Toughness when resolving any To Wound rolls made against it until the end of that Phase (thus, a Warlord with Leadership 10 that chooses to activate this Trait at the start of the enemy player’s Shooting phase would treat his Toughness as if it was 10 until the end of that Phase). In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
+Once per battle, a Warlord with this Warlord Trait may, at the start of any one Phase in either players’ turn, choose to use his Leadership Characteristic in place of his Toughness when resolving any To Wound made against it until the end of that Phase (thus, a Warlord with Leadership 10 that chooses to activate this Trait at the start of the enemy player’s Shooting phase would treat his Toughness as if it was 10 until the end of that Phase). In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12521,7 +12521,7 @@ When in base to base contact with an enemy Infantry or Cavalry model whose Weapo
               <profiles>
                 <profile id="69cf-d2ba-9d58-d998" name="Redemption of Flames" publicationId="817a-6288-e016-7469" page="309" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
                   <characteristics>
-                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Trait, and all models in a unit he has joined with the Legiones Astartes (Salamanders) special rule, gains a bonus of +1 for all To Wound rolls or Armour Penetration rolls made for Flame or Volkite weapons that are used by those units to make Shooting Attacks. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player&apos;s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Trait, and all models in a unit he has joined with the Legiones Astartes (Salamanders) special rule, gains a bonus of +1 for all To Wound or Armour Penetration rolls made for Flame or Volkite weapons that are used by those units to make Shooting Attacks. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player&apos;s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16294,7 +16294,7 @@ Cannot be taken with Armoury of Old Night.</description>
           </constraints>
           <rules>
             <rule name="Mantle of Death" id="1ef5-e00b-5565-50d7" hidden="false" publicationId="d882-d2a-5da1-92c4" page="173">
-              <description>Attacks with Fleshbane or Poisoned (X) suffer -1 to their To Wound rolls against models with this rule. Infantry with this rule may re-roll failed Dangerous Terrain tests.</description>
+              <description>Attacks with Fleshbane or Poisoned (X) suffer -1 to their To Wound against models with this rule. Infantry with this rule may re-roll failed Dangerous Terrain tests.</description>
             </rule>
           </rules>
           <modifiers>
@@ -16593,7 +16593,7 @@ Cannot be taken with Armoury of Old Night.</description>
       <description>After firing, roll D6 (+1 if fired before this battle). On 6+, the weapon is expended and cannot fire again. An expended weapon cannot be targeted by Weapon Destroyed results (treated as already destroyed).</description>
     </rule>
     <rule id="4f41-4c04-9cd8-c5a1" name="Marked For Death" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
-      <description>Before the battle (after all deployment, including Infiltrators), choose 1 enemy unit as 'marked for death.' Re-roll failed To Wound rolls of 1 against that unit.</description>
+      <description>Before the battle (after all deployment, including Infiltrators), choose 1 enemy unit as 'marked for death.' Re-roll failed To Wound of 1 against that unit.</description>
     </rule>
     <rule id="8eef-f84b-37cb-554b" name="Master of Automata" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
       <description>May join Automata units. While joined: cannot make Reactions, gains Fearless, and suppresses Programmed Behaviours in the unit.</description>
@@ -16626,7 +16626,7 @@ Cannot be taken with Armoury of Old Night.</description>
       <description>On a Charge, gain +X Strength until end of Assault phase. No benefit if the Charge was Disordered.</description>
     </rule>
     <rule id="679f-9d97-5ace-a652" name="Gets Hot" publicationId="e77a-823a-da94-16b9" page="239" hidden="false">
-      <description>Each unmodified To Hit roll of 1 causes the firer to suffer 1 Wound at the weapon's AP (Armour, Invulnerable, and Feel No Pain saves allowed; no Cover or Shrouded). Vehicles roll a D6 per 1; on a 1–2, suffer a Glancing Hit instead. **No To Hit roll (e.g. Blast):** roll D6 per shot before firing — on a 2+ fire normally; on a 1, that shot is lost and Gets Hot as above. **Re-rolls:** a Wound is only triggered if the re-roll itself is a 1.</description>
+      <description>Each To-Hit 1 causes firer 1 Wound at weapon's AP (Armour, Invulnerable, Feel No Pain saves allowed; no Cover or Shrouded). Vehicles roll a D6 per 1; on a 1–2, suffer a Glancing Hit instead. **No To Hit roll (e.g. Blast):** roll D6 per shot before firing — on a 2+ fire normally; on a 1, that shot is lost and Gets Hot as above. **Re-rolls:** a Wound is only triggered if the re-roll itself is a 1.</description>
     </rule>
     <rule id="5b9c-2738-616c-abdf" name="Graviton Pulse" publicationId="91df-ed64-4216-5bab" page="2" hidden="false">
       <description>Hits wound non-Vehicle/Dreadnought/Automata models if they roll ≥ their own Strength on a D6 (6 always fails). If Blast, the marker remains until end of next Game Turn, counting as Difficult and Dangerous Terrain.</description>
@@ -16649,6 +16649,9 @@ Cannot be taken with Armoury of Old Night.</description>
     <rule id="bfbf-e75c-49a2-0285" name="Outflank" publicationId="e77a-823a-da94-16b9" page="244" hidden="false">
       <description>Unit may perform a Flanking Assault (see p.311).</description>
     </rule>
+    <rule id="0001-fa4k-0001-0001" name="Flanking Assault" publicationId="e77a-823a-da94-16b9" page="311" hidden="false">
+      <description>Roll D6 on arrival: 1 = Disordered (enemy moves Flanking Marker up to 24&quot; any direction along edges); 2+ = move marker up to 6&quot; along edges. Units arrive coherently on Flanking Marker; may Move &amp; Run, then Shoot &amp; Assault after Reactions. If not all models fit, unit returns to Reserve (still subject to Interception). Enemies within 6&quot; test for Pinning; non-Pinned enemies may Intercept.</description>
+    </rule>
     <rule id="1c96-205c-59a0-3cf2" name="Pinning" publicationId="e77a-823a-da94-16b9" page="244" hidden="false">
       <description>Non-Vehicle units that suffer ≥1 unsaved Wound take a Leadership test; on a fail, the unit is Pinned. One test per shooting unit per turn. Auto-pass if: locked in combat, already Pinned, Embarked, or Fearless.
 
@@ -16661,7 +16664,7 @@ Cannot be taken with Armoury of Old Night.</description>
       <description>Shooting To Hit ≥ X: choose which models to allocate wounds to (target must be in range and LoS). Cannot apply to Snap Shots or weapons that scatter/don't roll To Hit.</description>
     </rule>
     <rule id="37ab-d4db-891a-de8c" name="Preferred Enemy (X)" publicationId="e77a-823a-da94-16b9" page="245" hidden="false">
-      <description>Re-roll failed To Hit and To Wound rolls of 1 against X (or all enemies if unspecified), in both shooting and melee. Applies to all attacks against a mixed unit if at least one model in it qualifies.</description>
+      <description>Re-roll failed To Hit and To Wound of 1 against X (or all enemies if unspecified), in both shooting and melee. Applies to all attacks against a mixed unit if at least one model in it qualifies.</description>
     </rule>
     <rule id="8189-e963-d2e5-5d3d" name="Rad-Phage" publicationId="e77a-823a-da94-16b9" page="245" hidden="false">
       <description>On wound: target's Toughness –1 for the battle (non-cumulative with other Rad-Phage sources; minimum T1).</description>
@@ -16701,10 +16704,10 @@ Cannot be taken with Armoury of Old Night.</description>
       <description>Instead of shooting, roll a D6; on ≥ X, repair one contacted/embarked damaged Vehicle, Dreadnought, or Automata: restore 1 Hull Point/Wound, or remove a Weapon Destroyed or Immobilised result. Cannot be used if Pinned or Falling Back.</description>
     </rule>
     <rule id="5c3b-ed0b-4ad0-d547" name="Battle-Hardened (X)" publicationId="e77a-823a-da94-16b9" page="233" hidden="false">
-      <description>Treat Toughness as +X higher solely for determining Instant Death thresholds. Does not affect To Wound rolls or any other tests.</description>
+      <description>Treat Toughness as +X higher solely for determining Instant Death thresholds. Does not affect To Wound or any other tests.</description>
     </rule>
     <rule id="1d9a-73ef-5f4f-8bd8" name="Blast" publicationId="e77a-823a-da94-16b9" page="234" hidden="false">
-      <description>No To Hit roll; place marker over target within range (no friendly models under marker). Scatter and subtract BS from distance (min 0"). Each model fully or partially under the marker suffers 1 Hit; Wounds may be allocated to any model in the unit. Cannot be fired as Snap Shots. Multiple blasts scatter individually, then pool all Hits. Re-rolls (full re-rolls only) require re-rolling both Scatter dice and 2D6. Variants use larger markers: Large Blast (5"), Massive Blast (7"), Apocalyptic Blast (10"). Apocalyptic Mega-blast uses the 10" marker divided into 3 zones with separate Strength/AP values (inner/middle/outer); use best profile for models straddling zones, separate Wound Pools per zone, cover/allocation measured from marker centre, and Vehicle Hits always target Side Armour.</description>
+      <description>No To Hit roll; place marker over target within range (no friendly models under marker). Scatter and subtract BS from distance (min 0"). Each model fully/partially under marker suffers 1 Hit; Can allocate wounds to any model in the unit. Can't Snap Shot. Multiple blasts scatter individually, then pool all Hits. Re-rolls (full re-rolls only) require re-rolling both Scatter dice and 2D6. Variants use larger markers: Large Blast (5"), Massive Blast (7"), Apocalyptic Blast (10"). Apocalyptic Mega-blast uses the 10" marker divided into 3 zones with separate Strength/AP values (inner/middle/outer); use best profile for models straddling zones, separate Wound Pools per zone, cover/allocation measured from marker centre, and Vehicle Hits always target Side Armour.</description>
     </rule>
     <rule id="d836-747d-07d6-2b63" name="Blind" publicationId="e77a-823a-da94-16b9" page="236" hidden="false">
       <description>If hit, target unit takes an Initiative test. On failure, all models reduced to WS 1 and BS 1 until end of their next turn. Attacking unit auto-passes if they hit themselves. No effect on models without an Initiative characteristic.</description>
@@ -16779,7 +16782,7 @@ Cannot be taken with Armoury of Old Night.</description>
       <description>Re-roll one failed To Hit roll per turn with this weapon.</description>
     </rule>
     <rule id="118d-58ce-8611-ab15" name="Monster Hunter" publicationId="e77a-823a-da94-16b9" page="243" hidden="false">
-      <description>Re-roll failed To Wound rolls against Dreadnoughts, Automata, Primarchs, and Monstrous units.</description>
+      <description>Re-roll failed To Wound against Dreadnoughts, Automata, Primarchs, and Monstrous units.</description>
     </rule>
     <rule id="2b6f-bfec-759e-1746" name="Move Through Cover" publicationId="e77a-823a-da94-16b9" page="243" hidden="false">
       <description>Ignore movement penalties for Difficult Terrain.</description>
@@ -16836,7 +16839,7 @@ Cannot be taken with Armoury of Old Night.</description>
       <description>After all deployment, before Turn 1: redeploy up to 6” (Infantry/Dreadnought/Automata/Artillery) or 12” (other types), staying ≥9” from enemy. Cannot Charge Turn 1. Cannot Embark/Disembark. Grants Outflank when in Reserve. Transports inherit Scout from embarked units.</description>
     </rule>
     <rule id="5e7e-1628-8174-6f2c" name="Shred" publicationId="e77a-823a-da94-16b9" page="246" hidden="false">
-      <description>Re-roll failed To Wound rolls.</description>
+      <description>Re-roll failed To Wound.</description>
     </rule>
     <rule id="9222-f6c5-dc19-905a" name="Shock Pulse" publicationId="91df-ed64-4216-5bab" page="3" hidden="false">
       <description>Target Vehicles, Dreadnoughts, and Automata that suffer a Penetrating Hit or unsaved Wound may only make Snap Shots on their next Shooting Attack.</description>
@@ -16892,7 +16895,7 @@ After deployment, enemy units in range/LoS may make the Interceptor Reaction aga
       <description>Cannot be joined by any model lacking this rule.</description>
     </rule>
     <rule id="a760-f736-1bf3-fa3c" name="Breaching (X)" publicationId="a716-c1c4-7b26-8424" page="117" hidden="false">
-      <description>To Wound rolls ≥ X resolve at AP 2 instead of the weapon's normal AP. No effect against models without Wounds (e.g. Vehicles).</description>
+      <description>To Wound ≥ X resolve at AP 2 instead of the weapon's normal AP. No effect against models without Wounds (e.g. Vehicles).</description>
     </rule>
     <rule id="5079-1fec-d32b-8b84" name="Brutal (X)" publicationId="a716-c1c4-7b26-8424" page="117" hidden="false">
       <description>Each wound allocated inflicts X wounds instead of 1 (same AP and special rules); save against each separately. Excess wounds are lost, not spillover. No effect on models without Toughness.</description>
@@ -17104,7 +17107,7 @@ While active: all units suffer −1 Ld and BS; no line of sight beyond 24" (Barr
       <description>Enemies always measure range to this model as if it were 2” further away (Shooting, Charges, Reactions). Cumulative with other range modifiers.</description>
     </rule>
     <rule id="b0d1-ccab-8708-500f" name="Legiones Astartes (Blood Angels)" publicationId="817a-6288-e016-7469" page="248" hidden="false">
-      <description>Encarmine Fury: On any turn they make a successful Charge (even if Disordered), To Wound rolls are reduced by 1 (min 2+), regardless of weapon. Vehicles making Ram Attacks gain +1 Strength to Hits inflicted (max S10).</description>
+      <description>Encarmine Fury: On any turn they make a successful Charge (even if Disordered), To Wound are reduced by 1 (min 2+), regardless of weapon. Vehicles making Ram Attacks gain +1 Strength to Hits inflicted (max S10).</description>
     </rule>
     <rule id="513e-0647-996a-6229" name="Legiones Astartes (Dark Angels)" publicationId="817a-6288-e016-7469" page="151" hidden="false">
       <description>During army selection, every unit must choose one Hexagrammaton Sub-type: Stormwing, Dreadwing, Deathwing, Ironwing, Firewing, or Ravenwing (some units have a fixed Sub-type). All models in a unit share the same Sub-type; Dedicated Transports match their unit. Legion Techmarines/Apothecaries may each have different Sub-types but must be assigned to a unit sharing at least one of their Sub-type; Retinues may differ from their leader. Independent Characters with a Sub-type may join units with a different Sub-type.
@@ -17135,11 +17138,11 @@ A unit benefits from its Sub-type only if entirely composed of Dark Angels model
     <rule id="9924-9434-baa1-0894" name="Legiones Astartes (Raven Guard)" publicationId="817a-6288-e016-7469" page="326" hidden="false">
       <description>Grants Talons, Falcons, or Hawks based on Unit Type/Wargear:
 - **Talons** (Infantry without Heavy subtype, jump pack, or Tartaros armour): Gains Infiltrate. Unit gains Shrouded (6+) vs Shooting from &gt;8" away.
-- **Falcons** (Dreadnoughts; Heavy Infantry; Infantry with jump pack or Tartaros armour): Re-roll To Wound rolls of 1 in any Assault phase following a successful Charge (including Disordered).
+- **Falcons** (Dreadnoughts; Heavy Infantry; Infantry with jump pack or Tartaros armour): Re-roll To Wound of 1 in any Assault phase following a successful Charge (including Disordered).
 - **Hawks** (Cavalry; Fast/Flyer Vehicles): Gains Shrouded (6+) on any turn spent Running, Moving Flat Out, or Zooming; lasts until start of next turn. If already Shrouded (6+), improves to Shrouded (5+) instead (no benefit if already 5+ or better).</description>
     </rule>
     <rule id="5b72-d9a6-92c3-4a1c" name="Legiones Astartes (Salamanders)" publicationId="817a-6288-e016-7469" page="308" hidden="false">
-      <description>To Wound rolls against this unit from Flame, Melta, Plasma, or Volkite weapons suffer -1 (roll only, not Strength). Models with &gt;1 Wound/Hull Point gain It Will Not Die (6+).</description>
+      <description>To Wound against this unit from Flame, Melta, Plasma, or Volkite weapons suffer -1 (roll only, not Strength). Models with &gt;1 Wound/Hull Point gain It Will Not Die (6+).</description>
     </rule>
     <rule id="f4a2-e4ca-b8b2-35a1" name="Legiones Astartes (Sons of Horus)" publicationId="09c5-eeae-f398-b653" page="280" hidden="false">
       <description>Any turn the unit charges or is charged, enemy melee attacks against non-Vehicle models in the unit suffer –1 Strength. Vehicles with this rule instead inflict +3 additional Hits when Ramming non-Vehicle units (1D6+3, or 2D6+3 if Super-heavy).</description>
