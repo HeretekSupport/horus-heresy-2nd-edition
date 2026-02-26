@@ -3786,8 +3786,8 @@
       </constraints>
       <rules>
         <rule id="06a1-0713-e45f-c817" name="The Power of the Word" hidden="false">
-          <description>- Lorgar's Retinue Command Squad gains Fearless and Feel No Pain (4+).
-- Once per battle, at the start of any turn: 1 friendly Infantry or Cavalry unit within 18" gains Fearless and Feel No Pain (4+) for that turn (not Lorgar's own unit).</description>
+          <description>- Lorgar's Retinue (Legion Command/Cataphractii Command/Tartaros Command Squad only): gains Fearless and Feel No Pain (4+).
+- Once per battle, Start of any Game Turn: choose 1 friendly all-Infantry or all-Cavalry unit within 18" (not Lorgar's own unit); gains Fearless and Feel No Pain (4+) for that turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3928,7 +3928,8 @@
               </profiles>
               <rules>
                 <rule id="dd9f-da4f-0fe6-94b1" name="Lorgar Transfigured" hidden="false">
-                  <description>Units from the Ruinstorm Daemon army list may fill non-compulsory FOC slots, but must start in Reserve and may only enter play via the Breach the Veil Psychic Power.</description>
+                  <description>- Non-compulsory FOC slots can be filled with Ruinstorm Daemon units (paid normally).
+- These units must start in Reserve and can only enter play via Breach the Veil.</description>
                 </rule>
               </rules>
               <entryLinks>
@@ -3992,7 +3993,7 @@
     <selectionEntry id="f4e7-a798-a322-dc10" name="Ashen Circle" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="86c5-bc44-0e58-b21e" name="Scorched Earth" hidden="false">
-          <description>Hammer of Wrath hits: +1 additional hit and +1S, and count as Flame attacks.</description>
+          <description>Hammer of Wrath hits: +1 hit and +1S; count as Flame attacks.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4238,13 +4239,13 @@
       </profiles>
       <rules>
         <rule id="bc78-fcfb-5f3c-4784" name="Accursed" hidden="false">
-          <description>Enemy Daemons, Psykers, and Corrupted models within 6" suffer –1S and –1T. Models with this rule are immune.</description>
+          <description>Within 6": Daemon, Psyker, and Corrupted models suffer –1S and –1T (immune if they also have Accursed).</description>
         </rule>
         <rule id="45ab-1eab-709c-3d1f" name="Shroud of Dark Fire" hidden="false">
-          <description>- Hits from plasma, flame, melta, or volkite weapons: S -1.
+          <description>- Hits from plasma, flame, melta, or volkite weapons: S-1.
 - 5+ Invulnerable Save.
-- Instant Death wounds: lose D3 Wounds instead of being removed immediately.
-- On death: all models within D6+6" suffer an auto S8 AP- hit.</description>
+- Instant Death wounds: lose D3 Wounds instead of dying immediately.
+- On death (before removal): all models within D6+6" suffer auto S8 AP- hit.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4709,7 +4710,9 @@ Psychic Weapon</description>
           </constraints>
           <rules>
             <rule id="6a4e-07f4-d6ed-af74" name="Harbinger of Chaos" hidden="false">
-              <description>Up to 3 non-compulsory Elites or HQ choices may be selected from the Ruinstorm Daemon army list; must begin in Reserve and may only enter play via Breach the Veil.</description>
+              <description>Detachment with Erebus can take up to 3 non-compulsory Elites or HQ choices from the Ruinstorm Daemon list:
+- Paid for normally; occupy Force Org slots normally.
+- Must start in Reserve; can only enter play via Breach the Veil.</description>
             </rule>
           </rules>
           <costs>
@@ -4810,7 +4813,7 @@ Psychic Weapon</description>
       </constraints>
       <rules>
         <rule id="94ed-f7c4-3c14-dacd" name="Jealous Command" hidden="false">
-          <description>- If neither Kor Phaeron nor Lorgar is Warlord: Kor Phaeron suffers -1 Ld and gains Hatred (Everything).
+          <description>- If neither Kor Phaeron nor Lorgar is Warlord: Kor Phaeron -1 Ld, gains Hatred (Everything).
 - While Kor Phaeron and Lorgar are in the same unit: both gain +1 WS and Hatred (Everything).</description>
         </rule>
       </rules>
@@ -4998,7 +5001,7 @@ Threatening Entreaties - Kor Phaeron and the unit he has joined gain the Fearles
       </constraints>
       <rules>
         <rule id="243e-126c-9412-267b" name="Binder of Souls" hidden="false">
-          <description>Knows the Soul Binding Psychic Discipline; may not select any other.</description>
+          <description>Knows Soul Binding; can't select other Psychic Disciplines.</description>
         </rule>
         <rule id="710c-29df-c854-b207" name="Psychic Discipline: Soul Binding" hidden="true">
           <description>A Psyker with this Discipline gains all the listed Powers, Weapon and other special rules, as well as the Aetheric Lightning Psychic Weapon</description>
@@ -5158,8 +5161,8 @@ Threatening Entreaties - Kor Phaeron and the unit he has joined gain the Fearles
           </constraints>
           <rules>
             <rule id="b2c4-083a-57e1-5b34" name="The Eater of Wisdom" hidden="false">
-              <description>- Before deployment (if Warlord): choose up to 3 friendly Corrupted units — all models gain +1 S and +1 Movement, but must pass a Leadership test at the end of each of your turns or suffer Perils of the Warp.
-- +1 Reaction during opponent's Assault phase (while Zardu Layak is alive).</description>
+              <description>- Before deployment: choose up to 3 friendly all-Corrupted units; each model gains +1 S and +1 Movement, but End of each friendly turn: unit tests Leadership or suffers Perils of the Warp.
+- +1 Reaction during opponent's Assault phase (while alive).</description>
             </rule>
           </rules>
         </entryLink>
@@ -5179,11 +5182,11 @@ Threatening Entreaties - Kor Phaeron and the unit he has joined gain the Fearles
       </modifiers>
       <rules>
         <rule id="35e0-1a83-5ae2-f9f0" name="Flesh Harvesters" hidden="false">
-          <description>- Friendly models with Harbingers of Chaos, Diabolism, or Anathemata within 6" roll an extra D6 and discard the highest when making Psychic checks.
-- In VP missions: gain +1 VP for each enemy unit destroyed by this unit's Sweeping Advances.</description>
+          <description>- Friendly models with Harbingers of Chaos, Diabolism, or Anathemata within 6": roll an extra D6, discard highest on Psychic checks.
+- Missions using Victory Points: +1 VP per enemy unit destroyed by a Sweeping Advance made by an all-[Flesh Harvesters] unit.</description>
         </rule>
         <rule id="9af7-796f-c6db-fb17" name="Grim Purpose" hidden="false">
-          <description>Cannot be joined by any model lacking this special rule.</description>
+          <description>Can't be joined by models without Grim Purpose (incl. Legion Techmarines and Apothecaries).</description>
         </rule>
       </rules>
       <categoryLinks>

@@ -3424,7 +3424,7 @@
           </profiles>
           <rules>
             <rule id="04a4-13fd-fec4-8ff3" name="Burst (D6)" publicationId="817a-6288-e016-7469" page="315" hidden="false">
-              <description>On hit, inflict D6 hits instead of 1.</description>
+              <description>On Hit: inflict D6 hits instead of 1.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3504,7 +3504,7 @@
     <selectionEntry id="71fe-d3bc-b7f9-75ca" name="Pyroclast Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="135c-a0b8-c4d6-93ee" name="Mantle of Ash" hidden="false">
-          <description>5+ Invulnerable save vs Flame, Plasma, Melta, and Volkite weapons.</description>
+          <description>5+ Inv. Sv vs Flame, Plasma, Melta, and Volkite weapons.</description>
         </rule>
       </rules>
       <infoLinks>

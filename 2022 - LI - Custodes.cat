@@ -458,8 +458,8 @@
           </profiles>
           <rules>
             <rule id="e88c-465d-fc13-d71d" name="Tribune of the Golden Legion" hidden="false">
-              <description>- Only included in Primary Detachment of armies ≥ 3,000pts.
-- Must be Warlord unless Constantin Valdor is in the same army.</description>
+              <description>- Primary Detachment only; army must be ≥3,000 pts.
+- Must be Warlord unless Constantin Valdor is in the army.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2539,7 +2539,7 @@
           </profiles>
           <rules>
             <rule id="9670-4400-52c0-e763" name="Measured Strike" publicationId="15a4-fc68-502d-48a9" page="135" hidden="false">
-              <description>Always makes exactly 1 attack, regardless of Attacks characteristic, Charge bonuses, dual weapons, or other modifiers.</description>
+              <description>Always makes exactly 1 attack, regardless of A value, Charging, extra weapons, or other special rules.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4367,15 +4367,15 @@ On any Glancing or Penetrating Hit to Front Armour: gain Shrouded (5+) vs all su
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="6998-b328-c080-5341" name="Legio Custodes" publicationId="15a4-fc68-502d-48a9" page="134" hidden="false">
-      <description>Grants bonuses vs. Nemesis units (any enemy unit with Primarch/Dreadnought/Monstrous/Reinforced/Bombard/Daemon/Corrupted/Super-heavy/Unique/Knight models; majority WS5+/BS5+/W5+/I5+; or enemy Warlord):
-- +1 Attack while in combat with a Nemesis unit.
-- +1 to Charge rolls when all targets are Nemesis units.
-- To Hit rolls vs. Nemesis units never need better than 4+ (except vs. units composed entirely of Primarchs, or when in a Challenge with a Primarch).</description>
+      <description>vs Nemesis units (any enemy unit where: majority of models have WS/BS/W/I ≥5, or unit includes a Primarch/Dreadnought/Monstrous/Reinforced/Bombard/Daemon/Corrupted/Super-heavy/Unique/Knight model, or unit includes enemy Warlord):
+- +1A when locked in combat with a Nemesis unit.
+- All-Legio Custodes unit: +1 to Charge rolls when all targets are Nemesis units.
+- To Hit vs Nemesis unit: never worse than 4+ (except vs all-Primarch units or when in a Challenge vs a Primarch).</description>
     </rule>
     <rule id="f7d6-7c7a-38c3-8931" name="Lightning Blows (X)" hidden="false">
-      <description>After normal To Hit rolls, count hits scored on ≥ X. Make that many additional To Hit rolls (using attacker's WS) vs the same unit; additional hits wound normally.
-- Additional attacks use the weapon's profile (or any weapon available to the model if not weapon-specific).
-- Additional attacks benefit from other special rules (e.g. Preferred Enemy, Precision Strikes) but not Lightning Blows itself.</description>
+      <description>After normal To Hit rolls: count hits ≥ X, then make that many bonus To Hit rolls (using attacker's WS) vs. same unit.
+- Bonus hits wound normally, using this weapon's profile or another available weapon.
+- Bonus attacks don't trigger Lightning Blows again, but benefit from all other special rules (e.g. Preferred Enemy, Precision Strikes).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

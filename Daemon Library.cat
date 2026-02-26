@@ -8,11 +8,11 @@
       </constraints>
       <rules>
         <rule id="bbb3-5b4d-79fb-d4f5" name="The Ætheric Dominion (X)" publicationId="8775-88f5-cfdd-24f6" hidden="false">
-          <description>Units with this rule gain additional abilities tied to their chosen Dominion.
-
-- All units in a Detachment must share the same Ætheric Dominion (X); models with different variations cannot join the same unit.
-- If no Dominion is specified, choose one during army selection at no cost.
-- Lords of War may select any Dominion regardless of the Primary Detachment's choice.</description>
+          <description>- Units with this rule gain additional rules/abilities specific to their Ætheric Dominion (X) variant.
+- A unit can only have one variant; models with different variants can't join the same unit.
+- Units without a listed variant must select one during army selection (free); choice is permanent.
+- All units in a Detachment must share the same Ætheric Dominion (X).
+- Lords of War from the Ruinstorm Daemon Army List can select any variant, even if different from the Primary Detachment's.</description>
         </rule>
       </rules>
       <selectionEntries>
@@ -23,7 +23,7 @@
           </constraints>
           <rules>
             <rule id="4438-874e-901d-f86" name="Encroaching Ruin" publicationId="8775-88f5-cfdd-24f6" page="3" hidden="false">
-              <description>- Failed Morale check: suffer 1 auto Wound (no saves) instead of D3.
+              <description>- All-Daemon units failing Morale: 1 auto Wound (no saves) instead of D3.
 - Gains Move Through Cover.</description>
             </rule>
           </rules>
@@ -61,8 +61,9 @@
           </constraints>
           <rules>
             <rule id="a57e-1003-3f17-d12e" name="Heedless Slaughter" publicationId="8775-88f5-cfdd-24f6" page="3" hidden="false">
-              <description>- Must declare a Charge vs any eligible target within 8" at the start of the Assault phase (cannot charge a different unit than one targeted in the preceding Shooting phase).
-- +1 to Combat Resolution score.
+              <description>- All-[Heedless Slaughter] unit must declare a Charge if any enemy unit is within 8" at start of Assault phase (player chooses target if multiple eligible).
+- Can't Charge a different unit than one targeted by Shooting that phase.
+- +1 Combat Resolution (cumulative).
 - +1 to Sweeping Advance rolls.</description>
             </rule>
           </rules>
@@ -97,10 +98,10 @@
           </constraints>
           <rules>
             <rule id="3546-bb80-a1d7-7d1d" name="Formless Distortion" publicationId="8775-88f5-cfdd-24f6" page="4" hidden="false">
-              <description>At the start of each Fight sub-phase, roll a D3 for each unit with this rule locked in combat. All close combat attacks gain the corresponding rules until end of phase:
-- **1 – Coruscating Ectoplasma:** Concussive (1), Lance
-- **2 – Lashing Pseudopods:** Reach (1)
-- **3 – Vorpal Talons:** Shred, Sunder</description>
+              <description>Start of Fight sub-phase: roll D3 for each all-Formless Distortion unit locked in combat. Close combat attacks by models with this rule gain effects until end of phase:
+- 1 – Coruscating Ectoplasma: Concussive (1), Lance
+- 2 – Lashing Pseudopods: Reach (1)
+- 3 – Vorpal Talons: Shred, Sunder</description>
             </rule>
           </rules>
           <infoLinks>
@@ -161,7 +162,9 @@
           </constraints>
           <rules>
             <rule id="94eb-7da4-953-529f" name="Putrid Corruption" publicationId="8775-88f5-cfdd-24f6" page="3" hidden="false">
-              <description>Gains the Heavy Sub-type. Damage Mitigation: roll a D6 per unsaved Wound; on a 5+, that Wound is discounted. Cannot be used vs Wounds with Instant Death, Psychic Focus, or Force.</description>
+              <description>- Gains Heavy sub-type.
+- Damage Mitigation: roll D6 per unsaved Wound; 5+: negate wound.
+- Can't use vs Instant Death, Psychic Focus, or Force wounds.</description>
             </rule>
           </rules>
           <costs>
@@ -195,7 +198,8 @@
           </constraints>
           <rules>
             <rule id="ef2f-faf6-8a1a-d10b" name="Ravenous Dissolution" publicationId="8775-88f5-cfdd-24f6" page="4" hidden="false">
-              <description>+1 To Hit in melee during the first round of combat vs units containing at least one Daemon, Corrupted, Psyker, or Independent Character model. Each new charge into this unit resets the "first round" trigger.</description>
+              <description>+1 To Hit in the first round of any close combat vs units containing ≥1 model with the Daemon type, Corrupted/Psyker sub-type, or Independent Character.
+- If an enemy unit charges in while already locked, that round counts as a new first round.</description>
             </rule>
           </rules>
           <costs>
@@ -229,9 +233,8 @@
           </constraints>
           <rules>
             <rule id="1bf8-cca9-299a-6c5a" name="Rapturous Sensation" publicationId="8775-88f5-cfdd-24f6" page="3" hidden="false">
-              <description>Successful (non-Disordered) Charge: attacks are made at +1 Initiative step (applied after other Initiative modifiers).
-- Re-roll failed Initiative tests vs. Blind.
-- Re-roll failed Leadership tests vs. Concussive (X).</description>
+              <description>- Successful (non-Disordered) Charge: attacks at I+1 (after other I modifiers).
+- All-[Rapturous Sensation] units: re-roll failed I tests vs Blind; re-roll failed Ld tests vs Concussive (X).</description>
             </rule>
           </rules>
           <costs>
@@ -265,7 +268,7 @@
           </constraints>
           <rules>
             <rule id="c488-ac28-c303-57b" name="Malevolent Artifice" publicationId="8775-88f5-cfdd-24f6" page="4" hidden="false">
-              <description>Re-roll failed Armour Saves vs Wounds with S lower than this model's T. No effect on Cover or Invulnerable Saves.</description>
+              <description>Re-roll failed Armour Saves vs wounds where S &lt; T. No effect on Cover or Invulnerable Saves.</description>
             </rule>
           </rules>
           <costs>
@@ -299,7 +302,8 @@
           </constraints>
           <rules>
             <rule id="457b-86dd-cedd-ce60" name="Infernal Tempest" publicationId="8775-88f5-cfdd-24f6" page="4" hidden="false">
-              <description>- Gain Hammer of Wrath (1), or increase existing Hammer of Wrath (X) by +1; all Hammer of Wrath wounds gain Deflagrate.
+              <description>- Gain Hammer of Wrath (1), or increase existing Hammer of Wrath (X) by +1.
+- All Hammer of Wrath wounds gain Deflagrate.
 - Gain Shooting Attack: Elemental Eruption.</description>
             </rule>
           </rules>
@@ -328,7 +332,7 @@
               </profiles>
               <rules>
                 <rule id="1f43-512-5a44-b56" name="Retaliation" publicationId="8775-88f5-cfdd-24f6" page="4" hidden="false">
-                  <description>Reaction attacks only; hits are auto (no To Hit roll needed).</description>
+                  <description>Reaction attacks only; auto-hit (no To Hit).</description>
                 </rule>
               </rules>
               <costs>
@@ -371,8 +375,9 @@
           </constraints>
           <rules>
             <rule name="Heedless Slaughter" id="e5c0-13d0-8923-dd19" hidden="false" publicationId="4934-46f7-208b-b4af" page="127">
-              <description>- Must declare a Charge vs any eligible target within 8" at the start of the Assault phase (cannot charge a different unit than one targeted in the preceding Shooting phase).
-- +1 to Combat Resolution score.
+              <description>- All-[Heedless Slaughter] unit must declare a Charge if any enemy unit is within 8" at start of Assault phase (player chooses target if multiple eligible).
+- Can't Charge a different unit than one targeted by Shooting that phase.
+- +1 Combat Resolution (cumulative).
 - +1 to Sweeping Advance rolls.</description>
             </rule>
           </rules>
@@ -390,7 +395,7 @@
           </constraints>
           <rules>
             <rule name="Malevolent Artifice" id="cd2b-b7fb-4496-7504" hidden="false" publicationId="4934-46f7-208b-b4af" page="127">
-              <description>Re-roll failed Armour Saves vs Wounds with S lower than this model's T. No effect on Cover or Invulnerable Saves.</description>
+              <description>Re-roll failed Armour Saves vs wounds where S &lt; T. No effect on Cover or Invulnerable Saves.</description>
             </rule>
           </rules>
           <costs>
@@ -415,13 +420,14 @@
   </categoryEntries>
   <sharedRules>
     <rule id="e05e-ed23-64fb-a535" name="Æthereal Invulnerability (X)" publicationId="cb13-da24-e6da-75b3" page="Various" hidden="false">
-      <description>Gains an Invulnerable Save of (X), but not vs weapons with the Force special rule.</description>
+      <description>Invulnerable Save (X). Can't be used vs weapons with Force.</description>
     </rule>
     <rule id="c694-20c8-455-baca" name="Empyrean Avatar" publicationId="cb13-da24-e6da-75b3" page="16" hidden="false">
-      <description>Instant Death wounds deal D3 wounds instead of triggering immediate removal.</description>
+      <description>Instant Death wounds: lose D3 Wounds instead of being removed immediately.</description>
     </rule>
     <rule name="The Ætheric Dominion (X) Corrupted Engines" id="58e5-d2ef-f25e-496d" hidden="false" publicationId="4934-46f7-208b-b4af" page="127">
-      <description>All models in a unit must share the same Ætheric Dominion variant; models with different variants may not join the same unit.</description>
+      <description>- All models in a unit must share the same Ætheric Dominion variant.
+- A model can't join a unit with a different Ætheric Dominion variant.</description>
     </rule>
   </sharedRules>
 </catalogue>

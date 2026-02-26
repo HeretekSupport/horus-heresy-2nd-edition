@@ -4686,7 +4686,9 @@
       </constraints>
       <rules>
         <rule id="cc22-87b0-6a3b-bbb6" name="Born Survivor" hidden="false">
-          <description>The first time this model would be removed as a casualty, take a Leadership test: pass → remain in play and regain D3 Wounds; fail → removed as normal.</description>
+          <description>First time reduced to 0W or removed as casualty: Leadership test.
+- Fail: removed as normal.
+- Pass: remains in play, regains D3W.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6092,9 +6094,10 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
       </constraints>
       <rules>
         <rule id="a3ca-1402-2721-8e22" name="The First Reaver" publicationId="53a4-0d21-2f8a-2c45" page="213" hidden="false">
-          <description>One Reaver Attack Squad may be taken alongside Ashurhaddon at no Force Org slot cost, forming a single unit with him as Leader.
-- Ashurhaddon must deploy with and may never voluntarily leave this Retinue Squad.
-- The Retinue Squad gains the Line sub-type.</description>
+          <description>- Select 1 Reaver Attack Squad alongside Vheren Ashurhaddon (no Force Org slot).
+- Forms a single unit; Vheren Ashurhaddon must deploy with and can't voluntarily leave it.
+- That squad gains the Line sub-type.
+- Only 1 Retinue Squad can be selected this way regardless of available options.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6417,7 +6420,8 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
       </entryLinks>
       <rules>
         <rule name="Haunted" id="eb36-7380-6bad-1660" hidden="false" publicationId="d882-d2a-5da1-92c4" page="191">
-          <description>If Loken is killed while locked in combat with Aximand (or his unit): +1 VP. Increased to +2 VP if killed during a Challenge with Aximand.</description>
+          <description>If Loken dies while locked in combat with Horus Aximand (or his unit): +1 VP.
+- +2 VP instead if Loken dies during a Challenge with Horus Aximand.</description>
         </rule>
       </rules>
     </selectionEntry>

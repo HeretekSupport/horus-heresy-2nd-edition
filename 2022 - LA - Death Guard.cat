@@ -3064,7 +3064,7 @@
           </profiles>
           <rules>
             <rule id="cbdc-b181-7dae-dfc2" name="Witchblood" hidden="false">
-              <description>Has Witchsense and Toxin Cloud; cannot access any other Disciplines.</description>
+              <description>Has Witchsense and Toxin Cloud; no other Disciplines.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3271,13 +3271,15 @@
           </profiles>
           <rules>
             <rule id="b29b-79a3-7a3b-efe8" name="Shadow of the Reaper" hidden="false">
-              <description>Shooting phase: instead of shooting, remove Mortarion from the battlefield and redeploy him within 10" of his original position (not within 3" of an enemy, not in Impassable Terrain or inside a Vehicle/Building). Cancels Legiones Astartes (Death Guard) benefits when used.
-- Counts as an alternative Movement; intervening terrain has no effect.
-- May Charge the same turn, but it counts as a Disordered Charge.
-- Cannot be used if Embarked, in Reserves, locked in combat, or part of a unit with Retinue/Deathshroud Retinue.</description>
+              <description>Shooting phase: instead of Shooting, redeploy Mortarion (unavailable if Embarked, in Reserves, locked in combat, or in a unit with Retinue/Deathshroud Retinue):
+- Remove from battlefield; replace within 10" of original position.
+- Can't place within 3" of enemy models, in Impassable Terrain, or inside a Vehicle/Building.
+- Intervening terrain has no effect; doesn't count as a move.
+- Cancels Legiones Astartes (Death Guard) benefits when used.
+- Can Charge the same turn, but counts as Disordered Charge.</description>
             </rule>
             <rule id="6363-8841-1d61-e78a" name="Prenatural Resilience" hidden="false">
-              <description>Hits with Poisoned, Rending, or Fleshbane only take effect on a D6 roll of 6.</description>
+              <description>Hits with Poisoned, Rending, or Fleshbane only affect Mortarion on a 6.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4320,7 +4322,7 @@
           </profiles>
           <rules>
             <rule id="5a33-d42e-c49a-56b7" name="Overcharged" hidden="false">
-              <description>After each combat (if ≥1 attack made): roll 1d6 — on a 1, suffer 1 Wound (Invulnerable saves only).</description>
+              <description>After each combat (if ≥1 attack made): roll 1d6 — on a 1, suffer 1 Wound (Invulnerable Saves only).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4427,10 +4429,10 @@
       </constraints>
       <rules>
         <rule id="cf9d-b20b-3d98-8aaf" name="Protocols of Destruction" hidden="false">
-          <description>Activate at the start of any friendly turn (or before the opponent's first turn if going second). While active, Penetrating Hits by this model and any joined unit gain +1 on the Vehicle Damage chart (until start of next friendly turn).
-
-- Rapier Carriers with quad launchers in the same Detachment may be upgraded with phosphex canister shot (+20 pts/model).
-- Arquitor Squadrons with Morbus bombards in the same Detachment may be upgraded with phosphex shells (+20 pts/model).</description>
+          <description>- Activate at start of any friendly turn; or (if going second) before opponent's Turn 1.
+- While active: Penetrating Hits by this model and any joined unit gain +1 on Vehicle Damage chart rolls, until start of next friendly turn.
+- Legion Rapier Carriers (quad launchers) in same Detachment can upgrade to phosphex canister shot (+20pts/model).
+- Legion Arquitor Squadrons (Morbus bombards) in same Detachment can upgrade to phosphex shells (+20pts/model).</description>
         </rule>
       </rules>
       <infoLinks>

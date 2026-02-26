@@ -2995,8 +2995,8 @@
           </profiles>
           <rules>
             <rule id="1654-4021-8098-0327" name="The Shadowed Lord" hidden="false" publicationId="817a-6288-e016-7469" page="333">
-              <description>- Hit &amp; Run: roll an extra die for distance; discard any one die before resolving.
-- After using Hit &amp; Run, re-roll failed Shrouded rolls of 1 for Corax and his unit until the start of your next turn.</description>
+              <description>- Hit &amp; Run: roll 1 extra distance die, discard any 1 die.
+- After Hit &amp; Run: re-roll Shrouded fails of 1 for Corvus Corax and his unit until start of your next turn.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3068,7 +3068,10 @@ While active:
               </profiles>
               <rules>
                 <rule id="0504-ce14-8f28-9d3a" name="Fighting Style" hidden="false" publicationId="817a-6288-e016-7469" page="333">
-                  <description>Assault phase: choose one to apply to all attacks — Murderous Strike (4+), Rage (4), or Sudden Strike (3).</description>
+                  <description>Start of Assault phase: choose one:
+- Murderous Strike (4+)
+- Rage (4)
+- Sudden Strike (3)</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -3143,9 +3146,9 @@ While active:
     <selectionEntry id="c268-08ac-5b90-d034" name="Mor Deythan Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="8cb7-e948-d123-218e" name="Fatal Strike" hidden="false">
-          <description>Once per battle, declare at the start of a Shooting phase: all models with this rule gain Rending (4+) for that phase.
-- Does not replace/improve existing Rending (X).
-- Cannot be used with Template or Blast weapons.</description>
+          <description>Once per battle, Start of Shooting phase: all models in unit with this rule gain Rending (4+) on Shooting Attacks.
+- Doesn't replace/improve existing Rending (X).
+- Can't be used with Template or Blast (X) weapons.</description>
         </rule>
       </rules>
       <infoLinks>

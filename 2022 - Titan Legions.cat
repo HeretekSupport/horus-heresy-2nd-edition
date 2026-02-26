@@ -668,7 +668,9 @@
     <selectionEntry id="4fc3-7259-f9b0-71cd" name="Secutarii Peltast Phalanx" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="56e7-b54b-877c-5f0c" name="Blind Barrage" publicationId="bde1-6db1-163b-3b76" page="102" hidden="false">
-          <description>Once per battle, instead of Shooting: target a friendly non-Vehicle, non-Knight, non-Titan, non-Monstrous unit within 18" and LoS — it gains Shrouded (4+) until your next turn. Requires ≥5 models with galvanic casters.</description>
+          <description>Once per battle, Shooting phase: if unit has ≥5 models with galvanic casters, instead of Shooting, target a friendly unit with a model within 18" and LoS.
+- Target gains Shrouded (4+) until start of your next turn.
+- Can't target Vehicles, Knights, Titans, or Monstrous units.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -755,7 +757,7 @@
           </constraints>
           <rules>
             <rule id="b2c8-7374-7621-1e31" name="Molecular Dissonance" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-              <description>To Hit roll of 6: auto-wound (no effect vs Primarchs or Vehicles).</description>
+              <description>To Hit 6: auto-wound. No effect vs Primarchs or Vehicles.</description>
             </rule>
           </rules>
           <infoLinks>

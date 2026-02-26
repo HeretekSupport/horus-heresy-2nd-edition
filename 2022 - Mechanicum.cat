@@ -1874,7 +1874,7 @@
       </profiles>
       <rules>
         <rule id="cf28-db85-769d-2701" name="Walker in Ruin" publicationId="bde1-6db1-163b-3b76" page="26" hidden="false">
-          <description>Friendly units within 6" gain Move Through Cover.</description>
+          <description>Calleb Decima Invictus and friendly units within 6" have Move Through Cover.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2024,7 +2024,7 @@
           </constraints>
           <rules>
             <rule id="5438-ef32-6502-5b9d" name="Techno-Arcana" hidden="false">
-              <description>Choose one Techno-arcana per unit; applies to the whole unit at no extra cost (unless noted).</description>
+              <description>Choose one per Tech-Priest Auxilia unit; applies to whole unit at no extra cost (unless noted):</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2521,7 +2521,8 @@
               </constraints>
               <rules>
                 <rule id="4e97-739a-16b0-f2d6" name="Enginseer" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
-                  <description>Each Tech-Priest/Magos Auxilia in the unit has a servo-arm. While the unit contains any Servo-automata, their Battlesmith (X) improves to Battlesmith (4+).</description>
+                  <description>- Tech-Priests and Magos Auxilia in unit gain a servo-arm.
+- While unit contains any Servo-automata: Tech-Priests and Magos Auxilia improve Battlesmith to Battlesmith (4+).</description>
                 </rule>
               </rules>
               <costs>
@@ -2531,8 +2532,8 @@
             <selectionEntry id="4f03-e19e-7327-89cd" name="Lachrimallus" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="c533-6e23-37cb-e47f" name="Lachrimallus" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
-                  <description>- Tech-Priests, Magos Auxilia, and Servo-automata in this unit gain Feel No Pain (5+).
-- Friendly Adsecularis units within 6" of a model with this rule: +1 to existing Feel No Pain rolls, or gain Feel No Pain (6+) if they lack it.</description>
+                  <description>- Tech-Priests, Magos Auxilia, and Servo-automata in unit gain Feel No Pain (5+).
+- Friendly Adsecularis Tech-thrall units within 6" of a Tech-Priest or Magos Auxilia with this rule: +1 to Feel No Pain rolls, or gain Feel No Pain (6+) if they lack it.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -2545,18 +2546,18 @@
             <selectionEntry id="eb4f-558c-b2a5-f60a" name="Reductor" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="f428-4adb-1218-2667" name="Reductor" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
-                  <description>**Demolisher:** Friendly Battlesmith (X) models may target Buildings, but only with the following effects (no Hull Point/Wound restoration or repair):
-- Target loses 1 Hull Point (Building or Vehicle).
-- Auto Wound, no saves (Dreadnought or Automata; usable even if locked in combat).
-- Auto Weapon Destroyed, no Hull Point loss (Building or Vehicle).
-- Auto Immobilised, no Hull Point loss (Vehicle only).
+                  <description>**Demolisher:** Models with Battlesmith (X) in a Detachment incl. a Reductor model can target Buildings with Battlesmith (X), in addition to normal valid targets. Battlesmith (X) can't restore Wounds/Hull Points or repair Weapon Destroyed/Immobilised results. Choose from:
+- Target Building or Vehicle loses 1 Hull Point.
+- Auto Wound, no saves, vs Dreadnought or Automata (can be used even if locked in combat).
+- Auto Weapon Destroyed on Building or Vehicle (no Hull Point lost).
+- Auto Immobilised on Vehicle (no Hull Point lost).
 
-**Harbinger of Devastation:** Before Objectives/deployment, nominate up to 3 terrain pieces:
-- Area terrain with Cover Save: Cover Save removed; becomes Difficult and Dangerous Terrain.
-- Building/Fortification: +1 to all Building Damage table rolls.
-- If multiple players have this rule, roll off then alternate nominations. Each piece may only be nominated once.
+**Harbinger of Devastation:** During set-up, before Objectives placed or deployment determined, nominate up to 3 terrain areas, Buildings, or Fortifications:
+- Area terrain with Cover Save: Cover Save removed; counts as Difficult and Dangerous Terrain.
+- Building/Fortification: all Building Damage table rolls gain +1.
+- If multiple players have this rule: roll off, alternate nominations (winner first) until each has nominated 3 or passed. Each piece can only be nominated once.
 
-**Secrets of Annihilation:** Grants the Artificia Reductor Cybertheurgic Arcana; no other Cybertheurgic Arcana may be selected.</description>
+**Secrets of Annihilation:** Gains Artificia Reductor Cybertheurgic Arcana. Can't select any other Cyberthe</description>
                 </rule>
               </rules>
               <costs>
@@ -2573,8 +2574,8 @@
               </modifiers>
               <rules>
                 <rule id="51ee-b3cf-a842-91cf" name="Interfector" publicationId="bde1-6db1-163b-3b76" page="100" hidden="false">
-                  <description>- Tech-Priests and Magos Auxilia in the unit gain a prehensile data-spike.
-- All models in the unit gain Scout.</description>
+                  <description>- Tech-Priests and Magos Auxilia gain a prehensile data-spike.
+- Unit gains Scout.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -2818,11 +2819,13 @@
           </constraints>
           <rules>
             <rule id="2174-2df4-ccaa-5de4" name="Hunter Killer" publicationId="bde1-6db1-163b-3b76" page="30" hidden="false">
-              <description>May join with one of the following (at normal cost), forming a single combined unit within the same Elites slot:
-- Arlatax Battle-automata Maniple
-- Vorax Battle-automata Maniple
-
-The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magisterium gains Patris Cybernetica and may not voluntarily leave the unit.</description>
+              <description>- Arcuitor Magisterium can be joined by one of the following (normal points cost):
+  - Arlatax Battle-automata Maniple
+  - Vorax Battle-automata Maniple
+- The joined unit can take any upgrades except Paragon of Metal.
+- Joined unit forms a single unit with the Arcuitor Magisterium; grants Patris Cybernetica.
+- Arcuitor Magisterium can't voluntarily leave this unit.
+- Counts as the same Elites slot; no additional FOC slot used.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -3493,7 +3496,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
                   </constraints>
                   <rules>
                     <rule id="eef3-4bdf-4f70-9740" name="Power Blade Arrays With In-Built Light Autocannon*" publicationId="bde1-6db1-163b-3b76" page="40" hidden="false">
-                      <description>+1 Attack when equipped with two power blade arrays.</description>
+                      <description>Two power blade arrays: +1A (not shown in profile).</description>
                     </rule>
                   </rules>
                   <costs>
@@ -3552,7 +3555,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
                       </constraints>
                       <rules>
                         <rule name="Arc Scourge*" id="3ec2-97cd-9f99-9f93" hidden="false">
-                          <description>+1 Attack when equipped with two power blade arrays.</description>
+                          <description>Two power blade arrays: +1A.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -3639,7 +3642,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
                       </constraints>
                       <rules>
                         <rule name="Arc Scourge*" id="accc-4f5d-a4b3-64d0" hidden="false">
-                          <description>+1 Attack when equipped with two power blade arrays.</description>
+                          <description>Two power blade arrays: +1A.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -3669,7 +3672,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
                       </constraints>
                       <rules>
                         <rule name="Arc Scourge*" id="4c0b-7d99-78a0-dd24" hidden="false">
-                          <description>+1 Attack when equipped with two power blade arrays.</description>
+                          <description>Two power blade arrays: +1A.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -3845,7 +3848,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
               </constraints>
               <rules>
                 <rule id="00a3-1b03-7bf6-1c27" name="Two Power Fists*" publicationId="bde1-6db1-163b-3b76" page="41" hidden="false">
-                  <description>+1 Attack.</description>
+                  <description>+1A.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -3865,7 +3868,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
               </modifiers>
               <rules>
                 <rule id="803d-3b7c-2f64-3aae" name="Pair of Lightning Claws*" publicationId="bde1-6db1-163b-3b76" page="41" hidden="false">
-                  <description>+2 Attacks when equipped with two lightning claws.</description>
+                  <description>+2A.</description>
                 </rule>
               </rules>
             </entryLink>
@@ -3954,7 +3957,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
           </profiles>
           <rules>
             <rule id="caae-a4be-7597-5364" name="Surveillance Protocols" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
-              <description>Charge sub-phase: ignore Programmed Behaviour restrictions.</description>
+              <description>Charge sub-phase: ignore Programmed Behaviour (Cybernetica Unit Sub-type only).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4276,7 +4279,7 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
       </profiles>
       <rules>
         <rule id="6634-4243-b2d0-39e6" name="Hazardous Munitions" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-          <description>Explodes result: nearby models within D6+6" each suffer S8 AP4 hits instead of the normal Explodes effect.</description>
+          <description>Explodes result: S8 AP4 hit to every model within D6+6" (replaces normal Explodes damage/radius).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4529,9 +4532,10 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
           </profiles>
           <rules>
             <rule id="8e53-b538-e67a-4966" name="Sonic Wave" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
-              <description>Place Large Blast (5") touching the Front hull; move it in a straight line within the 45° forward arc up to max range without scattering.
-- All models the template passes over suffer 1 auto Hit (incl. Flyers).
-- Hits vs Knights, Titans, Super-heavy Vehicles, Buildings, or Fortifications: increase S to 10.</description>
+              <description>- Place Large Blast (5") with edge touching firing model's Front hull; no scatter.
+- Move template in a straight line within 45° forward arc until max range or off-table.
+- All models passed over: 1 auto hit (incl. Flyers).
+- vs Knights/Titans/Super-heavy Vehicles/Buildings/Fortifications: S10.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4597,12 +4601,12 @@ The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magis
       </profiles>
       <rules>
         <rule id="ef34-76df-c134-302e" name="Terrestrial Disregard" publicationId="bde1-6db1-163b-3b76" page="110" hidden="false">
-          <description>Replaces normal Subterranean Assault rules. Place an Apocalyptic Blast (10") marker anywhere ≥1" from enemy models, board edges, and Impassable Terrain, then scatter it.
-
-- If final position is within 1" of an enemy model, board edge, or Impassable Terrain, opponent may reposition the marker within 18" (or anywhere on the battlefield if no valid position within 18"), keeping it &gt;1" from enemy models, board edges, and Impassable Terrain.
-- Place the model with the marker's centre under its hull, &gt;1" from enemy models.
-- On arrival: each Fortification within 6" suffers D6 S10 AP2 hits; each unit within 6" suffers 1 S10 AP2 hit per model within 6". Units that suffer ≥1 hit must take an immediate Pinning test.
-- The area under the marker counts as Difficult and Dangerous Terrain for the remainder of the battle.</description>
+          <description>Replaces normal Subterranean Assault rules:
+- Place an Apocalyptic Blast (10") marker ≥1" from enemy models, battlefield edges, and Impassable Terrain; then scatter it.
+- If final position is within 1" of any enemy model, battlefield edge, or Impassable Terrain: opponent moves marker to any position within 18" meeting placement restrictions; if none exists within 18", opponent places it anywhere on battlefield meeting restrictions.
+- Place model with marker centre under its hull, ≥1" from enemy models.
+- On placement: each Fortification within 6" suffers D6 S10 AP2 hits; each unit suffers 1 S10 AP2 hit per model within 6"; any unit suffering ≥1 hit takes an immediate Pinning test.
+- Marker area counts as Difficult and Dangerous Terrain for remainder of battle.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4700,7 +4704,7 @@ Once per battle, at end of your Movement phase, trigger Seismic Shockwave:
       <rules>
         <rule id="9d8c-1ee2-4e7c-70c3" name="Archmagos Anacharis Scoria" hidden="false"/>
         <rule id="94ad-dd9a-c902-2f99" name="Rites of the Beast" publicationId="bde1-6db1-163b-3b76" page="63" hidden="false">
-          <description>Grants the Artificia Machina, Artificia Cybernetica, and Ephemera Incursus Cybertheurgic Arcana, incl. all associated Rites and weapons.</description>
+          <description>Has the Artificia Machina, Artificia Cybernetica, and Ephemera Incursus Cybertheurgic Arcana, incl. all associated Rites and weapons.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5255,7 +5259,7 @@ Once per battle, at end of your Movement phase, trigger Seismic Shockwave:
           </profiles>
           <rules>
             <rule id="d873-2839-b082-c5f0" name="Greuso Protocol" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-              <description>Enables the **Greuso Protocol** Advanced Reaction for any unit containing ≥1 model with this rule.</description>
+              <description>Grants access to the Greuso Protocol Advanced Reaction.</description>
             </rule>
           </rules>
           <infoLinks>

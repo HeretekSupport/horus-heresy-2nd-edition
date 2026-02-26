@@ -3040,10 +3040,15 @@
       </modifiers>
       <rules>
         <rule id="9f63-cb32-73a5-840e" name="Bearers of the Blood Hand" hidden="false">
-          <description>Assault phase: must declare a Charge vs any enemy unit within 12" if able. If multiple eligible targets exist, the controlling player chooses. Does not allow charging a different unit than the one shot in the previous Shooting phase.</description>
+          <description>Must declare a Charge if able when within 12" of an enemy unit at the start of the Assault phase.
+- Multiple eligible targets: controlling player chooses.
+- Can't Charge a different unit than the one targeted in the preceding Shooting phase.</description>
         </rule>
         <rule id="2101-9f1b-9cb5-44b8" name="Ravaging Assault" hidden="false">
-          <description>On a turn they charge: +1 Wounds for combat resolution and +1 to Sweeping Advance rolls. Does not stack with other rules granting the same bonuses.</description>
+          <description>Charged turn only:
+- +1 Wounds inflicted when determining combat result.
+- +1 to Sweeping Advance rolls (if winning).
+- Neither bonus stacks with other rules granting the same bonus.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3555,7 +3560,7 @@
       </constraints>
       <rules>
         <rule id="3c7e-33bc-d8bb-8933" name="Head-hunter" hidden="false">
-          <description>In a Challenge, attacks gain Breaching (4+).</description>
+          <description>Challenge: attacks gain Breaching (4+).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4505,10 +4510,10 @@
       </profiles>
       <rules>
         <rule id="9566-305a-70c3-4a11" name="Red Sands" hidden="false">
-          <description>Angron may issue simultaneous Challenges to all enemy Characters/Primarchs locked in combat with him, up to his current Attacks value.
-- Primarchs must be fought first; remaining order is Angron's choice.
-- Distribute attacks freely, with ≥1 attack per Challenge.
-- All challenged models count as being in a Challenge until all challengers or Angron are removed as casualties (or another rule ends it).</description>
+          <description>- Can issue one Challenge per enemy Character/Primarch locked in combat with him, up to his current Attacks.
+- Fight all Challenges during the Challenge step in an order of Angron's player's choice; Primarchs must be fought first.
+- Divide Attacks between Challenges; minimum 1 Attack per Challenge.
+- All challenged models and Angron count as in a Challenge until: all challengers are removed, Angron is removed, or a rule ends it.</description>
         </rule>
       </rules>
       <infoLinks>

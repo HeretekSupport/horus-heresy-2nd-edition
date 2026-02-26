@@ -121,10 +121,10 @@
     <selectionEntry id="2a1a-034a-de1a-be56" name="Daemon" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="29d9-b080-8adf-6236" name="NOTE TO SELF 1 Putrid Corruption" hidden="false">
-          <description>Unit gains the Heavy sub-type while under Putrid Corruption dominion.</description>
+          <description>Has Putrid Corruption dominion: gain Heavy sub-type.</description>
         </rule>
         <rule id="4505-5b02-e639-3f7a" name="NOTE TO SELF 2 Infernal Tempest" hidden="false">
-          <description>Hammer of Wrath: +1 to hit value if bearer has the Infernal Tempest Dominion.</description>
+          <description>Hammer of Wrath value +1 if unit has the Infernal Tempest Dominion.</description>
         </rule>
       </rules>
       <costs>
@@ -155,8 +155,8 @@
       </profiles>
       <rules>
         <rule id="081c-3c1b-c85a-17b1" name="Whispers of Madness" publicationId="cb13-da24-e6da-75b3" page="16" hidden="false">
-          <description>- While in Reserves (not yet arrived): opposing Reserves rolls suffer -1 (non-stacking; use highest single modifier).
-- Models within 18" suffer -2 Ld for Psychic checks (cumulative).
+          <description>- While in Reserve (not yet arrived): opposing Reserves rolls -1 (doesn't stack; use highest single negative modifier).
+- Models within 18": Ld-2 for Psychic checks (cumulative).
 - While locked in combat: Fear (1) becomes Fear (2).</description>
         </rule>
       </rules>
@@ -558,11 +558,11 @@ The End and the Death – When fighting in a Challenge, successful Invulnerable 
       </profiles>
       <rules>
         <rule id="d2bf-13ec-b74e-0e49" name="Eternal Rivalry" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false">
-          <description>- If Sanguinius is slain in a Challenge vs Ka'bandha: Ka'bandha's player scores +2 VP (in addition to Slay the Warlord).
-- If Ka'bandha is slain in a Challenge vs Sanguinius: Ka'bandha's player loses 1 VP.</description>
+          <description>- Sanguinius slain in Challenge vs Ka'bandha: Ka'bandha's player gains +2 VP (in addition to Slay the Warlord).
+- Ka'bandha slain in Challenge vs Sanguinius: Ka'bandha's player loses 1 VP.</description>
         </rule>
         <rule id="8ed4-f0ee-376a-7a5b" name="Scythe of Hatred" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false">
-          <description>Assault phase (after Sweeping Advances/Consolidations): place a Hellstorm template touching Ka'bandha's base — each unit underneath suffers auto S6 AP- hits equal to the number of unsaved Wounds Ka'bandha inflicted in melee that phase (excluding Combat result modifiers).</description>
+          <description>End of Assault phase (after Sweeping Advances/Consolidations): place Hellstorm template touching Ka'bandha's base. Each unit under template suffers X auto S6 AP- hits, where X = unsaved Wounds Ka'bandha caused by melee this phase (excl. Combat result modifiers).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -902,10 +902,10 @@ Ka’bandha may be selected as part of a Lords of War Detachment for any army wi
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="e2de-47bf-2a1c-45e5" name="Bound Malefica" publicationId="cb13-da24-e6da-75b3" page="11" hidden="false">
-      <description>Counts as Ruinstorm Daemon units for rules that allow them to be included in other Detachments or grant alternative Reserve deployment methods. Retains Agents of the Warmaster Faction and Bound Daemons Sub-faction.</description>
+      <description>All-Bound Malefica units count as Ruinstorm Daemon units for rules allowing Ruinstorm Daemons to join other Detachments or use alternative Reserve deployment (e.g. Breach the Veil, Harbinger of Chaos). Such units retain Agents of the Warmaster Faction and Bound Daemons Sub-faction.</description>
     </rule>
     <rule name="Daemonic Armaments" id="e30b-4e6e-1845-e081" hidden="false" publicationId="cb13-da24-e6da-75b3">
-      <description>All weapons in this section count as Daemonic for relevant rules.</description>
+      <description>All listed weapons count as Daemonic for relevant rules.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

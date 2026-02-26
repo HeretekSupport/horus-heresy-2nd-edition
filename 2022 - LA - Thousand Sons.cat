@@ -3284,14 +3284,15 @@
     <selectionEntry id="95cb-9366-295e-f10d" name="Castellax-Achea Automata" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="01cd-939f-c8a5-3e4a" name="Psy -automata" publicationId="09c5-eeae-f398-b653" page="267" hidden="false">
-          <description>If not within 6" of a friendly Thousand Sons Independent Character Psyker, subject to Programmed Behaviour:
-- Must shoot and/or charge the closest valid enemy unit in range/LoS each turn (controlling player chooses if tied).
+          <description>Outside 6" of a friendly Legiones Astartes (Thousand Sons) Independent Character Psyker, Psy-automata are subject to Programmed Behaviour:
+- Shooting phase &amp; Charge sub-phase: must Shoot and/or Charge if valid targets in range; must target closest visible valid enemy (controlling player chooses if tied).
 
 Regardless of Programmed Behaviour:
-- May fire all equipped weapons each Shooting Attack (incl. eligible Reactions).
-- May fire Heavy and Ordnance weapons counting as Stationary even after moving; may declare Charges regardless of Shooting Attacks made that turn.
-- Ignores Initiative penalties when Charging through Difficult or Dangerous Terrain.
-- Friendly Thousand Sons Psykers within 12" of this model may use it as the origin point for Psychic Weapon Shooting Attacks (LoS and range drawn from this model).</description>
+- Can fire all equipped weapons each Shooting Attack (incl. eligible Reactions; does not grant Automata Reaction ability).
+- Count as Stationary for Heavy/Ordnance weapons even after moving; can declare Charges regardless of Shooting made that turn.
+- Ignore Initiative penalties for Charging into/through Difficult or Dangerous Terrain.
+
+Friendly Legiones Astartes (Thousand Sons) Psyker within 12" of a Castellax-Achea: can use that model as the origin point for Psychic Weapon Shooting Attacks (draw LoS and range from it).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3742,7 +3743,7 @@ Regardless of Programmed Behaviour:
           </profiles>
           <rules>
             <rule id="176d-6cb5-3c80-4e91" name="Magister of Dust" publicationId="09c5-eeae-f398-b653" page="273" hidden="false">
-              <description>Gains Divination and Telepathy Disciplines for free; may not select any other Minor Arcana or Psychic Disciplines.</description>
+              <description>Gains Divination and Telepathy Disciplines (free); can't select other Minor Arcana or Psychic Disciplines.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3981,7 +3982,7 @@ Regardless of Programmed Behaviour:
           </profiles>
           <rules>
             <rule id="56e8-160a-ec17-17a1" name="Arch-magister of the Corvidae" hidden="false">
-              <description>Gains Minor Arcana Corvidae, Divination, and Thaumaturgy Disciplines for free.</description>
+              <description>Grants Ahriman: Minor Arcana Corvidae, Divination, and Thaumaturgy Disciplines (free).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4442,7 +4443,8 @@ Regardless of Programmed Behaviour:
       </profiles>
       <rules>
         <rule id="71f0-a260-cdcf-947d" name="Warriors of the Khenetai" publicationId="09c5-eeae-f398-b653" page="269" hidden="false">
-          <description>Gains the Mindsong of Blades Psychic Power; cannot select a Minor Arcana from Prosperine Arcana.</description>
+          <description>- Gains Mindsong of Blades Psychic Power.
+- Can't select a Minor Arcana from Prosperine Arcana.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4795,7 +4797,7 @@ Regardless of Programmed Behaviour:
       </constraints>
       <rules>
         <rule id="15df-164f-dd58-b29e" name="The Eye of the Crimson King" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-          <description>When targeting with psychic powers, all models within range count as in line of sight (except those Embarked in Transports or Buildings).</description>
+          <description>Psychic powers: all models in range count as in LoS (except Embarked in Transports or Buildings).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4825,8 +4827,9 @@ Regardless of Programmed Behaviour:
           <rules>
             <rule id="26cc-e50d-a31d-729d" name="Arch-Sorcerer" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
               <description>- Has access to all Core Psychic Disciplines.
-- May use any Psychic Weapon from any Discipline when making Shooting Attacks or melee attacks, regardless of which powers were used that turn.
-- Once per turn, may use any one Minor Arcana (from Prosperine Arcana); may choose a different one each turn; auto-passes Psychic checks for Minor Arcana powers.</description>
+- Shooting/Assault: can use any Psychic Weapon from any Discipline, regardless of powers used that turn.
+- Each turn: can use one Minor Arcana (Prosperine Arcana, p.255), in addition to other powers; can choose a different Minor Arcana each turn.
+- Minor Arcana: auto-pass all Psychic checks (no roll).</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -4943,7 +4946,7 @@ Regardless of Programmed Behaviour:
           </profiles>
           <rules>
             <rule id="0d71-0a7d-ca1a-0638" name="Psyfire serpenta" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>Counts as both Plasma and Force weapon for all relevant rules.</description>
+              <description>Counts as Plasma and Force weapon for relevant rules.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4971,7 +4974,7 @@ Regardless of Programmed Behaviour:
           </profiles>
           <rules>
             <rule id="422a-827d-e765-2c3f" name="The Blade of Ahn-nunurta" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>Counts as both a Power weapon and a Force weapon for all related rules.</description>
+              <description>Counts as a Power weapon and Force weapon.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5102,12 +5105,14 @@ Regardless of Programmed Behaviour:
           </profiles>
           <rules>
             <rule id="3d26-05d0-677d-032b" name="Life Warded" hidden="false">
-              <description>- Wounds must be allocated to other unit members first; last to receive wounds (unless in a Challenge).
-- Refusing a Challenge: opponent loses the option to remove one model from combat.
-- Cannot be joined by models lacking Life Warded.</description>
+              <description>- No wounds allocated to this model while any non-Life Warded model is in the unit (any source).
+- Doesn't apply while Engaged in a Challenge.
+- If this unit refuses a Challenge, the opponent can't prevent one model from participating in combat.
+- Unit can't be joined by models without Life Warded (incl. Legion Techmarines and Apothecaries).</description>
             </rule>
             <rule id="3a90-1892-53a2-3f82" name="Numerologist Order" hidden="false">
-              <description>Gains the Psy-synchronicity Psychic Power; cannot select a Minor Arcana from Prosperine Arcana.</description>
+              <description>- Gains Psy-synchronicity Psychic Power.
+- Can't select a Minor Arcana from Prosperine Arcana.</description>
             </rule>
           </rules>
           <infoLinks>

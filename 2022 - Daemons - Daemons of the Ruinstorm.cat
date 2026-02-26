@@ -2621,11 +2621,11 @@ Skull Keeper – All models with the Daemon Unit Type and the Ætheric Dominion 
       </infoLinks>
       <rules>
         <rule id="1937-7193-1baa-f839" name="Eternal Rivalry" publicationId="8775-88f5-cfdd-24f6" page="19" hidden="false">
-          <description>- If Sanguinius is slain in a Challenge vs Ka'bandha: Ka'bandha's player scores +2 VP (in addition to Slay the Warlord).
-- If Ka'bandha is slain in a Challenge vs Sanguinius: Ka'bandha's player loses 1 VP.</description>
+          <description>- Sanguinius slain in Challenge vs Ka'bandha: Ka'bandha's player gains +2 VP (in addition to Slay the Warlord).
+- Ka'bandha slain in Challenge vs Sanguinius: Ka'bandha's player loses 1 VP.</description>
         </rule>
         <rule id="9d1a-b131-9bc-6bb8" name="Scythe of Hatred" publicationId="8775-88f5-cfdd-24f6" page="19" hidden="false">
-          <description>Assault phase (after Sweeping Advances/Consolidations): place a Hellstorm template touching Ka'bandha's base — each unit underneath suffers auto S6 AP- hits equal to the number of unsaved Wounds Ka'bandha inflicted in melee that phase (excluding Combat result modifiers).</description>
+          <description>End of Assault phase (after Sweeping Advances/Consolidations): place Hellstorm template touching Ka'bandha's base. Each unit under template suffers X auto S6 AP- hits, where X = unsaved Wounds Ka'bandha caused by melee this phase (excl. Combat result modifiers).</description>
         </rule>
       </rules>
       <constraints>
@@ -2782,11 +2782,11 @@ Lord of Decay – All units with the Daemon Unit Type and the Ætheric Dominion 
       </infoLinks>
       <rules>
         <rule name="Herald of Pestilence" hidden="false" id="fc29-4aab-e747-e89c" publicationId="8775-88f5-cfdd-24f6" page="20">
-          <description>Psyker with Biomancy discipline only (no other disciplines may be selected); included at no extra points cost.</description>
+          <description>Psyker with Biomancy (Core Discipline) only; no additional points cost.</description>
         </rule>
         <rule name="Noisome Tide of Flesh" hidden="false" id="9061-4463-fd6e-2096" publicationId="8775-88f5-cfdd-24f6" page="20">
-          <description>- Ignores Difficult Terrain penalties when moving or charging.
-- On death: all non-Daemon models within 5" suffer a S6 AP- hit; any unit that suffers ≥1 hit must take a Pinning test. Then remove from battlefield.</description>
+          <description>- Ignores Difficult Terrain penalties for movement and charges.
+- On death: each non-Daemon model within 5" inflicts 1 S6 AP- hit on its unit; any unit hit must take a Pinning test. Then remove model.</description>
         </rule>
       </rules>
       <constraints>
@@ -2970,8 +2970,8 @@ The End and the Death – When fighting in a Challenge, successful Invulnerable 
       </constraints>
       <rules>
         <rule id="5e11-449-7dab-87f5" name="Whispers of Madness" publicationId="8775-88f5-cfdd-24f6" page="21" hidden="false">
-          <description>- While in Reserves (not yet arrived): opposing Reserves rolls suffer -1 (non-stacking; use highest single modifier).
-- Models within 18" suffer -2 Ld for Psychic checks (cumulative).
+          <description>- While in Reserve (not yet arrived): opposing Reserves rolls -1 (doesn't stack; use highest single negative modifier).
+- Models within 18": Ld-2 for Psychic checks (cumulative).
 - While locked in combat: Fear (1) becomes Fear (2).</description>
         </rule>
       </rules>
@@ -3311,15 +3311,17 @@ Cannot activate during Reactions. Models arriving from reserve count as activate
   </catalogueLinks>
   <sharedRules>
     <rule name="Immaterial Blades (X)" hidden="false" id="8d0-4d35-7d40-bc09" publicationId="8775-88f5-cfdd-24f6" page="22">
-      <description>To Wound/Armour Penetration rolls of 6+: resolve at AP(X) instead of the weapon's normal AP.</description>
+      <description>To Wound or Armour Penetration ≥ 6: AP(X).</description>
     </rule>
     <rule name="Unbound" hidden="false" id="40ce-bba7-f433-6089" publicationId="8775-88f5-cfdd-24f6" page="22">
-      <description>Cannot be taken in the same army as the Bound version of this model.</description>
+      <description>Can't be included alongside this model's Bound version.</description>
     </rule>
     <rule name="Herald of Unreality" hidden="false" id="76ba-1913-c091-2860" publicationId="8775-88f5-cfdd-24f6" page="22">
-      <description>- At battle start, place up to 2 friendly Daemon units from the same Detachment into Reserve (+1 per additional model with this rule beyond the first). These units may only enter play via Warp Rift; no Reserves rolls are made.
-- Instead of shooting, place a Blast (3") marker in base contact with this model (not over other models). Choose one Daemon unit held in Reserve this way and deploy it onto the battlefield from any point along the marker's edge as if entering from Reserves.
-- Remove the marker once the unit finishes moving on. The arriving unit may act normally in the Shooting phase and may declare a Charge the same turn.</description>
+      <description>- Each model with this rule allows 2 Daemon units from the same Detachment to be placed in Reserve (no Reserves rolls); each additional model with this rule adds 1 more.
+- Instead of Shooting: place a Blast (3") marker in base contact with this model, not over any models (Warp Rift).
+- Move one reserved Daemon unit onto the battlefield from any point along the Warp Rift marker's edge, treating it as your battlefield edge (for this purpose only).
+- Remove marker once all models have deployed.
+- Arriving unit can Shoot and declare Charges normally that turn.</description>
     </rule>
   </sharedRules>
   <selectionEntries>

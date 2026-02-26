@@ -737,10 +737,11 @@
           </profiles>
           <rules>
             <rule id="7200-67f2-84a8-9bad" name="The Muster of Worlds" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>Detachment with a Force Commander may select up to 2 Provenances. Effects apply to all units with the Militia Sub-type in the same Detachment unless stated otherwise.
-- Units with the Mechanised Sub-type never benefit unless the Provenance specifically states otherwise.
-- Some Provenances cannot be combined or impose army-wide restrictions; choose before building the rest of your army.
-- Some Provenances unlock special equipment or unit options (paid for separately, per unit).</description>
+              <description>- Detachment with a Force Commander can take up to 2 Provenances (max 2 regardless of Force Commanders present).
+- Effects apply to all Militia Sub-type units in the Detachment unless noted.
+- Mechanised Sub-type units never benefit unless the Provenance explicitly states otherwise.
+- Some Provenances can't be combined or impose army-wide restrictions — choose before building the rest of the army.
+- Some Provenances unlock equipment/unit options paid for separately, per unit.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1415,12 +1416,13 @@
               </profiles>
               <rules>
                 <rule id="fef0-61ab-c1ec-1110" name="Militia Medicae Support" publicationId="48c2-d023-0069-001a" page="22" hidden="false">
-                  <description>Before deployment, each model must be assigned to a friendly Infantry (Militia) unit; max 1 per unit.
-
-- Once assigned, the Medicae is part of that unit permanently (removed with it).
-- Gains the unit's special rules (except those that forbid it, e.g. Bitter Duty) and Sub-types, but not its Wargear options.
-- Never awards Victory Points when removed as a casualty.
-- May only join Ogryn Brute Squads if selected from a Detachment with the Ogryn Conscripts Provenance.</description>
+                  <description>Before Turn 1, before deployment, each model must be assigned to a unit:
+- Only all-Infantry, all-Militia Sub-type units eligible.
+- Max 1 Militia Medicae per unit.
+- Permanently joins unit; can't leave. Removed with unit if destroyed.
+- No Victory Points awarded for removing as casualty.
+- Gains unit's special rules (except those forbidding it, e.g. Bitter Duty) and Sub-types; no access to unit's Wargear options.
+- Only Medicae from an Ogryn Conscripts Provenance Detachment can be assigned to Ogryn Brute Squads.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -1734,14 +1736,17 @@
           </profiles>
           <rules>
             <rule id="b0c9-5a50-c3fd-c3ed" name="Instil Order" publicationId="48c2-d023-0069-001a" page="13" hidden="false">
-              <description>Failed Morale check: may re-roll, but the unit suffers D3 AP- Wounds (allocated by controlling player; cannot be allocated to Independent Characters, the Discipline Master, or Militia Medicae).</description>
+              <description>Failed Morale check: re-roll allowed; if taken, suffer D3 Wounds at AP— allocated by controlling player (not to Independent Characters, the Discipline Master, or Militia Medicae).</description>
             </rule>
             <rule id="c4fc-6361-79b1-0c04" name="Among the Ranks" publicationId="48c2-d023-0069-001a" page="13" hidden="false">
-              <description>Before deployment, each model must be permanently assigned to a friendly Infantry (Militia) unit (one per unit). Mounted Discipline Masters must join a Cavalry Squad instead.
-
-- Once assigned, treated as part of that unit; cannot leave, and is removed if the unit is destroyed.
-- Gains the unit's special rules (except those that forbid it) and Sub-types, but not its Wargear options.
-- Never awards Victory Points when removed as a casualty.</description>
+              <description>- Fills 1 Force Org slot; bought normally.
+- Before deployment, each model must be assigned to a same-Detachment unit:
+  - Standard: all-Infantry, Militia sub-type units only.
+  - Mounted Discipline Master: Imperialis Militia Cavalry Squad only.
+- Max 1 Discipline Master per unit.
+- Once assigned: permanent — can't leave; removed if host unit is destroyed.
+- Never awards Victory Points when killed.
+- Gains host unit's special rules (except those that forbid it, e.g. Bitter Duty) and Sub-types, but not its Wargear options.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3648,8 +3653,8 @@
               </constraints>
               <rules>
                 <rule id="e5da-18a3-fb79-318f" name="Expendable" publicationId="48c2-d023-0069-001a" page="18" hidden="false">
-                  <description>- Destroying this unit never grants the opponent Victory Points.
-- Failed Morale checks: unit is removed as casualties instead of Falling Back.</description>
+                  <description>- Opponent gains no VP for destroying this unit.
+- Failed Morale: unit doesn't Fall Back — remove all models as casualties.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -7272,9 +7277,9 @@
           </constraints>
           <rules>
             <rule id="1c26-667c-ef05-433f" name="Beastmasters" publicationId="48c2-d023-0069-001a" page="28" hidden="false">
-              <description>If all Handlers are removed as casualties, surviving War Beasts:
-- Movement phase: must move toward the closest visible enemy unit; if none in LoS, become Pinned until start of next turn.
-- Assault phase: must Charge the nearest eligible enemy within 12" (controlling player chooses target); fight normally if already locked in combat.</description>
+              <description>If all Militia Handlers are removed as casualties:
+- Movement phase: War Beasts must move toward the closest visible enemy unit; if none in LoS, unit is Pinned until Start of controlling player's next turn.
+- Assault phase: must Charge if any eligible target is within 12" (controlling player chooses which); if locked in combat, fights as normal.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7820,7 +7825,7 @@
               </profiles>
               <rules>
                 <rule id="1adc-9dcc-4eb8-0f48" name="Militia Artillerists" publicationId="48c2-d023-0069-001a" page="31" hidden="false">
-                  <description>Shooting phase: number of Rapier Carriers that may shoot equals the number of Militia Gunners in the unit (1 Gunner required per Carrier).</description>
+                  <description>Shooting phase: Rapier Carriers can shoot only if paired with a Militia Gunner. If Gunners &lt; Carriers, only Carriers equal to the number of Gunners may shoot.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8628,9 +8633,9 @@
               </profiles>
               <rules>
                 <rule id="1e01-7a98-dc6f-561f" name="Man the Guns" publicationId="48c2-d023-0069-001a" page="34" hidden="false">
-                  <description>- Max Gun Carriages firing = number of Gunners in the unit; controlling player chooses which fire.
-- If fewer than 2 Gunners per Gun Carriage: all Gun Carriages shoot at BS1 and 'Hit' results on the Scatter dice must be re-rolled.
-- If forced to Fall Back, all models in the unit are immediately removed as casualties.</description>
+                  <description>- Max firing Gun Carriages = number of Militia Gunners in unit; choose which fire.
+- If Militia Gunners &lt; 2 per Gun Carriage: all Gun Carriages shoot at BS1; re-roll Hit results on Scatter dice.
+- If unit Falls Back: all models removed as casualties.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9874,7 +9879,7 @@
           </profiles>
           <rules>
             <rule id="1674-34cb-eca9-6375" name="Rogue Psyker" hidden="false">
-              <description>Gains the Anathemata Psychic Discipline only; may not select other disciplines, powers, or Psychic Weapons.</description>
+              <description>Gains Anathemata Psychic Discipline only; can't select other disciplines, powers, or Psychic Weapons.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -11533,15 +11538,15 @@ While activated:
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="ac7b-72f5-82f9-23d6" name="Militia Cavalry Mount" publicationId="48c2-d023-0069-001a" page="37" hidden="false">
-      <description>- Run: gain Shrouded (5+) until start of next turn.
-- Infantry models that take this upgrade change Unit Type to Cavalry (retaining any Sub-types).</description>
+      <description>- Run: gain Shrouded (5+) until start of your next turn.
+- Infantry selecting this upgrade becomes Cavalry (retaining Sub-types).</description>
     </rule>
     <rule id="e626-c3b1-e724-c6fc" name="Provenance" hidden="false">
-      <description>No description provided to summarize.</description>
+      <description>*(No rule text provided — cannot summarize.)*</description>
     </rule>
     <rule id="976f-9e14-413c-5bea" name="Emplaced" publicationId="48c2-d023-0069-001a" page="24" hidden="false">
-      <description>- May only make Return Fire, Overwatch, or Interceptor Reactions.
-- If forced to Fall Back, all models are removed as casualties.</description>
+      <description>- Can only make Return Fire, Overwatch, or Interceptor Reactions.
+- If forced to Fall Back, all models die instantly.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

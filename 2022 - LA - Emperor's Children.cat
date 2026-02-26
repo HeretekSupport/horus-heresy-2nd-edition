@@ -3145,13 +3145,13 @@
 Sire of the Emperor’s Children - All friendly models with the Legiones Astartes (Emperor’s Children) that can draw a line of sight to Fulgrim may use Fulgrim’s Leadership Characteristic for all Morale and Pinning checks they are required to take and all friendly units with the Legiones Astartes (Emperor’s Children) special rule on the battlefield while Fulgrim is also on the battlefield gain +1 to the Wound value used to calculate if the unit has won a close combat. In addition, the first Reaction made in each Game Turn by Fulgrim and any unit he has joined does not use up a point of the controlling player’s Reaction Allotment.</description>
             </rule>
             <rule id="fb22-25ac-6bd6-52ee" name="The Gilded Panoply" hidden="false">
-              <description>2+ armour save; 3+ invulnerable vs. melee; 4+ invulnerable vs. all other wounds.</description>
+              <description>Sv2+; 3+ Inv vs melee; 4+ Inv vs all other wounds.</description>
             </rule>
             <rule id="89df-f48f-5c11-d109" name="Sublime Swordsman" hidden="false">
-              <description>In a Challenge, gains bonus attacks equal to the difference between his I and the opponent's I.</description>
+              <description>In a Challenge: +A equal to Fulgrim's I minus opponent's I (min 0).</description>
             </rule>
             <rule id="8684-608d-8f41-b907" name="Tactical Excellence" hidden="false">
-              <description>Once per battle, at the start of any phase: enemy units must pass a Ld test to declare Reactions vs Fulgrim or his unit that phase (exempting units with at least one Primarch).</description>
+              <description>Once per battle, Start of any phase: enemy units must pass a Ld test (highest Ld in unit) to React vs Fulgrim's unit's Moves, Shooting, or Charges. Exempt: units with at least one Primarch.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4263,9 +4263,9 @@ A unit with this special rule gains +1 to the score used to calculate the winner
           </profiles>
           <rules>
             <rule id="abd6-aa34-8bbe-a4c8" name="A Brother Betrayed" hidden="false">
-              <description>While locked in combat with an enemy Emperor's Children Independent Character (or a unit they've joined): +1 WS, +1 S, +1 T.
-- Enemy Emperor's Children Independent Character removed as a casualty while engaged: +1 VP.
-- Captain Lucius removed as a casualty in a Challenge with Tarvitz: +2 VP instead.</description>
+              <description>While locked in combat with an Independent Character with Legiones Astartes (Emperor's Children), or a unit they've joined: +1 WS, +1 S, +1 T.
+- Enemy Independent Character with Legiones Astartes (Emperor's Children) killed while in combat with Tarvitz or his unit: +1 VP.
+- Captain Lucius killed in a Challenge with Tarvitz: +2 VP instead.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4442,10 +4442,10 @@ If any of these are true then Captain Saul Tarvitz and any friendly units with a
           </profiles>
           <rules>
             <rule id="65da-d71b-ef30-53f3" name="Supreme Duellist" hidden="false">
-              <description>Challenges: if Lucius's I exceeds his opponent's, gain +1A.</description>
+              <description>In challenges, if Lucius' I &gt; opponent's I: +1A.</description>
             </rule>
             <rule id="d3fc-aa62-15c9-a3fa" name="Blade of the Laer" hidden="false">
-              <description>Cannot be taken in the same army as Fulgrim.</description>
+              <description>Can't be taken in the same army as Fulgrim.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4719,15 +4719,15 @@ If any of these are true then Captain Saul Tarvitz and any friendly units with a
       </constraints>
       <rules>
         <rule id="7323-707b-b5fb-ba70" name="Precision Fire" publicationId="09b3-d525-cdea-260c" page="14" hidden="false">
-          <description>Shooting attacks ignore Cover saves and Damage Mitigation rolls (not when firing Snap Shots).</description>
+          <description>Shooting wounds ignore Cover saves and Damage Mitigation rolls (not when Snap Shots).</description>
         </rule>
         <rule id="cb68-f549-a3ba-85bf" name="Fortified Position" publicationId="09b3-d525-cdea-260c" page="14" hidden="false">
-          <description>May take a Defence Line for free from the Force Organisation chart (points cost still applies; only if no Dedicated Transport is taken).</description>
+          <description>Can replace Dedicated Transport with a Defence Line (no Fortification FOC slot; points still count toward army total).</description>
         </rule>
         <rule id="4ddb-6ad8-15eb-a95f" name="Designated Quarry" publicationId="09b3-d525-cdea-260c" page="14" hidden="false">
-          <description>After setup (incl. Infiltrators), choose 1 enemy Gargantuan, Super-heavy, Knight, or Titan unit as Designated Quarry:
-- Shooting vs Quarry: re-roll failed To Wound rolls of 1.
-- Shooting vs Quarry (if Armour Value): +1 to Vehicle Damage chart results.</description>
+          <description>After deployment (incl. Infiltrators), choose 1 enemy Gargantuan/Super-heavy/Knight/Titan unit as Designated Quarry:
+- Shooting vs Quarry: re-roll failed To Wound of 1.
+- Shooting vs Quarry with Armour Value: +1 to Vehicle Damage chart results.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6040,7 +6040,7 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
               <modifiers>
                 <modifier type="set" value="Wrathful Blows (3)" field="name"/>
               </modifiers>
-              <description>Attacks with this weapon are always made at A(X), regardless of Attacks characteristic or Charge bonuses.</description>
+              <description>Attacks with this weapon: always X attacks, ignoring A characteristic and Charge bonuses.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -6068,19 +6068,21 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
           </profiles>
           <rules>
             <rule name="Serpentine Daemonform" hidden="false" id="e3b2-8fb5-bcc7-5a7">
-              <description>- 2+ Armour Save, 4+ Invulnerable Save.
-- While at ≤4 Wounds: +1 to It Will Not Die rolls.
-- At the start of your turn, if at ≤2 Wounds and not locked in combat, you may remove Fulgrim Transfigured as a casualty — opponent scores no Objectives or Secondary Objectives for his removal.</description>
+              <description>- Sv2+, Inv4+.
+- While W≤4: +1 to It Will Not Die (X) rolls.
+- Start of player turn: if W≤2 and not in combat, can remove Fulgrim Transfigured as a casualty — opponent scores no Objectives/Secondary Objectives from his removal.</description>
             </rule>
             <rule name="Scion of Corruption" hidden="false" id="3f52-b4da-3c51-21f7" publicationId="7f9d-5e88-241d-e861" page="105">
               <description>- All Legiones Astartes (Emperor's Children) units replace that rule with Legiones Hereticus (Emperor's Children).
-- Cannot be included in the same army as Fulgrim.</description>
+- Can't include alongside Fulgrim.</description>
             </rule>
             <rule name="Resplendent Wings" hidden="false" id="c3ef-7907-9642-bdcd" publicationId="7f9d-5e88-241d-e861" page="105">
-              <description>- Start of Movement phase: may set M to 14" for the turn (incl. Charge bonus).
-- While activated: ignores terrain when Moving/Charging; treats Difficult Terrain as Dangerous Terrain; may move over any models but must end ≥1" from other units; must still take Dangerous Terrain tests when beginning/ending in Dangerous Terrain.
-- Run (activated): move up to 14 + Initiative value in inches; ignores terrain and other units while doing so.
-- Cannot activate during Reactions.</description>
+              <description>Start of Movement phase: can activate (M14 for the turn):
+- Move up to 14" regardless of profile M; gains all M14 benefits (incl. Charge bonus).
+- Ignores terrain while Moving/Charging; treat Difficult Terrain as Dangerous Terrain; must still take Dangerous Terrain tests when beginning/ending in Dangerous Terrain.
+- Can move over friendly/enemy models; must end ≥1" from other units.
+- Run: move up to 14+I"; ignores terrain and other units' models while doing so. Can't shoot or Charge that turn.
+- Can't activate during a Reaction.</description>
             </rule>
           </rules>
           <infoLinks>
