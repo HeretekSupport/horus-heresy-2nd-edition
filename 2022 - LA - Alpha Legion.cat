@@ -5444,7 +5444,7 @@
     <selectionEntry id="6161-d387-f086-0958" name="Lernaean Terminator Squad" publicationId="09c5-eeae-f398-b653" page="338" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="e2f0-815b-eec3-19e0" name="Hydran Exemplars" publicationId="09c5-eeae-f398-b653" page="338" hidden="false">
-          <description>The controlling player of a unit composed entirely of models with this special rule must select any one variant of the Legiones Astartes (X) special rule other than Legiones Astartes (Alpha Legion) at the start of the battle before any models are deployed. All models in the unit with this special rule gain a bonus of +1 to all To Hit rolls made against models with the chosen variant of the Legiones Astartes (X) special rule.</description>
+          <description>Before deployment, choose one Legiones Astartes (X) variant (not Alpha Legion). All models in this unit gain +1 To Hit against models with that variant.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5801,10 +5801,10 @@
           <description>When Exodus makes any attacks as part of a Shooting Attack, the range of any Weapons is not restricted or affected by the Night Fight rules, Shroud bombs or any other special rule. In addition, Exodus never suffers any penalty to his Ballistic Skill from Night Fight or any other special rules, always makes To Hit rolls using his full Ballistic Skill (including Snap Shots) and no model may make Shrouded rolls to negate Wounds inflicted by their attacks.</description>
         </rule>
         <rule id="b184-c6bf-4ef7-9ff6" name="Lone Killer" publicationId="09c5-eeae-f398-b653" page="340" hidden="false">
-          <description>Exodus may not be taken as a compulsory HQ choice, only as an non-Compulsory HQ choice. He may never be an army’s Warlord, and may not join other units except Legion Reconnaissance squads or Alpha Legion Headhunter Kill Teams.</description>
+          <description>Cannot be taken as a compulsory HQ choice, cannot be Warlord. May only join Legion Reconnaissance squads or Alpha Legion Headhunter Kill Teams.</description>
         </rule>
         <rule id="4589-afa6-c49c-571c" name="The Hidden Hand" publicationId="09c5-eeae-f398-b653" page="340" hidden="false">
-          <description>When deploying Exodus onto the battlefield at the start of the battle, the controlling player may place him in any position on the battlefield, as long as Exodus is within Area Terrain, or at least 9&quot; from any enemy model if Exodus is not within Area Terrain, regardless of the Line of Sight or Proximity of enemy models. If Exodus is deployed from Reserve after the start of the first turn, then he may enter play from any point on the battlefield’s edge, chosen by the controlling player. If Exodus joins a unit during deployment or whilst in Reserves and is deployed as part of that unit, he may not use any of the benefits of this special rule, but instead gains the Scout and Infiltrate special rules only if the unit he has joined also possesses those special rules.</description>
+          <description>Deploy anywhere on the battlefield (must be in Area Terrain, or ≥9" from all enemies if not). If arriving from Reserve, may enter from any table edge. If deployed with a joined unit, loses these benefits but gains Scout and Infiltrate if the unit has them.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5854,7 +5854,7 @@
           </profiles>
           <rules>
             <rule id="f712-a5ca-0d57-be86" name="Deadly Aim" publicationId="09c5-eeae-f398-b653" page="341" hidden="false">
-              <description>If Exodus has not moved in the turn a Shooting Attack is made using this profile, the attack may be given the Brutal (2) special rule. if the attack is given the Brutal (2) special rule then no Charges may be declared for Exodus in that turn.</description>
+              <description>If Exodus hasn't moved this turn, the attack gains Brutal (2); if so, Exodus may not Charge this turn.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6507,7 +6507,7 @@
       </constraints>
       <rules>
         <rule id="301d-c969-8e51-1350" name="Weapon Master" publicationId="09c5-eeae-f398-b653" page="343" hidden="false">
-          <description>When attacking during the Assault phase, Armillus Dynat may choose to split his attacks between any of the weapons he has, declaring which Attacks will be used with which weapon profiles before any of his Attacks are rolled.</description>
+          <description>May split attacks freely among his weapons each Assault phase; declare the split before rolling.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6667,13 +6667,13 @@
       </constraints>
       <rules>
         <rule id="523b-f763-4a49-cc39" name="Everywhere and Nowhere" publicationId="09c5-eeae-f398-b653" page="337" hidden="false">
-          <description>At the start of the battle before any models are deployed, Alpharius may be given any one of the following special rules: Infiltrate, Scout or Deep Strike. Alpharius&apos; controlling player may select up to three friendly units composed entirely of models with the Legiones Astartes (Alpha Legion) special rule to receive the same special rule granted to Alpharius by Everywhere and Nowhere.</description>
+          <description>Before deployment, grant Alpharius one of: Infiltrate, Scout, or Deep Strike. Up to 3 friendly Alpha Legion units receive the same rule.</description>
         </rule>
         <rule id="e9f2-c215-0152-8111" name="Insidious Mastermind" publicationId="09c5-eeae-f398-b653" page="337" hidden="false">
-          <description>At the start of any turn in which Alpharius&apos; controlling player is the Active player and Alpharius is on the battlefield (including when Embarked on a model with the Transport Sub-type or Building), the controlling player may grant one of the listed special rules to all models in the army with the Legiones Astartes (Alpha Legion) special rule (including Alpharius) that do not also have the Vehicle Unit Type, until the start of the controlling player&apos;s next turn as the Active player. Each of the listed special rules may only be selected once per battle:
-- The Fleet (2) special rule
-- The Preferred Enemy (Everything) special rule
-- The Sudden Strike (1) special rule</description>
+          <description>Once per turn (when Active, Alpharius on battlefield), grant all non-Vehicle Alpha Legion models one of the following for the round. Each may only be chosen once per battle:
+- Fleet (2)
+- Preferred Enemy (Everything)
+- Sudden Strike (1)</description>
         </rule>
       </rules>
       <infoLinks>
@@ -7061,9 +7061,7 @@
           </profiles>
           <rules>
             <rule id="c675-a2ae-8008-f884" name="Hydra’s Wail" publicationId="d13e-e1ff-5dc7-b84b" hidden="false">
-              <description>A unit that suffers one or more Hits from a weapon with this special rule must reduce their Leadership characteristic by -1 until the end of their controlling player’s next turn. A unit can only be affected by a single instance of the Hydra’s Wail special rule at a time. In addition, units affected by this special rule do not gain the benefits of any wargear that models in that unit have that includes ‘augury’ or ‘vox’ in its name until the start of the Active player’s next turn.
-
-A weapon with this special rule may not be used to make Shooting Attacks as part of a Reaction and may not be used to make Snap Shots.</description>
+              <description>On hit: target unit suffers –1 Leadership and loses benefits of any augury/vox wargear until the start of your next turn (one instance max). Cannot be used for Reactions or Snap Shots.</description>
             </rule>
           </rules>
           <costs>

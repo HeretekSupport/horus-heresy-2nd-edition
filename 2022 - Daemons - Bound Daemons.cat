@@ -121,10 +121,10 @@
     <selectionEntry id="2a1a-034a-de1a-be56" name="Daemon" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="29d9-b080-8adf-6236" name="NOTE TO SELF 1 Putrid Corruption" hidden="false">
-          <description>If unit has putrid corruption dominion, give unit &quot;Heavy&quot; sub-type</description>
+          <description>Unit gains the Heavy sub-type while it has Putrid Corruption dominion.</description>
         </rule>
         <rule id="4505-5b02-e639-3f7a" name="NOTE TO SELF 2 Infernal Tempest" hidden="false">
-          <description>If unit has Hammer of Wrath, then increase the value by one if they have the infernal tempest Dominion</description>
+          <description>If the unit has Hammer of Wrath, increase its value by 1 while in the Infernal Tempest Dominion.</description>
         </rule>
       </rules>
       <costs>
@@ -155,9 +155,7 @@
       </profiles>
       <rules>
         <rule id="081c-3c1b-c85a-17b1" name="Whispers of Madness" publicationId="cb13-da24-e6da-75b3" page="16" hidden="false">
-          <description>• If Bound Samus has been placed in Reserves and has not yet arrived on the battlefield, Reserves rolls made by an opposing player to bring units into play from Reserve are modified by -1. This modifier does not stack with any other negative modifiers to Reserves rolls – use the highest single modifier instead.
-• Any model within 18&quot; of Bound Samus must reduce its Leadership by -2 when making Psychic checks. This modifier is cumulative with other effects that reduce Leadership for the purposes of making Psychic checks.
-• While locked in combat, Bound Samus increases the value of its Fear (1) special rule to Fear (2).</description>
+          <description>While in Reserves, opposing Reserves rolls suffer -1 (non-stacking; use highest single modifier). Models within 18" reduce Leadership by -2 for Psychic checks (cumulative). While locked in combat, Fear (1) becomes Fear (2).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -558,10 +556,10 @@ The End and the Death – When fighting in a Challenge, successful Invulnerable 
       </profiles>
       <rules>
         <rule id="d2bf-13ec-b74e-0e49" name="Eternal Rivalry" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false">
-          <description>If Sanguinius is removed as a casualty while fighting in a Challenge against Ka&apos;bandha, Ka&apos;bandha&apos;s controlling player scores 2 Victory points – this is in addition to any points scored for Slay the Warlord. However, if Ka&apos;bandha is removed as a casualty while it is fighting in a Challenge against Sanguinius, Ka&apos;bandha&apos;s controlling player instead loses 1 Victory point.</description>
+          <description>If Sanguinius is slain in a Challenge against Ka'bandha, Ka'bandha's player scores 2 VP (in addition to Slay the Warlord). If Ka'bandha is slain in a Challenge against Sanguinius, Ka'bandha's player loses 1 VP.</description>
         </rule>
         <rule id="8ed4-f0ee-376a-7a5b" name="Scythe of Hatred" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false">
-          <description>At the end of any Assault phase, after the results of any combats have been worked out and Sweeping Advances and Consolidations have been completed, Ka&apos;bandha may make a special Scythe of Hatred attack. To resolve this attack, the controlling player places a Hellstorm template with the narrow end in contact with Ka&apos;bandha’s base. Any unit with models underneath the template suffers a number of automatic S6, AP- Hits equal to the number of unsaved Wounds caused by Melee Attacks made by Ka&apos;bandha during the preceding Assault phase (this does not include any modifiers to the score used to determine who won a Combat).</description>
+          <description>At the end of each Assault phase (after Sweeping Advances/Consolidations), place a Hellstorm template touching Ka'bandha's base. Units under it suffer automatic S6 AP- hits equal to the number of unsaved Wounds Ka'bandha caused that phase (modifiers excluded).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -899,10 +897,10 @@ During a Reaction made in any Phase, a player may not choose to activate a model
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="e2de-47bf-2a1c-45e5" name="Bound Malefica" publicationId="cb13-da24-e6da-75b3" page="11" hidden="false">
-      <description>Units entirely composed of models with the Bound Malefica special rule are considered to be part of the Ruinstorm Daemon Army List for the purposes of any special rule which allows Ruinstorm Daemon units to be included in a Detachment drawn from a different Army List, or which grants Ruinstorm Daemon units an alternative method of deploying from Reserves, such as the Legion Esoterist’s Breach the Veil Psychic Power or High Chaplain Erebus’ Harbinger of Chaos special rule (see page 321 of the Liber Hereticus: Traitor Legiones Astartes Army Book). Units selected in this manner retain the Agents of the Warmaster Faction and Bound Daemons Sub-faction.</description>
+      <description>Counts as Ruinstorm Daemon units for rules that allow them in other Detachments or grant alternative Reserve deployment methods. Retains Agents of the Warmaster Faction and Bound Daemons Sub-faction.</description>
     </rule>
     <rule name="Daemonic Armaments" id="e30b-4e6e-1845-e081" hidden="false" publicationId="cb13-da24-e6da-75b3">
-      <description>All weapons listed here are counted as &quot;Daemonic&quot; weapons for those rules that affect such weapons.</description>
+      <description>All listed weapons count as Daemonic for relevant rules.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

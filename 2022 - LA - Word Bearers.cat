@@ -3786,9 +3786,7 @@
       </constraints>
       <rules>
         <rule id="06a1-0713-e45f-c817" name="The Power of the Word" hidden="false">
-          <description>Any Legion Command Squad, Legion Cataphractii Command Squad or Legion Tartaros Command Squad selected as a Retinue Squad with Lorgar as it&apos;s leader gains the Fearless and Feel No Pain (4+) special rules.
-
-In addition, once per battle, one friendly unit composed entirely of models with the Infantry or Cavalry Unit Type with at least one model within 18&quot; of Lorgar (But not a unit that includes Lorgar himself) may be selected at the start of any Game Turn. The chosen units gain the Fearless and Feel No Pain (4+) special rules for the duration of that Game Turn.</description>
+          <description>Lorgar's Retinue Squad gains Fearless and Feel No Pain (4+). Once per battle, at the start of any Game Turn, one friendly Infantry or Cavalry unit within 18" gains Fearless and Feel No Pain (4+) until end of that turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3929,7 +3927,7 @@ In addition, once per battle, one friendly unit composed entirely of models with
               </profiles>
               <rules>
                 <rule id="dd9f-da4f-0fe6-94b1" name="Lorgar Transfigured" hidden="false">
-                  <description>An army that includes Lorgar Transfigured may fill any non-compulsory slots in it Force Organization chart with units from the Ruinstorm Daemon army list - These choices are paid for in points and occupy slots on the Force Organisation chart as normal, but must begin the battle in reserve and may only enter play by means of the Breach the Veil Psychic Power.</description>
+                  <description>Non-compulsory FOC slots may be filled with Ruinstorm Daemon units. These units must begin in Reserve and can only enter play via the Breach the Veil Psychic Power.</description>
                 </rule>
               </rules>
               <entryLinks>
@@ -3993,7 +3991,7 @@ In addition, once per battle, one friendly unit composed entirely of models with
     <selectionEntry id="f4e7-a798-a322-dc10" name="Ashen Circle" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="86c5-bc44-0e58-b21e" name="Scorched Earth" hidden="false">
-          <description>When a model with this special rule inflicts hits due to the Hammer of Wrath (X) special rule, it inflicts an additional Hit (so, a model with Hammer of Wrath (1) would inflict 2 Hits), and all Hits inflicted due to the Hammer of Wrath (X) special rule gain a bonus of +1 to their Strength (this is cumulative with any other modifiers that may be applied to such Hits) and are counted as ‘Flame’ attacks for those rules that modify such attacks.</description>
+          <description>Hammer of Wrath hits gain +1 Strength, count as Flame attacks, and inflict 1 additional hit.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4239,10 +4237,10 @@ In addition, once per battle, one friendly unit composed entirely of models with
       </profiles>
       <rules>
         <rule id="bc78-fcfb-5f3c-4784" name="Accursed" hidden="false">
-          <description>All models with the Daemon unit type and/or Psyker or Corrupted sub-type must reduce their Toughness and Strength by -1 while they are within 6” of a model with this special rule. Models that also have this special rule are immune to its effects.</description>
+          <description>Enemy Daemons, Psykers, and Corrupted models within 6" suffer –1 Strength and –1 Toughness. Models with Accursed are immune.</description>
         </rule>
         <rule id="45ab-1eab-709c-3d1f" name="Shroud of Dark Fire" hidden="false">
-          <description>Any Hit allocated to a model with this special rule from a plasma, flame, melta or volkite weapon has its Strength reduced by -1. In addition, a model with this special rule gains a 5+ Invulnerable Save and should it suffer an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. If a model with this special rule loses its last Wound or Hull Point, but before it is removed as a casualty, all models both friendly and enemy within D6+6” suffer an automatic Hit at Strength 8 and with an AP of -.</description>
+          <description>Hits from plasma, flame, melta, or volkite weapons have Strength –1. Grants a 5+ Invulnerable Save; Instant Death instead inflicts D3 Wounds per unsaved Wound. On death, all models within D6+6" suffer an automatic S8, AP– hit.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4705,7 +4703,7 @@ Psychic Weapon</description>
           </constraints>
           <rules>
             <rule id="6a4e-07f4-d6ed-af74" name="Harbinger of Chaos" hidden="false">
-              <description>A Detachment that includes High Chaplain Erebus may select up to three non-compulsory Elites or HQ choices from the Ruinstorm Daemon army list - these choices are paid for in points and occupy slots on the Force Organisation chart as normal, but must begin the game in Reserve and may only enter play by means of the Breach the Veil Psychic power detailed below.</description>
+              <description>Up to 3 non-compulsory Elites or HQ choices may be selected from the Ruinstorm Daemon army list. These cost points and occupy Force Org slots normally, but must start in Reserve and may only enter play via Breach the Veil.</description>
             </rule>
           </rules>
           <costs>
@@ -4806,7 +4804,7 @@ Psychic Weapon</description>
       </constraints>
       <rules>
         <rule id="94ed-f7c4-3c14-dacd" name="Jealous Command" hidden="false">
-          <description>If Kor Phaeron or Lorgar is not chosen as the Warlord of an army that Kor Phaeron is part of, then his Leadership is reduced by -1 and he gains the Hatred (Everything) special rule. When Kor Phaeron is included as the same army as Lorgar, both models gain +1 WS and the Hatred (Everything) special rules while part of the same unit.</description>
+          <description>If not Warlord (and Lorgar is absent or not Warlord): -1 Ld, gains Hatred (Everything). While in the same unit as Lorgar: both gain +1 WS and Hatred (Everything).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4993,7 +4991,7 @@ Threatening Entreaties - Kor Phaeron and the unit he has joined gain the Fearles
       </constraints>
       <rules>
         <rule id="243e-126c-9412-267b" name="Binder of Souls" hidden="false">
-          <description>Zardu Layak gains the Psychic Discipline Soul Binding and may not select any other Psychic Discipline.</description>
+          <description>Knows the Soul Binding Psychic Discipline; may not select any other.</description>
         </rule>
         <rule id="710c-29df-c854-b207" name="Psychic Discipline: Soul Binding" hidden="true">
           <description>A Psyker with this Discipline gains all the listed Powers, Weapon and other special rules, as well as the Aetheric Lightning Psychic Weapon</description>
@@ -5153,7 +5151,7 @@ Threatening Entreaties - Kor Phaeron and the unit he has joined gain the Fearles
           </constraints>
           <rules>
             <rule id="b2c4-083a-57e1-5b34" name="The Eater of Wisdom" hidden="false">
-              <description>If Zardu Layak is the army’s Warlord, then the controlling player may choose up to three friendly units composed entirely of models with the Corrupted Unit Sub-type from the same army as Zardu Layak at the beginning of the battle, before any models are deployed. All models in each of the selected units gains a bonus of +1 to its Strength and Movement Characteristics, but must take a Leadership test at the end of each of the controlling player’s turns. If that Test is failed the unit suffers Perils of the Warp, while if it is not failed there is no effect that turn. In addition, an army with Zardu Layak as its Warlord may make an additional Reaction during the opposing player’s Assault phase as long as Zardu Layak has not been removed as a casualty.&apos;</description>
+              <description>Before deployment, choose up to 3 friendly Corrupted units. They gain +1 Str and +1 Mov, but must pass a Leadership test at the end of each of your turns or suffer Perils of the Warp. While Zardu Layak is alive, your army may make 1 additional Reaction during the opponent's Assault phase.</description>
             </rule>
           </rules>
         </entryLink>
@@ -5173,10 +5171,10 @@ Threatening Entreaties - Kor Phaeron and the unit he has joined gain the Fearles
       </modifiers>
       <rules>
         <rule id="35e0-1a83-5ae2-f9f0" name="Flesh Harvesters" hidden="false">
-          <description>Friendly models with the Psychic Disciplines Harbingers of Chaos, Diabolism, or Anathemata within 6&quot; of a model with this special rule may roll an additional D6 and discard the highest result when making Psychic checks. Additionally, in missions that use Victory points the controlling player gains an additional +1 Victory point for every enemy unit that is removed as a casualty as a result of a Sweeping Advance made by a unit made up of models with this special rule.</description>
+          <description>Friendly models with Harbingers of Chaos, Diabolism, or Anathemata within 6" roll an extra D6 and discard the highest when making Psychic checks. In Victory Point missions, gain +1 VP for each enemy unit destroyed by this unit's Sweeping Advances.</description>
         </rule>
         <rule id="9af7-796f-c6db-fb17" name="Grim Purpose" hidden="false">
-          <description>A unit that includes any models with this special rule may not be joined by any model that does not also have this special rule (this includes Legion Techmarines and Legion Apothecaries, which may not be assigned to a unit with this special rule unless they also have this special rule).</description>
+          <description>Cannot be joined by any model lacking this rule.</description>
         </rule>
       </rules>
       <categoryLinks>

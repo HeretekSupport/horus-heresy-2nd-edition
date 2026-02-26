@@ -3284,13 +3284,13 @@
     <selectionEntry id="95cb-9366-295e-f10d" name="Castellax-Achea Automata" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="01cd-939f-c8a5-3e4a" name="Psy -automata" publicationId="09c5-eeae-f398-b653" page="267" hidden="false">
-          <description>Models with the Psy-automata Sub - type that are not within 6&quot; of a friendly model with the Psyker Sub-type and both the Legiones Astartes (Thousand Sons) and Independent Character special rules are subject to the Programmed Behaviour provision:
-- During both the controlling player s Shooting phase and the Charge sub- phase, a Psy -automata unit must attempt a Shooting Attack and /or Charge if there is an enemy unit within range, and must target the closest enemy unit possible that is within its line of sight and is a valid target for a Shooting Attack or Charge. If two or more targets are equally close then the controlling player chooses which will be the target of a Shooting Attack or Charge.
-• A model with the Psy -automata Sub- type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction where eligible ( this rule on its own does not allow&apos; Automata units to make Reactions).
-• Models with the Psy-automata Sub- type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-• Models with the Psy -automata Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare charges as normal regardless of any Shooting Attacks made in the same turn.
-• Models with the Psy -automata Sub -type ignore any penalties to their Initiative Characteristic when Charging into or through Difficult Terrain or Dangerous Terrain.
-• When using a Psychic Weapon to make a Shooting Attack from within 12&quot; of a Castellax-Achea model, a model with the Psyker Sub- type and with the Legiones Astartes (Thousand Sons) special rule may use the Castellax- Achea model as the origin point of the attack, drawing line of sight and range from it rather than themselves.</description>
+          <description>If not within 6" of a friendly Thousand Sons Independent Character Psyker, must target the closest valid enemy unit when Shooting or Charging (controlling player chooses if tied).
+
+Additionally:
+- May fire all equipped weapons each Shooting Attack (including eligible Reactions).
+- Counts as Stationary even after moving; may declare Charges regardless of Shooting made that turn.
+- Ignores Initiative penalties when Charging through Difficult/Dangerous Terrain.
+- Friendly Thousand Sons Psykers within 12" of a Castellax-Achea may use it as the origin point for Psychic Weapon Shooting Attacks.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3741,7 +3741,7 @@
           </profiles>
           <rules>
             <rule id="176d-6cb5-3c80-4e91" name="Magister of Dust" publicationId="09c5-eeae-f398-b653" page="273" hidden="false">
-              <description>Magistus Amon gains the Divination and Telepathy Disciplines from the Core Psychic Discipline list at no additional points cost and may not select any other Minor Arcana or Psychic Disciplines.</description>
+              <description>Gains Divination and Telepathy Disciplines for free; may not select any other Minor Arcana or Psychic Disciplines.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3980,7 +3980,7 @@
           </profiles>
           <rules>
             <rule id="56e8-160a-ec17-17a1" name="Arch-magister of the Corvidae" hidden="false">
-              <description>Ahriman gains the Minor Arcana Corvidae and the Divination and Thaumaturgy Disciplines from the Core Psychic Discipline list at no additional points cost.</description>
+              <description>Gains Minor Arcana Corvidae and the Divination and Thaumaturgy Disciplines at no additional cost.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4441,7 +4441,7 @@
       </profiles>
       <rules>
         <rule id="71f0-a260-cdcf-947d" name="Warriors of the Khenetai" publicationId="09c5-eeae-f398-b653" page="269" hidden="false">
-          <description>A model with this special rule gains the Mindsong of Blades Psychic Power and may not select a Minor Arcana from those presented by the Prosperine Arcana special rule.</description>
+          <description>Grants the Mindsong of Blades Psychic Power; cannot select a Minor Arcana from Prosperine Arcana.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4794,7 +4794,7 @@
       </constraints>
       <rules>
         <rule id="15df-164f-dd58-b29e" name="The Eye of the Crimson King" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-          <description>When selecting targets for his psychic powers, all models within range are assumed to be in line of sight (except those Embarked upon models with the Transport Sub-type or Buildings).</description>
+          <description>When selecting psychic power targets, all models within range count as visible (except those Embarked in Transports or Buildings).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4823,7 +4823,7 @@
           </constraints>
           <rules>
             <rule id="26cc-e50d-a31d-729d" name="Arch-Sorcerer" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>Magnus the Red has access to all of the Core Psychic Disciplines as presented in the Core Psychic Discipline list. When making a Shooting Attack or attacking during an assault , Magnus may choose to use any one Psychic Weapon available from any Discipline regardless of which Psychic Powers he has used in a given turn. In addition to any other Psychic Power he has used , in each turn Magnus may use any one of the Minor Arcana provided by the Prosperine Arcana special rule, and may use a different Minor Arcana each turn (see page 255). When using a Minor Arcana power , Magnus automatically passes any Psychic checks required without any dice being rolled (this applies only to Minor Arcana powers).</description>
+              <description>Has access to all Core Psychic Disciplines. May use any Psychic Weapon from any Discipline when attacking, regardless of powers used that turn. Additionally, may use one Minor Arcana per turn (may vary each turn); Minor Arcana Psychic checks auto-pass without rolling.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -4940,7 +4940,7 @@
           </profiles>
           <rules>
             <rule id="0d71-0a7d-ca1a-0638" name="Psyfire serpenta" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>The weapon listed here is counted as &quot;Plasma&quot; and &quot;Force&quot; weapon for those rules that affect such weapons.</description>
+              <description>Counts as both Plasma and Force for all related rules.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4968,7 +4968,7 @@
           </profiles>
           <rules>
             <rule id="422a-827d-e765-2c3f" name="The Blade of Ahn-nunurta" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>The weapon listed here is counted as a &quot;Power&quot; and &quot;Force&quot; weapon for those rules that affect such weapons.</description>
+              <description>Counts as both a Power weapon and a Force weapon for all relevant rules.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5099,12 +5099,10 @@
           </profiles>
           <rules>
             <rule id="3d26-05d0-677d-032b" name="Life Warded" hidden="false">
-              <description>No Wounds may be allocated to a Numerologist, regardless of the attacking model’s rules or effects, as long as there is another model without the Life Warded special rule in the unit. If the Numerologist is Engaged in a Challenge — then this rule does not apply. However, if the Numerologist’s controlling player chooses to refuse a Challenge for a unit that includes a model with the Life Warded special rule then the opposing player loses the option to stop one model from participating in the combat.
-
-Additionally, a unit that includes any models with this special rule may not be joined by any model that does not also have this special rule (this includes Legion Techmarines and Legion Apothecaries, which may not be assigned to a unit with this special rule unless they also have this special rule)</description>
+              <description>Cannot be allocated wounds while any other model in the unit lacks this rule (does not apply if Engaged in a Challenge). Refusing a Challenge for this unit costs the opponent their right to exclude one model from combat. Units with this rule cannot be joined by models that lack it.</description>
             </rule>
             <rule id="3a90-1892-53a2-3f82" name="Numerologist Order" hidden="false">
-              <description>A model with this special file gains the Psy-synchronicity Psykic Power and may not select a Minor Arcana from those presented by the Prosperine Arcana special rule.</description>
+              <description>Gains the Psy-synchronicity Psychic Power; cannot select a Minor Arcana from Prosperine Arcana.</description>
             </rule>
           </rules>
           <infoLinks>

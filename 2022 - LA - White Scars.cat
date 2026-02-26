@@ -4174,13 +4174,13 @@
     <selectionEntry id="4372-ad51-04a6-97ce" name="Dark Sons of Death" publicationId="09b3-d525-cdea-260c" page="11" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="7d33-191d-454e-acca" name="Shadow of Death" hidden="false">
-          <description>A unit that includes any models with this special rule may only be joined by a Legion Centurion with the Legiones Consularis: Stormseer upgrade or a Legion Centurion with the Legiones Consularis: Moritat upgrade. Note that Legion Techmarines and Legion Apothecaries may not be assigned to a unit with this special rule unless they also have this special rule.</description>
+          <description>May only be joined by a Centurion with the Stormseer or Moritat upgrade. Techmarines and Apothecaries may not join unless they also have this rule.</description>
         </rule>
         <rule id="33f0-02c4-2542-63e2" name="Stormseer&apos;s Conclave" hidden="true">
           <description>A Dark Sons of Death Squad may be selected as a Retinue Squad in a Detachment that includes a Legion Centurion with the Legiones Consularis: Stormseer upgrade and the Legiones Astartes (White Scars) special rules, instead of as an Elites choice. A unit selected as a ‘Retinue Squad’ must have one Legion Centurion with the Legiones Consularis: Stormseer upgrade and the Legiones Astartes (White Scars) special rules from the same Detachment selected by the controlling player as the Dark Sons of Death Squad’s Leader for the purposes of this special rule. A Dark Sons of Death Squad selected as a Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. A Dark Sons of Death Squad selected as a Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play.</description>
         </rule>
         <rule id="089b-4708-a5a0-4d1b" name="Invocation of Razing Tempest" hidden="false">
-          <description>A unit with at least one model with this special rule gains the Fleet (2) and Rage (2) special rules for the duration of the current Assault phase when attempting a Charge against an enemy unit that they outnumber at the point that the Charge is declared.</description>
+          <description>When charging an enemy unit you outnumber: gain Fleet (2) and Rage (2) for this Assault phase.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4685,7 +4685,7 @@
       </constraints>
       <rules>
         <rule id="f1c6-edd2-409c-cfe5" name="Ally of the Silent Order" hidden="false">
-          <description>A Detachment that includes Tsolmon Khan may include a single Knight Centura as a non-Compulsory HQ choice without taking up a Force Organisation slot (see  Liber Imperium). A Raptora Cadre may be taken as a Retinue for a Knight Centura included in this way (see Liber Imperium). Sisters of Silence included in an army with Tsolmon Khan are treated as Sworn Brothers.</description>
+          <description>A Detachment with Tsolmon Khan may include one Knight Centura as a free non-Compulsory HQ (no FOC slot); that Centura may take a Raptora Cadre as a Retinue. Sisters of Silence in the army count as Sworn Brothers.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5132,7 +5132,7 @@
       </constraints>
       <rules>
         <rule id="cca0-d93e-8a32-4743" name="Lightning From Blue Skies" hidden="false">
-          <description>When held in Reserve, do not roll for Jaghatai Khan or any unit he is considered to be part of while in Reserve. Instead, at the beginning of any of the controlling player&apos;s turns except the first, Jaghatai Khan and any unit he has joined may be brought into play from Reserves without making a Reserves Roll. If Jaghatai Khan is part of a Flanking Assault then this rule applies to all units that are part of that Flanking Assault - but does not apply to a Deep Strike Assault, Drop Pod Assault, or Subterranean Assault that includes Jaghatai Khan.</description>
+          <description>When in Reserve, automatically arrives at the start of any friendly turn except the first (no Reserves Roll needed). If part of a Flanking Assault, all units in that assault benefit; does not apply to Deep Strike, Drop Pod, or Subterranean Assaults.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5163,8 +5163,7 @@
           </constraints>
           <rules>
             <rule id="df8e-76c1-925f-f9d4" name="Sojutsu Pattern Voidbike" hidden="false">
-              <description>Falls Back 3D6&quot; instead of 2D6&quot;.
-May join units that include models with the Cavalry Unit Type despite the usual restrictions, and any rules that target the Cavalry Unit Type are considered to affect Jaghatai Khan as if he had that type.</description>
+              <description>Falls Back 3D6". May join Cavalry units and is treated as Cavalry for all targeting purposes.</description>
             </rule>
           </rules>
           <infoLinks>

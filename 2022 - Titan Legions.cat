@@ -668,7 +668,7 @@
     <selectionEntry id="4fc3-7259-f9b0-71cd" name="Secutarii Peltast Phalanx" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="56e7-b54b-877c-5f0c" name="Blind Barrage" publicationId="bde1-6db1-163b-3b76" page="102" hidden="false">
-          <description>So long as a unit with this special rule contains at least five models with galvanic casters, once per battle during the controlling player’s Shooting phase, the unit may make a Blind Barrage instead of making a Shooting Attack. Select a friendly unit with a model within 18&quot; and within line of sight of the unit making the Blind Barrage. That friendly unit gains the Shrouded (4+) special rule until the beginning of the controlling player’s next player turn. Models with the Vehicle Unit Type, the Knight Unit Sub-type, the Titan Unit Sub-type, or the Monstrous Unit Sub-type may not be the target of a Blind Barrage</description>
+          <description>Once per battle (requires ≥5 models with galvanic casters): instead of shooting, grant a friendly non-Vehicle/Knight/Titan/Monstrous unit within 18" and LoS the Shrouded (4+) rule until your next turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -755,7 +755,7 @@
           </constraints>
           <rules>
             <rule id="b2c8-7374-7621-1e31" name="Molecular Dissonance" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-              <description>Any To Hit roll of a 6 made by a weapon with this special rule Wounds automatically. This special rule has no effect on models with the Primarch or Vehicle Unit Types.</description>
+              <description>To Hit roll of 6: wounds automatically. No effect vs. Primarchs or Vehicles.</description>
             </rule>
           </rules>
           <infoLinks>

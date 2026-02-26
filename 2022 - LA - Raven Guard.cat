@@ -2995,8 +2995,7 @@
           </profiles>
           <rules>
             <rule id="1654-4021-8098-0327" name="The Shadowed Lord" hidden="false" publicationId="817a-6288-e016-7469" page="333">
-              <description>If Corvus Corax chooses to use the Hit &amp; Run special rule, the controlling player rolls an additional dice when determining the distance moved and discards any one dice of that player’s choice before determining the final result.
-In addition, the controlling player may re-roll all failed Shrouded rolls of a ‘1’ made for Corvus Corax and all models in any unit he has joined after using the Hit &amp; Run special rule to remove Corvus Corax from an ongoing combat – this effect continues until the start of the controlling player’s next turn.</description>
+              <description>When using Hit &amp; Run, roll one extra die for distance and discard one die of your choice. Until your next turn after using Hit &amp; Run, re-roll failed Shrouded rolls of 1 for Corax and any unit he has joined.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3064,7 +3063,7 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
               </profiles>
               <rules>
                 <rule id="0504-ce14-8f28-9d3a" name="Fighting Style" hidden="false" publicationId="817a-6288-e016-7469" page="333">
-                  <description>At the beginning of each Assault phase, Corvus Corax’s controlling player may choose one of the following special rules to apply to his attacks, based upon the weapons and fighting style he is employing: Murderous Strike (4+), Rage (4) or Sudden Strike (3).</description>
+                  <description>At the start of each Assault phase, choose one: Murderous Strike (4+), Rage (4), or Sudden Strike (3).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -3139,7 +3138,7 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
     <selectionEntry id="c268-08ac-5b90-d034" name="Mor Deythan Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="8cb7-e948-d123-218e" name="Fatal Strike" hidden="false">
-          <description>Once per battle, a unit that includes any models with this special rule may declare a Fatal Strike at the start of any of the controlling player&apos;s Shooting Phases. For the duration of that Phase, the Shooting Attacks of all models in the unit with the Fatal Strike special rule gain the Rending (4+) special rule in addition to any other effect their weapons might have. This does not replace or improve any other versions of the Rending (X) special rule already possessed by the unit and may not be used when attacking with weapons that have either the Template or the Blast (X) special rules.</description>
+          <description>Once per battle, declare at the start of your Shooting phase: all models with this rule gain Rending (4+) for that phase. Cannot be used with Template or Blast weapons; does not replace or improve existing Rending (X).</description>
         </rule>
       </rules>
       <infoLinks>

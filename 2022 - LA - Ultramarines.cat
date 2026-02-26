@@ -3017,15 +3017,10 @@
           </profiles>
           <rules>
             <rule id="0054-1928-75a9-36c0" name="Preternatural Strategy" hidden="false">
-              <description>At the start of each of the controlling player’s turns as the Active player in which Roboute Guilliman is on the battlefield (including when Embarked on a model with the Transport Unit Sub-type or Building), the controlling player may select one of the following options, but may not select the same option twice in a row (however, each option may be selected more than once in a single battle as long as it is not in successive turns). The effects of this option are applied to all models in the army with the Legiones Astartes (Ultramarines) special rule (including Roboute Guilliman, but not any models with the Vehicle Unit Type) and last until the start of the controlling player’s next turn as the Active player: 
-
-• The Fleet (2) special rule
-• The Counter-attack (1) special rule
-• The Furious Charge (1) special rule
-• The Stubborn special rule</description>
+              <description>At the start of each of your turns (while Guilliman is on the battlefield), choose one: Fleet (2), Counter-attack (1), Furious Charge (1), or Stubborn. All friendly Ultramarines Infantry gain the chosen rule until your next turn. Cannot choose the same option in consecutive turns.</description>
             </rule>
             <rule id="4aa8-fbc4-30c9-9f24" name="Calculating Swordsman" hidden="false">
-              <description>When fighting in a Challenge, Roboute Guilliman may re-roll all failed To Hit rolls of ‘1’ on the second and all subsequent rounds of the Challenge.</description>
+              <description>In Challenges, re-roll To Hit rolls of 1 from the 2nd round onward.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4506,7 +4501,7 @@
       </modifiers>
       <rules>
         <rule id="1020-96a2-5514-75f2" name="The Blade of Wisdom" hidden="false">
-          <description>When rolling To Hit for a model with this special rule as part of an attack with a weapon that has the Melee type on any turn in which they are part of a successful Charge against an enemy unit, add +1 to the result of the roll if the enemy unit targeted by the attack has already been the target of a another friendly unit composed entirely of models with the Legiones Astartes (Ultramarines) special rule in the preceding Shooting phase.</description>
+          <description>Melee To Hit rolls gain +1 on a Charge turn if the target unit was already shot at by a friendly Ultramarines unit this turn.</description>
         </rule>
       </rules>
       <infoLinks>

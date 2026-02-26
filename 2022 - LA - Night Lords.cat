@@ -3223,10 +3223,10 @@
           </profiles>
           <rules>
             <rule id="22cf-ebe1-449e-0cab" name="Dirty Fighter" hidden="false">
-              <description>When engaged in a Challenge with a model whose Weapon Skill is 5 or more, Sevatar gains the Instant Death special rule on all attacks made during that Challenge.</description>
+              <description>While in a Challenge against a model with WS 5+, gains Instant Death on all attacks.</description>
             </rule>
             <rule id="2181-0c34-3234-ecf6" name="Dark Dreams" hidden="false">
-              <description>Sevatar gains access to the Shadows of Past and Future Psychic Power only and gains no other Disciplines, Psychic Powers or Psychic Weapons.</description>
+              <description>May only use the Shadows of Past and Future Psychic Power; gains no other Disciplines, Powers, or Psychic Weapons.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3367,7 +3367,7 @@
           </constraints>
           <rules>
             <rule id="b300-fa84-4c3a-5cdf" name="Warlord: Master of the Atramentar" hidden="false">
-              <description>Any units of Legion Cataphractii Terminators and Legion Tartaros Terminators included in the same Detachment as Sevatar gain the Deep Strike special rule (Sevatar himself does not). When any units of Legion Cataphractii Terminators, Legion Tartaros Terminators or Contekar Terminators that are part of the same Detachment as Sevatar are included as part of a Deep Strike Assault that does not include Sevatar they gain the Preferred Enemy (Everything) special rules for the duration of the turn in which they are deployed. In addition, an army whose Warlord is Sevatar may make an additional Reaction in the Movement phase, as long as Sevatar has not been removed as a casualty.</description>
+              <description>Terminator units in Sevatar's Detachment gain Deep Strike. When those units Deep Strike without Sevatar, they gain Preferred Enemy (Everything) for the turn they deploy. While Sevatar is alive, your army gains 1 additional Reaction in the Movement phase.</description>
             </rule>
           </rules>
         </entryLink>
@@ -4365,10 +4365,10 @@
       </constraints>
       <rules>
         <rule id="bb3c-af82-a6a9-1de9" name="A Death Long Foreseen" hidden="false">
-          <description>Konrad Curze gains access to the Glimpse of Death Psychic Power only and gains no other Disciplines.</description>
+          <description>May only use the Glimpse of Death Psychic Power; gains no other Disciplines.</description>
         </rule>
         <rule id="00a2-396d-6e1c-183a" name="The King of Terrors" hidden="false">
-          <description>When Konrad Curze and any unit he has joined ends a combat by removing all enemy models as casualties or destroying an enemy unit due to a Sweeping Advance, all enemy units that are not locked in combat and can draw a line of sight to Konrad Curze must immediately take a Pinning test.</description>
+          <description>After winning combat (by wiping out enemies or Sweeping Advance), all enemy units not locked in combat with line of sight to Curze must take a Pinning test.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4534,9 +4534,7 @@
     <selectionEntry id="837e-c3ca-437e-dfbf" name="Contekar Terminator Squad" publicationId="09c5-eeae-f398-b653" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="33de-beff-3d71-ba95" name="Lords of the Night" hidden="false">
-          <description>A single Contekar Terminator Squad numbering no more than 10 models may be taken as a Compulsory HQ choice in an army in which neither Sevatar nor Konrad Curze are present
-
-In addition, a Contekar Terminator Squad may be selected as a Retinue Squad in a Detachment that includes Sevatar, instead of as an Elites choice, A unit selected as a Retinue Squad counts Sevatar as the Contekar Terminator Squad&apos;s Leader for the purposes of this special rule. A Contekar Terminator Squad selected as a Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as Sevatar. A Contekar Terminator Squad selected as a Retinue Squad must be deployed with Sevatar as part of the unit and Sevatar may not voluntarily leave the Retinue Squad during play.</description>
+          <description>1 Contekar Terminator Squad (≤10 models) may fill a Compulsory HQ slot if neither Sevatar nor Konrad Curze are present. If Sevatar is in the Detachment, 1 Contekar Terminator Squad may instead be taken as his Retinue (no FOC slot); it forms a single unit with Sevatar, must deploy with him, and he may not voluntarily leave it.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4787,7 +4785,7 @@ In addition, a Contekar Terminator Squad may be selected as a Retinue Squad in a
     <selectionEntry id="12d3-9df0-4118-997f" name="Atramentar Squad" publicationId="7f9d-5e88-241d-e861" page="12" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="3938-864e-6801-3410" name="Sworn Loyalty" hidden="false">
-          <description>If Sevatar is the army’s Warlord, Night Lords Atramentar Squads may be selected as non-Compulsory Troops choices and count as Legion Terminator Squads for the purposes of the Master of the Atramentar Warlord Trait.</description>
+          <description>If Warlord, Atramentar Squads may be taken as non-Compulsory Troops and count as Legion Terminator Squads for Master of the Atramentar.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5271,12 +5269,10 @@ In addition, a Contekar Terminator Squad may be selected as a Retinue Squad in a
           </profiles>
           <rules>
             <rule id="6ea2-325c-94b0-f3e0" name="Narphagia" hidden="false">
-              <description>At the end of each of their turns, if Mawdrym Llansahai has less than his starting number of Wounds but has not been removed as a casualty and has joined a unit that has at least one other model with the Legiones Astartes (Night Lords) special rule, the controlling player may roll a D6. On a roll of 4+, Mawdrym Llansahai regains a Wound lost earlier in the battle. If Mawdrym Llansahai regains a wound in this way, a model with the Legiones Astartes (Night Lords) special rule, in the squad that Mawdrym Llansahai has joined, suffers a wound with no Armour Saves or Damage Mitigation rolls allowed. 
-
-Additionally, all models with the Infantry or Cavalry Unit Types in a unit that Mawdrym Llansahai has joined gain the Feel No Pain (5+) special rule. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule.</description>
+              <description>End of each turn (if wounded, alive, and joined a unit with ≥1 Night Lords model): roll D6; on 4+, regain 1 Wound — a Night Lords model in the same unit suffers 1 Wound (no Armour Save or Damage Mitigation). Infantry and Cavalry models in Mawdrym's unit gain Feel No Pain (5+) (Artillery excluded).</description>
             </rule>
             <rule id="e802-88c0-416d-71de" name="Unfit for Command" hidden="false">
-              <description>Mawdrym Llansahai may never be selected as the army’s Warlord.</description>
+              <description>Cannot be selected as Warlord.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5381,7 +5377,7 @@ Additionally, all models with the Infantry or Cavalry Unit Types in a unit that 
           </profiles>
           <rules>
             <rule id="c879-0626-2066-ed7e" name="The Coward" hidden="false">
-              <description>Once Kheron Ophion has lost at least a single wound, he gains the Feel No Pain (4+) special rule. When reduced to a single remaining wound, Kheron Ophion replaces Feel No Pain (4+) with Feel No Pain (3+).</description>
+              <description>After losing ≥1 wound: gains Feel No Pain (4+). At 1 wound remaining: upgrades to Feel No Pain (3+).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5434,7 +5430,7 @@ Additionally, all models with the Infantry or Cavalry Unit Types in a unit that 
           </constraints>
           <rules>
             <rule id="c884-b7be-1496-edd6" name="The Bloody Aegis" hidden="false">
-              <description>The Bloody Aegis grants a 4+ Invulnerable Save, increasing to a 3+ Invulnerable Save in close combat. In addition, when fighting in a Challenge, each To Hit roll of a 1 made by the opposing player for attacks directed against Kheron Ophion result in a single S4, AP - wound being inflicted upon the model Engaged in a Challenge with Kheron Ophion.</description>
+              <description>4+ Invulnerable Save (3+ in close combat). In Challenges, each To Hit roll of 1 by the opponent inflicts a S4, AP— wound on their own model.</description>
             </rule>
           </rules>
           <costs>
@@ -5576,10 +5572,10 @@ Additionally, all models with the Infantry or Cavalry Unit Types in a unit that 
           </profiles>
           <rules>
             <rule id="886d-44ad-5de4-05a8" name="Electro-charge" hidden="false">
-              <description>Any model that suffers an unsaved wound from this weapon reduces its Initiative Characteristic to 1 until the end of its controlling player’s next turn.</description>
+              <description>On unsaved wound: target model's Initiative reduced to 1 until end of their controlling player's next turn.</description>
             </rule>
             <rule id="f69b-1fc7-e877-31bd" name="Web of Steel" hidden="false">
-              <description>A model with a melee weapon with this special rule may choose to forfeit all of its normal attacks in order to make a single attack against each enemy model from a unit that it is locked in combat with and within 2&quot; of the wielder, using the Flay-whip’s profile. If this option is used then the Electro-charge special rule cannot trigger from unsaved wounds.</description>
+              <description>Forfeit all normal attacks to make one attack against each enemy model within 2" (locked in combat), using this weapon's profile. Electro-charge cannot trigger from wounds caused this way.</description>
             </rule>
           </rules>
           <costs>

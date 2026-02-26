@@ -3064,7 +3064,7 @@
           </profiles>
           <rules>
             <rule id="cbdc-b181-7dae-dfc2" name="Witchblood" hidden="false">
-              <description>Calas Typhon has the Witchsense Psychic Power and Toxin Cloud Psychic Weapon and does not gain access to any other Disciplines:</description>
+              <description>Has Witchsense and Toxin Cloud; cannot access any other Disciplines.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3271,12 +3271,10 @@
           </profiles>
           <rules>
             <rule id="b29b-79a3-7a3b-efe8" name="Shadow of the Reaper" hidden="false">
-              <description>So long as Mortarion is not Embarked on any model, in Reserves, locked in combat or part of a unit with the Retinue or Deathshroud Retinue special rules, in the player&apos;s Shooting phase in lieu of making a Shooting Attack, Mortarion may be redeployed by his controlling player, this counts as an alternative form of Movement and cancels the benefits of the Legiones Astartes (Death Guard) special rule when used.
-
-If this option is used then Mortarion is removed from the battlefield, leaving any unit that he was part of. The controlling player must then redeploy Mortarion to any point on the battlefield that is within 10&quot; of his original position, as long as there is space for his model and the chosen position is not within 3&quot; of an enemy model. He may not be placed within Impassable Terrain or inside a Vehicle or Building. This is not counted as a move as such, and the intervening terrain does not affect him in any way. Mortarion may Charge normally in a turn that he is redeployed in this way, but counts as making a Disordered Charge if doing so.</description>
+              <description>Instead of Shooting, remove Mortarion from the battlefield and redeploy him within 10" of his original position (not within 3" of enemies, not in Impassable Terrain or inside a Vehicle/Building). Intervening terrain has no effect. He may Charge this turn, but it counts as a Disordered Charge. Cannot be used if Embarked, in Reserves, locked in combat, or part of a Retinue/Deathshroud Retinue unit; cancels Legiones Astartes (Death Guard) benefits when used.</description>
             </rule>
             <rule id="6363-8841-1d61-e78a" name="Prenatural Resilience" hidden="false">
-              <description>Any Hits allocated to Mortarion with the Poisoned (X), Rending (X), or Fleshbane special rules only affect Mortarion on a D6 roll of a 6 instead of their usual effect.</description>
+              <description>Hits with Poisoned (X), Rending (X), or Fleshbane only affect Mortarion on a roll of 6.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4319,7 +4317,7 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
           </profiles>
           <rules>
             <rule id="5a33-d42e-c49a-56b7" name="Overcharged" hidden="false">
-              <description>After a combat in which a model whose weapon has this special rule has made at least one Attack has been resolved, roll a dice. On the roll of a ‘1’ that model suffers a Wound against which only Invulnerable Saves may be taken.</description>
+              <description>After each combat in which at least one Attack was made, roll a dice. On a 1, suffer 1 Wound (Invulnerable Saves only).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4426,7 +4424,7 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
       </constraints>
       <rules>
         <rule id="cf9d-b20b-3d98-8aaf" name="Protocols of Destruction" hidden="false">
-          <description>The controlling player of a model with Protocols of Destruction may activate them at the start of any of their own turns, or, if the controlling player is not taking the first turn of the battle, at the start of the battle, before the beginning of the opposing player’s first turn. Once Protocols of Destruction are activated, any Penetrating Hits caused by a model with Protocols of Destruction and any unit that they have joined, gain +1 to any rolls on the Vehicle Damage chart until the beginning of the controlling player’s next turn. In addition, any Legion Rapier Carriers with quad launchers in the same Detachment as Marshal Durak Rask may be upgraded to have phosphex canister shot for +20 points per model, and any Legion Arquitor Squadrons with Morbus bombards in the same Detachment may be upgraded with phosphex shells for +20 points per model.</description>
+          <description>Activate at the start of your turn (or before the opponent's first turn if going second): until your next turn, Penetrating Hits by this model and any joined unit gain +1 on the Vehicle Damage chart. Rapier Carriers with quad launchers and Arquitor Squadrons with Morbus bombards in the same Detachment may be upgraded with phosphex ammunition for +20 pts/model.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4893,7 +4891,7 @@ Any enemy unit with at least one model within 12&quot; of a Warlord with this Tr
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="2a8e-65b7-11c5-f84a" name="Shrouded in Death" hidden="false">
-      <description>When an enemy unit successfully Charges a unit that includes one or more models with this special rule, the Charge is always considered to be Disordered.</description>
+      <description>Enemy units that successfully Charge this unit always count their Charge as Disordered.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

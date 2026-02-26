@@ -38,17 +38,10 @@
     <categoryEntry name="Armiger Unit Type" hidden="false" id="41ff-7fc9-d4a0-da2" publicationId="bde1-6db1-163b-3b76" page="90">
       <rules>
         <rule name="Armiger Unit-Type" hidden="false" id="53f7-6b93-cc7a-b976" publicationId="bde1-6db1-163b-3b76" page="90">
-          <description>As with other Unit Types, the Armiger Type includes a number of Unit Sub-types which may be referenced in other Age of Darkness books. The following rules apply to all Armiger models and any Armiger Unit Sub-types:
-• Successful Wounds scored by attacks with the Poisoned (X) or Fleshbane special rules must be re-rolled against models of the Armiger Unit Type.
-• All Armiger models have the Stubborn special rule.
-• A model with the Armiger Unit Type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
-• A model of the Armiger Type may fire Heavy and Ordnance weapons and counts as Stationary even if it moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-• No model that is not also of the Armiger Unit Type may join a unit that includes an Armiger model.
-• A model with the Armiger Unit type is affected by the Haywire, Detonation, Armourbane (X) and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.</description>
+          <description>Inherits Stubborn. Immune to Poisoned (X) and Fleshbane (re-roll successful Wounds). Fires all equipped weapons each Shooting Attack (including Reactions); always counts as Stationary for Heavy/Ordnance weapons and may Charge regardless of Shooting made that turn. Treated as Dreadnought for Haywire, Detonation, Armourbane (X), and Battlesmith (X). Non-Armiger models may not join Armiger units.</description>
         </rule>
         <rule name="Armiger and Moirax Talons" hidden="false" id="d840-fbd0-352e-b33e" publicationId="bde1-6db1-163b-3b76" page="102">
-          <description>The Scout Knights of the Taghmata and Questoris Households often roamed the battlefield independently as the vanguard of their orders. While each war machine strode the battlefield distant from their companions, they shared fierce bonds of fealty and brotherhood.
-When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit.</description>
+          <description>After deployment (within coherency), models operate independently and are not treated as a single unit.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -637,13 +630,13 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
       </profiles>
       <rules>
         <rule id="6efd-6227-fa9e-1ea3" name="Liquifractor" publicationId="8200-f05a-6e7d-9326" page="1" hidden="false">
-          <description>Archmagos Draykavac may exchange all his attacks in an Assault phase for a single special Liquifractor attack. This attack Hits automatically and may be used against a single model in base contact with Draykavac at Initiative step 1. To resolve the attack, Draykavac’s player rolls 2D6. If the target has a Toughness Characteristic, they suffer a number of Wounds equal to Draykavac’s roll minus their Toughness Characteristic with an AP value of 2. If the target has an Armour Value, reduce the rolled value by half of the Armour Value struck; the result is the number of Penetrating Hits the Vehicle suffers. For example, if Archmagos Draykavac’s player rolls a result of 9 against a Karacnos Assault Tank with a Rear Armour Value of 12 (halved to 6), three Penetrating Hits are inflicted (9-6=3).</description>
+          <description>Replaces all attacks in Assault phase. Hits automatically at Initiative 1 against one model in base contact. Roll 2D6: vs. Toughness targets, inflict Wounds equal to roll minus Toughness (AP 2); vs. vehicles, inflict Penetrating Hits equal to roll minus half the struck Armour Value.</description>
         </rule>
         <rule id="772d-eca4-f823-35bd" name="Incursus Cybertheurgist" publicationId="bde1-6db1-163b-3b76" page="61" hidden="false">
-          <description>Archmagos Draykavac has the Artificia Machina and Ephemera Incursus Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.</description>
+          <description>Has the Artificia Machina and Ephemera Incursus Cybertheurgic Arcana, including all associated Rites and weapons.</description>
         </rule>
         <rule id="cf9e-42d8-ee4d-f5f3" name="High Techno-arcana: Stataraga" publicationId="bde1-6db1-163b-3b76" page="61" hidden="false">
-          <description>Archmagos Draykavac may be chosen as an HQ choice in a Traitor Allegiance Mechanicum Detachment, and may also be taken as a Troops choice in an army using the Divisio Tactica: Questoris Household. As part of a Questoris Knights Detachment, Archmagos Draykavac allows Castellax Battle-automata Maniples and Vorax Battle-automata Maniples to be chosen as non-Compulsory Troops choices for any Detachment in which he is included</description>
+          <description>May be taken as HQ in a Traitor Mechanicum Detachment, or as Troops in a Divisio Tactica: Questoris Household. When included in a Questoris Knights Detachment, Castellax and Vorax Battle-automata Maniples may be taken as non-Compulsory Troops choices in that Detachment.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -820,12 +813,11 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
       </constraints>
       <rules>
         <rule id="84d6-404e-e083-d165" name="Binaric Stratagems*" publicationId="bde1-6db1-163b-3b76" page="102" hidden="false">
-          <description>At the start of the battle, once both armies have set up all their models, including any units with the Infiltrator special rule, a player that controls any models with this special rule may select one of the effects listed below as part of this special rule. All units with the Kyropatris field generator item of Wargear in the Detachment that includes the model with this special rule gain the chosen effect for the duration of the battle. Note that only a single bonus may be given to the units, regardless of how many models with this special rule are present in the Detachment. If an army includes multiple Detachments that include any models with this special rule, the controlling player must select an effect for each such Detachment and may select the same or different effects for each Detachment:
-
-• Pain Suppression Override: Affected models gain the Feel No Pain (5+) special rule.
-• Explorator Synaesthesis: Models in affected units gain the Move Through Cover special rule.
-• Deconstructive Confluence: Models in affected units gain the Wrecker special rule.
-• Extinction Interlock: Models in the affected units gain the Preferred Enemy (Infantry) special rule.</description>
+          <description>After setup, choose one effect for all Kyropatris field generator units in the same Detachment (one choice per Detachment, even if multiple models with this rule are present):
+• **Pain Suppression Override:** Feel No Pain (5+)
+• **Explorator Synaesthesis:** Move Through Cover
+• **Deconstructive Confluence:** Wrecker
+• **Extinction Interlock:** Preferred Enemy (Infantry)</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2609,7 +2601,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
               </profiles>
               <rules>
                 <rule id="a37f-9f4-f33-1672" name="Tempest" publicationId="bde1-6db1-163b-3b76" page="110" hidden="false">
-                  <description>Instead of making a Melee Attack, a model with a weapon with this special rule may make a special attack at Initiative step 2. This automatically inflicts a single Hit against each model (friendly or enemy) in contact with the attacking model’s base, using the profile of the weapon with this special rule.</description>
+                  <description>At Initiative step 2, instead of a normal Melee Attack: automatically inflict 1 Hit on every model in base contact (friend or foe), using this weapon's profile.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -3593,7 +3585,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
       </profiles>
       <rules>
         <rule id="359e-2a2e-3a01-42e7" name="Macro-extinction Targeting Protocols" publicationId="bde1-6db1-163b-3b76" hidden="false">
-          <description>When making Shooting Attacks against targets with the Super-heavy Vehicle, Knight or Titan Unit Types or the Monstrous Sub-type, a model with this special rule counts all of its ranged weapons as twin-linked.</description>
+          <description>All ranged weapons count as twin-linked when targeting Super-heavy Vehicles, Knights, Titans, or Monstrous units.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3637,7 +3629,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           </profiles>
           <rules>
             <rule id="68b3-f712-fcf1-8839" name="Graviton Singularity" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-              <description>Before firing a weapon with this special rule, roll a D6. On a 1, the firing unit suffers a single Wound against which no Saves or Damage Mitigation rolls may be made. A model with the Vehicle Unit Type instead suffers 1 Hull Point against which no Saves or Damage Mitigation rolls may be made. On a 2-5, the weapon fires normally. On a result of a 6, the attack is carried out with the Vortex special rule.</description>
+              <description>Before firing, roll D6: 1 — suffer 1 unsaveable Wound (Vehicles: 1 Hull Point); 2–5 — fire normally; 6 — attack gains Vortex.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4503,7 +4495,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <selectionEntry id="b48d-19d0-6116-af9d" name="Two Power Blade Arrays*" hidden="false" collective="false" import="true" type="upgrade">
                   <rules>
                     <rule id="5163-d31f-e2ff-b4f2" name="Two Power Blade Arrays*" publicationId="bde1-6db1-163b-3b76" page="37" hidden="false">
-                      <description>A Castellax with two power blade arrays gains an additional Attack.</description>
+                      <description>Grants +1 Attack.</description>
                     </rule>
                   </rules>
                   <entryLinks>
@@ -4521,7 +4513,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <selectionEntry id="af01-d4da-d454-2d29" name="Two Shock Chargers*" hidden="false" collective="false" import="true" type="upgrade">
                   <rules>
                     <rule id="5592-2df6-fcd5-a9f2" name="Two Shock Chargers*" publicationId="bde1-6db1-163b-3b76" page="37" hidden="false">
-                      <description>*A Castellax with two shock chargers gains an additional Attack. This additional Attack is not included in the characteristics profile above.</description>
+                      <description>Gains +1 Attack.</description>
                     </rule>
                   </rules>
                   <entryLinks>
@@ -5232,7 +5224,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           </constraints>
           <rules>
             <rule id="c149-a9f6-4cbe-aa10" name="Thanatar Maniple" publicationId="bde1-6db1-163b-3b76" page="110" hidden="false">
-              <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit.</description>
+              <description>Deploy in coherency; afterward each model operates independently.</description>
             </rule>
           </rules>
           <selectionEntryGroups>
@@ -6651,7 +6643,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
       </profiles>
       <rules>
         <rule id="f3ee-60e7-e8ed-bf54" name="Prehensile Dataspike" publicationId="bde1-6db1-163b-3b76" page="123" hidden="false">
-          <description>A model equipped with a prehensile dataspike may make an additional single attack per turn as well as any they would normally be eligible to make. These attacks are made using the weapon profiles shown below.</description>
+          <description>Makes 1 additional attack per turn using the Prehensile Dataspike weapon profile.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6920,7 +6912,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
           </profiles>
           <rules>
             <rule id="e26b-cddc-2eeb-4320" name="Prisoned" publicationId="bde1-6db1-163b-3b76" hidden="false">
-              <description>A weapon with this special rule may only target models with the Infantry Unit Type, and a model attacking with a weapon with this special rule makes only a single attack (regardless of any other factors).</description>
+              <description>Only targets Infantry. The attack always counts as a single attack, regardless of other modifiers.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7953,11 +7945,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
           </constraints>
           <rules>
             <rule name="Animatus Malevolence (Cybertheurgic Rite)" hidden="false" id="f787-1170-60a1-31b9" publicationId="4934-46f7-208b-b4af" page="155">
-              <description>Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit within 12&quot; that is entirely composed of models with the Corrupted Engine Unit Sub-type and then apply one of the following effects:
-• The chosen unit may immediately move a number of inches up to its unmodified Initiative Characteristic directly towards the nearest enemy unit. If the chosen unit has mixed Initiative Characteristics, use the highest unmodified Characteristic.
-• All models in the chosen unit improve their Invulnerable Save by 1, to a maximum of 3+, until the beginning of the controlling player’s next turn, (e.g., a model with an Invulnerable Save of 5+ improves their save to 4+).
-• All models in the unit add 1 to their WS and I characteristics until the end of the subsequent Assault phase.
-The Cybertheurgist’s controlling player may choose to make a Cybertheurgy check before using this power. If the Check is successful then two different options chosen from the above list may be applied to the target unit instead of one. If the Check is failed then no options may be chosen – the Cybertheurgist suffers Cybertheurgic Feedback and the Cybertheurgist may not use another Cybertheurgic Rite during this Shooting phase.</description>
+              <description>Instead of Shooting, target a single friendly Corrupted Engine unit within 12". Apply one effect: *(a)* immediately move up to its highest unmodified Initiative in inches toward the nearest enemy; *(b)* improve Invulnerable Save by 1 (max 3+) until your next turn; or *(c)* +1 WS and I until end of the next Assault phase. Optionally make a Cybertheurgy check first — success: apply two different effects; failure: no effects and suffer Cybertheurgic Feedback (no further Rites this Shooting phase).</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -8080,11 +8068,7 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
       <rules>
         <rule name="Radiation Beam" id="25e8-2342-6dc1-8808" hidden="false" publicationId="4934-46f7-208b-b4af" page="165">
           <alias>165</alias>
-          <description>When the weapon profile with this special rule is used to make a Shooting Attack, draw an imaginary 1mm wide line from the end of the gun barrel up to the listed range of the weapon – this is the beam area. The initial target for the weapon (the model in the beam area closest to the attacking model) must be an enemy model.
-    • All models (friendly and enemy) caught in the beam area (excepting the firing model) suffer a Hit with the listed profile of the weapon, except models with the Flyer Sub-type which cannot be affected or targeted.
-    • Units with any models in the beam area receive a number of Hits equal to the number of their models caught in the path of the beam; casualties are removed from affected units using the normal rules for removing casualties.
-    • If a Terrain piece, Building, model with the Vehicle Unit Type or any model with 6 or more starting Wounds is in the beam area, the attack is blocked and its line of effect will go no further than that model. The blocking model will, however, suffer D3 separate Hits, rather than just 1.
-    • If a model with the Vehicle Unit Type and the Transport Sub-type suffers a Penetrating Hit from a weapon with this special rule, each unit Embarked on it suffers D6 Str 2 AP - Hits with the Fleshbane special rule, in addition to any other effects. Any Wounds caused are allocated by the target unit’s controlling player.</description>
+          <description>Draw a 1mm-wide line up to the weapon's range; the nearest model in the beam must be an enemy. All models (except Flyers) in the beam suffer 1 Hit each. Terrain, Buildings, Vehicles, or models with ≥6 starting Wounds block the beam, suffering D3 Hits instead of 1. If a Transport Vehicle suffers a Penetrating Hit, each Embarked unit takes D6 Str 2 AP— Fleshbane Hits (allocated by the target's controlling player).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8175,8 +8159,7 @@ The Cybertheurgist may choose to make a Cybertheurgy check before using this Cyb
           </constraints>
           <rules>
             <rule name="Viteum Adficio (Cybertheurgic Rite)" id="3068-2931-0e2f-19e1" hidden="false" publicationId="4934-46f7-208b-b4af" page="152">
-              <description>A Cybertheurgist with this Cybertheurgic Rite may use it at the end of the controlling player&apos;s Movement phase. When they do, the controlling player may select one friendly unit from the Mechanicum Faction that is within 6&quot; of the Cybertheurgist and roll up to three D6. For each result of 4+, one model in that unit suffers t Wound (or loses i Hull Point if it is a Vehicle unit), and the Cybertheurgist regains r lost Wound. Saving Throws and Damage Mitigation rolls cannot be taken against these Wounds.
-The Cybertheurgist may choose to make a Cybertheurgy check before using this Cybertheurgic Rite. If successful, the controlling player can re-roll any of the three D6 when using this Cybertheurgic Rite.</description>
+              <description>Use at end of Movement phase: select a friendly Mechanicum unit within 6". Roll up to 3D6; each 4+ deals 1 Wound (or 1 Hull Point loss) to a model in that unit and restores 1 lost Wound to the Cybertheurgist (no Saves or Damage Mitigation allowed). Optionally make a Cybertheurgy check first; if passed, may re-roll any of the 3D6.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -8219,7 +8202,7 @@ The Cybertheurgist may choose to make a Cybertheurgy check before using this Cyb
       </profiles>
       <rules>
         <rule name="Bloodthirsty" id="d4bd-db60-a688-a126" hidden="false" publicationId="4934-46f7-208b-b4af" page="153">
-          <description>Add +I to To Hit rolls made for this weapon if any models in the target unit that have not been removed as a casualty are below their starting Wounds Characteristic.</description>
+          <description>To Hit rolls +1 if any surviving model in the target unit is below its starting Wounds.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -8277,8 +8260,7 @@ The Cybertheurgist may choose to make a Cybertheurgy check before using this Cyb
         <selectionEntry id="f4a8-b2a3-1c3c-9761" name="Dolorous" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="272c-bf85-64da-42b6" name="Dolorous" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1, and gains the Character Unit Sub-type and the Dolorous special rule.
-Dolorous: A model with this special rule may attempt to make Sweeping Advances (as an exception to the normal rules for models with the Knight Unit Sub-type).</description>
+              <description>+1 WS; gains Character sub-type. May attempt Sweeping Advances (exception to Knight Unit Sub-type restrictions).</description>
             </rule>
           </rules>
           <costs>
@@ -8288,7 +8270,7 @@ Dolorous: A model with this special rule may attempt to make Sweeping Advances (
         <selectionEntry id="7496-3ece-e6d8-6d40" name="Aspirant" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="20db-3ecf-3640-e464" name="Aspirant" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false">
-              <description>A model with this upgrade must reduce its Weapon Skill and Ballistic Skill Characteristics by -1 and its Movement Characteristics by -2.</description>
+              <description>–1 WS &amp; BS, –2 Movement.</description>
             </rule>
           </rules>
           <costs>
@@ -8298,8 +8280,7 @@ Dolorous: A model with this special rule may attempt to make Sweeping Advances (
         <selectionEntry id="e78c-787d-54ca-82c2" name="Arbalester" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="fd5a-d962-431f-ae84" name="Arbalester" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false">
-              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and gains the Character Unit Sub-type and Arbalester special rule.
-Arbalester: When a model with this special rule is required to make a Scatter roll, roll an additional Scatter dice and the model’s controlling player chooses which is used to determine the results of the Scatter roll.</description>
+              <description>BS +1; gains Character sub-type. When Scattering, roll 2 Scatter dice and choose which result applies.</description>
             </rule>
           </rules>
           <costs>
@@ -8324,9 +8305,7 @@ Arbalester: When a model with this special rule is required to make a Scatter ro
           </constraints>
           <rules>
             <rule id="a2e6-ad4f-c2a3-8821" name="Seneschal (0-1)" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false">
-              <description>Only a single unit in a Questoris Household Detachment may be upgraded to have the Seneschal rank, and an Acastus Knight Porphyrion or Acastus Knight Asterius may not be given this upgrade.
-A model with this upgrade gains the Character Unit Sub-type and increases its Weapon Skill and Ballistic Skill Characteristics by +1. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen as the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the Master of the Household Warlord Trait:
-</description>
+              <description>1 per detachment (not Acastus Knights). Gains Character sub-type, +1 WS and BS. Must be Warlord if detachment is Primary; if so, automatically gains the Master of the Household Warlord Trait.</description>
             </rule>
           </rules>
           <costs>
@@ -8336,8 +8315,7 @@ A model with this upgrade gains the Character Unit Sub-type and increases its We
         <selectionEntry id="3dc3-9018-b7a3-8cf9" name="Aucteller" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="24dc-2122-1e74-497b" name="Aucteller" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1 and gains the Character Unit Sub-type and the Aucteller special rule.
-Aucteller: When engaged in a Challenge against an enemy model with the Knight, Titan or Monstrous Unit Sub-type, the Primarch Unit Type or a model with a Wounds Characteristic of 8 or higher, a model with this special rule gains +1 Weapon Skill and +1 Attack. This bonus to Weapon Skill is in addition to the +1 Weapon Skill increase from the Aucteller upgrade detailed above.</description>
+              <description>+1 WS, gains Character sub-type. When in a Challenge vs. a Knight, Titan, Monstrous, or Primarch unit, or a model with Wounds ≥8: gains an additional +1 WS and +1 Attack.</description>
             </rule>
           </rules>
           <costs>
@@ -8347,8 +8325,7 @@ Aucteller: When engaged in a Challenge against an enemy model with the Knight, T
         <selectionEntry id="1682-2560-347c-e798" name="Implacable" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e7b6-ec43-a395-cc62" name="Implacable" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Hull Points by +1, gains the Character Unit Sub-type and the Implacable special rule.
-Implacable: No attack targeting a model with this special rule may inflict more than a single Hull Point of damage, including those attacks with the Exoshock (X) special rule</description>
+              <description>+1 Hull Point; gains Character sub-type. No single attack can inflict more than 1 Hull Point of damage (including Exoshock).</description>
             </rule>
           </rules>
           <costs>
@@ -8358,8 +8335,7 @@ Implacable: No attack targeting a model with this special rule may inflict more 
         <selectionEntry id="4b90-1389-3b29-3fca" name="Preceptor" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="191d-7d24-b533-cf66" name="Preceptor" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and gains the Character Unit Sub-type and Preceptor special rule.
-Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at least one model within 6&quot; of a friendly model with this special rule increase the Leadership of all models in the unit to 9.</description>
+              <description>+1 BS; gains Character sub-type. Friendly Armiger Warglaive/Helverin units with a model within 6" have Leadership 9.</description>
             </rule>
           </rules>
           <costs>
@@ -8377,7 +8353,7 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
           </modifiers>
           <rules>
             <rule id="78f9-6bee-4c5d-5802" name="Uhlan" publicationId="bde1-6db1-163b-3b76" page="89 &amp; FAQ" hidden="false">
-              <description>A model with this upgrade increases its Movement Characteristic by +4 and gains the Character Unit Sub-type and the Scout and Outflank special rules. An Acastus Knight Porphyrion may not be given this upgrade.</description>
+              <description>+4 Movement; gains Character sub-type, Scout, and Outflank. (Not available to Acastus Knight Porphyrion.)</description>
             </rule>
           </rules>
           <costs>
@@ -8395,13 +8371,11 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
         <selectionEntry id="2cd1-fe10-db22-54bd" name="Archimandrite" publicationId="bde1-6db1-163b-3b76" page="98" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="3295-4acb-b579-75b7" name="Archimandrite" publicationId="bde1-6db1-163b-3b76" page="98" hidden="false">
-              <description>• Bonds of Vassalage: A model with this special rule must be the army’s Warlord. In addition, a Mechanicum army that includes a model with this special rule may include a Mechanicum Allied Detachment. An Archmagos Prime or Archmagos Prime on Abeyant included in this Allied Detachment cannot select the Archimandrite Order of High Techno-arcana.
+              <description>**Bonds of Vassalage:** Must be army Warlord. Army may include a Mechanicum Allied Detachment; any Archmagos Prime in that detachment cannot select the Archimandrite Order of High Techno-arcana.
 
-• Magister Theurgica: A model with this special rule may select an additional Cybertheurgic Arcana from those available to it.
+**Magister Theurgica:** May select one additional Cybertheurgic Arcana.
 
-• Master Technomancer: Models with the Battlesmith (X) special rule in a Detachment that includes a model with this special rule may add the following effect to the list of options they may apply to units with the Vehicle, Dreadnought or Automata Unit Type targeted by the Battlesmith (X) rule:
-- Until the end of the Shooting phase, the target unit may make Shooting Attacks using the Ballistic Skill of the model that successfully used the Battlesmith (X) rule.
-- Until the end of the Shooting phase, the target gains the Power of the Machine Spirit special rule. This effect may only be applied to units with the Vehicle Unit Type.</description>
+**Master Technomancer:** Friendly Battlesmith (X) models may apply two additional effects to targeted Vehicle/Dreadnought/Automata units: (1) target uses the Battlesmith model's BS for Shooting Attacks until end of Shooting phase; (2) target gains Power of the Machine Spirit until end of Shooting phase (Vehicles only).</description>
             </rule>
           </rules>
           <costs>
@@ -8411,11 +8385,11 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
         <selectionEntry id="9bcd-f556-5740-2f9f" name="Cybernetica" publicationId="bde1-6db1-163b-3b76" page="99" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="2218-0cd7-1d91-407f" name="Cybernetica" publicationId="bde1-6db1-163b-3b76" page="99" hidden="false">
-              <description>• Cohorts Cybernetica: All Castellax Battle-automata Maniples in a Detachment that includes a model with this special rule gain the Line Unit Sub-type.
+              <description>**Cohorts Cybernetica:** Castellax Battle-automata Maniples in this Detachment gain the Line Sub-type.
 
-• Networked Sensorium Protocols: When making Shooting Attacks, models with the Automata Unit Type in a Detachment that includes a model with this special rule reduce the benefits of any Cover Save the target unit has by -2 (a 4+ becoming a 6+, a 5+ being ignored entirely, and so on) if the model making the Shooting Attack is within 12&quot; of two or more friendly models with cortex controllers.
+**Networked Sensorium Protocols:** Automata in this Detachment reduce enemy Cover Saves by -2 when shooting, if the attacker is within 12" of 2+ friendly models with cortex controllers.
 
-• Preservation Protocols: A model with this special rule gains the Patris Cybernetica special rule. In addition, when joined to a unit with the Automata Unit Type, any Wounds which would be allocated to the Character (even those caused by the Precision Strikes (X) or Sniper special rules) may instead be allocated to a model with the Automata Unit Type first.</description>
+**Preservation Protocols:** Gains Patris Cybernetica. While joined to an Automata unit, Wounds allocated to this Character (including from Precision Strikes or Sniper) may be redirected to an Automata model instead.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8428,13 +8402,11 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
         <selectionEntry id="bd4b-63fa-928c-887d" name="Lacyraemarta" publicationId="bde1-6db1-163b-3b76" page="99" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="35bb-61ef-92ac-71ec" name="Lacyraemarta" publicationId="bde1-6db1-163b-3b76" page="99" hidden="false">
-              <description>• Incorruptible Flesh: Any Hits allocated to a model with this special rule, or any model with the Infantry Unit Type in a unit they join, with the Rending (X), Poisoned (X) or Fleshbane special rules only affect that model on a D6 roll of a 6 instead of their usual effect.
+              <description>**Incorruptible Flesh:** Rending (X), Poisoned (X), or Fleshbane hits against this model (or Infantry models in its unit) only take effect on a D6 roll of 6.
 
-• Opus Viscera: If a model with the Battlesmith (X) special rule in a Detachment that includes a model with this special rule is in base contact with at least one model in a unit comprised of only models with the Infantry Unit Type during the Shooting phase, they can attempt to enhance that unit instead of making a Shooting Attack. Roll a D6. If the result is equal to or more than the value listed in brackets as part of the Battlesmith (X) rule, then one of the following effects may be applied to the unit this model is in base contact with:
-- Restore a lost Wound. This will not return a model that has been previously removed from the battle.
-- The unit may immediately move a number of inches equal to twice the Initiative Characteristic of the majority of models in the unit. This movement is not Running, and therefore, if the unit did not Run in the Movement phase, it may still make Shooting Attacks and declare a Charge as normal for the remainder of the turn.
+**Opus Viscera:** Instead of shooting, a model with Battlesmith (X) in base contact with a friendly Infantry-only unit may roll ≥ Battlesmith value to either: restore 1 lost Wound (cannot resurrect removed models), or move the unit up to 2× its majority Initiative value in inches (does not count as Running).
 
-• The Sanguine Hook: A model with this special rule gains the Ephemera Lacyraemarta Cybertheurgic Arcana, but may not select any other Cybertheurgic Arcana from those available with the Cybertheurgist special rule.</description>
+**The Sanguine Hook:** Grants the Ephemera Lacyraemarta Cybertheurgic Arcana; no other Cybertheurgic Arcana may be selected.</description>
             </rule>
           </rules>
           <costs>
@@ -8444,12 +8416,7 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
         <selectionEntry id="1247-a94b-070d-2a7b" name="Macrotek" publicationId="bde1-6db1-163b-3b76" page="100" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="9f38-c49a-e26b-40e9" name="Macrotek" publicationId="bde1-6db1-163b-3b76" page="100" hidden="false">
-              <description>• High Enginseer: Tech-Priest Auxilia units in a Detachment that includes a model with this special rule may be taken as Troops choices. However, any Tech-Priest Auxilia that are taken in this way must choose the Enginseer Techno-arcana.
-
-• Moderati Munitoria: During the battle’s set-up, but before Objective markers have been placed or deployment has been determined, the player that controls a model with this special rule may choose to alter the terrain set-up on the battlefield. The player that controls a model with this special rule may choose to move up to three pieces of terrain each up to 6&quot;, so long as their final position is not within 2&quot; of another piece of terrain. If two or more players control models with this special rule, they roll off. They then take turns choosing and moving terrain, starting with the winner of the roll-off, until each player has moved three pieces of terrain, or chosen to pass. A piece of terrain can only be moved once by this rule.
-
-• Rector Aedificii: Models with the Battlesmith (X) special rule in a Detachment that includes a model with this special rule may repair Buildings in addition to units with the Vehicle, Dreadnought or Automata Unit Type. In addition, they add the following effects to the list of options they may apply to models targeted by the Battlesmith (X) rule:
-- Until the start of the controlling player’s next turn, any Hits allocated to the chosen model, with the Breaching (X), Exoshock (X) or Rending (X) special rules only affect that model on a D6 roll of a 6 instead of their usual effect.</description>
+              <description>Tech-Priest Auxilia units may be taken as Troops (must take Enginseer Techno-arcana). Before setup, move up to 3 terrain pieces up to 6" each (no final position within 2" of other terrain); if multiple players have this rule, roll off and alternate. Battlesmith (X) models may repair Buildings; additionally may apply: until your next turn, Breaching/Exoshock/Rending only trigger on a 6 for the target model.</description>
             </rule>
           </rules>
           <costs>
@@ -8466,15 +8433,13 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
           </modifiers>
           <rules>
             <rule id="ddb0-51e0-9185-1b5f" name="Malagra" publicationId="bde1-6db1-163b-3b76" page="100" hidden="false">
-              <description>• Ictus Insidiae: Any models with the Character Unit Sub-type in a Detachment that includes a model with this special rule may upgrade a machinator array or servo-arm they are equipped with to include an in-built prehensile data-spike for +10 points.
+              <description>**Ictus Insidiae:** Character models in the Detachment may upgrade a machinator array or servo-arm to include a prehensile data-spike (+10 pts).
 
-• Interfector Auxilia: Tech-Priest Auxilia units in a Detachment that includes a model with this special rule may choose the Interfector Techno-arcana instead of Enginseer, Lachrimallus, or Reductor options.
-- Interfector: Tech-Priests and Magos Auxilia in the unit are each equipped with a prehensile data-spike. In addition, models in the unit gain the Scout special rule.
+**Interfector Auxilia:** Tech-Priest Auxilia units in the Detachment may select the Interfector Techno-arcana option: models gain a prehensile data-spike and the Scout special rule.
 
-• Sacred Mission: A single Arcuitor Magisterium unit in a Detachment that includes a model with this special rule may be taken as an HQ choice. A unit taken in this way loses the Hunter Killer special rule and instead gains the Scout and Court of Executioners special rules. Note that this unit is still a 0-1 choice, so if it is taken as an HQ, another Arcuitor Magisterium unit cannot be taken as an Elites choice and vice versa.
-- Court of Executioners: A unit with this special rule may include up to two additional Arcuitor Magisterium for 110 points each. When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be deployed within unit coherency, but afterwards operate independently and are not treated as a unit.
+**Sacred Mission:** One Arcuitor Magisterium unit may be taken as an HQ choice; loses Hunter Killer, gains Scout and Court of Executioners (still 0-1 total). *Court of Executioners:* Unit may include up to 2 additional Arcuitor Magisterium (110 pts each); upon deployment all models in the unit operate independently.
 
-• Scindex-malagrus: A model with this special rule gains the Preferred Enemy (Characters), Precision Strikes (5+) and the Monster Hunter special rules. In addition, a model with this special rule increases their Weapon Skill Characteristic to 5 and Attacks Characteristic to 3.</description>
+**Scindex-malagrus:** Gains Preferred Enemy (Characters), Precision Strikes (5+), and Monster Hunter. WS increases to 5, Attacks to 3.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8504,11 +8469,9 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
           </modifiers>
           <rules>
             <rule id="e4ad-3f1e-c347-5d0a" name="Myrmidax" publicationId="bde1-6db1-163b-3b76" page="101" hidden="false">
-              <description>• Avatar of Destruction: A single Thanatar Siege-automata Maniple unit consisting of a single model may be taken as a non-Compulsory HQ choice in a Detachment that includes a model with this special rule. This model must be replaced with a Thanatar-Calix and may not take the Paragon of Metal upgrade. While wholly within 6&quot; of a Thanatar-Calix taken as an HQ choice in this way, friendly Myrmidon Secutor Hosts and Myrmidon Destructor Hosts gain the Line Unit Sub-type and add +1 to the Wounds score used to determine if they win a combat in the Assault phase.
-
-• The Myrmidon Host: Myrmidon Secutor Hosts in a Detachment that includes a model with this special rule may be taken as Troops choices and Myrmidon Destructor Hosts may be taken as Elites choices.
-
-• Vessel of Destruction: A model with this special rule gains the Hatred (Everything) and Bulky (3) special rules. In addition, a model with this special rule increases their Wound Characteristic to 5.</description>
+              <description>**Avatar of Destruction:** One Thanatar-Calix may be taken as a non-Compulsory HQ choice. Friendly Myrmidon Secutor/Destructor Hosts within 6" of it gain the Line sub-type and +1 to combat resolution Wounds.
+**The Myrmidon Host:** Myrmidon Secutor Hosts may be taken as Troops; Myrmidon Destructor Hosts as Elites.
+**Vessel of Destruction:** Gains Hatred (Everything), Bulky (3), and Wounds 5.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8530,15 +8493,11 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
         <selectionEntry id="73dc-f5bb-be45-2547" name="Reductor" publicationId="bde1-6db1-163b-3b76" page="101" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="bb15-1388-a02c-6ff5" name="Reductor" publicationId="bde1-6db1-163b-3b76" page="101 &amp; FAQ" hidden="false">
-              <description>• Demolisher: Models with the Battlesmith (X) special rule in a Detachment that includes a model with this special rule may target Buildings with the Battlesmith (X) special rule, in addition to models with the Vehicle, Dreadnought or Automata Unit Type. However, they may neither choose any option in the Battlesmith (X) special rule that restores lost Wounds or Hull Points, nor options that repair Weapon Destroyed or Immobilised results. Instead they may only choose from the following effects (if you are selecting the second effect listed, the model with the Battlesmith (X) ability can still use it, even if they are locked in combat and normally would not be able to fire a weapon):
-- Cause a target Building or model with the Vehicle Unit Type to lose a single Hull Point.
-- Inflict an automatic Wound with no Saves of any kind to a model with the Dreadnought or Automata Unit Type.
-- Inflict an automatic Weapon Destroyed result on a Building or model with the Vehicle Unit Type. The target does not lose a Hull Point as a result of this effect.
-- Inflict an automatic Immobilised result on a model with the Vehicle Unit Type. The target does not lose a Hull Point as a result of this effect.
+              <description>**Demolisher:** Friendly Battlesmith (X) models may target Buildings, but only to: remove 1 Hull Point (Vehicle/Building); auto-inflict a Wound (no saves) on Dreadnought/Automata; auto-inflict Weapon Destroyed (no Hull Point loss) on Vehicle/Building; or auto-inflict Immobilised (no Hull Point loss) on Vehicle. May not restore Wounds, Hull Points, or repair Weapon Destroyed/Immobilised results.
 
-• Harbinger of Devastation: During the battle’s set-up, but before Objective markers have been placed or deployment has been determined, the player that controls a model with this special rule may nominate up to three areas of terrain, Buildings, or Fortifications. If the chosen item is an area of terrain that provides a Cover Save, then that Cover Save is removed and the area counts as both Difficult Terrain and Dangerous Terrain. If the item chosen is a Building or Fortification then all rolls on the Building Damage table made for that Building or Fortification gain a modifier of +1. If two or more players control models with this special rule, they roll off. They then take turns nominating terrain, starting with the winner of the roll-off, until each player has nominated three pieces of terrain, or chosen to pass. A piece of terrain can only be nominated once by this rule.
+**Harbinger of Devastation:** Before setup, nominate up to 3 terrain pieces: area terrain loses its Cover Save (becomes Difficult and Dangerous); Buildings/Fortifications gain +1 to Building Damage table rolls. If multiple players share this rule, roll off and alternate nominations.
 
-• Secrets of Annihilation: A model with this special rule gains the Artificia Reductor Cybertheurgic Arcana, but may not select any other Cybertheurgic Arcana from those available with the Cybertheurgist special rule.</description>
+**Secrets of Annihilation:** Gains the Artificia Reductor Cybertheurgic Arcana; cannot select any other Cybertheurgic Arcana.</description>
             </rule>
           </rules>
           <costs>
@@ -8548,24 +8507,11 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
         <selectionEntry type="upgrade" import="true" name="Malefikite" hidden="true" id="e033-44c5-e827-20ff" publicationId="4934-46f7-208b-b4af" page="150" collective="false">
           <rules>
             <rule name="Malefikite" id="0158-ae20-13af-fe70" hidden="false" publicationId="4934-46f7-208b-b4af" page="150">
-              <description>• Bonds of Corruption: Any unit with the Cybernetica Unit Sub-type that is in
-the same Detachment as a model with this Proscribed Techno-arcana may be
-upgraded to have the Ruinous Cybernetica special rule for +10 points.
-•  Magister Malefica: A model with this Proscribed Techno-arcana gains the
-Machina Malefica Cybertheurgic Arcana (see page 151), but the controlling player
-may not select any other Cybertheurgic Arcana from those available for it.
-• Malignant Vector: During any Shooting phase, instead of making a Shooting
-Attack, the controlling player of a model with this Proscribed Techno-arcana may
-select any friendly unit with the Cybernetica Unit Sub-type that has at least one
-model within 2&quot; of model with this Proscribed Techno-arcana and roll a D6 for it
-on the following table:
+              <description>**Bonds of Corruption:** Cybernetica units in the same Detachment may be upgraded with Ruinous Cybernetica for +10pts.
 
-D6 | Result
-1    : The selected model suffers no further effect.
-2-3 : All models in the selected unit gain the Ruinous Cybernetica special rule
-until the start of the controlling player&apos;s next player turn.
-4+  : All models in the selected unit gain the Ruinous Cybernetica special rule
-until the end of the battle.</description>
+**Magister Malefica:** Gains Machina Malefica Cybertheurgic Arcana; no other Cybertheurgic Arcana may be selected.
+
+**Malignant Vector:** Instead of shooting, target a friendly Cybernetica unit within 2" and roll D6 — on 1: no effect; on 2–3: unit gains Ruinous Cybernetica until your next turn; on 4+: unit gains Ruinous Cybernetica permanently.</description>
             </rule>
           </rules>
           <costs>
@@ -8582,9 +8528,7 @@ until the end of the battle.</description>
         <selectionEntry type="upgrade" import="true" name="Æthertek" hidden="true" id="183d-be3f-82f9-e754" publicationId="bde1-6db1-163b-3b76" page="99" collective="false">
           <rules>
             <rule name="Æthertek" id="4e7e-b68e-3942-fd77" hidden="false" publicationId="4934-46f7-208b-b4af" page="154">
-              <description>• Mechanika Etherika: For each model with this Proscribed Techno-arcana in a Detachment, the controlling player can include one Decimator unit in the same Detachment as a non-compulsory Troops choice.
- • Opus Malefica: A model with this Proscribed Techno-arcana gains the Anima Malefica Cybertheurgic Arcana (see page 155), but may not select any other Cybertheurgic Arcana from those available to it.
- • Magos Invocatus: While a unit composed entirely of models with the Corrupted Engine Unit Sub-type is within 6&quot; of a model with this Proscribed Techno-arcana, all models in that unit are not affected by special rules that negatively modify their Characteristics (other than Wounds or Hull Points).</description>
+              <description>**Mechanika Etherika:** Each model with this rule allows 1 Decimator unit in the same Detachment as a non-compulsory Troops choice. **Opus Malefica:** Gains Anima Malefica Cybertheurgic Arcana; may not select any other Cybertheurgic Arcana. **Magos Invocatus:** Corrupted Engine units within 6" ignore special rules that negatively modify their Characteristics (except Wounds/Hull Points).</description>
             </rule>
           </rules>
           <costs>
@@ -8601,9 +8545,7 @@ until the end of the battle.</description>
         <selectionEntry type="upgrade" import="true" name="Nekrotek" hidden="true" id="d929-7702-8f4b-3393" publicationId="4934-46f7-208b-b4af" page="152" collective="false">
           <rules>
             <rule name="Nekrotek" id="5237-afa2-d5cf-0822" hidden="false" publicationId="4934-46f7-208b-b4af" page="152">
-              <description>• Mekanika Exanimate: Any unit composed entirely of models with the Cybernetica Unit Sub-type in the same Detachment as a model with this Proscribed Techno-arcana gains the It Will Not Die (5+) special rule.
- • Magos Necroteknica: A model with this Proscribed Techno-arcana gains the Ephemera Nekrotek Cybertheurgic Arcana (see below), but may not select any other Cybertheurgic Arcana from those available to it.
- • Nekromorphic Locus: Increase the Wounds Characteristic of a model with this Proscribed Techno-arcana by .</description>
+              <description>Cybernetica units in the same Detachment gain It Will Not Die (5+). Grants Ephemera Nekrotek Arcana (no other Arcana may be selected). Increase this model's Wounds by 1.</description>
             </rule>
           </rules>
           <costs>
@@ -8620,13 +8562,8 @@ until the end of the battle.</description>
         <selectionEntry type="upgrade" import="true" name="Malamina" hidden="true" id="de6f-55bd-6647-586a" publicationId="4934-46f7-208b-b4af" page="153" collective="false">
           <rules>
             <rule name="Malamina" id="ffe6-bc9b-e8c9-33df" hidden="false" publicationId="4934-46f7-208b-b4af" page="153">
-              <description>• Magos Abominatio: For each model with this Proscribed Techno-arcana in
-a Detachment, the controlling player can include one Infernus Abomination
-unit (see Campaigns of the Age of Darknes: 7The Siege of Cthonia) in the same
-Detachment as an Elites choice.
- • Armatus Malevolus: Any model in the same Detachment as a model with this
-Proscribed Techno-arcana can replace a power weapon or power blade array with
-abomination blades for +10 points per model.</description>
+              <description>**Magos Abominatio:** For each model with this rule in a Detachment, include 1 Infernus Abomination unit in the same Detachment as an Elites choice.
+**Armatus Malevolus:** Models in the same Detachment may replace a power weapon or power blade array with abomination blades (+10 pts/model).</description>
             </rule>
           </rules>
           <costs>
@@ -9054,8 +8991,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
           </constraints>
           <rules>
             <rule id="7b98-d37b-e98b-1d60" name="Conqueror of Worlds (0-1)" publicationId="4934-46f7-208b-b4af" page="119" hidden="false">
-              <description>A model with this upgrade gains the Character Unit Sub-type and increases its Weapon Skill and Ballistic Skill Characteristics by +1. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen is the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the following Warlord Trait:
-</description>
+              <description>Gains Character sub-type; +1 WS and BS. If this detachment is the Primary Detachment, must be the army's Warlord and automatically gains the associated Warlord Trait.</description>
             </rule>
           </rules>
           <costs>
@@ -9065,14 +9001,14 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
         <selectionEntry type="upgrade" import="true" name="Heedless Slaughter" hidden="false" id="4d39-37c3-366-9cbd" publicationId="4934-46f7-208b-b4af" page="119">
           <rules>
             <rule name="Heedless Slaughter (Dark Blessing)" hidden="false" id="a04f-92eb-66e1-dc45" publicationId="4934-46f7-208b-b4af" page="119">
-              <description>A model with this Dark Blessing gains the Character Unit Sub-type and must reduce its Weapon Skill and Ballistic Skill Characteristics by -1. In addition, for each model with this Dark Blessing, all models in a single unit made up entirely of models with the Armiger Unit Type, selected as part of the same Detachment, gain the Rage (2) special rule for no additional points cost.</description>
+              <description>Gains Character sub-type; –1 WS and BS. One allied Armiger unit in the same Detachment gains Rage (2).</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Malevolent Artifice (Dark Blessing)" hidden="false" id="d6ff-d1db-10d2-9280" publicationId="4934-46f7-208b-b4af" page="119">
           <rules>
             <rule name="Malevolent Artifice (Dark Blessing)" hidden="false" id="de1e-6bee-f53f-de9c" publicationId="4934-46f7-208b-b4af" page="119">
-              <description>At the end of each of the controlling player’s turns in which a model with this upgrade inflicts at least one unsaved Wound or Hull Point with a weapon with the Melee type, it gains the It Will Not Die (6+) special rule until the end of the battle. If the model already has the It Will Not Die (X) special rule, it increases the value of X by 1, up to a maximum of 4+.</description>
+              <description>At the end of your turn, if this model inflicted ≥1 unsaved Wound/Hull Point in melee: gain It Will Not Die (6+) for the rest of the battle. If already has It Will Not Die (X), increase X by 1 (max 4+).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9085,8 +9021,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
         <selectionEntry type="upgrade" import="true" name="Encroaching Ruin (Dark Blessing)" hidden="false" id="e208-5a47-5937-4f5c" publicationId="4934-46f7-208b-b4af" page="119">
           <rules>
             <rule name="Encroaching Ruin (Dark Blessing)" hidden="false" id="3543-23e4-4cbe-a169" publicationId="4934-46f7-208b-b4af" page="119">
-              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and gains the Character Unit Sub-type and Commanding Presence special rule.
-Commanding Presence: Armiger Warglaives or Armiger Helverins units that have at least one model within 6&quot; of one or more friendly models with this special rule at the start of a turn increase their Movement Characteristic by +2 until the end of that player turn.</description>
+              <description>+1 BS; gains Character Sub-type. Friendly Armiger units within 6" at turn start gain +2 Movement until end of turn.</description>
             </rule>
           </rules>
           <costs>
@@ -9096,12 +9031,10 @@ Commanding Presence: Armiger Warglaives or Armiger Helverins units that have at 
         <selectionEntry type="upgrade" import="true" name="Putrid Corruption (Dark Blessing)" hidden="false" id="6a9-eb18-8dc5-ef1c" publicationId="4934-46f7-208b-b4af" page="119">
           <rules>
             <rule name="Putrid Corruption (Dark Blessing)" hidden="false" id="ba33-7b89-512c-7bbf" publicationId="4934-46f7-208b-b4af" page="119">
-              <description>A model with this upgrade must reduce its Movement Characteristic by -2 and gains the Unrelenting special rule.
-An Acastus Knight Porphyrion or Acastus Knight Asterius may not be given this Dark Blessing.
-Unrelenting:</description>
+              <description>Movement -2; gains Unrelenting. Cannot be given to an Acastus Knight Porphyrion or Acastus Knight Asterius.</description>
             </rule>
             <rule name="Unrelenting" id="4499-88a2-4705-ae43" hidden="false">
-              <description>Each time a model with this special rule suffers an Explodes result on the Vehicle Damage chart, it loses 1 extra Hull Point instead of D3, in addition to the Hull Point it loses for the Penetrating Hit.</description>
+              <description>On an Explodes result, lose 1 extra Hull Point instead of D3 (in addition to the Hull Point from the Penetrating Hit).</description>
             </rule>
           </rules>
           <costs>
@@ -9111,9 +9044,7 @@ Unrelenting:</description>
         <selectionEntry type="upgrade" import="true" name="Infernal Tempest (Dark Blessing)" hidden="false" id="7ad-bd12-1203-4018" publicationId="4934-46f7-208b-b4af" page="119">
           <rules>
             <rule name="Infernal Tempest (Dark Blessing)" hidden="false" id="2b0e-5f20-f672-ea98" publicationId="4934-46f7-208b-b4af" page="119">
-              <description>A model with this upgrade gains the Character and Psyker Unit Sub-types, and Infernal Rites Psychic Discipline. When making a Psychic check, a model with this upgrade always counts as having a Leadership Characteristic of 7 regardless of any modifiers or effects.
-Psychic Discipline: Infernal Rites
-A Psyker with this Discipline gains the listed Power, weapon and special rules but does not gain the Aetheric Lightning Psychic Weapon.</description>
+              <description>Gains Character, Psyker subtypes, and Infernal Rites Discipline. Psychic checks always use Ld 7, ignoring modifiers. Gains all Infernal Rites powers and rules except Aetheric Lightning.</description>
             </rule>
           </rules>
           <profiles>
@@ -9141,7 +9072,7 @@ A Psyker with this Discipline gains the listed Power, weapon and special rules b
         <selectionEntry type="upgrade" import="true" name="Ravenous Dissolution (Dark Blessing)" hidden="false" id="6463-f70a-45df-f1f4" publicationId="4934-46f7-208b-b4af" page="120">
           <rules>
             <rule name="Ravenous Dissolution (Dark Blessing)" hidden="false" id="51e9-cbc3-6e3-e1ed" publicationId="4934-46f7-208b-b4af" page="120">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1, and gains the Character Unit Sub-type and the Marked for Death special rule.</description>
+              <description>+1 WS; gains Character sub-type and Marked for Death.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -9154,7 +9085,7 @@ A Psyker with this Discipline gains the listed Power, weapon and special rules b
         <selectionEntry type="upgrade" import="true" name="Rapturous Sensation (Dark Blessing)" hidden="false" id="68f-18b3-d00b-5caf" publicationId="4934-46f7-208b-b4af" page="120">
           <rules>
             <rule name="Rapturous Sensation (Dark Blessing)" hidden="false" id="3afb-89b0-1dae-96fa" publicationId="4934-46f7-208b-b4af" page="120">
-              <description>No enemy unit that has one or more models within 8&quot; of a model with this Dark Blessing may have a Reaction declared for it in any Phase unless that unit’s controlling player first passes a Leadership test for the unit that they wish to declare a Reaction for. If the Test is passed then a Reaction may be declared and resolved as normal. If the Test is failed then that unit may not have any Reactions declared for it in the current player turn, but the controlling player does not lose a point of their Reaction Allotment.</description>
+              <description>Enemy units within 8" must pass a Leadership test before declaring any Reaction. On a fail, no Reactions may be declared for that unit this player turn (Reaction Allotment unaffected).</description>
             </rule>
           </rules>
           <costs>
@@ -9164,7 +9095,7 @@ A Psyker with this Discipline gains the listed Power, weapon and special rules b
         <selectionEntry type="upgrade" import="true" name="Formless Distortion (Dark Blessing)" hidden="false" id="b4c8-641b-5139-1acd" publicationId="4934-46f7-208b-b4af" page="120">
           <rules>
             <rule name="Formless Distortion (Dark Blessing)" hidden="false" id="7e74-972a-b0f5-2c58" publicationId="4934-46f7-208b-b4af" page="120">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1 and gains the Character Unit Sub-type. In addition, it may exchange a single weapon with the Melee type to an Ionic Lash.</description>
+              <description>+1 WS, gains Character sub-type, and may swap one Melee weapon for an Ionic Lash.</description>
             </rule>
           </rules>
           <costs>
@@ -9191,63 +9122,49 @@ A Psyker with this Discipline gains the listed Power, weapon and special rules b
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="41ab-227d-9d91-8001" name="Flank Speed" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-      <description>A model with this special rule may increase its Movement Distance by 4&quot; in any Movement phase, but if it does so it may not make any Shooting Attacks in the subsequent Shooting phase. Note this model may still Charge in the Assault phase. In addition, when declaring a Charge after making a Shooting Attack, a model with this special rule may Charge a unit that it did not target in that turn’s Shooting phase, provided that the target of the Charge meets all other criteria of a valid Charge target.</description>
+      <description>May move +4" in the Movement phase; if it does, cannot Shoot that turn (may still Charge). When Charging after Shooting, may target a unit not shot at this turn (all other Charge criteria must be met).</description>
     </rule>
     <rule id="e993-bb10-e7fc-c959" name="Ram (X)" publicationId="8200-f05a-6e7d-9326" page="2" hidden="false">
-      <description>When a model with a weapon with this special rule performs a Ram Attack, it inflicts a number of additional hits equal to the value of X. These additional hits are resolved using the profile of the weapon with this special rule.</description>
+      <description>On a Ram Attack, inflict X additional hits using this weapon's profile.</description>
     </rule>
     <rule id="e51e-cae1-d9e7-d317" name="Galvanic Traction Drive" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-      <description>A model with this special rule must re-roll failed Dangerous Terrain tests.</description>
+      <description>Re-roll failed Dangerous Terrain tests.</description>
     </rule>
     <rule id="d242-cb71-bc7f-eadd" name="Ardex-Defensor" publicationId="bde1-6db1-163b-3b76" page="102 &amp; FAQ" hidden="false">
-      <description>A model with the Knight or Titan Unit Sub-types that has weapons with this special rule may make the Overwatch Reaction when it is triggered by models that do not have the Knight, Titan, Super-heavy, or Lumbering Unit Sub-types, or that have fewer than 8 Wounds. When making Shooting Attacks as part of the Overwatch Reaction, the Reacting model may only make Shooting Attacks with weapons with this special rule.</description>
+      <description>May make the Overwatch Reaction against units without the Knight, Titan, Super-heavy, or Lumbering sub-types, or with fewer than 8 Wounds. Overwatch attacks must use only weapons with this rule.</description>
     </rule>
     <rule id="66b8-7232-1ed3-3f70" name="God-Engine" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-      <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly Mechanicum units with at least one model within 24&quot; of a model with this special rule gain the Fearless special rule.</description>
+      <description>Immune to Psychic Powers, Cybertheurgic Rites/Attacks, Haywire, and Disruption (X) — affected weapons must resolve hits using Strength as normal. Friendly Mechanicum units within 24" gain Fearless.</description>
     </rule>
     <rule id="f83c-9442-8102-5da4" name="Pride of Place" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
-      <description>A model with this special rule may not embark upon any model with the Transport Unit Sub-type, regardless of its Unit Type or any special rules the model with the Transport Sub-type may have.</description>
+      <description>Cannot embark on any Transport, regardless of special rules.</description>
     </rule>
     <rule id="f420-6cdb-5d9b-ef30" name="Cybertheurgic Focus" publicationId="bde1-6db1-163b-3b76" page="94" hidden="false">
-      <description>Before making any To Hit rolls with this weapon, the Cybertheurgist must make a Cybertheurgy check. If the Check is passed then the Cybertheurgist may attack as normal using the profile shown for this weapon. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</description>
+      <description>Before attacking, make a Cybertheurgy check. Pass: attack normally. Fail: suffer Cybertheurgic Feedback; if surviving, attack normally but cannot use this weapon.</description>
     </rule>
     <rule id="3e2e-cdc0-8a31-06f6" name="Data-djinn" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
-      <description>When allocated to a model that does not have the Automata, Vehicle or Dreadnought Unit Types or is not a Building or Fortification, any Hits from a weapon with this special rule automatically fail to Wound without any dice being rolled and regardless of the weapon’s Strength or the target’s Toughness.</description>
+      <description>Hits against non-Automata, non-Vehicle, non-Dreadnought, non-Building/Fortification models automatically fail to Wound.</description>
     </rule>
     <rule id="919e-7a5b-6283-3cff" name="Vox Silence" publicationId="bde1-6db1-163b-3b76" page="111" hidden="false">
-      <description>Any models with the Infantry or Cavalry Unit Types in a unit that suffers one or more Hits from a weapon with this special rule must reduce their Leadership by -2 until the start of their controlling player’s next turn. This modifier is not cumulative, and any given unit can only be affected by a single instance of the Vox Silence special rule at a time. Nor is it cumulative with other special rules that negatively modify Leadership. Always use the highest single modifier among those applicable. In addition, units affected by this special rule do not gain the benefits of nuncio vox, command vox or other similar Wargear items until the start of their controlling player’s next turn. Units that include one or more models with the Stubborn special rule ignore this effect.</description>
+      <description>Hits from this weapon reduce Leadership by -2 until the start of the target's next turn (Infantry/Cavalry only; not cumulative with other negative Leadership modifiers — use the highest single modifier). Affected units also lose benefits from nuncio vox, command vox, and similar wargear until then. Units with Stubborn ignore this effect.</description>
     </rule>
     <rule id="0893-4bd0-d5a1-14db" name="Patris Cybernetica" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
-      <description>An Independent Character with this special rule may join a unit composed of models with the Automata Unit Type or Monstrous Unit Sub-type. However they cannot join a unit which contains models of any other Unit Type if the model with this rule also has the Automata or Dreadnought Unit Type, or the Monstrous Unit Sub-type.</description>
+      <description>May join Automata or Monstrous units. If the bearer is also Automata, Dreadnought, or Monstrous, they cannot join units containing any other Unit Type.</description>
     </rule>
     <rule id="50f4-db05-3e45-467f" name="Djinn-Sight" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-      <description>When making Shooting Attacks, djinn-sight reduces the benefits of any Cover Save the target unit has by -2 (a 4+ becoming a 6+, a 5+ being ignored entirely, and so on). Additionally, Infiltrators may not be set up within 24&quot; of units with this special rule, regardless of line of sight.</description>
+      <description>Cover Saves of target units are reduced by 2 when shooting. Infiltrators cannot set up within 24".</description>
     </rule>
     <rule id="a686-026f-6674-102e" name="Guardian Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="91" hidden="false">
-      <description>• Units including models with the Guardian Unit Sub-type may Embark freely upon models with the Transport Unit Sub-type and within Buildings and Fortifications as if they had the Infantry Type, even if their Unit Type would normally restrict this.
-• Units including models with the Guardian Unit Sub-type may be joined by friendly models with the Character Unit Sub-type or Independent Character special rule, and when they are joined in this manner may make Reactions, even if their Unit Type would normally restrict this.
-• If a unit contains any models with the Guardian Unit Sub-type as well as one or more models with the Character Unit Sub-type, any Wounds which would be allocated to the Character (even those caused by the Precision Strikes (X) or Sniper special rules) may instead be allocated to a model with the Guardian Unit Sub-type first.
-• Unless they are joined by a friendly Character, all models with the Guardian Unit Sub-type suffer the following provisions:
--	Reduce their Movement Characteristic by -2 and may not Run.
--	Reduce their Initiative Characteristic to 1.</description>
+      <description>Can embark on Transports, Buildings, and Fortifications as Infantry. May be joined by Characters and make Reactions regardless of Unit Type. While a Character is present, Wounds allocated to that Character (including from Precision Strikes or Sniper) may be redirected to a Guardian model instead. Without a joined Character: –2 Movement, cannot Run, and Initiative reduced to 1.</description>
     </rule>
     <rule id="a0d8-9118-002e-613d" name="Vortex" publicationId="bde1-6db1-163b-3b76" page="111 &amp; FAQ" hidden="false">
-      <description>Once an attack with this special rule has been fully resolved, any Blast markers placed as part of that attack are not removed from play and instead are left in place for the remainder of the battle. Such a Blast marker is then referred to as the Vortex marker. The area under a Vortex marker is treated as Area Terrain for the remainder of the battle, and applies the following effects to all models that enter its boundaries:
-No line of sight may be drawn through, into, or out of the area covered by the Vortex marker (as such, models within such an area of terrain cannot draw line of sight to any other model, nor can other models draw a line of sight to them).
-Any models that enter the boundary of this area of terrain, or begin the Movement phase of the model’s Controlling player within its boundaries, immediately suffer one Str 10, AP 1 Hit and the Instant Death and Armourbane (Melee) special rules. If the model has the Vehicle Unit Type and suffers a Penetrating Hit due to this effect then it adds a modifier of +3 to that roll on the Vehicle Damage table instead of the +2 modifier it would normally add due to being AP1.
-This area of terrain does not confer a Cover Save and no model within its boundary may use a Cover Save granted by any other rule or effect.</description>
+      <description>Blast markers from this attack remain as Vortex markers permanently. Each marker becomes Area Terrain with the following effects: no line of sight may be drawn through, into, or out of it; any model entering or beginning its Movement phase inside suffers a Str 10, AP 1 hit with Instant Death and Armourbane (Melee) (Vehicles: +3 to Damage table instead of +2 on a Penetrating Hit); grants no Cover Save and suppresses all Cover Saves within.</description>
     </rule>
     <rule id="7d4f-c9a9-f9c0-b49a" name="Feudal Hierarchy" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-      <description>A single Detachment may not include both an Archmagos Prime and an Archmagos Prime on Abeyant.
-
-Designers note from FAQ: For the purposes of the Feudal Hierarchy special rule:
-Treat Callab Decima Invictus as an Archmagos Prime.
-Treat Achmagos Draykavac as an Archmagos Prime.
-Treat Archmagos Draykavax on Abeyant as an Archmagos Prime on Abeyant.
-Treat Archmagos Anarcharis Scoria as an Archmagos Prime on Abeyant.</description>
+      <description>A Detachment may not include both an Archmagos Prime and an Archmagos Prime on Abeyant.</description>
     </rule>
     <rule id="ce3-9a6b-4e7b-3614" name="The Rite of Pure Thought" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
-      <description>A unit with this special rule may not make any Reactions or Sweeping Advance moves.</description>
+      <description>Cannot make Reactions or Sweeping Advances.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

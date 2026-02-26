@@ -4686,7 +4686,7 @@
       </constraints>
       <rules>
         <rule id="cc22-87b0-6a3b-bbb6" name="Born Survivor" hidden="false">
-          <description>The first time in any game when a model with this special rule is reduced to 0 Wounds for any reason or otherwise removed from play as a casualty, the controlling player must immediately make a Leadership test for that model. If the test is failed then the model is removed as a casualty as normal, but if the test is passed then the Warlord is not removed as a casualty, remains in play and regains D3 Wounds.</description>
+          <description>The first time this model would be removed as a casualty, take a Leadership test. Pass: remain in play and regain D3 Wounds. Fail: removed as normal.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6092,7 +6092,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
       </constraints>
       <rules>
         <rule id="a3ca-1402-2721-8e22" name="The First Reaver" publicationId="53a4-0d21-2f8a-2c45" page="213" hidden="false">
-          <description>A single Reaver Attack Squad may be selected as part of the same choice as Vheren Ashurhaddon. A unit selected in this manner is considered a ‘Retinue Squad’ and Vherren Ashurhaddon is referred to as the Retinue Squad’s Leader for the purposes of this special rule. The Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as Vheren Ashurhaddon. The Retinue Squad must be deployed with Vheren Ashurhaddon deployed as part of the unit and Vheren Ashurhaddon may not voluntarily leave the Retinue Squad during play. A Reaver Attack Squad selected in this manner gains the Line Unit Sub-type. Note that no model may select more than one Retinue Squad as part of the same choice, even if more than one option for such a unit is available.</description>
+          <description>One Reaver Attack Squad may be taken alongside Ashurhaddon at no Force Organisation cost, forming a single unit with him as Leader. That squad gains the Line sub-type. Ashurhaddon must deploy with and may never voluntarily leave this Retinue Squad.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6414,7 +6414,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
       </entryLinks>
       <rules>
         <rule name="Haunted" id="eb36-7380-6bad-1660" hidden="false" publicationId="d882-d2a-5da1-92c4" page="191">
-          <description>If Garviel Loken is removed as a casualty whilst locked in combat with Horus Aximand or any unit he has joined then Horus Aximand’s controlling player gains +1 bonus Victory point in addition to any others that might be gained from this; this bonus is increased to +2 bonus Victory points if Garviel Loken is removed as a casualty while Engaged in a Challenge with Horus Aximand.</description>
+          <description>If Loken is killed while locked in combat with Aximand (or his unit): +1 VP. Increased to +2 VP if killed during a Challenge with Aximand directly.</description>
         </rule>
       </rules>
     </selectionEntry>

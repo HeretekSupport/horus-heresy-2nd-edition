@@ -3145,13 +3145,13 @@
 Sire of the Emperor’s Children - All friendly models with the Legiones Astartes (Emperor’s Children) that can draw a line of sight to Fulgrim may use Fulgrim’s Leadership Characteristic for all Morale and Pinning checks they are required to take and all friendly units with the Legiones Astartes (Emperor’s Children) special rule on the battlefield while Fulgrim is also on the battlefield gain +1 to the Wound value used to calculate if the unit has won a close combat. In addition, the first Reaction made in each Game Turn by Fulgrim and any unit he has joined does not use up a point of the controlling player’s Reaction Allotment.</description>
             </rule>
             <rule id="fb22-25ac-6bd6-52ee" name="The Gilded Panoply" hidden="false">
-              <description>The Gilded Panoply provides Fulgrim with a 2+ Armour Save, a 3+ Invulnerable Save against Melee Attacks and a 4+ Invulnerable Save against all other Wounds inflicted upon him.</description>
+              <description>2+ Armour Save; 3+ Invulnerable vs. Melee; 4+ Invulnerable vs. all other Wounds.</description>
             </rule>
             <rule id="89df-f48f-5c11-d109" name="Sublime Swordsman" hidden="false">
-              <description>When Fulgrim makes Melee Attacks as part of a Challenge, he gains a number of additional attacks equal to the amount which his Initiative Characteristic is greater than that of his opponent. For example, if Fulgrim attacks an enemy model with an Initiative Characteristic of 5 as part of a Challenge, Fulgrim’s Initiative of 8 grants him 3 extra Attacks</description>
+              <description>In Challenges, gains bonus attacks equal to the difference between his Initiative and the opponent's.</description>
             </rule>
             <rule id="8684-608d-8f41-b907" name="Tactical Excellence" hidden="false">
-              <description>Once per battle, at the start of any Phase, Fulgrim&apos;s controlling player may declare the use of this special rule. For the duration of that Phase any enemy units that attempt to declare a Reaction against a Move, Shooting Attack or Charge made by Fulgrim or a unit that he has joined, must first pass a Leadership test (using the highest Leadership Characteristic in the unit attempting to make a Reaction), unless the unit that is making the Reaction includes at least one model with the Primarch Unit Type, in which case the unit may declare Reactions as normal.</description>
+              <description>Once per battle, at the start of any Phase: enemy units must pass a Leadership test to declare Reactions against Fulgrim or his unit that phase. Exemption: units containing a Primarch react normally.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4121,7 +4121,7 @@ A unit with this special rule gains +1 to the score used to calculate the winner
           </profiles>
           <rules>
             <rule id="c742-77a2-9ded-cc84" name="Thunderous Charge" hidden="false">
-              <description>On any turn in which Lord Commander Eidolon makes a Successful charge, the model&apos;s attack ignore the Unwieldy special rule on Glory Aeterna.</description>
+              <description>On a successful charge turn, attacks with Glory Aeterna ignore Unwieldy.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4263,7 +4263,7 @@ A unit with this special rule gains +1 to the score used to calculate the winner
           </profiles>
           <rules>
             <rule id="abd6-aa34-8bbe-a4c8" name="A Brother Betrayed" hidden="false">
-              <description>Captain Saul Tarvitz gains +1 Weapon Skill, +1 Strength and +1 Toughness while locked in combat with any enemy model that has both the Independent Character and Legiones Astartes (Emperor’s Children) special rules or any unit that such a model has joined. If an enemy model that has both the Independent Character and Legiones Astartes (Emperor’s Children) special rules is removed as a casualty whilst locked in combat with Captain Saul Tarvitz or any unit he has joined then Saul Tarvitz controlling player gains +1 bonus Victory point in addition to any others that might be gained from this, this bonus is increased to +2 bonus Victory points if Captain Lucius is removed as a casualty while engaged in a Challenge with Captain Saul Tarvitz.</description>
+              <description>While engaged with an Emperor's Children Independent Character (or their unit): +1 WS, +1 S, +1 T. When such a character is removed as a casualty in that combat: +1 VP (or +2 VP if it's Captain Lucius, removed during a Challenge with Tarvitz).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4440,10 +4440,10 @@ If any of these are true then Captain Saul Tarvitz and any friendly units with a
           </profiles>
           <rules>
             <rule id="65da-d71b-ef30-53f3" name="Supreme Duellist" hidden="false">
-              <description>While fighting in a challenge, if Captain Lucius’ Initiative Characteristic is higher than his opponents then he gains +1 to his Attacks Characteristic.</description>
+              <description>While in a challenge, if Lucius' Initiative exceeds his opponent's: +1 Attack.</description>
             </rule>
             <rule id="d3fc-aa62-15c9-a3fa" name="Blade of the Laer" hidden="false">
-              <description>If Blade of the Laer is chosen, Lucius may not be taken in the same army as Fulgrim.</description>
+              <description>Cannot be taken in the same army as Fulgrim.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4717,13 +4717,13 @@ If any of these are true then Captain Saul Tarvitz and any friendly units with a
       </constraints>
       <rules>
         <rule id="7323-707b-b5fb-ba70" name="Precision Fire" publicationId="09b3-d525-cdea-260c" page="14" hidden="false">
-          <description>Enemy models may not make Cover saves or Damage Mitigation rolls against a wound caused by a Shooting Attack made by a model with this special rule, unless that Shooting Attack was made as a Snap Shot, in which case Cover Saves and Damage Mitigation rolls are made as normal.</description>
+          <description>Shooting wounds ignore Cover saves and Damage Mitigation rolls (not when firing Snap Shots).</description>
         </rule>
         <rule id="cb68-f549-a3ba-85bf" name="Fortified Position" publicationId="09b3-d525-cdea-260c" page="14" hidden="false">
-          <description>In games that allow the use of Fortifications, an Emperor&apos;s Children Sun Killer Squad that has not selected a Dedicated Transport may instead select a Defence Line without occupying a Fortification Force Organisation slot, but the cost in points must be counted towards the army total.</description>
+          <description>May take a Defence Line (no Fortification slot required; cost still counts toward army total), if no Dedicated Transport is selected.</description>
         </rule>
         <rule id="4ddb-6ad8-15eb-a95f" name="Designated Quarry" publicationId="09b3-d525-cdea-260c" page="14" hidden="false">
-          <description>At the start of the battle, once both armies have set up all their models, including any units with the Infiltrator special rule, a single enemy unit with the Gargantuan, Super-heavy, Knight or Titan Unit Sub-type may be chosen by the player that controls any models with this special rule - this enemy unit is considered the &apos;Designated Quarry&apos;. When any friendly models with this special rule are used to make a Shooting Attack against the enemy unit their controlling player has selected as the Designated Quarry, all failed To Wound rolls of &apos;1&apos; may be re-rolled. If the enemy unit selected as the Designated Quarry has an Armour Value, add +1 to any results rolled on the Vehicle Damage chart as a result of Shooting Attacks made by models with this special rule.</description>
+          <description>After setup, choose 1 enemy Gargantuan, Super-heavy, Knight, or Titan unit as the Designated Quarry. Shooting attacks against it: re-roll failed To Wound rolls of 1; +1 to Vehicle Damage chart results if it has an Armour Value.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6036,7 +6036,7 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
               <modifiers>
                 <modifier type="set" value="Wrathful Blows (3)" field="name"/>
               </modifiers>
-              <description>Wrathful Blows (X): A model making Attacks with a weapon with this special rule makes an amount of Attacks equal to the number shown in brackets, regardless of their Attacks Characteristic and any bonuses gained for Charging.</description>
+              <description>Makes exactly X Attacks, ignoring the model's Attacks characteristic and Charge bonuses.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -6064,24 +6064,13 @@ In addition, the first Reaction made in each Game Turn by Fulgrim Transfigured a
           </profiles>
           <rules>
             <rule name="Serpentine Daemonform" hidden="false" id="e3b2-8fb5-bcc7-5a7">
-              <description>In the wake of his physical being becoming a vessel for the powers of the Warp, Fulgrim’s form became nigh indestructible. Despite his virtual immortality, Fulgrim’s monstrous pride often ensured that should a foe threaten to best him, he would dramatically leave the battlefield, denying them the satisfaction of besting him in combat.
-    Fulgrim Transfigured’s Serpentine Daemonform provides a 2+ Armour Save and a 4+ Invulnerable Save. Additionally, while Fulgrim Transfigured has four or fewer wounds, add +1 to dice rolls made for his It Will Not Die (X) Special Rule.
-    If, at the start of any of their player turns, Fulgrim Transfigured has two or fewer Wounds and is not locked in combat, his controlling player may choose to remove Fulgrim Transfigured from play as a casualty. If Fulgrim Transfigured is removed from play in this manner, the opposing player achieves no Objectives or Secondary Objectives that would otherwise be scored by removing Fulgrim Transfigured as a casualty</description>
+              <description>2+ Armour Save, 4+ Invulnerable Save. While at ≤4 Wounds, +1 to It Will Not Die rolls. At the start of your turn, if at ≤2 Wounds and not locked in combat, you may remove Fulgrim Transfigured as a casualty — the opponent scores no Objectives or Secondary Objectives for doing so.</description>
             </rule>
             <rule name="Scion of Corruption" hidden="false" id="3f52-b4da-3c51-21f7" publicationId="7f9d-5e88-241d-e861" page="105">
-              <description>All units with the Legiones Astartes (Emperor’s Children) special rule in an army that includes Fulgrim Transfigured must replace it with the Legiones Hereticus (Emperor’s Children) special rule. In addition you cannot include Fulgrim Transfigured in the same army as Fulgrim.</description>
+              <description>All Legiones Astartes (Emperor's Children) units must replace that rule with Legiones Hereticus (Emperor's Children). Cannot be included in the same army as Fulgrim.</description>
             </rule>
             <rule name="Resplendent Wings" hidden="false" id="c3ef-7907-9642-bdcd" publicationId="7f9d-5e88-241d-e861" page="105">
-              <description>Fulgrim’s altered form descended from tortured skies on delicate wings. Though fragile in appearance, when punctured by bullet or blade, they rapidly reknit, remaining perfect and unblemished.
-
-
-At the start of the controlling player’s Movement phase a model with Resplendent Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Resplendent Wings to move up to 14”, regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Resplendent Wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their movement in Dangerous Terrain. A model with Resplendent Wings that have been activated treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its movement at least 1” away from any model from another unit.
-
-
-A model with Resplendent Wings may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Unit Sub-type to Run). When making a Run move for a model with activated Resplendent Wings, add the Initiative Characteristic of the model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with Resplendent Wings as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.
-
-
-During a Reaction made in any Phase, a player may not choose to activate a model’s Resplendent Wings to gain any bonus to its Movement Characteristic.</description>
+              <description>At the start of your Movement phase, activate to set Movement to 14" for the turn: ignore terrain while Moving/Charging (treat Difficult as Dangerous; still take Dangerous Terrain tests when beginning/ending in it); fly over models but end ≥1" from other units. When Running with activated wings, move up to 14" + Initiative value, ignoring terrain and other models. Cannot activate during Reactions.</description>
             </rule>
           </rules>
           <infoLinks>

@@ -3560,7 +3560,7 @@
     <selectionEntry id="a6e3-baab-45b9-7fea" name="Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="aee3-ea29-a584-363c" name="Moving Bulwark" hidden="false">
-          <description>When a model with this special rule is in base contact with another friendly model that also has the Moving Bulwark special rule, both models increase their Invulnerable Saves by one step (i.e from 5+ to 4+) to a maximum of a 4+ Invulnerable Save.</description>
+          <description>While in base contact with another friendly model with this rule, both models improve their Invulnerable Save by one step (max 4+).</description>
         </rule>
         <rule id="9928-677a-8d79-4db0" name="The Shield of the Iron Tyrant" hidden="false">
           <modifiers>
@@ -3570,7 +3570,7 @@
               </conditions>
             </modifier>
           </modifiers>
-          <description>An Iron Circle Maniple composed of at least three models may be selected as a Retinue Squad in a detachment that includes Perturabo, instead of as an Elite choice. An Iron Circle Maniple selected as a Retinue Squad counts Perturabo as its leader for the purposes of this special rule. An Iron Circle Maniple selected as a Retinue Squad must be deployed with Perturabo deployed as part of the unit and Perturabo may not voluntarily leave the Retinue Squad during play, Domitar-ferrum that are part of an Iron Circle Maniple chosen as a Retinue Squad for Perturabo gain the Feel No Pain (5+) special rule.</description>
+          <description>May be taken as Perturabo's Retinue Squad (min. 3 models) instead of an Elite choice. Must deploy with and may not voluntarily leave Perturabo. Models in the unit gain Feel No Pain (5+).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4052,7 +4052,7 @@
       </profiles>
       <rules>
         <rule id="1e88-0300-e0d1-3fe3" name="Torment" hidden="false">
-          <description>An army that includes Perturabo may also include The Tormentor as a Dedicated Transport for Perturabo. As a Dedicated Transport this does not take up an additional Force Organisation slot, but its points must still be paid for as part of the army and count towards the maximum combined Lords of War and Primarch value.</description>
+          <description>May include The Tormentor as a Dedicated Transport (no extra Force Org slot; points still paid and count toward the Lords of War/Primarch cap).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4503,7 +4503,7 @@
               </conditions>
             </modifier>
           </modifiers>
-          <description>An Iron Warriors Dominator Cohort may be selected as a Retinue Squad in a Detachment that includes Perturabo, instead of as an Elites choice. A unit selected as a ‘Retinue Squad’ must have Perturabo as the Iron Warriors Dominator Cohort’s Leader for the purposes of this special rule. An Iron Warriors Dominator Cohort selected as a Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as Perturabo. An Iron Warriors Dominator Cohort selected as a Retinue Squad must be deployed with Perturabo as part of the unit and Perturabo may not voluntarily leave the Retinue Squad during play. All models in an Iron Warriors Dominator Cohort selected in this manner lose the Hatred (Automata) and instead gain the Feel No Pain (6+) special rule. In addition, if an army includes an Iron Warriors Dominator Cohort selected as a Retinue Squad for Perturabo, then the army may not include any ‘Iron Circle’ Domitar-ferrum class Battle-automata Maniples.</description>
+          <description>May be taken as Perturabo's Retinue Squad (no Force Org slot) instead of an Elites choice. Must deploy with Perturabo as part of his unit; Perturabo may not voluntarily leave. Models lose Hatred (Automata) and gain Feel No Pain (6+). If taken as Retinue Squad, the army may not include any Iron Circle Domitar-ferrum Maniples.</description>
         </rule>
       </rules>
       <infoLinks>

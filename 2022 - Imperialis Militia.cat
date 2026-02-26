@@ -737,12 +737,7 @@
           </profiles>
           <rules>
             <rule id="7200-67f2-84a8-9bad" name="The Muster of Worlds" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>The Muster of Worlds
-If the Detachment contains a Force Commander then it may also possess up to two Provenances. Unless noted, the effects of these apply to any and all units in the same Detachment with the Militia Unit Sub-type.
-
-Muster of Worlds: Provenances of War
-The following Provenances of War are facets of a particular force which represents the nature of the world from which it originates or the particular character and background of the warriors themselves. The presence of a Force Commander in the Detachment allows up to two different Provenances to be selected for the Detachment via their Muster of Worlds special rule. Any single Detachment can never have more than two Provenances however, regardless of the number of Force Commanders present.
-Unless noted, the effects of any rules featured in the Provenance’s description apply to any and all units in the same Detachment as the Force Commander with the Militia Unit Sub-type – however, any unit with the Mechanised Unit Sub-type may never benefit from the effects of a Provenance unless that Provenance specifically states otherwise. In addition, certain Provenances may not be taken in combination or have other limitations which taking them imposes on the rest of the army, which means it is advisable to choose your Force Commander and any Provenances you wish for the Detachment before selecting the rest of your army. Certain Provenances will also allow access to special equipment options or unit options which must be paid for separately on a unit by unit basis.</description>
+              <description>If the Detachment includes a Force Commander, it may select up to 2 Provenances of War. Effects apply to all Militia Sub-type units in the Detachment; Mechanised Sub-type units never benefit unless a Provenance explicitly states otherwise.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1417,11 +1412,7 @@ Unless noted, the effects of any rules featured in the Provenance’s descriptio
               </profiles>
               <rules>
                 <rule id="fef0-61ab-c1ec-1110" name="Militia Medicae Support" publicationId="48c2-d023-0069-001a" page="22" hidden="false">
-                  <description>A Militia Medicae Detachment is selected in the same way as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in an Imperialis Militia Medicae Detachment must be assigned to another unit from the same Detachment of the army they were selected as part of. Militia Medicae may only be assigned to units composed entirely of models with the Infantry Unit Type and Militia Unit Sub-type. No more than one Militia Medicae may be assigned to any given unit.
-
-Once assigned to a unit, the Militia Medicae is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Militia Medicae is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Militia Medicae as a casualty. When assigned to a unit, a Militia Medicae gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.
-
-Note that only Militia Medicae selected as part of a Detachment with the Ogryn Conscripts Provenance may be attached to Imperialis Militia Ogryn Brute Squads.</description>
+                  <description>Before deployment, assign each model to a friendly Infantry (Militia) unit — max 1 per unit. Once assigned, the Medicae is permanently part of that unit (removed with it, scores no Victory Points). Gains the unit's special rules (except those that forbid it) and Sub-types, but not its Wargear options. Only Medicae from an Ogryn Conscripts Provenance Detachment may be assigned to Ogryn Brute Squads.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -1735,10 +1726,10 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </profiles>
           <rules>
             <rule id="b0c9-5a50-c3fd-c3ed" name="Instil Order" publicationId="48c2-d023-0069-001a" page="13" hidden="false">
-              <description>If a unit that includes a model with this special rule fails a Morale check, a re-roll can be made – if this is done, the unit suffers D3 Wounds at AP -. These Wounds are allocated by the unit’s controlling player, but may not be inflicted on Independent Characters, the Discipline Master themselves or Militia Medicae who have joined the unit.</description>
+              <description>On failed Morale check, may re-roll; if so, suffer D3 Wounds (AP –) allocated by controlling player (cannot target Independent Characters, this model, or Militia Medicae).</description>
             </rule>
             <rule id="c4fc-6361-79b1-0c04" name="Among the Ranks" publicationId="48c2-d023-0069-001a" page="13" hidden="false">
-              <description>An Imperialis Militia Discipline Master Cadre is selected like any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in an Imperialis Militia Discipline Master Cadre must be assigned to another unit from the same Detachment of the army they were selected as part of. Discipline Masters may only be assigned to units composed entirely of models with the Infantry Unit Type and Militia Unit Sub-type, unless upgraded to a Mounted Discipline Master, in which case that model must be assigned to an Imperialis Militia Cavalry Squad. No more than one Discipline Master may be assigned to any given unit. Once assigned to a unit, the Discipline Master is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Discipline Master is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Discipline Master as a casualty. When assigned to a unit, a Discipline Master gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
+              <description>Before deployment, each model must be assigned to a friendly Infantry/Militia unit (or a Cavalry Squad if Mounted). Max one per unit. Once assigned, counts as part of that unit permanently; removed with it. Never scores Victory Points as a casualty. Gains the assigned unit's special rules (except those that forbid it) and Sub-types, but not its Wargear options.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3645,7 +3636,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <rules>
                 <rule id="e5da-18a3-fb79-318f" name="Expendable" publicationId="48c2-d023-0069-001a" page="18" hidden="false">
-                  <description>The opposing player never gains Victory points for removing a unit that includes any models with this special rule as casualties. However, if a unit that includes any models with this special rule fails a Morale check, it does not Fall Back, but instead all models in the unit are removed from play as casualties immediately.</description>
+                  <description>Killing this unit never awards Victory Points. If it fails a Morale check, the entire unit is immediately removed as casualties instead of Falling Back.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -7268,7 +7259,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </constraints>
           <rules>
             <rule id="1c26-667c-ef05-433f" name="Beastmasters" publicationId="48c2-d023-0069-001a" page="28" hidden="false">
-              <description>If all of the models in a Militia Beastmaster unit with this special rule are removed as casualties, then any remaining War Beasts remain in play, but when selected during the Movement phase must move along a path of the controlling player’s choice towards the enemy unit that is closest to the Militia Beastmaster unit – only units that are in line of sight are counted when deciding which unit is closest. If there are no units within line of sight then the Militia Beastmaster unit becomes Pinned until the beginning of the controlling player’s next turn. During the Assault phase, a Militia Beastmaster unit in which all of the Militia Handlers have been removed must make a Charge if any enemy units are within 12&quot; and eligible targets for a Charge, but the controlling player may select which enemy unit is the target of the Charge. If the unit is locked in combat then it fights as normal.</description>
+              <description>If all Handlers are killed, War Beasts remain but must move toward the nearest visible enemy each Movement phase (no LoS targets: Pinned until next turn). Must Charge any eligible enemy within 12" during the Assault phase (controlling player chooses target); fights normally if already engaged.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7814,7 +7805,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </profiles>
               <rules>
                 <rule id="1adc-9dcc-4eb8-0f48" name="Militia Artillerists" publicationId="48c2-d023-0069-001a" page="31" hidden="false">
-                  <description>A Militia Rapier Battery must have one Militia Gunner per Rapier Carrier in order for all Rapier Carriers to make Shooting Attacks in the Shooting phase. If, at the start of any of the controlling player’s Shooting phases, the Rapier Battery contains fewer Militia Gunners than Rapier Carriers, then only a number of Rapier Carriers equal to the number of Militia Gunners may make Shooting Attacks in that Shooting phase.</description>
+                  <description>Each Rapier Carrier requires 1 Militia Gunner to shoot. If Gunners &lt; Carriers, only a number of Carriers equal to remaining Gunners may shoot.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8622,7 +8613,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </profiles>
               <rules>
                 <rule id="1e01-7a98-dc6f-561f" name="Man the Guns" publicationId="48c2-d023-0069-001a" page="34" hidden="false">
-                  <description>A Militia Heavy Ordnance Battery may only attack with a maximum number of Gun Carriages equal to the number of Militia Gunners in the unit when making a Shooting Attack. If the unit includes fewer Militia Gunners than it does Gun Carriages then only a number of Gun Carriages equal to the number of Militia Gunners may attack as part of a Shooting Attack – the controlling player may select which Gun Carriages may attack. If a Militia Heavy Ordnance Battery includes less than two Militia Gunners for each Gun Carriage then any attacks made by all Gun Carriages in the unit during a Shooting Attack are resolved at a Ballistic Skill of 1 and any result of a ‘Hit’ on the Scatter dice must be re-rolled. If a unit that includes a Gun Carriage is forced to Fall Back then all models in that unit are immediately removed as casualties instead.</description>
+                  <description>Max Gun Carriages firing = number of Militia Gunners (controlling player chooses which fire if outnumbered). If fewer than 2 Gunners per Carriage, all Shooting attacks use BS 1 and Scatter dice Hit results must be re-rolled. If forced to Fall Back, all models are removed as casualties.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -9866,7 +9857,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </profiles>
           <rules>
             <rule id="1674-34cb-eca9-6375" name="Rogue Psyker" hidden="false">
-              <description>A Rogue Psyker gains the Anathemata Psychic Discipline and may not select any other disciplines, powers or Psychic Weapons.</description>
+              <description>Gains the Anathemata Psychic Discipline only; may not select other disciplines, powers, or Psychic Weapons.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -11521,16 +11512,13 @@ A model with a Militia jet pack may still Run, if it would normally be able to R
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="ac7b-72f5-82f9-23d6" name="Militia Cavalry Mount" publicationId="48c2-d023-0069-001a" page="37" hidden="false">
-      <description>A model with a Militia cavalry mount that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
-
-
-A model with the Infantry Unit Type that selects a Militia cavalry mount as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had.</description>
+      <description>Gain Shrouded (5+) until your next turn when you Run. Infantry models that take this upgrade become Cavalry (retaining any Sub-types).</description>
     </rule>
     <rule id="e626-c3b1-e724-c6fc" name="Provenance" hidden="false">
-      <description>Provenance</description>
+      <description>Unable to summarize — no rule description provided beyond the rule name. Please supply the full rule text.</description>
     </rule>
     <rule id="976f-9e14-413c-5bea" name="Emplaced" publicationId="48c2-d023-0069-001a" page="24" hidden="false">
-      <description>A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties.</description>
+      <description>May only make Return Fire, Overwatch, or Interceptor Reactions. If forced to Fall Back, all models are removed as casualties.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

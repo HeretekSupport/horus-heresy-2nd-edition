@@ -70,7 +70,7 @@
           </constraints>
           <rules>
             <rule id="4c88-af3f-30dc-c2f4" name="Needlespine Blaster" publicationId="15a4-fc68-502d-48a9" page="121" hidden="false">
-              <description>A needlespine blaster counts as a combi-weapon and a model can make a Shooting Attack with both primary and secondary components without needing the Firing Protocols (X) special rule.</description>
+              <description>Counts as a combi-weapon; may fire both primary and secondary components in the same Shooting Attack without Firing Protocols (X).</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -138,7 +138,7 @@
           </profiles>
           <rules>
             <rule id="8ab5-aae8-5cb2-b6f8" name="Decapitation Strike" hidden="false">
-              <description>During any Fight sub-phase, the controlling player of a model with this special rule may choose to have the model with the special rule make a single attack with the profile below instead of attacking normally (while using this option, the model with this special rule may not gain bonus attacks for Charging, additional weapons or from any other special rule):</description>
+              <description>All models gain Preferred Enemy (Independent Characters). Units arriving via Deep Strike or Flanking Assault gain Shrouded (5+) for their deployment turn. Slay the Warlord grants +2 Victory Points. **Limits:** max 1 Heavy Support choice; no Fortifications.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -187,7 +187,7 @@
       </profiles>
       <rules>
         <rule id="13e2-d9f7-eb0d-301d" name="Reign of Confusion" publicationId="15a4-fc68-502d-48a9" page="117" hidden="false">
-          <description>When rolling to Seize the Initiative against a force that includes a model with this special rule ,a successful result must be rerolled.</description>
+          <description>Opponent must reroll successful Seize the Initiative rolls.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -236,7 +236,7 @@
           </profiles>
           <rules>
             <rule id="ffb3-dbd0-4417-e31e" name="Synaptic Disruptor" publicationId="15a4-fc68-502d-48a9" page="117" hidden="false">
-              <description>On a To Wound roll of a 6+, the target model automatically suffers a Wound with no Armour Saves, Invulnerable Saves of Damage Mitigation rolls allowed. This rule has no effect on models that do not have a Toughness Characteristic.</description>
+              <description>To Wound roll of 6: inflicts an automatic Wound (no Armour, Invulnerable, or Damage Mitigation saves). No effect on models without Toughness.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -268,7 +268,7 @@
           </profiles>
           <rules>
             <rule id="bb2a-6e7e-84ea-8219" name="Phase Shift" publicationId="15a4-fc68-502d-48a9" page="117" hidden="false">
-              <description>On a To Wound roll of a 6+, the target model automatically suffers a Wound with no Armour Saves, Invulnerable Saves of Damage Mitigation rolls allowed. This rule has no effect on models that do not have a Toughness Characteristic.</description>
+              <description>To Wound roll of 6+: automatic Wound; no Armour, Invulnerable, or Damage Mitigation saves allowed. No effect on models without Toughness.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -437,7 +437,7 @@
       </profiles>
       <rules>
         <rule id="e861-087c-bd75-1112" name="Frenzon Rage (3)" publicationId="15a4-fc68-502d-48a9" page="119" hidden="false">
-          <description>At the start of the Assault phase, a model with this special rule may choose to temporarily increase its Attacks Characteristic by the amount listed in brackets until the end of the turn. When rolling To Hit for a model that has had its Attacks Characteristics increased in this manner, for each unmodified result of 1 the attacking model immediately suffers a Wound unless an Armour Save can be made. Wounds inflicted in this manner do not count for the purposes of combat resolution.</description>
+          <description>At the start of the Assault phase, may gain +3 Attacks until end of turn. Each unmodified To Hit roll of 1 inflicts a Wound on the attacker (Armour Save allowed); these Wounds don't count for combat resolution.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -493,7 +493,7 @@
           </constraints>
           <rules>
             <rule id="5bc6-a9cb-0ca3-c216" name="Biological Overload" publicationId="15a4-fc68-502d-48a9" page="119" hidden="false">
-              <description>Whenever an Eversor Assassin is reduced to zero Wounds, but immediately before the model is removed from the battlefield, every model, both friendly and enemy, within D6&quot; suffers a S4 AP3 hit with the Fleshbane special rule. These hits count as a Shooting Attack originating from a weapon with the &quot;Flame&quot; type.</description>
+              <description>When reduced to 0 Wounds, before removal, every model within D6" suffers a S4 AP3 Fleshbane hit (counts as a Flame-type Shooting Attack).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -510,7 +510,7 @@
           </constraints>
           <rules>
             <rule id="bd5d-2a83-811b-117f" name="Executioner Pistol" publicationId="15a4-fc68-502d-48a9" page="119" hidden="false">
-              <description>When making a Shooting Attack with the Executioner Pistol, the controlling player must choose to use both the bolt pistol and needle pistol components in a combined attack, or select a single profile to be used.</description>
+              <description>Choose one profile (bolt pistol or needle pistol) or combine both into a single attack.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -561,7 +561,7 @@
       </profiles>
       <rules>
         <rule id="856e-b57c-3474-c865" name="Noospheric Interloper" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false">
-          <description>Instead of making a Shooting Attack, a model with this special rule may make a Leadership test. If this test is passed, the controlling player may nominate a single enemy model within 12&quot; that has the Automata type - this model immediately suffers D3 Wounds with no Armour Saves or Damage Mitigation rolls allowed. If this reduces the model to 0 Wounds and it is removed as a casualty, the controlling player may nominate another model with the Automata Unit Type within 12&quot; of the model with this special rule. This model also suffers D3 Wounds with no Armour Saves of Damage Mitigation rolls allowed. Regardless of the result of this dice roll, no further Wounds may be allocated by this attack in any one Shooting phase. If the Leadership test is failed, the Venus Infocyte immediately suffers a single Wound with no Armour Saves of Damage Mitigation rolls allowed, and there are no further effects.</description>
+          <description>Instead of Shooting, take a Leadership test. Pass: target enemy Automata within 12" suffers D3 Wounds (no saves). If killed, a second Automata within 12" also suffers D3 Wounds (no saves); no further wounds after this. Fail: this model suffers 1 Wound (no saves).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -677,7 +677,7 @@
       </profiles>
       <rules>
         <rule id="a69d-4cd3-8c14-8149" name="Unnatural Conditioning" publicationId="15a4-fc68-502d-48a9" page="123" hidden="false">
-          <description>Models with this special rule are immune to the effects of the Rad-phase special rule and any other rules that negatively affect their Toughness Characteristics, such as rad grenades. Additionally, weapons with the Poisoned (X) special rule and/or Fleshbane special rule may never wound a model with Unnatural Conditioning on a roll of better than a 5+</description>
+          <description>Immune to Rad-phased and any effect that reduces Toughness. Poisoned and Fleshbane weapons wound on 5+ at best.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -710,7 +710,7 @@
           </profiles>
           <rules>
             <rule id="97db-5ae5-b100-1424" name="The Venem" publicationId="15a4-fc68-502d-48a9" page="123" hidden="false">
-              <description>If a model suffers one of more unsaved Wounds from this weapon, the controlling player must roll a D6 at the beginning of every battle turn for the remainder of the battle. On a 5+, the model suffers a Wound against which no saves of any kind may be taken. Furthermore, any model which suffers one of more unsaved Wounds from a weapon with The Venem special rule is considered to be destroyed for the purposes of missions which award Victory points for killing models (regardless of whether they have been removed from play as a casualty), unless they possess the Eternal Warrior special rule.</description>
+              <description>Models that suffer ≥1 unsaved Wound: roll D6 at the start of each battle turn — on a 5+, suffer 1 Wound (no saves). Also counts as destroyed for VP purposes (unless Eternal Warrior).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -965,7 +965,7 @@
       </profiles>
       <rules>
         <rule id="d861-12d0-78ac-0105" name="Osmeotic Regeneration" publicationId="53a4-0d21-2f8a-2c45" page="223" hidden="false">
-          <description>At the end of the controlling player’s turn, if the Infernus Abomination has not been removed as a casualty, the controlling player rolls a D6 for every unsaved Wound inflicted on an enemy model during that turn. For each result of a 5+, the Infernus Abomination regains a lost Wound. Note that Wounds regained in this way may not increase the amount of Wounds to more than the starting amount shown on the Infernus Abomination unit profile.</description>
+          <description>At the end of your turn (if alive), roll 1D6 per Wound dealt to enemies that turn; on a 5+, regain 1 lost Wound (cannot exceed starting Wounds).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1024,7 +1024,7 @@
           </profiles>
           <rules>
             <rule id="32f8-4aec-8cd0-fdef" name="Transmutative armaments" publicationId="53a4-0d21-2f8a-2c45" page="223" hidden="false">
-              <description>Before any To Hit rolls are made during the Assault phase, the controlling player must select which weapon profile to use.</description>
+              <description>Before Assault phase To Hit rolls, choose which weapon profile to use.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1396,7 +1396,7 @@
           </profiles>
           <rules>
             <rule id="b062-8e39-bccf-1e65" name="Edge of Truth" hidden="false">
-              <description>When fighting in a Challenge, attacks made by Nathaniel Garro using Libertas gain the Brutal (2) special rule.</description>
+              <description>Attacks with Libertas gain Brutal (2) while in a Challenge.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1527,7 +1527,7 @@
           </profiles>
           <rules>
             <rule id="b7d8-7513-a3d5-3a5d" name="Divine Guidance" publicationId="d0df-7166-5cd3-89fd" page="7" hidden="false">
-              <description>Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful, then the Strength value of all attacks made with weapons or abilities with this special rule is increased by +2 (in addition to any modifiers the attack or weapon may already possess), and gain the Reaping Blow (3) special rule. These benefits are applied only in the Phase in which these attacks are made and ends immediately after that Phase is resolved. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</description>
+              <description>Before attacking, optionally make a Psychic check. Success: attacks with this rule gain +2 Strength and Reaping Blow (3) for this phase. Failure: suffer Perils of the Warp; if the Psyker survives, attack normally.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1545,7 +1545,7 @@
         <selectionEntry type="upgrade" import="true" name="Echoes of Fate" hidden="false" id="824-da54-a016-2abe">
           <rules>
             <rule id="f753-d811-2a57-1426" name="Echos of Fate" publicationId="d0df-7166-5cd3-89fd" page="7" hidden="false">
-              <description>Tylos Rubio may use Psychic Powers and Psychic Weapons from either the Divination Discipline or the Telepathy Discipline</description>
+              <description>May use Psychic Powers and Weapons from the Divination or Telepathy Disciplines.</description>
             </rule>
           </rules>
           <constraints>
@@ -1627,16 +1627,13 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="c7be-3d3b-6b5d-7e85" name="Abomination" publicationId="53a4-0d21-2f8a-2c45" page="221" hidden="false">
-      <description>Models with the Abomination Sub-type ignore all movement penalties when moving or Charging through terrain of any kind and automatically pass all Dangerous Terrain tests they are called upon to make.
-Models with the Abomination Sub-type may never join or be joined by a unit made up of models with any type.
-Models with the Abomination Sub-type may not Embark on any model with the Transport Sub-type.
-Models with the Abomination Sub-type may never be selected as an army’s Warlord.</description>
+      <description>Ignores terrain movement penalties; auto-passes Dangerous Terrain tests. Cannot join or be joined by any unit, Embark on Transports, or be selected as Warlord.</description>
     </rule>
     <rule id="76ad-4b41-a719-ad82" name="Militaris Attaché" hidden="false">
-      <description>A model with this special rule may be included in an army with any faction as a non-Compulsory HQ choice and may never be selected as the Warlord.</description>
+      <description>May be taken as a non-Compulsory HQ in any faction's army. Cannot be Warlord.</description>
     </rule>
     <rule id="3379-5303-2e43-2925" name="The Emperor Protects" hidden="false">
-      <description>The first time that the model loses their last Wound, or is otherwise removed from play as a casualty, the controlling player must immediately roll a D6. On a 4+, they remain in play with a single Wound remaining instead of being removed or destroyed.</description>
+      <description>Roll D6 the first time this model would be removed as a casualty; on a 4+, it survives with 1 Wound remaining.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

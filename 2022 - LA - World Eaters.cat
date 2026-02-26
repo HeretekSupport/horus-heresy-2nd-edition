@@ -3040,10 +3040,10 @@
       </modifiers>
       <rules>
         <rule id="9f63-cb32-73a5-840e" name="Bearers of the Blood Hand" hidden="false">
-          <description>A unit that contains at least one model with this special rule must declare a Charge if able when they begin the Assault phase within 12&quot; of an enemy unit. If there is more than one eligible target, the controlling player chooses the target of any Charges made. Note that this does not allow models with this special rule to Charge a different unit to one that they made a Shooting Attack against in the previous Shooting phase.</description>
+          <description>Must declare a Charge against an eligible enemy unit within 12" if able. Normal restrictions on charging a different unit than one shot at still apply.</description>
         </rule>
         <rule id="2101-9f1b-9cb5-44b8" name="Ravaging Assault" hidden="false">
-          <description>On a turn in which they have charged, a unit containing models with this special rule gains a bonus of +1 to the amount of Wounds inflicted when determining who has won a combat. Additionally, they gain a bonus of +1 to the result of any Sweeping Advance roll they make in a combat that they are on the winning side of. These bonuses do not stack with any other rules that increase the amount of Wounds inflicted when calculating who has won a combat and the result of a Sweeping Advance roll.</description>
+          <description>On a turn they charge: +1 Wounds for combat resolution and +1 to Sweeping Advance rolls (if winning). Does not stack with other similar bonuses.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3555,7 +3555,7 @@
       </constraints>
       <rules>
         <rule id="3c7e-33bc-d8bb-8933" name="Head-hunter" hidden="false">
-          <description>When fighting in a Challenge, Shabran Darr’s attacks gain the Breaching (4+) special rule.</description>
+          <description>Attacks gain Breaching (4+) while fighting in a Challenge.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4505,7 +4505,7 @@
       </profiles>
       <rules>
         <rule id="9566-305a-70c3-4a11" name="Red Sands" hidden="false">
-          <description>In any given turn Angron may make as many Challenges as there are enemy models with the Character sub-type or Primarch Unit Type locked in combat with him, up to his current number of Attacks. Pull out all the challengers and fight them in an order decided by Angron’s controlling player during the Challenge part of the Fight sub-phase, save that any enemy model with the Primarch Unit Type must be fought first. Angron must divide his attacks between them and must devote at least one attack to each Challenge he fights in. All models challenged by Angron, and Angron himself, count as being in a Challenge and follow all the rules for Challenges and any models that are not removed as Casualties remain in a Challenge with Angron until either all the Challengers are removed as Casualties, Angron is removed as a Casualty or the challenge is ended by the effect of another rule.</description>
+          <description>May issue simultaneous Challenges to all enemy Characters/Primarchs locked in combat with him, up to his current Attacks. Primarchs must be fought first; remaining order is Angron's choice. Distribute at least 1 Attack per Challenge. All challenged models count as being in a Challenge until casualties resolve or another rule ends it.</description>
         </rule>
       </rules>
       <infoLinks>

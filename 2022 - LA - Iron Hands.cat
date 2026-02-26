@@ -4313,10 +4313,10 @@
     <selectionEntry id="af91-5d08-88ee-80d1" name="Morlock Terminator Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="3a08-c934-d93e-32d8" name="Avernian Retinue" publicationId="d13e-e1ff-5dc7-b84b" hidden="false">
-          <description>An Iron Hands Morlock Terminator Squad may be selected as a Retinue Squad in a Detachment that includes at least one model with both the Master of the Legion and Legiones Astartes (Iron Hands) special rules, instead of as an HQ choice. An Iron Hands Morlock Terminator Squad selected as a ‘Retinue Squad’ must have one model with both the Master of the Legion and Legiones Astartes (Iron Hands) special rules from the same Detachment selected by the controlling player as the Iron Hands Morlock Terminator Squad’s Leader for the purposes of this special rule. An Iron Hands Morlock Terminator Squad selected as a Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. An Iron Hands Morlock Terminator Squad selected as a Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play.</description>
+          <description>May be taken as a Retinue Squad (no Force Organisation slot) in any Detachment containing a Master of the Legion (Iron Hands). If so, a Master of the Legion from that Detachment must be chosen as its Leader—they are treated as part of the same unit, must deploy together, and the Leader may not voluntarily leave.</description>
         </rule>
         <rule id="9f16-a7f9-9311-5ab8" name="Fate of the Gorgon" publicationId="d13e-e1ff-5dc7-b84b" hidden="false">
-          <description>If selected as part of a Detachment in an army that includes Ferrus Manus, an Iron Hands Morlock Terminator Squad gains the Chosen Warriors special rule. If selected as part of a Detachment in an army that does not include Ferrus Manus, an Iron Hands Morlock Terminator Squad gains the Preferred Enemy (Emperor’s Children) special rule.</description>
+          <description>If the army includes Ferrus Manus, gains Chosen Warriors. If not, gains Preferred Enemy (Emperor's Children).</description>
         </rule>
       </rules>
       <infoLinks>

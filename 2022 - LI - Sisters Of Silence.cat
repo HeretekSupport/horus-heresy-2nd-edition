@@ -16,7 +16,7 @@
       </constraints>
       <rules>
         <rule id="04a5-fa60-5ebe-aa9d" name="Silent Sisterhood (Chamber of Judgement)" publicationId="15a4-fc68-502d-48a9" page="40" hidden="false">
-          <description>All models with this variant of the Silent Sisterhood (X) special rule gain the Fearless special rule when locked in combat with a unit that includes any models with the Psyker Unit Sub-type.</description>
+          <description>Fearless while locked in combat with any unit containing a Psyker.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -33,14 +33,14 @@
       </constraints>
       <rules>
         <rule id="c4ce-323b-11a5-c9f6" name="Silent Sisterhood (Chamber of Oblivion)" publicationId="15a4-fc68-502d-48a9" page="40" hidden="false">
-          <description>All models with this variant of the Silent Sisterhood (X) special rule gain the Fearless special rule when locked in combat with a unit that includes any models with the Daemon Unit Type or Corrupted Unit Sub-type.</description>
+          <description>Fearless while locked in combat with any unit containing Daemon or Corrupted models.</description>
         </rule>
       </rules>
     </categoryEntry>
     <categoryEntry id="b6d7-6924-37fb-dd32" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false">
       <rules>
         <rule id="efd8-4a41-bd4b-058b" name="Silent Sisterhood (Chamber of Vigilance)" publicationId="15a4-fc68-502d-48a9" page="40" hidden="false">
-          <description>A unit composed entirely of models with this variant of the Silent Sisterhood (X) special rule may be given one of the following special rules before the start of the battle’s first turn, before any models are deployed: Scout or Infiltrate. When selecting an army using the Sisters of Silence Army List, a unit made up entirely of models with this variant of the Silent Sisterhood (X) special rule may be selected without restriction regardless of which HQ choices are selected for the army.</description>
+          <description>Before deployment, grant the unit Scout or Infiltrate. May be included in any Sisters of Silence army regardless of HQ selections.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -2450,7 +2450,7 @@
           </constraints>
           <rules>
             <rule id="b1fc-51e4-ccc6-f22f" name="Retinue (Questora)" hidden="false">
-              <description>A Questora Cadre may only be chosen as a Retinue for a model with both the Silent Sisterhood (Chamber of Judgement) and Independent Character special rules. This model is referred to as the Questora Cadre’s Leader for the purposes of this special rule. The Questora Cadre does not use up a Force Organisation slot and is considered part of the same unit as the model taken as its Leader. The Questora Cadre must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Questora Cadre during play. A Questora Cadre may not be selected as part of an army without a Leader.</description>
+              <description>May only be chosen as a Retinue for a model with Silent Sisterhood (Chamber of Judgement) and Independent Character. Takes no Force Organisation slot; forms a single unit with its Leader. Must deploy with the Leader, who may never voluntarily leave. Cannot be taken without a valid Leader.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -2948,7 +2948,7 @@
           </profiles>
           <rules>
             <rule id="e181-6e76-57bc-4118" name="Vigilant Covenant" publicationId="15a4-fc68-502d-48a9" page="51" hidden="false">
-              <description>A Knight Vestal Covenant is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, each model in the Knight Vestal Covenant may leave this unit and join another unit from the same Detachment they were selected as part of.</description>
+              <description>Before deployment, each model may leave and join another unit from the same Detachment.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4519,7 +4519,7 @@
     <selectionEntry id="db4a-57f3-f451-da91" name="Pursuer Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="e946-78a7-2402-4a16" name="Pursuit Beasts" publicationId="15a4-fc68-502d-48a9" hidden="false">
-          <description>A Pursuer Cadre may include a number of Pursuit Beasts</description>
+          <description>Up to a set number of Pursuit Beasts may be included in the cadre.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -7509,7 +7509,7 @@
     <selectionEntry id="7117-e1f5-1a14-9716" name="Raptora Cadre" publicationId="15a4-fc68-502d-48a9" page="50" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="cfe8-1005-756d-1225" name="Retinue (Raptora)" hidden="false">
-          <description>A Raptora Cadre may only be chosen as a Retinue for a model with both the Silent Sisterhood (Chamber of Oblivion) and Independent Character special rules. This model is referred to as the Raptora Cadre’s Leader for the purposes of this special rule. The Raptora Cadre does not use up a Force Organisation slot and is considered part of the same unit as the model taken as its Leader. The Raptora Cadre must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Raptora Cadre during play. A Raptora Cadre may not be selected as part of an army without a Leader.</description>
+          <description>May only serve as Retinue for a Silent Sisterhood (Chamber of Oblivion) Independent Character (its Leader). Takes no Force Org slot; forms a single unit with its Leader. Leader must deploy with and may never voluntarily leave the Cadre. Cannot be taken without a Leader.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8231,12 +8231,10 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="1d8d-3038-9267-6f1b" name="Silent Sisterhood (X)" publicationId="15a4-fc68-502d-48a9" page="39" hidden="false">
-      <description>The notation in brackets that is included as part of the Silent Sisterhood (X) special rule defines which Chamber Militant the model belongs to. This Chamber Militant may grant the model some additional rules or effects and influences how it may be selected when building an army that incorporates a Detachment with the Sisters of Silence Faction. 
-When selecting a Detachment using the Sisters of Silence Army List, the number of units of Chambers Militant other than the Chamber of Vigilance is limited. For each HQ choice with a given Chamber Militant, the Detachment may include up to three other choices of the same Chamber Militant (except for units with the Chamber of Vigilance variant of the Silent Sisterhood (X) special rule, of which an army may include any number, limited only by available Force Organisation slots). Note that Dedicated Transports and units selected using the Retinue special rule do not count against these limits regardless of their variant of the Silent Sisterhood (X) special rule.
-For example, a Sisters of Silence Detachment includes three HQ choices – two Knights Centura (Chamber of Oblivion) and a Silent Judge (Chamber of Judgement). This army may include any number of units from the Chamber of Vigilance, up to six units from the Chamber of Oblivion, and up to three units from the Chamber of Judgement.</description>
+      <description>Denotes which Chamber Militant the model belongs to, granting associated rules and restricting army selection. Per HQ choice of a given Chamber, the Detachment may include up to 3 other non-Vigilance units of that Chamber. Chamber of Vigilance units are unlimited; Dedicated Transports and Retinue units don't count against these limits.</description>
     </rule>
     <rule id="7982-9292-ef54-8e84" name="Ex-Oblivio" publicationId="15a4-fc68-502d-48a9" page="132" hidden="false">
-      <description>At the start of any combat in the Assault phase, before the beginning of Initiative step 10, the controlling player of a model with this special rule may declare its use. When used, roll a D6 and select a single enemy model in base contact with the model that has this special rule (including a model that is Engaged in a Challenge with that model) – that enemy model must reduce its Weapon Skill to 1 for the remainder of the current player turn. If the dice roll results in a result of 2-6 then there is no further effect, but if the dice roll results in a result of 1 then the model with this special rule suffers a single Wound against which no Armour Saves, Cover Saves or Invulnerable Saves may be taken (Damage Mitigation rolls may be taken as normal).</description>
+      <description>Declare at the start of a combat, before Initiative step 10. Roll a D6: one enemy model in base contact reduces WS to 1 for the turn. On a 1, this model suffers 1 unsaveable Wound (Damage Mitigation allowed).</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

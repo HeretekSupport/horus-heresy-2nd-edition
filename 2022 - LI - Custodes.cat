@@ -458,7 +458,7 @@
           </profiles>
           <rules>
             <rule id="e88c-465d-fc13-d71d" name="Tribune of the Golden Legion" hidden="false">
-              <description>A model with this special rule may only be included in the Primary Detachment of an army with a total value of at least 3,000 points. Furthermore, unless Constantin Valdor is also part of the same army, a model with this special rule must be chosen as the army’s Warlord.</description>
+              <description>Only includable in a Primary Detachment of ≥3,000pt armies. Must be Warlord unless Constantin Valdor is in the same army.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2538,7 +2538,7 @@
           </profiles>
           <rules>
             <rule id="9670-4400-52c0-e763" name="Measured Strike" publicationId="15a4-fc68-502d-48a9" page="135" hidden="false">
-              <description>A model attacking with a weapon or profile that has this special rule may only make a single attack, regardless of the value of its Attacks Characteristic, any other special rules or whether it has Charged or is wielding more than one weapon.</description>
+              <description>Limited to 1 attack, regardless of Attacks characteristic, Charge bonuses, special rules, or number of weapons.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4367,22 +4367,12 @@ During a Reaction made in any Phase, a player may not choose to activate a model
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="6998-b328-c080-5341" name="Legio Custodes" publicationId="15a4-fc68-502d-48a9" page="134" hidden="false">
-      <description>Models with this special rule gain the following benefits in various situations that involve ‘Nemesis’ units (see the Nemesis unit entry below):
-• All models with this special rule gain +1 Attacks when locked in combat with a Nemesis Unit.
-• A unit composed entirely of models with this special rule gains an additional bonus of +1 to all Charge rolls made when all targets of the Charge are Nemesis Units.
-• When rolling to Hit while Engaged with a Nemesis unit, a model with this special rule will never need to roll better than 4+ to score a Hit – unless the Nemesis unit is composed entirely of models with the Primarch Unit Type, or the attacking model is in a Challenge with a model that has the Primarch Unit Type.
+      <description>+1 Attacks vs. Nemesis units; +1 to Charge rolls when all targets are Nemesis units; To Hit rolls vs. Nemesis units cap at 4+ (except when the Nemesis unit is entirely Primarchs, or the attacker is in a Challenge against a Primarch).
 
-Nemesis Units
-A ‘Nemesis’ unit is defined as any enemy unit that fulfils at least one of the following conditions:
-• The unit includes one or more models with at least one of the following Unit Types or Unit Sub-types:
-- Primarch, Dreadnought, Monstrous, Reinforced, Bombard, Daemon, Corrupted, Super-heavy, Unique or Knight.
-• The majority of models in the unit have a value of 5 or more in any one of the following Characteristics:
-- Weapon Skill, Ballistic Skill, Wounds or Initiative. 
-• The unit includes an enemy Warlord.</description>
+**Nemesis unit:** any enemy unit containing a model with the Primarch, Dreadnought, Monstrous, Reinforced, Bombard, Daemon, Corrupted, Super-heavy, Unique, or Knight type/subtype; or where the majority of models have WS, BS, Wounds, or Initiative ≥5; or that includes the enemy Warlord.</description>
     </rule>
     <rule id="f7d6-7c7a-38c3-8931" name="Lightning Blows (X)" hidden="false">
-      <description>After normal To Hit rolls for a weapon with this special rule have been made, count the number of Hits inflicted on a roll of equal to or more than the value listed in brackets as part of this rule. Immediately resolve a number of additional To Hit rolls on the same unit using the attacking models’ WS equal to the number of Hits counted earlier – any Hits scored roll To Wound as normal using the profile of the weapon with this special rule or a weapon chosen from those available to the model with this special rule if the rule is not applied to a specific weapon. These additional attacks do not themselves benefit from the
-Lightning Blows (X) special rule, but do benefit from any other special rules possessed by the attacking model, such as Preferred Enemy (X) or Precision Strikes (X)</description>
+      <description>To Hit rolls that score ≥ X generate an equal number of additional To Hit rolls (using the model's WS). Additional hits wound normally; they benefit from the model's other special rules but not Lightning Blows itself.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
