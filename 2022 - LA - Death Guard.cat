@@ -3361,7 +3361,7 @@
               <profiles>
                 <profile id="9cc5-317a-dae5-3c01" name="The Barbaran Plate" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Barbaran Plate provides a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

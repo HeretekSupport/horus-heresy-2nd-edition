@@ -5275,7 +5275,7 @@
           <profiles>
             <profile id="3448-fe86-6154-9764" name="The Wildfire Panoply" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Wildfire Panoply provides a 2+ Armour Save, a 4+ Invulnerable Save during the Shooting phase and a 3+ Invulnerable Save duing both the Movement phase and the Assault phase.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save; 4+ Invulnerable Save (Shooting phase); 3+ Invulnerable Save (Movement &amp; Assault phases).</characteristic>
               </characteristics>
             </profile>
           </profiles>

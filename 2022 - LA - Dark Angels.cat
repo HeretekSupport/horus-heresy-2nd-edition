@@ -2983,7 +2983,7 @@
           <profiles>
             <profile id="6fa1-3c67-269f-b4e1" name="Armour of the Forest and the Mantle of the Champion" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Armour of the Forest and the Mantle of the Champion grant Corswain a 2+ Armour Save and a 4+ Invulnerable Save, improved to 3+ against close combat attacks.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save; 4+ invulnerable save (3+ vs close combat attacks).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3456,7 +3456,7 @@
         </profile>
         <profile id="aef2-c8df-6a1a-fb48" name="Internal Refractor Field" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">This model has a 5+ Invulnerable save. In addition, should the model lose its last wound then all models within D6+4&quot; suffer a Str 8 AP - hit.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable save. On death, all models within D6+4" suffer a S8 AP- hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3811,7 +3811,7 @@
               <profiles>
                 <profile id="2f33-2bd0-1ceb-f2d0" name="The Dreadbringer’s Plate" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Dreadbringer’s Plate grants a 2+ Armour Save and a 4+ Invulnerable Save. In addition, against any weapon with the Crawling Fire or Armourbane (Melta) special rules, this Invulnerable Save is increased to 2+ and any weapon with the Poisoned (X) special rule can only wound Farith Redloss on the roll of 6+.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 4+ Invulnerable Save. Vs Crawling Fire or Armourbane (Melta): Invulnerable Save becomes 2+. Vs Poisoned (X): wounds only on 6+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4966,7 +4966,7 @@
           <profiles>
             <profile id="8dc0-c42e-aee5-981e" name="The Leonine Panoply" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Leonine Panoply provides a 2+ Armour Save and a 4+ Invulnerable Save. The first failed Invulnerable Save made for Lion El’Jonson each turn may be re-rolled.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save. Once per turn, re-roll the first failed invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5015,7 +5015,7 @@
           <profiles>
             <profile id="fa96-367b-10bd-9344" name="Stasis Grenades" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, Lion El’Jonson’s controlling player may choose to use stasis grenades when a Charge is declared for Lion El’Jonson and any unit he has joined. If the Charge for which the stasis grenades are used is successful then the target enemy unit or units must take an Initiative test (using the majority Initiative value of the unit(s)). If the Initiative test is passed then there is no further effect. If the Test is failed then all enemy models in the target unit must reduce their Initiative by -1 for the duration of the Assault phase in which the Charge was made.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, when Lion El'Jonson's unit declares a Charge: on a successful Charge, target unit(s) take an Initiative test (majority I value). Failed: all models in target unit suffer -1 I for that Assault phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5154,7 +5154,7 @@
           <profiles>
             <profile id="7509-8e0b-38ff-5111" name="Regalia of the Shattered Sceptre" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Regalia of the Shattered Sceptre confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, the Regalia of the Shattered Sceptre also allows its bearer to automatically pass any Dangerous Terrain tests that model is called upon to take.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save. Auto-pass Dangerous Terrain tests.</characteristic>
               </characteristics>
             </profile>
           </profiles>

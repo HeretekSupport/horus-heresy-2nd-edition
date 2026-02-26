@@ -4499,7 +4499,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
       <profiles>
         <profile id="d012-8e1b-0390-eb63" name="Melta Cutters" publicationId="a716-c1c4-7b26-8424" page="145" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When a model with melta cutters makes a Ram Attack targeting a model with the Vehicle Unit Type or a Building, it adds an additional modifier of +2 to the Strength of the attack, to a maximum of Strength 10.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Ram Attacks vs. Vehicles or Buildings gain +2 Strength (max 10).</characteristic>
           </characteristics>
         </profile>
         <profile id="1f8a-2e6e-eb0e-09ed" name="Melta Cutters (Ranged)" publicationId="a716-c1c4-7b26-8424" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -5448,7 +5448,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
       <profiles>
         <profile id="102e-3487-6e68-51e2" name="Krak Grenades" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with krak grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 3 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using krak grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Assault phase: instead of normal attacks, each model inflicts 1 auto S6 AP3 hit at I1 (vs Vehicles, Dreadnoughts, Automata, Buildings, and Fortifications only). Models using krak grenades may not make any other attacks or use other hit/wound-inflicting abilities that phase (may still Sweeping Advance).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5463,7 +5463,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
       <profiles>
         <profile id="ccc0-4896-212b-4d53" name="Frag Grenades" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with frag grenades makes attacks at its normal Initiative Step during an Assault after it has successfully Charged through Difficult Terrain or Dangerous Terrain, but still suffers any penalties to Charge rolls imposed by Difficult Terrain or Dangerous Terrain when resolving a Charge through Difficult Terrain or Dangerous Terrain.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Negates the Initiative penalty for charging through Difficult or Dangerous Terrain, but Charge roll penalties still apply.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5478,8 +5478,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
       <profiles>
         <profile id="550c-5f2c-868d-1d73" name="Iron Halo" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an iron halo gains a 4+ Invulnerable Save.
-Invulnerable Saves granted by a refractor field or iron halo do not stack with other Invulnerable Saves, but can benefit from rules (such as cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Invulnerable Save. Does not stack with other Invulnerable Saves (choose one); may be improved by rules that specifically increase existing saves.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5491,7 +5490,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <profiles>
         <profile id="4223-a2ef-16c3-bbb9" name="Artificer Armour" publicationId="a716-c1c4-7b26-8424" page="140" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Artificer armour confers a 2+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5503,7 +5502,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <profiles>
         <profile id="6c84-1420-7bb8-1026" name="Power Armour" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Power armour provides a 3+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">3+ armour save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5540,10 +5539,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <profiles>
         <profile id="797f-bd05-abd2-2a13" name="Augury Scanner" publicationId="a716-c1c4-7b26-8424" page="140" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an augury scanner gains all of the following benefits:
-• Enemy models cannot be deployed using the Infiltrate special rule within 18&quot; of a model with an augury scanner.
-• A unit that includes at least one model with an augury scanner ignores the 24&quot; limit to line of sight when making Shooting Attacks while the Night Fighting rules are in effect.
-• When any enemy unit is deployed to the battlefield from Reserves, a unit that includes at least one model with an augury scanner may make the Interceptor Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 309) without expending a point of the Reactive player’s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">- Enemy Infiltrators cannot deploy within 18".
+- Night Fighting: no 24" LoS limit for Shooting Attacks.
+- When any enemy unit arrives from Reserves, may make the Interceptor Reaction for free (still limited to 1 Reaction/phase, but does not count toward the 3 Reaction/phase limit).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5555,8 +5553,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <profiles>
         <profile id="961a-59a2-2fae-a5dd" name="Boarding Shield" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Boarding shields confer a 5+ Invulnerable Save, but a model with a boarding shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.
-Invulnerable saves granted by a combat shield or boarding shield do not stack with other Invulnerable Saves, but can benefit from rules (like cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save (doesn't stack; choose if multiple). Cannot claim bonus attacks for dual weapons or attack with Two-handed weapons in the Assault phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5568,7 +5565,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="b449-1ce2-c465-6568" name="Cognis-signum" publicationId="a716-c1c4-7b26-8424" page="140" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a cognis-signum gains the Night Vision special rule. In addition, in lieu of the model with the cognis-signum making a Shooting Attack in the Shooting phase, all other models in the same unit gain a bonus of +1 to their BS for that Shooting phase. This benefit is not cumulative, and no unit can benefit from more than one bonus to their BS from cognis-signum.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Grants Night Vision. Shooting phase: instead of shooting, all other models in the unit gain +1 BS (non-cumulative).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5583,8 +5580,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="8af0-f3d4-85fb-239a" name="Combat Shield" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Combat shields confer a 6+ Invulnerable Save.
-Invulnerable saves granted by a combat shield or boarding shield do not stack with other Invulnerable Saves, but can benefit from rules (like cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Grants a 6+ Invulnerable Save. Does not stack with other Invulnerable Saves (choose one); can be improved by rules that specifically enhance existing saves.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5596,7 +5592,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="ea6d-fcba-ee59-0400" name="Cortex Controller" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any unit that includes one of more modesl with the Cybernetica Sub-type may ignore the Programmed Behaviour provision described as part of that Sub-type.while within 12&quot; of a model with a cortex controller.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Friendly Cybernetica units within 12" may ignore Programmed Behaviour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5608,7 +5604,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="3d58-e1f4-f86d-75cc" name="Cyber-Familiar" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a cyber-familiar adds +1 to its Invulnerable Save (to a maximum of 3+) or an Invulnerable Save of 6+ if they do not already possess one. In addition, they allow them to re-roll failed Characteristic tests other than Leadership tests, Psychic checks or failed Dangerous Terrain tests.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">+1 to Invulnerable Save (max 3+), or grants a 6+ Invulnerable Save if none. Re-roll failed Characteristic tests (excl. Leadership, Psychic, and Dangerous Terrain).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5620,7 +5616,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="c1d4-9259-b8fa-7be7" name="Dozer Blade" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a dozer blade may re-roll all failed Dangerous Terrain tests made for it.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Re-roll failed Dangerous Terrain tests.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5632,7 +5628,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="3758-1b62-61a7-dcb8" name="Narthecium" publicationId="a716-c1c4-7b26-8424" page="145" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with a narthecium gains the Feel No Pain (5+) special rule. Units that include more than one narthecium do not stack the Feel No Pain (X) special rule and gain no additional benefit. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Infantry and Cavalry in this unit gain Feel No Pain (5+). Multiple nartheciums don't stack; Artillery models are unaffected.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5644,7 +5640,8 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="ab31-bdc5-6153-3d77" name="Nuncio-Vox" publicationId="a716-c1c4-7b26-8424" page="145" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While at least one model with a nuncio-vox is present on the battlefield and not Embarked in a Vehicle or Building, the controlling player may re-roll any Scatter rolls made (whether as part of a weapon attack or the deployment of a model or unit), as long as the model with the nuncio-vox has line of sight to the unit targeted by the attack or the point chosen as the target of the deployment. In addition, a unit that includes at least one model with a nuncio-vox ignores the -1 penalty to Leadership imposed by the Night Fighting rules.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While on the battlefield (not Embarked) and has LoS to the target: re-roll Scatter dice for any attack or deployment.
+- Unit ignores the –1 Leadership penalty from Night Fighting.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5656,7 +5653,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="fd98-bba9-e8fe-b91c" name="Psychic Hood" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any enemy model within 18&quot; and line of sight of a model with a psychic hood must reduce its Leadership by -2 when making Psychic checks. This modifier is not cumulative and no model may suffer from penalties from more than one psychic hood.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy models within 18" and LoS reduce Leadership by -2 on Psychic checks (non-cumulative).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5668,7 +5665,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="5ecf-40ba-be56-0d11" name="Rad Grenades" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">During a turn in which a unit with at least one model with rad grenades successfully Charges, or is themselves successfully Charged, all models in the enemy unit(s) suffer a -1 penalty to their Toughness Characteristic (to a minimum of toughness 1) until the end of the Fight Sub-phase that follows the successful Charge. Note: This does affect Instant Death thresholds.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Assault phase: on a successful Charge (either direction), all models in the enemy unit(s) suffer -1T (min. T1) until end of Fight sub-phase. This affects Instant Death thresholds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5683,7 +5680,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="bab3-77d0-4e80-4d48" name="Ramjet Diffraction Grid" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a ramjet diffraction grid reduces the Strength of Shooting Attacks made against its Rear or Side armour by -1, or -2 if that attack has the Blast special rule or uses a template to determine its Range. A ramjet diffraction grid has no effect on attacks inflicted with weapons of the Destroyer type.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reduces S of Shooting attacks vs Side/Rear armour by -1 (or -2 if Blast or template). No effect vs Destroyer weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5695,8 +5692,7 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
       <profiles>
         <profile id="1bab-d556-c126-4b53" name="Refractor Field" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a refractor field gains a 5+ Invulnerable Save.
-Invulnerable Saves granted by a refractor field or iron halo do not stack with other Invulnerable Saves, but can benefit from rules (such as cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save. Does not stack with other Invulnerable Saves (choose one); may be improved by rules that specifically increase existing saves.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5708,7 +5704,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <profiles>
         <profile id="268c-b736-7743-67b1" name="Scout Armour" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Scout armour provides a 4+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ armour save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5720,9 +5716,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <profiles>
         <profile id="b966-8137-4e98-e1c2" name="Searchlights" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with searchlights ignores the 24&quot; limit to line of sight imposed by the Night Fighting rules when making Shooting Attacks, however enemy units also ignore that same restriction when making Shooting Attacks that target a model with searchlights.
-In addition, any unit that has been the target of a Shooting Attack made by a unit with searchlights (regardless of whether any Hits were inflicted or not) may be freely targeted for Shooting Attacks by any other unit, ignoring the 24&quot; restriction to line of sight imposed by the Night Fighting rules.
-Searchlights do not count as weapons and may not be targeted by the Weapon Destroyed result on the Vehicle Damage table.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">- Ignores Night Fighting's 24" LoS limit when shooting; enemies also ignore it when targeting this model.
+- Any unit shot at by a searchlight-equipped unit may be freely targeted by any other unit, ignoring the 24" limit.
+- Not a weapon; immune to Weapon Destroyed results.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5734,7 +5730,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
       <profiles>
         <profile id="fb63-1d83-d992-80a6" name="Shroud Bombs" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit that includes at least one model with shroud bombs is considered to be 6&quot; further than the actual range between the two units – enemy models with the Night Vision special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule, a unit that includes at least one model with shroud bombs is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When targeted by Shooting, range is treated as 6" longer (ignored by Night Vision and Primarchs). Vs. Barrage, always treated as out of line of sight when scattering.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5749,7 +5745,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
       <profiles>
         <profile id="cc6e-ca4b-e9e8-7eb5" name="Smoke Launchers" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to trigger smoke launchers once a model with them has completed its movement in the Movement phase, and may only choose to trigger them if the model has moved no faster than Combat Speed that turn. Once triggered, the model with smoke launchers counts as being more than 25% obscured, regardless of terrain, until the start of the controlling player’s next turn and gains a 6+ Cover Save. A model whose smoke launchers have been triggered may not make any Shooting Attacks, except as part of a Reaction, in the same turn. Smoke launchers may only be used once per battle, and once triggered may not be further used – in addition, they do not count as a weapon and may not be targeted by Weapon Destroyed results on the Vehicle Damage table.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Movement phase: after moving ≤ Combat Speed, trigger once per battle to gain 6+ Cover Save and count as &gt;25% obscured until your next turn. That turn, no Shooting Attacks except as Reactions. Not a weapon; immune to Weapon Destroyed results.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5761,8 +5757,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
       <profiles>
         <profile id="457c-1f2c-ca90-1bf3" name="Suspensor Web" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A heavy weapon with a suspensor web may be treated as having the type Assault rather than Heavy when used to attack as part of any Shooting Attack at targets at up to half the weapon’s usual maximum range.
-Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; Heavy 4 weapon, can instead be used as if it were a Range 18&quot; Assault 4 weapon if the controlling player wishes.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Counts as Assault instead of Heavy when targeting within half range.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5774,7 +5769,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="03f2-41e6-4e4b-ec9f" name="Vox Disruptor Array" publicationId="d640-8853-3dd7-26a6" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of each Game Turn you can declare whether each vox disruptor array in your army is turned on or turned off. While there is at least one model on the battlefield with a vox disruptor array turned on, regardless of whether that model is enemy or friendly, any attempt to perform a Deep Strike Assault, Drop Pod Assault, Area Denial Drop or Subterranean Assault during that turn is Disordered on the roll of a ‘1’, ‘2’ or ‘3’ instead of just on a ‘1’.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of each turn, declare each array on or off. While ≥1 array (friendly or enemy) is active, all Deep Strike Assault, Drop Pod Assault, Area Denial Drop, and Subterranean Assault attempts are Disordered on a 1–3 instead of only on a 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5786,7 +5781,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="ce1b-884e-2abe-a9a1" name="Atomantic Deflector" publicationId="a716-c1c4-7b26-8424" page="140" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an atomantic deflector gains a 5+ Invulnerable Save and any model with an atomantic deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with an atomantic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save. Instant Death wounds cause D3 wounds lost instead of removal. When this model loses its last Wound/Hull Point, all models within D6" suffer an auto S8 AP- hit before removal.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5798,7 +5793,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="d485-964d-e032-8d56" name="Breacher Charge" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with a breacher charge that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification model, inflict one automatic Str 10 AP 2 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using breacher charges may not otherwise attack or make use of any other special rules or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Assault phase: instead of normal attacks, inflict 1 auto S10 AP2 hit at Initiative 1 (vs Buildings and Fortifications only). Models using breacher charges may not attack or use other hit/wound-inflicting rules/wargear that phase (Sweeping Advances unaffected).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5813,7 +5808,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="988d-6f67-d24b-0bc7" name="Command Vox Relay (LA)" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While any model with the Character Sub-type is Embarked upon a model with this special rule, friendly units with the same version of the Legiones Astartes special rule that are within 18&quot; or that include a model with a nuncio-vox may use the Embarked model’s Leadership Characteristic for Morale checks and Pinning tests. If more than one model with the Character Sub-type is Embarked upon a model with this special rule then the controlling player chooses which model’s Leadership Characteristic is used.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Friendly units within 18" (or with a nuncio-vox) may use the highest-Ld embarked Character's Ld for Morale and Pinning tests.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -5826,7 +5821,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
         </profile>
         <profile id="2fa8-4ba-4b40-f6fb" name="Command Vox Relay (LH)" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While any model with the Character Sub-type is Embarked upon a model with this special rule, friendly units with the same version of the Legiones Hereticus special rule that are within 18&quot; or that include a model with a nuncio-vox may use the Embarked model’s Leadership Characteristic for Morale checks and Pinning tests. If more than one model with the Character Sub-type is Embarked upon a model with this special rule then the controlling player chooses which model’s Leadership Characteristic is used.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While a Character is embarked, friendly units with the same Legiones Hereticus rule within 18" (or with a nuncio-vox) may use the embarked Character's Ld for Morale and Pinning tests. If multiple Characters are embarked, the controlling player chooses which Ld to use.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -5846,9 +5841,9 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="b4a1-b551-49a8-73dc" name="Explorator Augury Web" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of each of the controlling player’s turns, that player may choose to activate the explorator augury web in either Disruption or Relay mode, the effects of which last until the beginning of the controlling player’s next turn:
-• Disruption Mode: Any Reserves rolls made by an enemy player to bring units into play from Reserve are modified by -1 while this mode is active. This modifier does not stack with any other negative modifiers to Reserves rolls – use the highest single modifier instead. However, once the final negative modifier to a Reserves roll is determined, it can be reduced by any positive modifiers applied to the roll (for example if a Reserves roll was affected by both a -1 and +1 modifier then they would cancel each other and no modifier would be applied).
-• Relay Mode: Any Reserves rolls made by the controlling player to bring units into play from Reserves may be rerolled while this mode is active.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Choose one mode at the start of each friendly turn; lasts until next friendly turn:
+- **Disruption:** Enemy Reserves rolls suffer −1 (non-stacking with other negative modifiers; use highest single penalty, then apply positive modifiers normally).
+- **Relay:** Friendly Reserves rolls may be rerolled.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5860,7 +5855,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="c245-8517-f7e0-1bd3" name="Flare Shield" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a flare shield reduces the strength of Shooting Attacks made against its Front Armour by -1, or -2 if that Shooting Attack has the Blast special rule or uses a template to determine its Range. A flare shield has no effect on Shooting Attacks inflicted with weapons of the Destroyer type.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting vs Front Armour: S-1 (S-2 if Blast or template). No effect vs Destroyer weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5872,7 +5867,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="ca02-0f2e-ea7b-ce89" name="Geo-locator Beacon" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">As long as a model with this special rule is deployed on the battlefield, the controlling player may choose to re-roll all failed Reserves roll they make.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While deployed, re-roll failed Reserves rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5884,7 +5879,7 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="9a82-2bbb-c64c-ed0a" name="Grenade Harness" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a grenade harness makes attacks at its normal Initiative Step during an Assault after it has successfully Charged through Difficult Terrain or Dangerous Terrain, but still suffers any penalties to Charge rolls imposed by Difficult Terrain or Dangerous Terrain when resolving a Charge through Difficult Terrain or Dangerous Terrain.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Negates the Initiative penalty for charging through Difficult/Dangerous Terrain, but charge roll penalties still apply.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5896,12 +5891,12 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="5097-7577-6026-5969" name="Helical Targeting Array" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player of a model with a helical targeting array may activate it at the start of any of their own turns, or, if the controlling player is not taking the first turn of the battle, at the start of the battle, before the beginning of the opposing player&apos;s first turn. Once the helical targeting array is activated, this model is affected by the following conditions until the beginning of the controlling player’s next turn:
-• The model may not move, Run or declare or make any Reactions other than the Interceptor or Overwatch Reaction.
-• The controlling player may choose to use the Skyfire special rule when making any Shooting Attacks with the model.
-• No model may make a Damage Mitigation roll provided by the Shrouded special rule against an attack made by a model with a helical targeting array while it is active.
-• When the model makes a Shooting Attack as part of the Interceptor Reaction, the Reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per phase, but does allow the controlling player to exceed the normal three Reactions limit in a given phase.
-• When a model with the Vehicle Unit Type and a helical targeting array makes a Shooting Attack as part of the Interceptor Reaction, that model may fire all of its weapons, not just Defensive Weapons, as part of the Shooting Attack.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Activate at start of your turn (or before opponent's first turn if going second). Until your next turn:
+- Model may not move, Run, or React except Interceptor or Overwatch.
+- May use Skyfire on any Shooting Attack.
+- Shrouded saves cannot be taken vs. this model's attacks.
+- Interceptor Reactions don't cost a Reaction Allotment point (still limited to 1 Reaction/phase, but may exceed the 3-Reaction phase limit).
+- (Vehicles only) May fire all weapons (not just Defensive) when making an Interceptor Reaction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5913,11 +5908,10 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
       <profiles>
         <profile id="9d71-90b3-c22b-b04b" name="Jet Pack" publicationId="e77a-823a-da94-16b9" page="163" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Jet Pack: A unit entirely equipped with Jet Packs may choose to increase its Movement Characteristic by +6, move over friendly and enemy models/units, and ignore terrain while moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Jet Packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to move during the Movement phase, a unit equipped entirely with Jet Packs may make an additional move of 6&quot; during the Shooting phase. This move must be taken after the unit has completed any Shooting, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain and may move over friendly and enemy models/units in the same manner as moves made using a Jet Pack in the Movement phase.
-
-Any model equipped with a Jet Pack also gains the Bulky (2) and Deep Strike special rules, or if it already has the Bulky (2) special rule it gains the Bulky (3) special rule instead.
-
-During any Reaction that allows a unit equipped entirely with Jet Packs to move, increase the distance of that move by 6. This allows the unit to ignore terrain in the same manner as other Jet Pack moves.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">- Movement phase: may move +6", ignore terrain, and fly over models/units. Dangerous Terrain tests still required; Difficult Terrain counts as Dangerous.
+- Shooting phase: after shooting, may make an additional 6" move (same terrain/movement rules apply).
+- Reactions: +6" to any move made during a Reaction; same terrain rules apply.
+- Each model gains Bulky (2) and Deep Strike. If already Bulky (2), gains Bulky (3) instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5929,11 +5923,8 @@ During any Reaction that allows a unit equipped entirely with Jet Packs to move,
       <profiles>
         <profile id="c192-835d-8c77-1424" name="Jump Pack" publicationId="a716-c1c4-7b26-8424" page="163" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Jump Pack: A unit composed entirely of models with Jump Packs may set its Movement Characteristic to a value of 12 for the duration of the controlling player’s turn. This allows the unit to move up to 12&quot;, regardless of the Movement Characteristic shown on its profile, and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge Distance, see page 181). In addition, if the controlling player chooses to set the unit’s Movement to 12&quot;, the unit ignores terrain while Moving and Charging, and may move over friendly and enemy models/units. A unit that ends or begins its Movement or a Charge in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Jump Packs, and treats all Difficult Terrain as Dangerous Terrain.
-
-Any model equipped with a Jump Pack also gains the Bulky (2) and Deep Strike special rules, or if it already has the Bulky (2) special rule it gains the Bulky (3) special rule instead. A unit equipped with Jump Packs may not Run.
-
-During Reactions made in any Phase, a unit equipped with Jump Packs may not activate them to gain any bonus to their Movement Characteristic.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">May set Movement to 12" for the turn; if so, ignores terrain and models while Moving/Charging, but treats Difficult Terrain as Dangerous Terrain (Dangerous Terrain tests still apply). Cannot Run or activate Jump Packs during Reactions.
+Each model gains Bulky (2) and Deep Strike; if already Bulky (2), gains Bulky (3) instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9230,7 +9221,7 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
       <profiles>
         <profile id="d1e9-aa9b-6139-4b28" name="Psyk-out Granades" publicationId="15a4-fc68-502d-48a9" page="155" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When a unit that includes at least one model with psyk-out grenades makes a successful Charge targeting a unit that includes one of more models with the Psyker Unit Sub-type or Daemon Unit Type, no reactions may be declared against the Charge.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Charge vs Psyker/Daemon units: no Reactions may be declared against the charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10709,7 +10700,7 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
       <profiles>
         <profile id="1ede-a380-56ce-bd90" name="Void Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Void armour confers a 4+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ armour save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10729,7 +10720,7 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
       <profiles>
         <profile id="008b-9e8f-5410-f58b" name="Vox Interlock" publicationId="15a4-fc68-502d-48a9" page="153" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any friendly unit that includes at least one model with a vox interlock may choose to use the Leadership value of any model in a friendly unit with a command vox when making Pinning tests or Morale checks – this includes any friendly units with a command vox that are in Reserves or are Embarked on a model with the Vehicle Unit Type.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When taking Pinning tests or Morale checks, may use the Ld of any friendly model with a command vox (incl. units in Reserves or Embarked on a Vehicle).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10741,7 +10732,9 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
       <profiles>
         <profile id="ede3-8f88-276b-7368" name="Auxilia Vexilla" publicationId="15a4-fc68-502d-48a9" page="151" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an Auxilia vexilla adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase. In addition, a unit that includes at least one model with an Auxilia vexilla may choose to Fall Back only a distance equal to the roll of a D6 instead of 2D6 (or 3D6 if a Cavalry unit) and if forced to move off the edge of the battlefield will instead stop with each model 1&quot; away from the edge of the battlefield.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Assault phase: +1 to Combat Resolution score.
+- May Fall Back D6" instead of 2D6 (3D6 if Cavalry).
+- If Fall Back would move off the battlefield edge, stop 1" from it instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10756,7 +10749,7 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
       <profiles>
         <profile id="80c6-1db7-6bc2-507f" name="Militia Vexilla" publicationId="48c2-d023-0069-001a" page="37" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an Militia vexilla adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Assault phase: +1 to the unit's Wounds score when determining Combat results.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10782,7 +10775,7 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
       <profiles>
         <profile id="b498-93a6-b43b-49db" name="Flak Armour" publicationId="48c2-d023-0069-001a" page="37" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Flak armour confers a 5+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ armour save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17207,12 +17200,12 @@ At the end of its controlling player’s following turn, the unit is no longer S
   <sharedProfiles>
     <profile id="f52c-1f37-acd2-703c" name="Tartaros Terminator Armour" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Legion Tartaros Terminator armour confers a 2+ Armour Save and a 5+ Invulnerable Save.</characteristic>
+        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 5+ Invulnerable Save.</characteristic>
       </characteristics>
     </profile>
     <profile id="7d3b-41e9-887f-7085" name="Cataphractii Terminator Armour" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Legion Cataphractii Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, a unit that includes any models with Cataphractii Terminator armour may not make Sweeping Advances.</characteristic>
+        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 4+ Invulnerable Save. Unit may not make Sweeping Advances.</characteristic>
       </characteristics>
     </profile>
     <profile id="ace5-c6fe-e205-07d1" name="Bolter (Primary)" publicationId="a716-c1c4-7b26-8424" page="130" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">

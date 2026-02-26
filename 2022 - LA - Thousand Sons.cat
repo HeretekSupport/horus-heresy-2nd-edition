@@ -3790,7 +3790,7 @@ Additionally:
               <profiles>
                 <profile id="a3f3-1dd4-52f2-c1ab" name="The Armour of Shades" publicationId="09c5-eeae-f398-b653" page="272" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Armour of Shades provides a 2+ Armour Save and on any turn in which Magistus Amon has moved or is within the bounds of a zone of Area Terrain it grants him the Shrouded (4+) special rule.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save. Grants Shrouded (4+) on any turn Amon has moved or is within Area Terrain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3858,7 +3858,7 @@ Additionally:
                 </profile>
                 <profile id="eae0-8532-e157-1cba" name="The Reliquary of Dust" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Reliquary of Dust may also be used to make a Shooting Attack once per battle, and instead of attacking normally, using the following profile:</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, may be used as a Shooting Attack with the following profile:</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4987,7 +4987,7 @@ Additionally:
           <profiles>
             <profile id="7e5a-ebf9-1138-e23e" name="The Horned Raiment" publicationId="09c5-eeae-f398-b653" page="261" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Horned Raiment provides Magnus the Red with a 2+ Armour Save and a 4+ Invulnerable Save. In addition , if he is struck by a weapon with the Destroyer type, the amount of Wounds it inflicts is reduced by 1, to a minimum of 1</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save. Destroyer weapons inflict -1 Wound (min. 1).</characteristic>
               </characteristics>
             </profile>
           </profiles>

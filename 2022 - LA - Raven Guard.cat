@@ -3037,9 +3037,13 @@
               <profiles>
                 <profile id="0362-6ce2-ba25-111b" name="The Korvidine Pinions" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player&apos;s Movement phase, or when deployed as part of a Deep Strike Assault Corvus Corax’s Movement Characteristic may be set to a value of 14 for the duration of the controlling player’s turn (referred to as ‘activating’ this special rule). This allows Corvus Corax to move up to 14&quot;, regardless of the Movement Characteristic shown on his profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge Distance). In addition, Corvus Corax may move over Impassable Terrain, vertical terrain or friendly and enemy models or units without penalty on any turn in which the Korvidine Pinions have been activated, but may not end his movement in Impassable Terrain or within 1&quot; of any model from a unit Corvus Corax is not part of. If Corvus Corax ends or begins his movement or a Charge in Dangerous Terrain during any turn in which the Korvidine Pinions have been activated, he automatically passes any Dangerous Terrain tests he is called upon to make.
-				
-Corvus Corax may still Run on a turn when the Korvidine Pinions have been activated. When making a Run move after having activated the Korvidine Pinions, add Corvus Corax’s Initiative Characteristic to 14 to determine how far he may move – ignoring terrain and other models while making a Run move with the Korvidine Pinions activated as noted above, but may not make Shooting Attacks or declare a Charge in the same turn in which Corvus Corax has Run as per the normal rules for Running. The Korvidine Pinions may not be activated to gain any bonus to Corvus Corax&apos;s Movement Characteristic during a Reaction.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Activate at start of Movement phase (or on Deep Strike): set Move to 14" for the turn, incl. charge bonus.
+
+While active:
+- Fly over Impassable Terrain, vertical terrain, and any models freely; cannot end movement in Impassable Terrain or within 1" of non-allied models.
+- Auto-pass Dangerous Terrain tests.
+- May Run: move 14" + Initiative"; no Shooting or Charge that turn.
+- Cannot activate during a Reaction.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3082,7 +3086,7 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
               <profiles>
                 <profile id="651f-a8f4-5203-2d16" name="The Sable Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Sable Armour provides a 2+ Armour Save, a 4+ Invulnerable Save and grants the Shrouded (4+) special rule.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save, Shrouded (4+).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4069,7 +4073,9 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
               <profiles>
                 <profile id="4744-bc28-707f-9fc7" name="Nightfall pattern strato-vox" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While Strike Captain Alvarex Maun is present on the battlefield and not Embarked in a Vehicle or Building, the controlling player may reduce the distance of any Scatter rolls made (whether as part of a weapon attack or the deployment of a model or unit) by 5, as long as Strike Captain Alvarex Maun is within 12&quot; of the unit targeted by the attack or the point chosen as the target of the deployment. In addition, Strike Captain Alvarex Maun and any unit that he has joined ignores the -1 penalty to Leadership imposed by the Night Fighting rules.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While Maun is on the battlefield and not Embarked:
+- Scatter rolls reduced by 5" (within 12" of target point or unit).
+- Maun and his unit ignore the Night Fighting –1 Leadership penalty.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

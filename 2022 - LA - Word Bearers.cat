@@ -4436,7 +4436,7 @@
           <profiles>
             <profile id="5734-497e-467b-3e02" name="The Panoply of Flame" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All models with the Legiones Astartes (Word Bearers) special rule within 12&quot; of the Panoply of Flame add a +1 modifier to their score when determining victory in assaults and +1 to their Sweeping Advance rolls.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Friendly models within 12": +1 to assault resolution score and +1 to Sweeping Advance rolls.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4548,9 +4548,11 @@
           <profiles>
             <profile id="712c-b5e0-e925-51af" name="Umbral Pinions" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, Argel Tal’s Movement Characteristic may be set to a value of 14 for the duration of the controlling player’s turn. This allows Argel Tal to move up to 14&quot;, regardless of the Movement Characteristic shown on his profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, when moving in this fashion, Argel Tal ignores terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending his movement in Dangerous Terrain. On turns when this option is in use, Argel Tal may move over both friendly and enemy models or units without penalty – but must end his movement at least 1&quot; away from any model from another unit.
-
-Argel Tal may still Run while using this special rule, if he would normally be able to Run, moving up to 19&quot; and ignoring terrain and models from other units while doing so. If Argel Tal Runs while using this special rule, he may not make Shooting Attacks or Declare a Charge in the same turn. During a Reaction made in any Phase, a player may not choose to use this special rule to gain any bonus to their Movement Characteristic</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Movement phase: optionally set Movement to 14" for the turn, gaining all associated benefits (incl. charge distance bonus).
+- Ignores terrain while Moving/Charging; still takes Dangerous Terrain tests when beginning or ending in Dangerous Terrain.
+- May move over friendly and enemy models; must end ≥1" from any other unit's models.
+- May Run up to 19", ignoring terrain and models, but cannot Shoot or Charge that turn.
+- Cannot activate during Reactions.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4899,7 +4901,7 @@ Psychic Weapon</description>
           <profiles>
             <profile id="35a2-8fbd-c9c5-b143" name="The Terminus Consolaris" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Terminus Consularis grants a 2+ Armour Save, and an Invulnerable Save of 3+ in the Shooting Phase and 5+ in the Assault Phase.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save; invulnerable save 3+ (Shooting phase) / 5+ (Assault phase).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5752,7 +5754,7 @@ Threatening Entreaties - Kor Phaeron and the unit he has joined gain the Fearles
       <profiles>
         <profile id="14ea-2009-b564-2eb2" name="Narthecium" publicationId="a716-c1c4-7b26-8424" page="145" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with a narthecium gains the Feel No Pain (5+) special rule. Units that include more than one narthecium do not stack the Feel No Pain (X) special rule and gain no additional benefit. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Infantry and Cavalry in this unit gain Feel No Pain (5+). Multiple nartheciums don't stack; Artillery models are unaffected.</characteristic>
           </characteristics>
         </profile>
       </profiles>

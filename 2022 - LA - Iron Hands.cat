@@ -4024,7 +4024,7 @@
               <profiles>
                 <profile id="f106-46c8-97ad-e6f8" name="The Medusan Carapace" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Medusan Carapace grants a 2+ armor save and a 3+ invulnerable save</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 3+ invulnerable save.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4178,7 +4178,7 @@
             </profile>
             <profile id="50f5-52f7-d87b-1449" name="Armis Panoptikos" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Armis Panoptikos confers Autek Mor a 2+ Armour Save, a 4+ Invulnerable Save and the Feel No Pain (5+) special rule.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save, and Feel No Pain (5+).</characteristic>
               </characteristics>
             </profile>
           </profiles>

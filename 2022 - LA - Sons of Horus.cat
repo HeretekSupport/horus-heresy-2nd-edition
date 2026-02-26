@@ -6163,7 +6163,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
           <profiles>
             <profile id="cf69-69c7-a21f-b34c" name="Panoply of the Void" publicationId="53a4-0d21-2f8a-2c45" page="213" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Panoply of the Void grants Vheren Ashurhaddon a 2+ Armour Save and 4+ Invulnerable Save. In addition, any attacks made by enemy models as part of a Shooting Attack that target Vheren Ashurhaddon or the unit he has joined (as long as that unit is composed of no more than 6 models after Vheren Ashurhaddon has joined it), count the range to Vheren Ashurhaddon or his unit as 3&quot; further than the actual range between the two units. This special rule does not affect determining whether Vherren Ashurhaddon or models in the same unit are Hit by Blast markers or weapons with the Template special rule.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 4+ Invulnerable Save. Shooting attacks vs Ashurhaddon or his unit (≤6 models incl. him) count range as +3" further than actual; does not apply to Blast or Template weapons.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6374,8 +6374,9 @@ Blood and Honour – When a Wound is allocated to Vheren Ashurhaddon by his cont
               <profiles>
                 <profile name="Castigatus Combat Shield" hidden="false" id="975d-6283-59c2-8b5e" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" page="191" publicationId="d882-d2a-5da1-92c4">
                   <characteristics>
-                    <characteristic name="Description" id="fb73-ce9e-a865-2c2d" hidden="false" typeId="347e-ee4a-764f-6be3">A Castigatus combat shield provides a 5+ Invulnerable Save and each time a successful Invulnerable Saving Throw is made for a model with a Castigatus combat shield against a melee attack, the unit that made that attack suffers asingle Str 4 AP - hit. A model with a Castigatus combat shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.
-Invulnerable Saves granted by a Castigatus combat shield do not stack with other Invulnerable Saves, but can benefit from rules (such as cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+                    <characteristic name="Description" id="fb73-ce9e-a865-2c2d" hidden="false" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save. Each successful invuln save vs a melee attack deals 1 S4 AP- hit back to the attacking unit.
+- Cannot claim bonus attacks for dual-wielding or attack with Two-handed weapons.
+- Does not stack with other invuln saves (choose one); can be improved by rules that enhance existing saves.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

@@ -4565,7 +4565,7 @@
           <profiles>
             <profile id="53fa-9bfa-1db1-4ac6" name="The Armour of Mars" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Armour of Mars gives its wearer a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 4+ Invulnerable Save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4849,7 +4849,7 @@
               <profiles>
                 <profile id="ab03-9670-6518-3de5" name="Gorechild" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gorechild may only be taken if Angron is not part of the same army as Khârn the Bloody.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Cannot be taken if Angron is in the same army.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

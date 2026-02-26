@@ -3962,7 +3962,7 @@
               <profiles>
                 <profile id="e90a-5837-2524-80f0" name="Stratos Thrusters" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Always ignores Difficult and Dangerous Terrain. Once per turn, may set Move to 16" (incl. Charge distance bonuses).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4488,7 +4488,7 @@
           <profiles>
             <profile id="110b-b86e-c1d0-0936" name="Ordinatus Dispersion Shield" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Game Turn 1: Shooting vs Front/Side Armour and all Barrage/indirect attacks suffer −2S; Explodes results on the Vehicle Damage table are ignored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4632,9 +4632,11 @@
           <profiles>
             <profile id="602f-34ad-7780-be3c" name="Aktaeus Class Seismic Excavator Macro-Drill" publicationId="bde1-6db1-163b-3b76" page="124 &amp; FAQ" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Aktaeus class seismic excavator macro-drill grants the Ordinatus Aktaeus the Ordinatus Transport Bay special rule.
-In addition, once per battle, at the end of the controlling player’s Movement phase, the Ordinatus Aktaeus may employ its seismic excavator macro-drill to cause a Seismic Shockwave. When this occurs, the Ordinatus Aktaeus cannot move for the rest of the battle and counts as a vehicle that has suffered an irreparable Immobilised result on the Vehicle Damage table (although no Hull Point loss is suffered). Units may not choose to Embark or Disembark from the Ordinatus Aktaeus in a turn in which the Seismic Shockwave ability is used, but may do so as normal in subsequent turns.
-At the beginning of each of the controlling player’s Shooting phases for the rest of the battle after the Ordinatus Aktaeus has employed its seismic excavator macro-drill to cause a Seismic Shockwave, pick a point within 6&quot; of the front of the hull of the Ordinatus Aktaeus (for the purposes of determining this point you should use the Front arc of the unit). All units, friendly or enemy (excluding the Ordinatus Aktaeus itself), within a number of inches equal to the current Game Turn number multiplied by 6 of this point suffer D6 Str 7, AP 4 Hits with the Pinning special rule. Models with the Vehicle Unit Type are hit on their weakest Armour Facing. Should a model with the Vehicle Unit Type suffer a Penetrating Hit from this attack, it immediately suffers from Crew Shaken in addition to any other effect.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Grants the Ordinatus Transport Bay special rule.
+
+Once per battle, at end of your Movement phase, trigger Seismic Shockwave:
+- The Aktaeus becomes permanently Immobilised (no Hull Point loss); no Embarking/Disembarking this turn.
+- Each subsequent Shooting phase: pick a point within 6" of the front hull. All units (friend and foe, excl. Aktaeus) within (current Game Turn × 6)" suffer D6 S7 AP4 hits with Pinning. Vehicles are hit on their weakest Armour Facing; a Penetrating Hit also inflicts Crew Shaken.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5776,9 +5778,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
           <profiles>
             <profile id="26d1-24bd-f36c-a02c" name="Repulsion Shield" publicationId="3886-76e5-438f-159f" page="2" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a repulsion shield gains a 4+ Invulnerable Save.
-Invulnerable Saves granted by a resulsion shield do not stack with other Invulerable Saves, but can benefit from rules (such as cyber-familier) that specifically incerase existing Saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.
-Additionally, each time Inar Satarael makes a successful Invulnable Save on a roll of a 6 against a Shooting Attack not made as part of a Reaction, the unit that made the Shooting Attack suffers a S6, Ap- wound.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Invulnerable Save (non-stacking; choose highest if multiple). On a natural 6, reflect a S6 AP- wound back at the attacking unit (vs non-Reaction Shooting only).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5794,7 +5794,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <profiles>
             <profile id="ed58-ab1d-8677-a983" name="Haemonculite Cyber-corpus" publicationId="3886-76e5-438f-159f" page="2" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When Inar Satarael lose his last Wound, but before he is removed as a casualty, all models both friendly and enemy within D6&quot;, suffer an automatic Hit at Str 6, Ap -. In addition, in any battle in which Inar Satarael loses his last Wound, or is otherwise removed from play as a casualty, the controlling player must immediately roll a D6. On a result of a 4+, the opposing player scores no Victory points from destroying Inar Satarael in applicable mission objectives or secondary objectives.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When Satarael loses his last Wound, before removal:
+- All models within D6" (friend and foe) suffer 1 auto S6 AP— hit.
+- Roll a D6: on 4+, opponent scores no VP for his destruction.</characteristic>
               </characteristics>
             </profile>
           </profiles>

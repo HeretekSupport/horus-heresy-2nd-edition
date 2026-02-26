@@ -891,7 +891,7 @@
       <profiles>
         <profile id="fb0b-d16f-5099-6792" name="Titanshard Armour" publicationId="bde1-6db1-163b-3b76" page="125" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Titanshard Armour confers a 3+ Armour Save and a 5+ Invulnerable Save. In addition, a model with Titanshard Armour may re-roll Feel No Pain Damage Mitigation rolls which are the result of attacks made by weapons with the Poisoned (X) or Rad-phage special rules.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">3+ armour save, 5+ invulnerable save. Re-roll Feel No Pain rolls vs Poisoned (X) or Rad-phage weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>

@@ -1437,7 +1437,7 @@
                   <profiles>
                     <profile id="6e67-ba69-3474-5e9d" name="Auto-medicus" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                       <characteristics>
-                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with an auto-medicus gains the Feel No Pain (6+) special rule. Units that include more than one auto-medicus do not stack the Feel No Pain (X) special rule and gain no additional benefit. Models with the Artillery Unit Sub-type are not affected by this special rule.</characteristic>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Unit gains Feel No Pain (6+); multiple auto-medici don't stack. No effect on Artillery.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6340,7 +6340,7 @@
                   <profiles>
                     <profile id="44a5-4a6d-dd5f-3816" name="Armoured Container" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                       <characteristics>
-                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with this upgrade must reduce its Transport Capacity to 12 and gain the Infantry Transport special rule, but increases its Side Armour and Rear Armour by +1, up to a maximum of 12. Additionally, a model with this upgrade may take up to two additional Pintle Mounted heavy stubbers (these weapons may not be further upgraded).</characteristic>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reduce Transport Capacity to 12 and gain Infantry Transport; Side and Rear Armour +1 (max 12). May take up to 2 additional pintle-mounted heavy stubbers (no further upgrades).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10125,7 +10125,7 @@
       <profiles>
         <profile id="20ac-9d27-96c0-4d93" name="Carapace Armour" publicationId="48c2-d023-0069-001a" page="37" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Carapace armour confers a 4+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Armour Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10140,7 +10140,7 @@
       <profiles>
         <profile id="bf68-2f8c-e803-967b" name="Militia Standard" publicationId="48c2-d023-0069-001a" page="37" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Militia standard adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase and gains the Stubborn special rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">+1 to Combat Resolution score; unit gains Stubborn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11443,9 +11443,13 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
           <profiles>
             <profile id="8521-fd16-4fb3-198f" name="Militia Jet Pack" publicationId="48c2-d023-0069-001a" page="10" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, a model with a Militia jet pack may set its Move Characteristic to a value of 12 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ the jet pack). This allows a model with a Militia jet pack to move up to 12&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance). In addition, all models with a Militia jet pack that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. A model with an activated Militia jet pack treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Movement phase: may set Move to 12" for the turn.
 
-A model with a Militia jet pack may still Run, if it would normally be able to Run (this does not allow units that include any models with the Heavy Unit Sub-type to Run). When making a Run move for a model with an activated Militia jet pack, add the Initiative Characteristic of that model to 12 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with a Militia jet pack as noted above, but may not make Shooting Attacks or Declare a Charge in the same turn in which it has Run as per the normal rules for Running. During a Reaction made in any Phase, a player may not choose to activate a model’s Militia jet pack to gain any bonus to their Movement Characteristic.</characteristic>
+While activated:
+- Ignore terrain when Moving/Charging; treat Difficult as Dangerous; take Dangerous Terrain tests when starting/ending in Dangerous Terrain.
+- May move over any models; must end ≥1" from other units.
+- Run distance = 12 + Initiative"; still cannot shoot or charge after Running.
+- Cannot be activated during a Reaction.</characteristic>
               </characteristics>
             </profile>
           </profiles>

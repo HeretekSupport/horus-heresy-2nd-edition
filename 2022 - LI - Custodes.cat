@@ -312,7 +312,7 @@
           <profiles>
             <profile id="08b2-c819-eb58-b135" name="The Armour of Reason" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Corinthine Warplate confers a 2+ Armour Save and a 3+ Invulnerable Save. In addition, any models with the Loyalist Allegiance that can draw a line of sight to Constantin Valdor or are locked in the same combat as Constantin Valdor use his Leadership Characteristic Instead</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour, 4+ invulnerable; once per phase, re-roll the first failed invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2183,7 +2183,7 @@
                   <profiles>
                     <profile id="ba8a-0da7-2ccc-c438" name="Tarsus Buckler" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                       <characteristics>
-                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reduce the Strength characteristic of Shooting Attacks made against a unit in which the majority of models have a Tarsus Buckler by -2 (to a minimum of 1).</characteristic>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting attacks vs this unit: S-2 (min 1).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2404,7 +2404,7 @@
       <profiles>
         <profile id="09e1-791e-2a1c-d2c8" name="Praesidium Shield" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Praesidium shield confers a 5+ Invulnerable Save – this does not stack with existing Invulnerable Saves and if a model has more than one such save, the controlling player must select one to use against any Wounds inflicted on that model. In addition, a model with a Praesidium shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save (non-stacking). Cannot claim bonus attacks for multiple melee weapons or use Two-handed weapons in the Assault phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2710,7 +2710,7 @@
       <profiles>
         <profile id="649d-2ad0-6c4a-aaa5" name="Magisterium Vexilla" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Magisterium vexilla may re-roll all failed Leadership tests and may add +1 to the score used to decide if any friendly unit with any models within 12&quot; of any Magisterium vexilla wins a combat in the Assault phase – a friendly unit may only benefit from a single Magisterium vexilla’s bonus in any given combat, regardless of how many are within range.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Re-roll failed Ld tests. Assault phase: friendly units within 12" add +1 to combat resolution (one vexilla bonus per combat only).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3262,7 +3262,7 @@
       <profiles>
         <profile id="c37b-5df9-b6ac-3453" name="Teleport Transponder Array" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a teleport transponder array gains the Deep Strike special rule. In addition, the controlling player of a Detachment with the Legio Custodes Sub-faction that includes one or more models with a teleport transponder array may select up to three units for each model with a teleport transponder array that is part of that Detachment, the selected units must each include no more than five models, before being joined by any models with the Independent Character special rule, and all models in the selected units must have the Legio Custodes special rule and Infantry Unit Type. All models in the selected units gain the Deep Strike special rule and must be assigned to a Deep Strike Assault.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Grants Deep Strike. For each model with this wargear in the Detachment, select up to 3 friendly Legio Custodes Infantry units (≤5 models each, excl. Independent Characters); all models in selected units gain Deep Strike and must be assigned to a Deep Strike Assault.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3304,8 +3304,7 @@
       <profiles>
         <profile id="519c-618e-7039-25eb" name="Gyrfalcon Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Custodes Gyrfalcon jetbike has one Lastrum bolt cannon. In addition, a model with a Custodes Gyrfalcon jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
-A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav, Skirmish), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16 and gains the Hammer of Wrath (1) and Deep Strike special rules.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Equipped with a Lastrum bolt cannon. When Running, gains Shrouded (5+) until start of next turn. Infantry models upgrading to this become Cavalry (Antigrav, Skirmish), gaining Move 16", Hammer of Wrath (1), and Deep Strike.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3325,7 +3324,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <profiles>
         <profile id="6ec5-9b0d-b59b-04f1" name="Auric Battleplate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Auric battleplate confers a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 4+ Invulnerable Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3337,7 +3336,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <profiles>
         <profile id="32c6-4f3a-93ce-2319" name="Auric Demi-plate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Auric demi-plate confers a 3+ Armour Save and a 6+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">3+ Armour Save, 6+ Invulnerable Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3349,7 +3348,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <profiles>
         <profile id="9ef5-2af6-5d37-fc95" name="Auric Warplate" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Auric warplate confers a 2+ Armour Save and a 6+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 6+ Invulnerable Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3361,7 +3360,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <profiles>
         <profile id="ec4b-3bc4-a5ed-0078" name="Aquilon Pattern Terminator Armour" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Aquilon pattern Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3439,7 +3438,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <profiles>
         <profile id="4afa-29fd-b26e-f78c" name="Arae-shrike" publicationId="15a4-fc68-502d-48a9" page="151" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">If there is a model with an arae-shrike on the battlefield when any enemy player declares a Deep Strike Assault or Flanking Assault, any roll to see if the Deep Strike Assault or Flanking Assault is ‘Disordered’ suffers a penalty of -1 (and is thus counted as Disordered on the roll of a ‘1’ or a ‘2’, unless other modifiers are also applied).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy Deep Strike and Flanking Assault Disordered rolls suffer -1 (Disordered on a 1–2).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3451,7 +3450,8 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <profiles>
         <profile id="b65f-1eb6-ff64-c9df" name="Eclipse Shield" publicationId="15a4-fc68-502d-48a9" page="154" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vehicle with an eclipse shield reduces the Strength of Shooting Attacks made against its Front Armour by -1, or -2 if that attack has the Blast special rule or uses a template to determine its Range. An eclipse shield has no effect on attacks inflicted with weapons of the Destroyer type. If a Shooting Attack targeting the Front Armour of a model with the Vehicle Type with an eclipse shield inflicts a Glancing Hit or Penetrating Hit then that model with the Vehicle Type immediately gains the Shrouded (5+) special rule against all subsequent Shooting Attacks targeting it in the Front Armour during the same Phase.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting vs Front Armour: reduce incoming S by 1 (or 2 if Blast/template). No effect vs Destroyer weapons.
+On any Glancing or Penetrating Hit to Front Armour: gain Shrouded (5+) vs all subsequent Front Armour Shooting Attacks this phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3809,7 +3809,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
           <profiles>
             <profile id="6ce5-824b-db80-c7c0" name="Gravis Praesidium Shield" publicationId="15a4-fc68-502d-48a9" page="155" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Gravis Praesidium shield confers a 4+ Invulnerable Save, this does not stack with existing Invulnerable Saves and if a model has more than one such save the controlling player must select one to use against any Wounds inflicted on that model. In addition, a model with a Gravis Praesidium shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Invulnerable Save (non-stacking). Cannot claim bonus attacks for multiple melee weapons or attack with Two-handed weapons in the Assault phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3837,11 +3837,10 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <profiles>
         <profile id="6be9-082b-8b9d-0e91" name="Venatari Jump Harness" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, a model with a Venatari jump harness may set its Move Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ the jump harness). This allows a model with a Venatari jump harness to move up to 14&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, all models with a Venatari jump harness that has been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending its Movement in Dangerous Terrain. A model with an activated Venatari jump harness treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
-
-A model with a Venatari jump harness may still Run, if it would normally be able to Run (this does not allow units that include any models with the Heavy Unit Sub-type to Run). When making a Run move for a model with an activated Venatari jump harness, add the Initiative Characteristic of that model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with a Venatari jump harness as noted above, but may not make Shooting Attacks or Declare a Charge in the same turn in which it has Run as per the normal rules for Running.
-
-During a Reaction made in any Phase, a player may not choose to activate a model’s Venatari jump harness pack to gain any bonus to their Movement Characteristic.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of your Movement phase, may activate to set Move to 14" for the turn:
+- Activated: ignores terrain while Moving/Charging; treats Difficult as Dangerous; may move over any models but must end ≥1" from other units.
+- Run (if eligible): move up to 14 + I"; still ignores terrain and other units' models.
+- Cannot activate during Reactions.</characteristic>
           </characteristics>
         </profile>
       </profiles>

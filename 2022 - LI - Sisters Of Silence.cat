@@ -376,7 +376,9 @@
               <profiles>
                 <profile id="d5ce-2272-1c09-b37a" name="The Onyx Cloak" publicationId="15a4-fc68-502d-48a9" page="43" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Onyx Cloak confers a 4+ Invulnerable Save, increasing to 3+ against any Hits from weapons with the Template or Blast special rules. In addition, whenever targeted by a Shooting Attack, the range between an attacking unit and Jenetia Krole is considered to be 6&quot; further than the actual range between the two units – enemy units with the Night Vision special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule, Jenetia Krole is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Invulnerable Save (3+ vs Template/Blast weapons).
+- Shooting attacks treat range as 6" further than actual (ignored by Night Vision units and Primarchs).
+- vs Barrage: always treated as out of line of sight when scattering.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6543,7 +6545,8 @@
       <profiles>
         <profile id="5237-c4d4-ea51-e1a1" name="Distort Field" publicationId="15a4-fc68-502d-48a9" page="154" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit including one or more models with a distort field is considered to be 6&quot; further than the actual range between the two units – enemy units with the Night Vision special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule a unit including one or more models with a distort field is always treated as though it was out of line of sight when scattering any attacks. In addition, a distort field confers a 6+ Invulnerable Save against Melee Attacks and a 5+ Invulnerable Save against Shooting Attacks.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting Attacks: range counts as 6" longer (ignored by Night Vision and Primarchs). Barrage: always treated as out of LoS when scattering.
+Grants 6+ Invulnerable vs Melee, 5+ Invulnerable vs Shooting.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6555,7 +6558,8 @@
       <profiles>
         <profile id="227e-aaec-7ae7-2915" name="Excrutia Armatus" publicationId="15a4-fc68-502d-48a9" page="154" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An enemy unit may not declare a Reaction to Shooting Attacks or Charges made by a unit that includes one or more models with an excrutia armatus – however, enemy units that include one or more models with either the Fearless or Stubborn special rule ignore this effect. In addition, if an army includes one or more models with an excrutia armatus then the Slay the Warlord Secondary Objective (if it is in use as part of the mission in use) is worth an additional Victory point.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">- Enemy units cannot React to Shooting Attacks or Charges made by this unit (ignored by units with Fearless or Stubborn).
+- If any model in the army has this weapon, Slay the Warlord is worth +1 Victory Point.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6567,7 +6571,7 @@
       <profiles>
         <profile id="69a0-0506-93ef-db83" name="Spectra Cloaks" publicationId="15a4-fc68-502d-48a9" page="157" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit including one or more models with spectra cloaks is considered to be 6&quot; further than the actual range between the two units – enemy units with the Night Vision special rule, weapons with the Template special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule a unit including one or more models with spectra cloaks is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting attacks treat this unit as 6" further away (ignored by Night Vision, Template weapons, and Primarchs). Barrage attacks always scatter as if out of line of sight.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6579,7 +6583,9 @@
       <profiles>
         <profile id="176e-afc8-202c-dfa6" name="Erinyes Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Erinyes jetbike has a snare cannon and sets the Unit Type of any model with an Erinyes jetbike to Cavalry (Antigrav) (The model keeps any additional Sub-types it may have). In addition, a model with an Erinyes jetbike gains the Shrouded (6+) special rule on any turn in which it has moved, or the Shrouded (5+) special rule if it has Run in that turn.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Grants Cavalry (Antigrav) Unit Type (retaining existing Sub-types) and includes a snare cannon.
+- Moved this turn: Shrouded (6+)
+- Ran this turn: Shrouded (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6673,7 +6679,7 @@
       <profiles>
         <profile id="91b3-fe6a-cc45-f0a7" name="Compression Tanks" publicationId="15a4-fc68-502d-48a9" page="153" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Compression tanks may be used once per battle, this use must be declared when the controlling player declares a Shooting Attack for a unit that includes one or more models with compression tanks, before any To Hit rolls are made. When used, all models with compression tanks increase the Strength of any Flame weapons they have by +2 for the duration of that Shooting Attack – and when used, all models in the unit with compression tanks must use them. Once that Shooting Attack is fully resolved, all compression tanks in the attacking unit are expended and may not be used again in that battle.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, declare before To Hit rolls: all models with compression tanks gain +2S on Flame weapons for that Shooting Attack (all must use them simultaneously). Expended after the attack resolves.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7919,7 +7925,8 @@
       <profiles>
         <profile id="3658-e9bd-38cf-4af7" name="Spectra Distort Shield" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a model with the Vehicle Unit Type with a spectra distort shield is considered to be 8&quot; further than the actual range between the two units – enemy units with the Night Vision special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule a model with the Vehicle Unit Type and a spectra distort shield is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting: treat range as 8" longer than actual (ignored by Night Vision and Primarchs).
+Barrage: always treated as out of LoS when scattering.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7939,7 +7946,7 @@
       <profiles>
         <profile id="3726-55b1-4851-09d9" name="Voidscale Cloak" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A voidscale cloak confers a 5+ Invulnerable Save, increasing to 3+ against any Hits from weapons with the Template or Blast special rules.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save (3+ vs Template and Blast weapons).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7951,7 +7958,7 @@
       <profiles>
         <profile id="d7d5-b8e1-a44f-7673" name="Voidsheen Cloak" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A voidsheen cloak confers a 6+ Invulnerable Save, increasing to 4+ against any Hits from weapons with the Template or Blast special rules.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">6+ Invulnerable Save (4+ vs Template or Blast weapons).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7971,7 +7978,7 @@
       <profiles>
         <profile id="eaf9-0555-cc91-e313" name="Vratine Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Vratine armour confers an 3+ Armour Save</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">3+ armour save.</characteristic>
           </characteristics>
         </profile>
       </profiles>

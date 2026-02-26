@@ -3362,7 +3362,7 @@
       <profiles>
         <profile id="c48f-331d-be45-89e3" name="The Draken Scale" publicationId="817a-6288-e016-7469" page="315" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Draken Scale grants a 2+ Armour Save and a 3+ Invulnerable Save. In addition, Vulkan may re-roll any failed Armour saves for Wounds inflicted by Flame or Volkite weapons.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 3+ invulnerable save. Re-roll failed armour saves vs Flame and Volkite wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>

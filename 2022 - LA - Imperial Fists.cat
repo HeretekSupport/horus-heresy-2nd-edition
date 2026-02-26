@@ -5193,7 +5193,7 @@
           <profiles>
             <profile id="2a53-a28d-d85e-113f" name="The Auric Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Auric Armour provides Rogal Dorn with 2+ Armour Save and 4+ Invulnable Save. In addition, no attack may wound Rogal Dorn on better than a 4+ regardless of its Strength or special rules.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save. No attack may wound on better than 4+, regardless of S or special rules.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5721,9 +5721,7 @@
       <profiles>
         <profile id="5ddf-1487-f93e-b061" name="Vigil Storm Shield" publicationId="817a-6288-e016-7469" page="228" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any model with both the Legiones Astartes (Imperial Fists) and Independent Character special rules that does not have the Unique unit Sub-type may take a Vigil storm shield for +20 points. Additionally, any models with the Legiones Astartes (Imperial Fists) special rule in a Legion Tartaros Terminator Squad, or Legion Tartaros Command Squad may exchange a combi-bolter for a Vigil storm shield for +15 points each. Any models with the Legiones Astartes (Imperial Fists) special rule in a Legion Cataphractii Terminator Squad or Legion Cataphractii Command Squad may exchange a combi-bolter for a Vigil storm shield for +10 points each.
-
-A model with a Vigil storm shield gains a 3+ Invulnerable Save – Invulnerable Saves granted by a Vigil storm shield do not stack with other Invulnerable Saves and cannot be modified by any other special rule. If a model has another Invulnerable Save then the controlling player must choose one to use. A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">3+ Invulnerable Save (does not stack; cannot be modified; choose one if model has another). Model may never gain +1 attack for two close combat weapons or attack with Two-handed weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5806,7 +5804,7 @@ A model with a Vigil storm shield gains a 3+ Invulnerable Save – Invulnerable 
           <profiles>
             <profile id="5f13-0fa6-e08e-d14c" name="The Tyrant’s Regalia" publicationId="53a4-0d21-2f8a-2c45" page="209" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Tyrant’s Regalia confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, Evander Garrius has the Feel No Pain (5+) special rule against wounds suffered during any Fight Sub-phase.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save. Assault phase: Feel No Pain (5+) vs wounds suffered in any Fight Sub-phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -3091,7 +3091,7 @@
           <profiles>
             <profile id="2af5-04fb-474b-9308" name="The Regalia Resplendant" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Regalia Resplendent provides a 2+ Armour Save and a 4+ Invulnerable Save, and allows any failed Invulnerable Saves made on a turn in which Sanguinius Charges to be re-rolled.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save. Charging: re-roll failed invulnerable saves.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -3118,7 +3118,7 @@
             </profile>
             <profile id="c102-01fc-2186-f473" name="The Logos" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Logos provides a 2+ Armour Save and a 3+ Invulnerable Save, and allows Perturabo to ignore all the effects of Night Fighting, and when Perturabo or any unit he has joined makes the Interceptor Advanced Reaction, the Reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given turn.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Grants 2+ Armour Save and 3+ Invulnerable Save; ignore Night Fighting effects. Interceptor Reactions made by Perturabo or his unit don't cost a Reaction Allotment point (can exceed the 3-Reaction turn limit, but still only 1 Reaction per phase).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3246,7 +3246,7 @@
       <profiles>
         <profile id="d7c2-8ef5-2d96-cfae" name="Ferrum Occularis" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting Attacks made using a weapon with the Heavy type by a model with a Ferrum Occularis gain the Precision Shots (6+) special rule, as long as the attack is not made as part of a Reaction or a Snap Shot.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting phase: Heavy weapons gain Precision Shots (6+), except when firing as part of a Reaction or Snap Shot.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3649,7 +3649,7 @@
           <profiles>
             <profile id="b143-c357-586e-c20f" name="Karceri Battle Shield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Karceri battle shield gains a 5+ Invulnerable Save and any model with a Karceri battle shield that suffers and unsaved wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, any charge that targets a unit that includes one or more models equipped with a Karceri battle shield which is not already locked in combat is always resolved as a Disordered Charge.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save. Instant Death wounds cause D3 wounds instead of instant removal. Charges targeting this unit (if not locked in combat) are always Disordered Charges.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3878,7 +3878,7 @@
               <profiles>
                 <profile id="bc85-da3e-2182-44e6" name="Omni-scope" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an omni-scope ignores all the effects of Night Fighting, and when a unit that includes one or more models with this special rule makes the Interceptor Advanced Reaction, the reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Ignores Night Fighting. Interceptor Reactions cost 0 from your Reaction Allotment (still limited to 1 Reaction per phase, but does not count toward the 3-Reaction phase limit).</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="ad40-f3a3-dfb2-f9c1" name="Siege Master" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">

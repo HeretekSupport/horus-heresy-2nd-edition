@@ -140,7 +140,7 @@
       <profiles>
         <profile id="c622-aa22-5d98-69d2" name="Ion Gauntlet Shield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an ion gauntlet shield gains a 5+ Invulnerable Save against Shooting Attacks which target its Front or Side Armour Values, and a 5+ Invulnerable Save against all Melee Attacks.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save vs Shooting (Front/Side Armour only) and vs all Melee Attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -152,7 +152,7 @@
       <profiles>
         <profile id="dcde-df05-1912-9a61" name="Ion Shield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an ion shield gains a 4+ Invulnerable Save against Shooting Attacks which target its Front Armour Value, and a 5+ Invulnerable Save against Shooting Attacks which target its Side Armour Value.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Invulnerable Save vs Shooting targeting Front armour; 5+ vs Shooting targeting Side armour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -164,7 +164,8 @@
       <profiles>
         <profile id="d6e7-9365-6336-6a51" name="Ionic Deflector" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an ionic deflector gains a 5+ Invulnerable Save, and any model with an ionic deflector and a Wounds Characteristic gains the Eternal Warrior special rule. In addition, when a model with an ionic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+3&quot; suffer an automatic Hit atStr 8, AP -.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save; models with a Wounds characteristic also gain Eternal Warrior.
+When this model loses its last Wound/Hull Point (before removal): all models within D6+3" suffer an auto S8 AP- hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -687,7 +688,7 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
           <profiles>
             <profile id="e884-4204-2aed-1983" name="Djinn-skein" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Archmagos Draykavac increases the Ballistic Skill of any unit he joins by +1. In addition, while Archmagos Draykavac is present on the battlefield and not Embarked in a Building or on a unit with the Transport Unit Sub-type and not locked in combat, the controlling player may re-roll any Scatter rolls made (whether as part of a weapon attack or the deployment of a model or unit), as long as Archmagos Draykavac has line of sight to the unit targeted by the attack or the point chosen as the target of the deployment.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Joined unit gains +1 BS. While on the battlefield, not embarked, and not locked in combat: re-roll any Scatter rolls (must have line of sight to the target point or unit).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -850,7 +851,8 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
       <profiles>
         <profile id="7b79-49d9-110a-a173" name="Kyropatris Field Generator" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">So long as a unit contains at least five models with a Kyropatris field generator, all models in the unit may re-roll failed Armour Saves of 1. In addition, if the unit contains at least 10 models with Kyropatris field generators then all Shooting Attacks made against the unit suffer a modifier of -1 to the Strength of the attack (to a minimum of Strength 1).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Requires ≥5 models with this generator: re-roll failed Armour Saves of 1.
+If ≥10 models: all Shooting Attacks vs this unit suffer -1S (min S1).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -862,8 +864,7 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
       <profiles>
         <profile id="2b81-d2a9-b098-eaa0" name="Mag-Inverter Shield" publicationId="bde1-6db1-163b-3b76" page="127" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Mag-inverter shields confer a 5+ Invulnerable Save. A model with a mag-inverter shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.
-Invulnerable Saves granted by a mag-inverter shield do not stack with other Invulnerable Saves, but can benefit from rules (such as cyber-familiar) that specifically increase existing Saves. If a model has another Invulnerable Save then the controlling player must choose one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">5+ Invulnerable Save (cannot stack with other Invulnerable Saves, but can be improved by rules that specifically increase existing Saves; if the model has another Invulnerable Save, choose one to use). The bearer cannot claim bonus attacks for multiple melee weapons or make Assault phase attacks with Two-handed weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6241,8 +6242,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
       <profiles>
         <profile id="69de-85b2-7a04-eaf2" name="Mechanicum Protectiva" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Mechanicum Protectiva gains a 4+ Invulnerable Save.
-Invulnerable Saves granted by a Mechanicum Protectiva do not stack with other Invulnerable Saves, but can benefit from rules (like cyber-familiar) that specifically increase existing Saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Invulnerable Save. Does not stack with other Invulnerable Saves (use the better one); can be improved by rules that explicitly enhance existing saves.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6581,9 +6581,13 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
       <profiles>
         <profile id="49e3-0125-7461-31f6" name="Incunabulan Jet Pack" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Incunabulan jet packs may choose to increase its Move Characteristic by +6&quot; and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Incunabulan jet packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to Move during the Movement phase, a unit composed entirely of models with Incunabulan jet packs may make an additional Move of 6&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain in the same manner as moves made using a Incunabulan jet pack in the Movement phase.
-Any model with an Incunabulan jet pack also gains the Bulky (2) and Deep Strike special rules, or if it already has the Bulky (2) special rule it gains the Bulky (3) special rule instead. Models with an Incunabulan jet pack may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their size due to the Bulky (X) special rule.
-During any Reaction that allows a unit to Move, a unit composed entirely of models with Incunabulan jet packs increases the distance of that Move by 6 and allows it to ignore terrain in the same manner as other Incunabulan jet pack moves.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Movement phase: may move +6" and ignore terrain (Difficult Terrain counts as Dangerous; Dangerous Terrain tests still apply at start/end of move).
+
+Shooting phase: after shooting, may make an additional 6" move, ignoring terrain as above.
+
+Reactions: Move reactions gain +6" and ignore terrain as above.
+
+All models gain Bulky (2) and Deep Strike; if already Bulky (2), gain Bulky (3) instead. May embark Transports (Bulky cost still applies).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6606,8 +6610,11 @@ During any Reaction that allows a unit to Move, a unit composed entirely of mode
       <profiles>
         <profile id="94a1-e8ec-8bb1-1d1c" name="Utan Jump Booster" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Utan jump boosters may set its Move Characteristic to a value of 12 for the duration of the controlling player’s turn. This allows the unit to move up to 12&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance, see the Horus Heresy: Age of Darkness rulebook, page 181). In addition, the unit ignores terrain while Moving and Charging. A unit that ends or begins its movement or a Charge in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Utan jump boosters, and treats all Difficult Terrain as Dangerous Terrain.
-A unit composed entirely of models with Utan jump boosters may not Run. During Reactions made in any Phase, a unit composed entirely of models with Utan jump boosters may not activate them to gain any bonus to their Movement Characteristic. Any model with an Utan jump booster also gains the Deep Strike special rule. Additionally, models with an Utan jump booster may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their Unit Type and their size due to the Bulky (X) special rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per turn, the unit may set Move to 12" (incl. charge bonus) and ignore terrain while Moving/Charging.
+- Difficult Terrain counts as Dangerous; Dangerous Terrain tests still apply when starting/ending movement in it.
+- Cannot Run; cannot activate boosters during Reactions.
+- Each model gains Deep Strike.
+- Models may Embark on Transports despite normal restrictions (Bulky still applies).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6622,7 +6629,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
       <profiles>
         <profile id="a491-f0a7-4128-1e84" name="Rad Furnace" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any melee Hits allocated to models locked in combat with one or more units that include a model with a rad furnace require one lower result To Wound than they would normally, to a minimum of 2+. This effect is not cumulative with itself if more than one model in a combat has a rad furnace. Models with rad furnaces are immune to the effects of rad grenades, the Rad-phage special rule and the rad furnaces of models they are locked in combat with. In addition, Hits from weapons with the Rad-phage special rule that are allocated to a model with a rad furnace only successfully wound on a To Wound roll of a 6+.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All melee hits vs. units engaged with a rad furnace model wound on 1 lower result (min. 2+; not cumulative). Models with rad furnaces are immune to rad grenades, Rad-phage, and opposing rad furnaces; Rad-phage hits vs. this model wound only on 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6863,7 +6870,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
       <profiles>
         <profile id="0751-8d7c-eb3a-aa5b" name="Lorica Thallax" publicationId="bde1-6db1-163b-3b76" page="124" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Lorica Thallax confers a 4+ Armour Save. In addition, a unit that includes any models with Lorica Thallax may not make Sweeping Advances.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ armour save; unit cannot make Sweeping Advances.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7561,7 +7568,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
             </profile>
             <profile name="Hellcrusher claws*" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="1bf5-4a62-5256-3274" publicationId="4934-46f7-208b-b4af" page="129">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">&quot;The additional attack for two  Melee weapons is included in the Greater Brass Scorpion&apos;s profile.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Twin weapons: extra attack already included in profile.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7979,7 +7986,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
       <profiles>
         <profile id="a0e2-f24a-31e1-2ce3" name="The Corpus Skitarii" publicationId="bde1-6db1-163b-3b76" page="124" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Corpus Skitarii confers a 4+ Armour Save. In addition, a model with Corpus Skitarii may re-roll Feel No Pain Damage Mitigation rolls which are the result of attacks made by weapons with the Poisoned (X) or Rad-phage special rules</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Armour Save. May re-roll Feel No Pain rolls vs Poisoned (X) or Rad-phage weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>

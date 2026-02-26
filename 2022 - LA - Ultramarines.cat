@@ -3043,7 +3043,7 @@
           <profiles>
             <profile id="1091-812c-b124-2609" name="The Armour of Reason" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Armour of Reason provides a 2+ Armour Save and a 4+ Invulnerable Save and, in addition, the first Invulnerable Save failed by Roboute Guilliman in each separate Phase of the battle may be re-rolled.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour, 4+ invulnerable; once per phase, re-roll the first failed invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5283,7 +5283,7 @@
       <profiles>
         <profile id="c367-46db-77ea-de07" name="Peritarch Targeter" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Peritarch Targeter may activate it at the start of any of their own turns before any models are moved. Once the Peritarch Targeter is activated, the model affected may not move but gains the Night Vision special rule and their Shooting Attacks gain the Twin-linked special rule (if the weapon they are making attacks with did not already have them) until the start of the controlling player’s next turn.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of your turn (before movement): one model gains Night Vision and Twin-linked on Shooting Attacks until your next turn, but may not move that turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>

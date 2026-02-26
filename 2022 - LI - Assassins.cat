@@ -211,7 +211,7 @@
           <profiles>
             <profile id="be9b-4c97-4d93-8f9d" name="Polymorphine" publicationId="15a4-fc68-502d-48a9" page="FAQ" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with polymorphine may not be targeted for a Shooting Attack, Charge or Reaction of any kind by an enemy unit as long as the unit with polymorphine has not made an attack of any kind during the battle. Once a unit or model with polymorphine has made a Shooting Attack (including during a Reaction) then polymorphine has no further effect.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Until the unit makes any attack (incl. during a Reaction), it cannot be targeted by Shooting Attacks, Charges, or Reactions. Expires permanently once any attack is made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -395,7 +395,7 @@
           <profiles>
             <profile id="4f64-29ad-98be-35a5" name="Etherium" publicationId="15a4-fc68-502d-48a9" page="115" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any Shooting Attacks that target a unit composed entirely of models with this special rule are made as Snap Shots. Any weapon that cannot fire Snap Shots cannot be used to make Shooting Attacks targeting a model with this special rule.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting attacks vs this unit are made as Snap Shots; weapons that cannot Snap Shot cannot target this unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -585,7 +585,10 @@
           <profiles>
             <profile id="9320-3e0b-895d-a211" name="Auspectre" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy models cannot be deployed using the Infiltrate special rule within 18&quot; of a model with an auspectre. In addition, when any enemy unit is deployed to the battlefield from Reserves, a model with an auspectre may make the Interceptor Advanced Reaction (see page 309 of the Horus Heresy: Age of Darkness rulebook) without expending a point of the Reactive player&apos;s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal threee Reaction limit in a given Phase. Instead of usin gthe profile of a weapon the model has, a model with the auspectre may instead make a Leadership test. If the Leadership test is passed, the controlling player may instead make a Shooting Attack with any Defensive weapon available to any model with the Vehicle Unit Type (both friendly or enemy within 12&quot;, that is in range and line of sight of the targeted model. If the Leadership test is failed, the model may not make an Interceptor Advanced Reaction.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy units cannot Infiltrate within 18". When an enemy unit arrives from Reserves, may make the Interceptor Advanced Reaction for free (doesn't cost a Reaction point; doesn't allow &gt;1 Reaction/Phase, but can exceed the 3-Reaction limit).
+- If using the Interceptor Reaction, make a Leadership test instead of firing own weapons.
+- Pass: make a Shooting Attack using any Defensive weapon on any Vehicle (friend or foe) within 12", in range and LoS of the target.
+- Fail: cannot make the Interceptor Reaction.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -629,7 +632,7 @@
           <profiles>
             <profile id="ee8b-8261-7110-fede" name="Autotomic Servo-limbs" publicationId="15a4-fc68-502d-48a9" page="125" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, at the start of any turn, the controlling player of the model with the autotomagic servo-limbs may choose to grant the model the Hit &amp; Run special rule unitil the start of their next turn.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per battle, at the start of any turn: grant this model Hit &amp; Run until the start of your next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -764,7 +767,7 @@
           <profiles>
             <profile id="9908-70a7-ee30-2d2d" name="Poison Globes" publicationId="15a4-fc68-502d-48a9" page="123" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any unit attempting to make a Charge against a unit with one of more models that has poison globes must re-roll the first successful roll when determining Charge distances.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Charging units must re-roll the first successful die when determining Charge distance.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -878,7 +881,7 @@
           <profiles>
             <profile id="6fc1-cc7a-42e1-111f" name="Trajector Auspex Array" publicationId="15a4-fc68-502d-48a9" page="114" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When making a Shooting Attack, a model with a trajector asuspex array ignores the effects of all special rules or Wargear that would modify or limit the range and To Hit rolls of any attack made by that model.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Shooting: ignore all rules/wargear that modify or limit range and To Hit rolls.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -902,7 +905,7 @@
       <profiles>
         <profile id="c516-0961-ebaf-22c5" name="Panoply Of The Assassin" publicationId="15a4-fc68-502d-48a9" page="156" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Models with the Panoply of the Assassin have a 4+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Armour Save, 4+ Invulnerable Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -937,7 +940,7 @@
       <profiles>
         <profile id="3403-31b6-c97f-3edf" name="Wraithskin" publicationId="53a4-0d21-2f8a-2c45" page="223" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Models with Wraithskin have a 4+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ Armour Save and 4+ Invulnerable Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1262,7 +1265,7 @@
               <profiles>
                 <profile id="d905-b5e1-cee5-ba99" name="Ætherlabe Staff" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player of an enemy unit that arrives via Deep Strike Assault within 12&quot; of a model with this special rule must roll an additional D6 when rolling to Scatter that unit.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enemy units Deep Striking within 12" must roll an additional D6 when scattering.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1419,7 +1422,7 @@
           <profiles>
             <profile id="f85e-1df1-b9e0-4a4b" name="The Aquila Imperator" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Aquila Imperator grants Nathaniel Garro a 2+ Armour Save and a 4+ Invulnerable Save, increased to 3+ when Nathaniel Garro is fighting in a Challenge</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save (3+ invulnerable in Challenges).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1502,7 +1505,7 @@
           <profiles>
             <profile id="92ab-093d-8546-8d97" name="The Aegis Argentum" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Aegis Argentum grants a 2+ Armour Save and a 4+ Invulnerable Save. Additionally, a model equipped with the Aegis Argentum counts as having a psychic hood.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save, 4+ invulnerable save. Counts as a psychic hood.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -173,7 +173,7 @@
               <profiles>
                 <profile name="Flare Launcher" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="039c-4c60-627f-356a">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a flare launcher gains a 5+ Invulnerable Save against attacks made as part of the Interceptor Advanced Reaction.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">+5 invulnerable save vs Interceptor Reaction attacks.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1134,7 +1134,7 @@
                   <profiles>
                     <profile id="dfe9-8247-fa41-9cf2" name="Heavy Artificer Armour" publicationId="a716-c1c4-7b26-8424" page="140" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                       <characteristics>
-                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Artificer armour confers a 2+ Armour Save. Also gives the unit Heavy Subtype.</characteristic>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ armour save; grants Heavy Subtype.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1615,7 +1615,7 @@
       <profiles>
         <profile id="e94c-46f0-fa4e-e27b" name="Reinforced Void Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Reinforced void armour confers a 4+ Armour Save and any model with reinforced void armour also gains the Heavy Unit Sub-type.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">4+ save; bearer gains the Heavy sub-type.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1627,7 +1627,7 @@
       <profiles>
         <profile id="5ebe-7ce6-f386-530b" name="Heavy Void Armour" publicationId="15a4-fc68-502d-48a9" page="159" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Heavy void armour confers a 3+ Armour Save and any model with heavy void armour also gains the Heavy Unit Sub-type.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">3+ save; bearer gains the Heavy sub-type.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4688,12 +4688,12 @@
               <profiles>
                 <profile id="9c28-024f-9b09-0da7" name="Auto-gurney" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per player turn, when any friendly model within 12&quot; of Aevos Jovan is removed as a casualty in either the Movement or Shooting phases, the controlling player may choose to roll a D6 and consult the table below:
-D6 Result
-1 Bloody Masterpiece: The model is not removed as a casualty and remains in play with a single Wound – but must be removed from play at the end of the next player turn, at which point neither this special rule nor any Saving Throw or Damage Mitigation roll may be made for it. Until it is removed from play, a model affected by this result gains a bonus of +1 to its Strength and Attacks Characteristic.
-2-5 Mundane Procedure: The model is not removed as a casualty and remains in play with a single Wound.
-6 Inspired Restoration: The model is not removed as a casualty and remains in play with a number of Wounds equal to the Wounds Characteristic listed in its profile.
-If the unit that includes Aevos Jovan also includes one or more Medicae Orderlies, then the controlling player may choose to remove one of those models to make use of this special rule an additional time in a given turn or to add or subtract one from the dice rolled on the table presented as part of this special rule (only one model may be removed as a casualty in this fashion in each player turn). This special rule may only be used on models with the Infantry Unit Type.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per player turn, when a friendly Infantry model within 12" is removed as a casualty during the Movement or Shooting phase, roll a D6:
+- **1 – Bloody Masterpiece:** Model survives with 1 Wound and +1 S and A, but is auto-removed at end of next player turn (no saves, no reuse of this rule).
+- **2–5 – Mundane Procedure:** Model survives with 1 Wound.
+- **6 – Inspired Restoration:** Model survives, restoring Wounds to its full profile value.
+
+If Jovan's unit includes Medicae Orderlies, remove one to either use this rule an additional time or modify the roll by ±1 (max one Orderly sacrificed per player turn).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4851,7 +4851,7 @@ If the unit that includes Aevos Jovan also includes one or more Medicae Orderlie
               <profiles>
                 <profile id="a675-0a74-798e-cc1e" name="Auto-medicus" publicationId="15a4-fc68-502d-48a9" page="151" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with an auto-medicus gains the Feel No Pain (6+) special rule. Units that include more than one auto-medicus do not stack the Feel No Pain (X) special rule and gain no additional benefit. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Unit gains Feel No Pain (6+); multiple auto-medici don't stack. No effect on Artillery.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6622,7 +6622,7 @@ If the unit that includes Aevos Jovan also includes one or more Medicae Orderlie
       <profiles>
         <profile id="4eaa-b4e5-6a43-c638" name="Command Vox" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any friendly unit that includes at least one model with a command vox may choose to use the Leadership value of any model in a friendly unit with another command vox when making Pinning tests or Morale checks – this includes any friendly units with command voxs that are in Reserves or Embarked on unit with the Vehicle Unit Type. A unit that includes a command vox also offer benefits to friendly units that include a vox interlock (see page 153).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When making Pinning tests or Morale checks, may use the Ld of any model in a friendly unit with a command vox (incl. units in Reserve or Embarked). Also grants benefits to friendly units with a vox interlock.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6634,7 +6634,7 @@ If the unit that includes Aevos Jovan also includes one or more Medicae Orderlie
       <profiles>
         <profile id="ee86-c0c3-8b6b-76e9" name="Cohorts Vexilla" publicationId="15a4-fc68-502d-48a9" page="152" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All of the controlling player’s units that are part of a Detachment chosen from the Solar Auxilia Army List within 6&quot; of a model with a Cohorts vexilla are considered to have a Leadership Characteristic of 9 when resolving Morale checks or Pinning tests (but not Psychic checks). In addition, all models in a unit that includes a Cohorts vexilla gain the Line Sub-type as long as they remain part of that unit – this benefit is lost immediately if the model with the Cohorts vexilla is removed as a casualty.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Friendly units within 6" use Ld 9 for Morale and Pinning tests. Models in this unit gain the Line sub-type; both benefits lost if the vexilla model is removed as a casualty.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8932,7 +8932,7 @@ If the unit that includes Aevos Jovan also includes one or more Medicae Orderlie
                   <profiles>
                     <profile id="a1fe-094c-2d25-d16a" name="Detcon Unit" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                       <characteristics>
-                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of any Assault phase where the controller of a model with a detcon unit is the Active player, and before any Charges are declared, a model with a detcon unit may target one friendly unit composed entirely of Cyclops that is within line of sight. The targeted unit may declare Charges normally, ignoring the restrictions or the Automated Artillery Unit Type – if a unit composed entirely of Cyclops is not targeted by a model with a detcon unit then it may not have a Charge declared for it. If a unit includes both Cyclops and other models then it may act normally without being targeted by a model with a detcon unit.</characteristic>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Assault phase (active player, before Charges): target one friendly all-Cyclops unit in LoS — that unit may declare Charges normally. All-Cyclops units not targeted cannot declare Charges.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11874,7 +11874,7 @@ If the unit that includes Aevos Jovan also includes one or more Medicae Orderlie
             </profile>
             <profile name="Hermes Light Sentinel" hidden="false" id="d0d2-4cda-588-1a1f" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" publicationId="d882-d2a-5da1-92c4" page="180">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When a model with a Hermes Light Sentinel chooses to Run, it gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Run: gain Shrouded (5+) until your next turn.</characteristic>
               </characteristics>
               <comment>Left off the multi-laser bit, as we&apos;re covering that in wargear.</comment>
             </profile>
@@ -12032,7 +12032,7 @@ If the unit that includes Aevos Jovan also includes one or more Medicae Orderlie
               <profiles>
                 <profile name="Flare Launcher" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="82c3-546f-2b94-7852">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a flare launcher gains a 5+ Invulnerable Save against attacks made as part of the Interceptor Advanced Reaction.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">+5 invulnerable save vs Interceptor Reaction attacks.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

@@ -3091,7 +3091,7 @@
           <profiles>
             <profile id="271d-f10d-c131-700d" name="The Armour Elavagar" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Armour Elavagar confers a 2+ Armour Save and a 4+ Invulnerable Save (Which is increased to 3+ against Flame, Melta and Plasma type weapons of any kind).  In addition, enemy models in base contact with Leman Russ suffer a penalty of -1 To Hit him in an assault (to a maximum of 6+) on any turn in which Leman Russ makes a successful Charge.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 4+ Invulnerable Save (3+ vs Flame, Melta, and Plasma weapons). On a turn Russ successfully charges, enemy models in base contact suffer -1 To Hit (max 6+).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3466,7 +3466,11 @@
           <profiles>
             <profile id="ad6c-64b3-35cf-c8eb" name="Ymira Class Stasis Bombs" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any units which successfully Charges a unit that includes one or more models with Ymira Class Stasis Bombs must make a Disordered Charge. In addition, the controlling player of a unit that includes any models with Ymira Class Stasis Bombs may choose to activate the Ymira Class Stasis Bombs when declaring a Charge for that unit, before any dice are rolled to determine Charge Distance. The Ymira Class Stasis Bombs remain activated until the start of the controlling player&apos;s next turn, and may be activated again if another Charge is later declared for that unit. Whilst activated, all models with Ymira Class Stasis Bombs must add both Fleshbane and Gets Hot special rule to all attacks made during the Fight Sub-phase. All Wounds inflicted by the Gets Hot special rule on a model with an activated Ymira Class Stasis Bomb are resolved using the AP value of the weapon the model with Ymira Class Stasis Bombs is using to attack.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any unit that successfully Charges this unit must make a Disordered Charge.
+
+When declaring a Charge, may activate Stasis Bombs (lasts until start of your next turn):
+- All models with Stasis Bombs gain Fleshbane and Gets Hot on all Fight sub-phase attacks.
+- Gets Hot wounds are resolved using the AP of the attacking model's weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>

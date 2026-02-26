@@ -4501,7 +4501,7 @@
           <profiles>
             <profile id="723d-ff2e-d740-219b" name="The Nightmare Mantle" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Nightmare Mantle provides a 2+ Armour Save and a 4+ Invulnerable Save. In addition, the Nightmare Mantle allows Konrad Curze to ignore all modifiers to his Movement from any source, automatically pass all Dangerous Terrain Tests and when choosing to Run adds 12 to his Movement Characteristic instead of his Initiative Characteristic.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">2+ Armour Save, 4+ Invulnerable Save. Ignores all Movement modifiers, auto-passes Dangerous Terrain Tests, and Run adds 12" to Movement instead of Initiative.</characteristic>
               </characteristics>
             </profile>
           </profiles>
