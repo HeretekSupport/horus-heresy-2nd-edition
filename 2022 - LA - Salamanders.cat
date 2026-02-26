@@ -3795,7 +3795,7 @@
           <description>A Firedrake Squad may be selected as a Retinue Squad in a Detachment that includes at least one model with both the Master of the Legion and Legiones Astartes (Salamanders) special rules, instead of as an Elites choice. A unit selected as a ‘Retinue Squad’ must have one model with both the Master of the Legion and Legiones Astartes (Salamanders) special rules from the same Detachment selected by the controlling player as the Firedrake Squad’s Leader for the purposes of this special rule. A Firedrake Squad selected as a Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. A Firedrake Squad selected as a Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play</description>
         </rule>
         <rule id="3918-9a84-af8e-96b2" name="Forge-craft of Nocturne" hidden="false">
-          <description>Melee: re-roll To Hit rolls of 1.</description>
+          <description>Melee: re-roll To Hit of 1.</description>
         </rule>
       </rules>
       <infoLinks>

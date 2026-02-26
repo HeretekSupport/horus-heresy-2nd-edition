@@ -3311,7 +3311,7 @@ Cannot activate during Reactions. Models arriving from reserve count as activate
   </catalogueLinks>
   <sharedRules>
     <rule name="Immaterial Blades (X)" hidden="false" id="8d0-4d35-7d40-bc09" publicationId="8775-88f5-cfdd-24f6" page="22">
-      <description>To Wound or Armour Penetration ≥ 6: AP(X).</description>
+      <description>To Wound or Armour Pen. ≥ 6: AP(X).</description>
     </rule>
     <rule name="Unbound" hidden="false" id="40ce-bba7-f433-6089" publicationId="8775-88f5-cfdd-24f6" page="22">
       <description>Can't be included alongside this model's Bound version.</description>

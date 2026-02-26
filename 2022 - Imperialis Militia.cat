@@ -7825,7 +7825,7 @@
               </profiles>
               <rules>
                 <rule id="1adc-9dcc-4eb8-0f48" name="Militia Artillerists" publicationId="48c2-d023-0069-001a" page="31" hidden="false">
-                  <description>Shooting phase: Rapier Carriers can shoot only if paired with a Militia Gunner. If Gunners &lt; Carriers, only Carriers equal to the number of Gunners may shoot.</description>
+                  <description>Shooting phase: Rapier Carriers can shoot only if paired with a Militia Gunner. If Gunners &lt; Carriers, only Carriers equal to the number of Gunners can shoot.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -11542,7 +11542,7 @@ While activated:
 - Infantry selecting this upgrade becomes Cavalry (retaining Sub-types).</description>
     </rule>
     <rule id="e626-c3b1-e724-c6fc" name="Provenance" hidden="false">
-      <description>*(No rule text provided — cannot summarize.)*</description>
+      <description>*(No rule text provided — can't summarize.)*</description>
     </rule>
     <rule id="976f-9e14-413c-5bea" name="Emplaced" publicationId="48c2-d023-0069-001a" page="24" hidden="false">
       <description>- Can only make Return Fire, Overwatch, or Interceptor Reactions.

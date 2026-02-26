@@ -4565,7 +4565,7 @@
             <selectionEntry id="7b03-a316-ebfc-f197" name="Augurs of Weakness" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="a1dc-0a37-c646-f6af" name="Augurs of Weakness" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>Armour Penetration vs Armour ≥ 11: +1 S.</description>
+                  <description>Armour Pen. vs Armour ≥ 11: +1 S.</description>
                 </rule>
               </rules>
               <costs>

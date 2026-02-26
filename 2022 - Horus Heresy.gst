@@ -9240,7 +9240,7 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
       </profiles>
       <rules>
         <rule id="17ef-b91a-a251-2ee3" name="Garrison Vault" publicationId="d0df-7166-5cd3-89fd" page="102" hidden="false">
-          <description>Transports any number of Infantry units (incl. joined Characters) up to Transport Capacity. If the profile lists additional unit types, those may also Embark.</description>
+          <description>Transports any number of Infantry units (incl. joined Characters) up to Transport Capacity. If the profile lists additional unit types, those can also Embark.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9411,7 +9411,7 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
 After deploying first unit, roll D6:
 - **1:** Remaining units deploy anywhere within 24" of first unit, no scatter.
 - **2+:** Remaining units deploy within 6" of first unit, no scatter; if no space, opponent deploys them as a Disordered drop.
-- No model may be within 1" of an enemy or in impassable terrain.</description>
+- No model can be within 1" of an enemy or in impassable terrain.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -11569,11 +11569,11 @@ Smoke and Mirrors – This Advanced Reaction may be made once per battle during 
         <selectionEntry id="268b-74a8-395f-6f27" name="III: Emperor&apos;s Children (Legion Hereticus)" hidden="false" collective="false" import="true" type="upgrade" sortIndex="4">
           <rules>
             <rule id="a6b9-20bf-c73f-a5fa" name="The Divine Instruments" hidden="false">
-              <description>- Non-Unique Emperor's Children Characters with Traitor Allegiance may take 1 Surgical Augment (+20pts):
+              <description>- Non-Unique Emperor's Children Characters with Traitor Allegiance can take 1 Surgical Augment (+20pts):
   - Sonic Shriekers
   - Sub-sonic Pulser
   - Sonic Lance
-- Emperor's Children Characters may exchange a power weapon for a Phoenix Rapier or Phoenix Power Spear (free; counts as power weapon).
+- Emperor's Children Characters can exchange a power weapon for a Phoenix Rapier or Phoenix Power Spear (free; counts as power weapon).
 - Unlocks Legion Consularis Upgrade: Phoenix Warden.</description>
             </rule>
             <rule id="b253-df3b-18c7-bdff" name="The Phoenician’s Hubris" hidden="false">
@@ -11626,7 +11626,7 @@ Twisted Desire – This Advanced Reaction may be made once per battle during the
           </profiles>
           <rules>
             <rule name="Oaths of Vengeance and Wrath" hidden="false" id="9464-a310-2e37-b6db">
-              <description>When selecting a Blackshields Detachment, choose up to 2 Oaths from the list below. Effects apply to all models in the Detachment with Legiones Astartes (Blackshields), excluding Unique models. No Oath may be taken more than once per Detachment unless noted.</description>
+              <description>When selecting a Blackshields Detachment, choose up to 2 Oaths from the list below. Effects apply to all models in the Detachment with Legiones Astartes (Blackshields), excluding Unique models. No Oath can be taken more than once per Detachment unless noted.</description>
             </rule>
             <rule name="Blackshields and Allegiance" hidden="false" id="c6b7-9ad0-3be1-2125">
               <description>- Primary Detachment: count as both Loyalist and Traitor for Allegiance-targeting rules.
@@ -13283,7 +13283,7 @@ Limitations
           </modifiers>
           <rules>
             <rule id="fdb3-bbe5-3824-1d64" name="Sky-Hunter Phalanx" publicationId="a716-c1c4-7b26-8424" page="98" hidden="false">
-              <description>- Legion Sky-hunter Squadrons and Legion Proteus Land Speeder Squadrons may be taken as Troops.
+              <description>- Legion Sky-hunter Squadrons and Legion Proteus Land Speeder Squadrons can be taken as Troops.
 - Sky-hunter Squadrons taken as Troops gain the Line sub-type.
 - Vehicles must have the Flyer, Fast, or Skimmer sub-type.
 - All-Infantry units must begin the battle Embarked on a Flyer with the Transport sub-type.
@@ -13311,7 +13311,7 @@ Limitations
           </modifiers>
           <rules>
             <rule id="384d-9b91-037d-0890" name="Drop Pod Assault^" publicationId="a716-c1c4-7b26-8424" page="98" hidden="false">
-              <description>- Units eligible for Rhino/Land Raider Proteus Dedicated Transports may take Drop Pods or Dreadclaw Drop Pods instead.
+              <description>- Units eligible for Rhino/Land Raider Proteus Dedicated Transports can take Drop Pods or Dreadclaw Drop Pods instead.
 - Dreadnought units must take Dreadclaw or Dreadnought Drop Pods as Dedicated Transports; max 1 model per unit.
 - All units with Drop Pod/Dreadnought Drop Pod/Dreadclaw Dedicated Transports must deploy via Drop Pod Assault.
 - No Fortification choices.
@@ -13363,8 +13363,8 @@ Limitations
         <selectionEntry id="a621-2c8c-3df0-89d3" name="Underworld Assault^" publicationId="a716-c1c4-7b26-8424" page="100" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="bc0e-857d-6ab6-7aa8" name="Underworld Assault^" publicationId="a716-c1c4-7b26-8424" page="100" hidden="false">
-              <description>- Units eligible for a Legion Rhino as Dedicated Transport may take a Legion Termite Assault Drill instead.
-- Legion Termite Assault Drills may be selected as Fast Attack or Heavy Support choices.
+              <description>- Units eligible for a Legion Rhino as Dedicated Transport can take a Legion Termite Assault Drill instead.
+- Legion Termite Assault Drills can be selected as Fast Attack or Heavy Support choices.
 - Units starting on the battlefield (not in Reserve) gain Stubborn until end of the turn Subterranean Assault units deploy.
 - All Infantry without Bulky (X) must begin Embarked on a Legion Termite Assault Drill.
 - Can't select Fortification choices.
@@ -15016,12 +15016,12 @@ Can't be combined with Debased Rabble or Tainted Flesh.</description>
           <rules>
             <rule id="bc4e-9ab5-e370-cd7f" name="Armoury of Old Night" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
               <description>- All eligible models: upgrade lasguns to lasrifles free.
-- **Relic Arms (+30pts/unit):** Grenadier Squads and Command Cadres may upgrade:
+- **Relic Arms (+30pts/unit):** Grenadier Squads and Command Cadres can upgrade:
   - Lasguns → volkite chargers or assault needlers
   - Laspistols → volkite serpenta or needle pistols
   - Sniper rifles → needle vulnus
   - Heavy stubbers → volkite culverin or needle cannon
-- **Heirlooms of Past Glory:** Force Commander may upgrade:
+- **Heirlooms of Past Glory:** Force Commander can upgrade:
   - Power weapon → paragon blade (+10pts)
   - Laspistol → archaeotech pistol (+10pts)</description>
             </rule>
@@ -15239,7 +15239,7 @@ Option – Chainaxes: Upgrade basic CCW → chainaxe (+2pts/model) or chainsword
           <rules>
             <rule id="406d-7202-7fb9-f75c" name="Industrial Stronghold" publicationId="48c2-d023-0069-001a" page="12" hidden="false">
               <description>- +2 Heavy Support slots (Imperialis Militia Leman Russ only).
-- Leman Russ units may add up to 5 additional Militia Leman Russ (+120pts each).
+- Leman Russ units can add up to 5 additional Militia Leman Russ (+120pts each).
 - Incompatible with: Unending Horde, Debased Rabble, Tainted Flesh, Ogryn Conscripts.</description>
             </rule>
           </rules>
@@ -17180,7 +17180,7 @@ Unit with any Clone model:
       <description>To Wound ≥ X: auto-wound (ignore T), AP2.
 - Melee: AP2 optional.
 - Shooting: AP2 auto.
-- vs Vehicles: Armour Penetration ≥ X: roll extra D3, add to attack's S (weapon's normal AP, not AP2).</description>
+- vs Vehicles: Armour Pen. ≥ X: roll extra D3, add to attack's S (weapon's normal AP, not AP2).</description>
     </rule>
     <rule id="ed9b-1320-335f-aa10" name="Spite of the Legion" publicationId="a716-c1c4-7b26-8424" page="124" hidden="false">
       <description>Charging a Pinned, Falling Back, or Character/Chosen Warriors-free unit: all models in the charging unit gain +1A for that Assault phase.</description>
@@ -17228,7 +17228,7 @@ Unit with any Clone model:
 - While Legion Gunners ≥ Rapier Carriers: unit can't be Pinned; auto-pass Pinning tests; all Legion Gunners +1Ld.</description>
     </rule>
     <rule id="5a1d-d2f6-692b-d834" name="Legiones Consularis" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
-      <description>Any Legion Centurion (incl. Cataphractii/Tartaros variants) may take 1 Consul upgrade (some upgrades unavailable to certain Centurion types; see individual upgrades).</description>
+      <description>Any Legion Centurion (incl. Cataphractii/Tartaros variants) can take 1 Consul upgrade (some upgrades unavailable to certain Centurion types; see individual upgrades).</description>
     </rule>
     <rule id="9f09-5cb8-c3ea-c3f8" name="Limited Ammunition" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
       <description>After resolving all shots: roll D6 (+1 if fired before this battle). On 6+: weapon disabled for the rest of the battle.
@@ -17236,7 +17236,7 @@ Unit with any Clone model:
     </rule>
     <rule id="4f41-4c04-9cd8-c5a1" name="Marked For Death" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
       <description>Before Turn 1 (after all deployment incl. Infiltrators): choose 1 enemy unit as Marked for Death.
-- Attacks vs that unit: re-roll failed To Wound rolls of 1.</description>
+- Attacks vs that unit: re-roll failed To Wound of 1.</description>
     </rule>
     <rule id="8eef-f84b-37cb-554b" name="Master of Automata" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
       <description>- Can join units containing Automata models.
@@ -17245,7 +17245,7 @@ Unit with any Clone model:
     </rule>
     <rule id="44d6-09b2-3bd3-b2d6" name="Destroyer" publicationId="e77a-823a-da94-16b9" page="178" hidden="false">
       <description>- Fires regardless of movement; can still Charge after firing.
-- Armour penetration: roll 3 dice, discard lowest, use remaining total.
+- Armour Pen.: roll 3 dice, discard lowest, use remaining total.
 - Glancing or Penetrating Hit: D3 Hull Points damage.
 - Wound vs non-Vehicle: D3 Wounds.</description>
     </rule>
@@ -17324,7 +17324,7 @@ Unit with any Clone model:
       <description>Can only be included in Loyalist Allegiance armies.</description>
     </rule>
     <rule id="bfbf-e75c-49a2-0285" name="Outflank" publicationId="e77a-823a-da94-16b9" page="244" hidden="false">
-      <description>All-[Outflank] units can perform a Flanking Assault (see p.311). Some Faction/unit rules may offer additional deployment options.</description>
+      <description>All-[Outflank] units can perform a Flanking Assault (see p.311). Some Faction/unit rules can offer additional deployment options.</description>
     </rule>
     <rule id="0001-fa4k-0001-0001" name="Flanking Assault" publicationId="e77a-823a-da94-16b9" page="311" hidden="false">
       <description>On arrival, roll D6:
@@ -17398,7 +17398,7 @@ Disordered Charge: no benefit.</description>
       <description>X+ Invulnerable Save vs wounds from Force/Psychic Focus weapons and Perils of the Warp. No bracket value: treat as 5+.</description>
     </rule>
     <rule id="cb59-f920-f071-7cd4" name="Armourbane (X)" publicationId="e77a-823a-da94-16b9" page="231" hidden="false">
-      <description>Vs Vehicles: +1D6 armour penetration. Vs Automata/Dreadnoughts: re-roll failed To Wound. Applies to shooting and melee.
+      <description>Vs Vehicles: +1D6 Armour Pen.. Vs Automata/Dreadnoughts: re-roll failed To Wound. Applies to shooting and melee.
 
 Variants:
 - **(Melta):** Only at ≤ half range. With Blast, measure to centre post-scatter.
@@ -17602,7 +17602,7 @@ Independent Characters: a non-Infiltrate IC can't join Infiltrators at deploymen
       <description>Used once per battle. After use, no longer counts as a weapon — can't be destroyed or repaired.</description>
     </rule>
     <rule id="20e2-75cf-bc16-cd8f" name="Sunder" publicationId="e77a-823a-da94-16b9" page="247" hidden="false">
-      <description>Re-roll failed Armour Penetration vs Vehicles/Buildings, and re-roll Glancing Hits (fishing for Penetrating Hits); second result stands.</description>
+      <description>Re-roll failed Armour Pen. vs Vehicles/Buildings, and re-roll Glancing Hits (fishing for Penetrating Hits); second result stands.</description>
     </rule>
     <rule id="dea8-564e-9d1b-c685" name="Split Fire" publicationId="e77a-823a-da94-16b9" page="247" hidden="false">
       <description>One model can target a different unit from the rest:
@@ -17634,7 +17634,7 @@ Independent Characters: a non-Infiltrate IC can't join Infiltrators at deploymen
 - Damage Mitigation roll: only one of any type per hit.</description>
     </rule>
     <rule id="aacf-9a7e-982d-b793" name="Scout" publicationId="e77a-823a-da94-16b9" page="246" hidden="false">
-      <description>After deployment (incl. Infiltrators), before Turn 1, unit may redeploy:
+      <description>After deployment (incl. Infiltrators), before Turn 1, unit can redeploy:
 - Infantry/Artillery/Dreadnought/Automata: each model up to 6" from current position.
 - All other unit types: each model up to 12" from current position.
 - Can move outside own Deployment Zone; must stay &gt;9" from all enemy units.
@@ -17672,9 +17672,9 @@ Infiltrate + Scout: deploy via Infiltrate, then redeploy via Scout.</description
       <description>Attacks with this weapon fight at I1 (except Dreadnoughts and Monstrous models).</description>
     </rule>
     <rule id="8542-ee9d-e2fa-52fe" name="Twin-linked" publicationId="e77a-823a-da94-16b9" page="249" hidden="false">
-      <description>Re-roll failed To Hit rolls.
+      <description>Re-roll failed To Hit.
 - **Blast:** if Scatter dice ≠ Hit, can re-roll — must re-roll both Scatter and 2D6.
-- **Template:** re-roll failed To Wound and Armour Penetration rolls instead.</description>
+- **Template:** re-roll failed To Wound and Armour Pen. rolls instead.</description>
     </rule>
     <rule id="5e0e-88e6-db81-5a70" name="Template Weapons" publicationId="e77a-823a-da94-16b9" page="248" hidden="false">
       <description>No To Hit roll; place template with narrow end touching firer's base (or barrel for Vehicles):
@@ -17706,7 +17706,7 @@ Infiltrate + Scout: deploy via Infiltrate, then redeploy via Scout.</description
 - If Immobilised or Wrecked: remove base if possible; otherwise leave in place.</description>
     </rule>
     <rule id="c772-87ea-d49c-c7ba" name="Master of the Legion" publicationId="a716-c1c4-7b26-8424" page="19 and 123" hidden="false">
-      <description>- **Rites of War:** A Detachment with ≥1 Master of the Legion model may select 1 Rite of War.
+      <description>- **Rites of War:** A Detachment with ≥1 Master of the Legion model can select 1 Rite of War.
 - **The Few and the Proud:** Max 1 per 1,000 pts (across all Detachments).
 - **Retinue:** Can include a Legion Command Squad, Cataphractii Command Squad, or Tartaros Command Squad in the same Force Organisation slot.</description>
     </rule>
@@ -17772,7 +17772,7 @@ Infiltrate + Scout: deploy via Infiltrate, then redeploy via Scout.</description
     </rule>
     <rule id="60d8-5964-8671-7f3b" name="Graviton Collapse" publicationId="a716-c1c4-7b26-8424" page="119" hidden="false">
       <description>To Wound: target rolls 2D6 ≤ own S or suffers a Wound (Armour Saves and Damage Mitigation allowed; Shrouded can't be used).
-vs Vehicles: 4D6 armour penetration.</description>
+vs Vehicles: 4D6 Armour Pen..</description>
     </rule>
     <rule id="c0dd-9002-2ebd-f96d" name="Heart of the Legion" publicationId="a716-c1c4-7b26-8424" page="119" hidden="false">
       <description>≥ half the unit within 6" of an Objective:
@@ -17791,7 +17791,7 @@ vs Vehicles: 4D6 armour penetration.</description>
 
 Assignment restrictions:
 - ≤1 Techmarine per unit.
-- No units containing Independent Characters or Unique models (those may still join the unit normally).
+- No units containing Independent Characters or Unique models (those can still join the unit normally).
 - On foot: all-Infantry units with matching Legiones Astartes (X); can't join units with Terminator armour.
 - On Spatha bike: all-Spatha bike units with matching Legiones Astartes (X).
 - On Scimitar jetbike: all-Scimitar jetbike units with matching Legiones Astartes (X).
@@ -17855,7 +17855,7 @@ When assigned: gains unit's special rules (except those that forbid it, e.g. Bit
 **Reserves:** Roll once for all assigned units. If successful, all must enter play this turn:
 
 **Deployment procedure:**
-- Place one model (with Subterranean Assault; may have unit Embarked) anywhere ≥1" from enemy models, battlefield edges, and Impassable Terrain, then scatter.
+- Place one model (with Subterranean Assault; can have unit Embarked) anywhere ≥1" from enemy models, battlefield edges, and Impassable Terrain, then scatter.
 - If final position is within 1" of any enemy model, battlefield edge, or Impassable Terrain: opponent places it anywhere within 18" (&gt;1" from enemy models, edges, Impassable Terrain). If no valid position within 18", place anywhere valid on battlefield.
 - Roll 1d6: on a 1 (Disordered), opponent deploys all remaining units within 12" of the first, no scatter; on 2+, controlling player deploys all remaining units within 12" of the first, no scatter. No model can be within 1" of an enemy or in Impassable Terrain.
 - Embarked models must stay Embarked; can Disembark</description>
@@ -17869,7 +17869,7 @@ When assigned: gains unit's special rules (except those that forbid it, e.g. Bit
 - Roll a die:
   - **1 (Disordered):** Opponent places all remaining pods anywhere within 24" of the first, no scatter.
   - **2+:** You place all remaining pods anywhere within 24" of the first, no scatter.
-- No pod may be placed ≤1" from enemy models or in Impassable Terrain. Prioritise positions that allow disembarkation.
+- No pod can be placed ≤1" from enemy models or in Impassable Terrain. Prioritise positions that allow disembarkation.
 - Enemy units with ≥1 model within 6"</description>
     </rule>
     <rule id="a03c-5d6f-c219-4f3f" name="Battlements" publicationId="e77a-823a-da94-16b9" page="225" hidden="false">
@@ -17892,13 +17892,13 @@ When assigned: gains unit's special rules (except those that forbid it, e.g. Bit
     </rule>
     <rule id="f8f7-3855-8ad8-8563" name="Barricades, Walls and Defence Lines" publicationId="e77a-823a-da94-16b9" page="221" hidden="false">
       <description>- Models in cover behind a Barricade/Wall: Sv5+ (cover).
-- Models in base contact with a Barricade and within 2" of each other count as in base contact for Charge Moves and may fight normally.
+- Models in base contact with a Barricade and within 2" of each other count as in base contact for Charge Moves and can fight normally.
 - Units charging enemies behind a Barricade/Wall count as charging through Difficult Terrain.</description>
     </rule>
     <rule id="6c55-22c8-1b01-2105" name="Ordnance" publicationId="e77a-823a-da94-16b9" page="177" hidden="false">
       <description>- Non-Vehicle: can't fire if moved; can't Snap Shot; no other Shooting Attacks or Charge that turn.
-- Vehicles: may have restrictions based on distance moved (see profile).
-- Armour Penetration: roll 2 dice, pick highest.</description>
+- Vehicles: can have restrictions based on distance moved (see profile).
+- Armour Pen.: roll 2 dice, pick highest.</description>
     </rule>
     <rule id="6f5f-8f7c-d18b-cd42" name="Grenades" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false">
       <description>Grenades are Wargear items, not Shooting Attacks. Grenade launchers use standard Shooting rules instead.</description>
@@ -17952,7 +17952,7 @@ When assigned: gains unit's special rules (except those that forbid it, e.g. Bit
     </rule>
     <rule id="4eb9-9e5e-bb27-3644" name="Disruption (X)" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
       <description>To Hit = X:
-- vs Vehicles: auto Glancing Hit (no Armour Penetration roll).
+- vs Vehicles: auto Glancing Hit (no Armour Pen. roll).
 - vs Dreadnoughts/Automata: auto Wound (no To Wound roll).</description>
     </rule>
     <rule id="1cc2-eaee-8bcf-96d3" name="Grav Wave" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
@@ -18004,9 +18004,9 @@ vs. Drop Pod Assault: when resolved, roll 1D6 — select that many enemy models 
 - All Legiones Auxilia (Thousand Sons) Infantry gain Adamantium Will (6+).</description>
     </rule>
     <rule id="64ca-719e-b563-e3df" name="Independent Fire Control" publicationId="15a4-fc68-502d-48a9" hidden="false">
-      <description>After resolving a Shooting Attack, unused weapons (out of range/LoS or voluntarily withheld) may make Secondary Shooting Attacks:
+      <description>After resolving a Shooting Attack, unused weapons (out of range/LoS or voluntarily withheld) can make Secondary Shooting Attacks:
 - Each unfired weapon fires once, grouped freely across one or more Secondary Shooting Attacks vs any enemy unit(s).
-- All normal range/LoS rules apply; all To Hit rolls –1.
+- All normal range/LoS rules apply; all To Hit –1.
 - All-[Independent Fire Control] units only.</description>
     </rule>
     <rule id="71fa-da0d-0056-9072" name="Kharash" hidden="false">
@@ -18060,8 +18060,8 @@ Primarchs/Night Vision: ignore all penalties and LoS restrictions.</description>
 
 **Assignment rules:**
 - All models in a unit share the same Sub-type; Dedicated Transports take the Sub-type of their unit.
-- Legion Techmarine Covenants and Apothecarion Detachments may have a different Sub-type per model, but must be assigned to a unit containing ≥1 model with the same Sub-type.
-- Retinues may have a different Sub-type than their leader.
+- Legion Techmarine Covenants and Apothecarion Detachments can have a different Sub-type per model, but must be assigned to a unit containing ≥1 model with the same Sub-type.
+- Retinues can have a different Sub-type than their leader.
 - Independent Characters with a Sub-type can join units with a different Sub-type.
 - Some models require a specific Sub-type (noted on profile; can't be changed).
 
@@ -18095,7 +18095,7 @@ Primarchs/Night Vision: ignore all penalties and LoS restrictions.</description>
       <description>Shooting &amp; melee vs Dreadnoughts, Automata, Vehicles, or Buildings: +1S.</description>
     </rule>
     <rule id="8280-d4ea-b131-4970" name="Legiones Astartes (Night Lords)" publicationId="09c5-eeae-f398-b653" page="194" hidden="false">
-      <description>**A Talent for Murder:** All-[this rule] unit gains +1 To Wound/Armour Penetration vs targets that are Pinned, Falling Back, or outnumbered by the attacking unit.
+      <description>**A Talent for Murder:** All-[this rule] unit gains +1 To Wound/Armour Pen. vs targets that are Pinned, Falling Back, or outnumbered by the attacking unit.
 
 Outnumbered count:
 - Bulky (X): counts as X models
@@ -18173,7 +18173,7 @@ At the end of its controlling player’s following turn, the unit is no longer S
 - **On foot:** all-Infantry units sharing same Legiones Hereticus (X); can't join Terminator armour.
 - **With Spatha:** all-Spatha units sharing same Legiones Hereticus (X).
 - **With Scimitar:** all-Scimitar jetbike units sharing same Legiones Hereticus (X).
-- Can't be assigned to units containing Independent Characters or Unique models (though such models may join the unit normally during deployment or later turns).
+- Can't be assigned to units containing Independent Characters or Unique models (though such models can join the unit normally during deployment or later turns).
 - Max 1 Techmarine per unit.
 
 Once assigned, the Techmarine is a permanent part of that unit:

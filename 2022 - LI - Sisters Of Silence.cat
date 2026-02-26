@@ -8245,7 +8245,7 @@ Barrage: always treated as out of LoS when scattering.</characteristic>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="1d8d-3038-9267-6f1b" name="Silent Sisterhood (X)" publicationId="15a4-fc68-502d-48a9" page="39" hidden="false">
-      <description>X = Chamber Militant the model belongs to, which may grant additional rules and affects army selection.
+      <description>X = Chamber Militant the model belongs to, which can grant additional rules and affects army selection.
 
 Sisters of Silence Detachments only:
 - Chamber of Vigilance: unlimited (FOC slots only).

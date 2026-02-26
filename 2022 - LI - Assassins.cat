@@ -1039,7 +1039,7 @@
           </profiles>
           <rules>
             <rule id="32f8-4aec-8cd0-fdef" name="Transmutative armaments" publicationId="53a4-0d21-2f8a-2c45" page="223" hidden="false">
-              <description>Assault phase: choose weapon profile before any To Hit rolls.</description>
+              <description>Assault phase: choose weapon profile before any To Hit.</description>
             </rule>
           </rules>
           <infoLinks>

@@ -4841,7 +4841,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
             <rule id="8e38-8b21-ccef-d170" name="Medicae Support" publicationId="15a4-fc68-502d-48a9" page="135" hidden="false">
               <description>Before Turn 1, before deployment, assign each model in this detachment to a separate friendly Infantry unit (same Detachment):
 - Max 1 Auxilia Medicae per unit.
-- Can't assign to units containing Independent Characters or Unique models (though such models may join a unit containing an Auxilia Medicae normally).
+- Can't assign to units containing Independent Characters or Unique models (though such models can join a unit containing an Auxilia Medicae normally).
 - Once assigned: permanent — can't leave; removed if host unit is destroyed.
 - Gains all host unit's special rules (except those that forbid it, e.g. Bitter Duty) and Sub-types, but no access to host unit's Wargear options.
 - Never awards Victory Points when removed as a casualty.</description>
@@ -11515,7 +11515,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
                   </profiles>
                   <rules>
                     <rule id="6056-96bf-7e43-8734" name="Auxilia Static Artillerists" hidden="false">
-                      <description>- Start of Shooting phase: Artillery Platforms may shoot = number of Auxilia Gunners (max 1 per Platform required).
+                      <description>- Start of Shooting phase: Artillery Platforms can shoot = number of Auxilia Gunners (max 1 per Platform required).
 - While Auxilia Gunners ≥ Artillery Platforms: immune to Pinning (auto-pass Pinning tests).</description>
                     </rule>
                   </rules>

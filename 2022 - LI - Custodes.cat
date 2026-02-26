@@ -4373,7 +4373,7 @@ On any Glancing or Penetrating Hit to Front Armour: gain Shrouded (5+) vs all su
 - To Hit vs Nemesis unit: never worse than 4+ (except vs all-Primarch units or when in a Challenge vs a Primarch).</description>
     </rule>
     <rule id="f7d6-7c7a-38c3-8931" name="Lightning Blows (X)" hidden="false">
-      <description>After normal To Hit rolls: count hits ≥ X, then make that many bonus To Hit rolls (using attacker's WS) vs. same unit.
+      <description>After normal To Hit: count hits ≥ X, then make that many bonus To Hit (using attacker's WS) vs. same unit.
 - Bonus hits wound normally, using this weapon's profile or another available weapon.
 - Bonus attacks don't trigger Lightning Blows again, but benefit from all other special rules (e.g. Preferred Enemy, Precision Strikes).</description>
     </rule>

@@ -3066,7 +3066,7 @@
           <description>Friendly units locked in combat with ≥1 model within 6" of Sanguinius (incl. his unit): +1 to Wounds caused for Assault result. Does not stack with other Assault result modifiers.</description>
         </rule>
         <rule id="1703-b985-b67c-004c" name="Great Wings" hidden="false">
-          <description>Start of Movement phase or when Deep Striking, may set M to 14 for the turn:
+          <description>Start of Movement phase or when Deep Striking, can set M to 14 for the turn:
 - Moves up to 14", gaining all M14 benefits (incl. Charge distance bonus).
 - Can move over Impassable Terrain, vertical terrain, and any models without penalty.
 - Can't end movement in Impassable Terrain or within 1" of any non-allied unit.
@@ -6117,7 +6117,7 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
         <rule name="Sanguinary Guard Retinue" id="0ee1-bf1e-156e-a659" hidden="false" publicationId="2489-0c1d-8ed5-2515" page="9">
           <description>Can be taken as a Retinue Squad (no FOC slot) in a Detachment with a Master of the Legion/Legiones Astartes (Blood Angels) model instead of as an HQ choice:
 - That model becomes the Leader; must deploy with and can't voluntarily leave the unit.
-- One model may replace Perdition weapon with power weapon + Legion standard (+15pts).</description>
+- One model can replace Perdition weapon with power weapon + Legion standard (+15pts).</description>
         </rule>
       </rules>
       <constraints>
