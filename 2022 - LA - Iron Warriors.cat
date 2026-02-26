@@ -3560,7 +3560,7 @@
     <selectionEntry id="a6e3-baab-45b9-7fea" name="Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="aee3-ea29-a584-363c" name="Moving Bulwark" hidden="false">
-          <description>While in base contact with another friendly model with this rule, both models improve their Invulnerable Save by one step (max 4+).</description>
+          <description>When in base contact with another friendly model with Moving Bulwark, both models improve their Invulnerable Save by one step (max 4+).</description>
         </rule>
         <rule id="9928-677a-8d79-4db0" name="The Shield of the Iron Tyrant" hidden="false">
           <modifiers>
@@ -3570,7 +3570,9 @@
               </conditions>
             </modifier>
           </modifiers>
-          <description>May be taken as Perturabo's Retinue Squad (min. 3 models) instead of an Elite choice. Must deploy with and may not voluntarily leave Perturabo. Models in the unit gain Feel No Pain (5+).</description>
+          <description>May be taken as Perturabo's Retinue Squad (≥3 models) instead of an Elite choice.
+- Must deploy with Perturabo; he may not voluntarily leave.
+- All models in the unit gain Feel No Pain (5+).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4052,7 +4054,7 @@
       </profiles>
       <rules>
         <rule id="1e88-0300-e0d1-3fe3" name="Torment" hidden="false">
-          <description>May include The Tormentor as a Dedicated Transport (no extra Force Org slot; points still paid and count toward the Lords of War/Primarch cap).</description>
+          <description>May take The Tormentor as a Dedicated Transport (no extra FOC slot; points count toward Lords of War/Primarch cap).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4503,7 +4505,10 @@
               </conditions>
             </modifier>
           </modifiers>
-          <description>May be taken as Perturabo's Retinue Squad (no Force Org slot) instead of an Elites choice. Must deploy with Perturabo as part of his unit; Perturabo may not voluntarily leave. Models lose Hatred (Automata) and gain Feel No Pain (6+). If taken as Retinue Squad, the army may not include any Iron Circle Domitar-ferrum Maniples.</description>
+          <description>May be taken as Perturabo's Retinue Squad instead of an Elites choice:
+- Takes no FOC slot; joins Perturabo's unit permanently (must deploy together; Perturabo may not voluntarily leave).
+- Models lose Hatred (Automata); gain Feel No Pain (6+).
+- Army may not include any Iron Circle Domitar-ferrum Battle-automata Maniples.</description>
         </rule>
       </rules>
       <infoLinks>

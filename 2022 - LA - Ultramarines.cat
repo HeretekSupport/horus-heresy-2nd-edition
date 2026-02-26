@@ -3017,10 +3017,14 @@
           </profiles>
           <rules>
             <rule id="0054-1928-75a9-36c0" name="Preternatural Strategy" hidden="false">
-              <description>At the start of each of your turns (while Guilliman is on the battlefield), choose one: Fleet (2), Counter-attack (1), Furious Charge (1), or Stubborn. All friendly Ultramarines Infantry gain the chosen rule until your next turn. Cannot choose the same option in consecutive turns.</description>
+              <description>At the start of each of your turns (while Guilliman is on the battlefield, incl. Embarked), choose one of the following to grant all friendly Legiones Astartes (Ultramarines) non-Vehicle models until your next turn. Cannot select the same option in successive turns:
+- Fleet (2)
+- Counter-attack (1)
+- Furious Charge (1)
+- Stubborn</description>
             </rule>
             <rule id="4aa8-fbc4-30c9-9f24" name="Calculating Swordsman" hidden="false">
-              <description>In Challenges, re-roll To Hit rolls of 1 from the 2nd round onward.</description>
+              <description>Challenge: from round 2 onward, re-roll To Hit rolls of 1.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4501,7 +4505,7 @@
       </modifiers>
       <rules>
         <rule id="1020-96a2-5514-75f2" name="The Blade of Wisdom" hidden="false">
-          <description>Melee To Hit rolls gain +1 on a Charge turn if the target unit was already shot at by a friendly Ultramarines unit this turn.</description>
+          <description>Melee To Hit: +1 on any turn this model charged, if the target unit was shot at by a friendly Ultramarines unit in the preceding Shooting phase.</description>
         </rule>
       </rules>
       <infoLinks>

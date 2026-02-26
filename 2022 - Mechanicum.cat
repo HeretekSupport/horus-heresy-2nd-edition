@@ -2024,7 +2024,7 @@
           </constraints>
           <rules>
             <rule id="5438-ef32-6502-5b9d" name="Techno-Arcana" hidden="false">
-              <description>Choose one Techno-arcana per unit; applies to the whole unit, granting additional special rules and wargear at no additional cost (unless noted).</description>
+              <description>Choose one Techno-arcana per unit; applies to the whole unit at no extra cost (unless noted).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2521,7 +2521,7 @@
               </constraints>
               <rules>
                 <rule id="4e97-739a-16b0-f2d6" name="Enginseer" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
-                  <description>Unit members are equipped with servo-arms. While any Servo-automata are present, Battlesmith improves to Battlesmith (4+).</description>
+                  <description>Each Tech-Priest/Magos Auxilia in the unit has a servo-arm. While the unit contains any Servo-automata, their Battlesmith (X) improves to Battlesmith (4+).</description>
                 </rule>
               </rules>
               <costs>
@@ -2531,7 +2531,8 @@
             <selectionEntry id="4f03-e19e-7327-89cd" name="Lachrimallus" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="c533-6e23-37cb-e47f" name="Lachrimallus" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
-                  <description>Tech-Priests, Magos Auxilia, and Servo-automata gain Feel No Pain (5+). Friendly Adsecularis Tech-thrall units within 6" of a model with this rule gain Feel No Pain (6+), or +1 to existing Feel No Pain rolls.</description>
+                  <description>- Tech-Priests, Magos Auxilia, and Servo-automata in this unit gain Feel No Pain (5+).
+- Friendly Adsecularis units within 6" of a model with this rule: +1 to existing Feel No Pain rolls, or gain Feel No Pain (6+) if they lack it.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -2544,11 +2545,18 @@
             <selectionEntry id="eb4f-558c-b2a5-f60a" name="Reductor" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="f428-4adb-1218-2667" name="Reductor" publicationId="bde1-6db1-163b-3b76" page="29" hidden="false">
-                  <description>**Demolisher:** Friendly Battlesmith (X) models may target Buildings, but only to: remove 1 Hull Point (Vehicle/Building); auto-inflict a Wound (no saves) on Dreadnought/Automata; auto-inflict Weapon Destroyed (no Hull Point loss) on Vehicle/Building; or auto-inflict Immobilised (no Hull Point loss) on Vehicle. May not restore Wounds, Hull Points, or repair Weapon Destroyed/Immobilised results.
+                  <description>**Demolisher:** Friendly Battlesmith (X) models may target Buildings, but only with the following effects (no Hull Point/Wound restoration or repair):
+- Target loses 1 Hull Point (Building or Vehicle).
+- Auto Wound, no saves (Dreadnought or Automata; usable even if locked in combat).
+- Auto Weapon Destroyed, no Hull Point loss (Building or Vehicle).
+- Auto Immobilised, no Hull Point loss (Vehicle only).
 
-**Harbinger of Devastation:** Before setup, nominate up to 3 terrain pieces: area terrain loses its Cover Save (becomes Difficult and Dangerous); Buildings/Fortifications gain +1 to Building Damage table rolls. If multiple players share this rule, roll off and alternate nominations.
+**Harbinger of Devastation:** Before Objectives/deployment, nominate up to 3 terrain pieces:
+- Area terrain with Cover Save: Cover Save removed; becomes Difficult and Dangerous Terrain.
+- Building/Fortification: +1 to all Building Damage table rolls.
+- If multiple players have this rule, roll off then alternate nominations. Each piece may only be nominated once.
 
-**Secrets of Annihilation:** Gains the Artificia Reductor Cybertheurgic Arcana; cannot select any other Cybertheurgic Arcana.</description>
+**Secrets of Annihilation:** Grants the Artificia Reductor Cybertheurgic Arcana; no other Cybertheurgic Arcana may be selected.</description>
                 </rule>
               </rules>
               <costs>
@@ -2565,7 +2573,8 @@
               </modifiers>
               <rules>
                 <rule id="51ee-b3cf-a842-91cf" name="Interfector" publicationId="bde1-6db1-163b-3b76" page="100" hidden="false">
-                  <description>Unit's Tech-Priests and Magos Auxilia gain a prehensile data-spike. All models in the unit gain Scout.</description>
+                  <description>- Tech-Priests and Magos Auxilia in the unit gain a prehensile data-spike.
+- All models in the unit gain Scout.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -2809,7 +2818,11 @@
           </constraints>
           <rules>
             <rule id="2174-2df4-ccaa-5de4" name="Hunter Killer" publicationId="bde1-6db1-163b-3b76" page="30" hidden="false">
-              <description>May be joined by one Arlatax or Vorax Maniple (normal points cost, no Paragon of Metal upgrade). The joined unit forms a single unit; the Arcuitor Magisterium gains Patris Cybernetica and may not voluntarily leave. Counts as the same Elites slot.</description>
+              <description>May join with one of the following (at normal cost), forming a single combined unit within the same Elites slot:
+- Arlatax Battle-automata Maniple
+- Vorax Battle-automata Maniple
+
+The joined unit may be upgraded freely (except Paragon of Metal). Arcuitor Magisterium gains Patris Cybernetica and may not voluntarily leave the unit.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -3480,7 +3493,7 @@
                   </constraints>
                   <rules>
                     <rule id="eef3-4bdf-4f70-9740" name="Power Blade Arrays With In-Built Light Autocannon*" publicationId="bde1-6db1-163b-3b76" page="40" hidden="false">
-                      <description>Gains +1 Attack when equipped with two power blade arrays.</description>
+                      <description>+1 Attack when equipped with two power blade arrays.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -3539,7 +3552,7 @@
                       </constraints>
                       <rules>
                         <rule name="Arc Scourge*" id="3ec2-97cd-9f99-9f93" hidden="false">
-                          <description>If equipped with two power blade arrays, gains +1 Attack.</description>
+                          <description>+1 Attack when equipped with two power blade arrays.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -3626,7 +3639,7 @@
                       </constraints>
                       <rules>
                         <rule name="Arc Scourge*" id="accc-4f5d-a4b3-64d0" hidden="false">
-                          <description>If equipped with two power blade arrays, gains +1 Attack.</description>
+                          <description>+1 Attack when equipped with two power blade arrays.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -3656,7 +3669,7 @@
                       </constraints>
                       <rules>
                         <rule name="Arc Scourge*" id="4c0b-7d99-78a0-dd24" hidden="false">
-                          <description>If equipped with two power blade arrays, gains +1 Attack.</description>
+                          <description>+1 Attack when equipped with two power blade arrays.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -3832,7 +3845,7 @@
               </constraints>
               <rules>
                 <rule id="00a3-1b03-7bf6-1c27" name="Two Power Fists*" publicationId="bde1-6db1-163b-3b76" page="41" hidden="false">
-                  <description>Gains +1 Attack.</description>
+                  <description>+1 Attack.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -3852,7 +3865,7 @@
               </modifiers>
               <rules>
                 <rule id="803d-3b7c-2f64-3aae" name="Pair of Lightning Claws*" publicationId="bde1-6db1-163b-3b76" page="41" hidden="false">
-                  <description>Grants +2 Attacks.</description>
+                  <description>+2 Attacks when equipped with two lightning claws.</description>
                 </rule>
               </rules>
             </entryLink>
@@ -3941,7 +3954,7 @@
           </profiles>
           <rules>
             <rule id="caae-a4be-7597-5364" name="Surveillance Protocols" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
-              <description>May ignore Programmed Behaviour restrictions during the Charge sub-phase.</description>
+              <description>Charge sub-phase: ignore Programmed Behaviour restrictions.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4263,7 +4276,7 @@
       </profiles>
       <rules>
         <rule id="6634-4243-b2d0-39e6" name="Hazardous Munitions" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-          <description>Explodes results instead deal Str 8, AP 4 hits to every model within D6+6".</description>
+          <description>Explodes result: nearby models within D6+6" each suffer S8 AP4 hits instead of the normal Explodes effect.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4516,7 +4529,9 @@
           </profiles>
           <rules>
             <rule id="8e53-b538-e67a-4966" name="Sonic Wave" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
-              <description>Place a Large Blast (5") marker touching the Front hull; move it in a straight line within the 45° forward arc up to max range. All models passed over suffer 1 automatic Hit (including Flyers). S10 against Knight, Titan, Super-heavy Vehicle, Building, or Fortification unit types.</description>
+              <description>Place Large Blast (5") touching the Front hull; move it in a straight line within the 45° forward arc up to max range without scattering.
+- All models the template passes over suffer 1 auto Hit (incl. Flyers).
+- Hits vs Knights, Titans, Super-heavy Vehicles, Buildings, or Fortifications: increase S to 10.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4582,7 +4597,12 @@
       </profiles>
       <rules>
         <rule id="ef34-76df-c134-302e" name="Terrestrial Disregard" publicationId="bde1-6db1-163b-3b76" page="110" hidden="false">
-          <description>Replaces normal Subterranean Assault rules. Place an Apocalyptic Blast (10") marker ≥1" from enemy models, table edges, and Impassable Terrain, then scatter it; if the final position is within 1" of any of these, the opponent may reposition the marker up to 18" away (or anywhere on the table if no valid position exists within 18"). Place the model with its hull centre under the marker's final position, ≥1" from enemies. On arrival: each Fortification within 6" suffers D6 S10 AP2 hits; each unit within 6" suffers 1 S10 AP2 hit per model within 6" (Pinning test if any hits suffered). The area under the marker becomes Difficult and Dangerous Terrain for the rest of the battle.</description>
+          <description>Replaces normal Subterranean Assault rules. Place an Apocalyptic Blast (10") marker anywhere ≥1" from enemy models, board edges, and Impassable Terrain, then scatter it.
+
+- If final position is within 1" of an enemy model, board edge, or Impassable Terrain, opponent may reposition the marker within 18" (or anywhere on the battlefield if no valid position within 18"), keeping it &gt;1" from enemy models, board edges, and Impassable Terrain.
+- Place the model with the marker's centre under its hull, &gt;1" from enemy models.
+- On arrival: each Fortification within 6" suffers D6 S10 AP2 hits; each unit within 6" suffers 1 S10 AP2 hit per model within 6". Units that suffer ≥1 hit must take an immediate Pinning test.
+- The area under the marker counts as Difficult and Dangerous Terrain for the remainder of the battle.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4680,7 +4700,7 @@ Once per battle, at end of your Movement phase, trigger Seismic Shockwave:
       <rules>
         <rule id="9d8c-1ee2-4e7c-70c3" name="Archmagos Anacharis Scoria" hidden="false"/>
         <rule id="94ad-dd9a-c902-2f99" name="Rites of the Beast" publicationId="bde1-6db1-163b-3b76" page="63" hidden="false">
-          <description>Has the Artificia Machina, Artificia Cybernetica, and Ephemera Incursus Cybertheurgic Arcana, including all associated Rites and weapons.</description>
+          <description>Grants the Artificia Machina, Artificia Cybernetica, and Ephemera Incursus Cybertheurgic Arcana, incl. all associated Rites and weapons.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5235,7 +5255,7 @@ Once per battle, at end of your Movement phase, trigger Seismic Shockwave:
           </profiles>
           <rules>
             <rule id="d873-2839-b082-c5f0" name="Greuso Protocol" publicationId="bde1-6db1-163b-3b76" page="105" hidden="false">
-              <description>Enables the **Greuso Protocol** Advanced Reaction for any unit containing a model with this rule.</description>
+              <description>Enables the **Greuso Protocol** Advanced Reaction for any unit containing ≥1 model with this rule.</description>
             </rule>
           </rules>
           <infoLinks>

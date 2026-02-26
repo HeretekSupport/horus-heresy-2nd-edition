@@ -3811,10 +3811,10 @@
       </modifiers>
       <rules>
         <rule id="7d3f-816a-0e4e-60f8" name="Shield Wall" hidden="false">
-          <description>While in base contact with ≥2 other boarding shield models (not Falling Back or Pinned): +1 to Invulnerable Save (max 3+). Joined Independent Characters benefit while the unit contains ≥3 Shield Wall models.</description>
+          <description>Models with a boarding shield in base contact with ≥2 other boarding shield models (not Falling Back or Pinned): +1 to Invulnerable Save (max 3+). Joined Independent Characters benefit as long as the unit contains ≥3 Shield Wall models.</description>
         </rule>
         <rule id="1337-2916-168f-e27c" name="Lock-step" hidden="false">
-          <description>If the unit has ≥3 models with this rule and is not locked in combat, all models in the unit gain +1 WS during any Assault Phase in which the unit is successfully charged.</description>
+          <description>When Charged (unit has ≥3 models with this rule, not locked in combat): all models in the unit gain +1 WS for that Assault phase.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4309,7 +4309,7 @@
           <description>Sigismund and any unit he joins gains a bonus of +2 to all Charge Distances and Sweeping Advance rolls made for the unit. In addition, if Sigismund is present in any Detachment then that Detachment may take Templar Brethren squads as Troops choices.</description>
         </rule>
         <rule id="f45a-801b-3494-7cb6" name="Dolorous Fighter" hidden="false">
-          <description>Must always accept or issue Challenges, with Sigismund as the combatant. Opponents re-roll successful Invulnerable Saves against his attacks in Challenges.</description>
+          <description>Always accepts or issues Challenges (must nominate Sigismund). In Challenges, enemy re-rolls successful Invulnerable Saves vs Sigismund's attacks.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4464,10 +4464,11 @@
       </constraints>
       <rules>
         <rule id="95f4-2519-0de5-29e2" name="Hammer Blow" hidden="false">
-          <description>Once per Fight sub-phase, may attack with the Hammer Blow profile instead of normal attacks (no bonus attacks from Charging, additional weapons, or other rules).</description>
+          <description>Assault phase: may replace all attacks with 1 "Hammer Blow" attack (no bonus attacks from charging, extra weapons, or special rules).</description>
         </rule>
         <rule id="9127-eec5-af47-8715" name="Void Commander" hidden="false">
-          <description>May auto-pass or auto-fail any Pinning tests for Polux and his unit. Units joined while in Reserves gain Deep Strike.</description>
+          <description>- Auto-pass or auto-fail any Pinning tests for Polux and his unit.
+- Units joined while in Reserves gain Deep Strike.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4587,7 +4588,8 @@
           <description>When an enemy unit makes a successful Charge that places one or more enemy models in base contact with Fafnir Rann, or any model in a unit Fafnir Rann has joined, that enemy unit suffers D3+3 Str 5 AP- Hits. These attacks hit automatically and are resolved during the Fight sub-phase at Initiative Step 10, but grant no model a Pile-in move and do not benefit from any special rules that Fafnir Rann or any other model in the same unit may have. Hits inflicted by this special rule are allocated as normal for attacks made in an assault.</description>
         </rule>
         <rule id="4743-cbd3-d87b-1068" name="Shield Master" hidden="false">
-          <description>While using the Single Axe profile: hits allocated to Rann have Strength -1 (minimum 1). While using the Twinned Axe profile: this rule grants no benefit, Rann is not treated as having a boarding shield, and may ignore the Two-handed/boarding shield restriction.</description>
+          <description>- **Single Axe profile:** Hits allocated to Rann have S-1 (min 1).
+- **Twinned Axe profile:** No shield benefit; not counted as having a boarding shield; may use Two-handed weapons alongside it until end of Assault phase.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4629,10 +4631,14 @@
           </profiles>
           <rules>
             <rule id="db1f-3259-7b23-e3ab" name="Single axe*" hidden="false">
-              <description>All hits allocated to Fafnir Rann have their Strength reduced by -1 (minimum 1).</description>
+              <description>All hits allocated to Fafnir Rann have their S reduced by -1 (min 1).</description>
             </rule>
             <rule id="edb2-10b7-d360-e5c7" name="The Headsman and The Hunter" hidden="false">
-              <description>Two profiles (choose one per Fight sub-phase): single axe (used with shield) or both axes. Both count as Power weapons.</description>
+              <description>Two profiles — choose one per Fight sub-phase:
+- **The Headsman** (single axe + shield)
+- **The Hunter** (both axes)
+
+Both count as Power weapons.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5134,7 +5140,7 @@
       </constraints>
       <rules>
         <rule id="e3f1-4096-2b8e-b1e5" name="Bulwark of the Imperium" hidden="false">
-          <description>Charges targeting this model or his unit always count as Disordered Charges.</description>
+          <description>Charges targeting this model or his unit are always Disordered Charges.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5293,7 +5299,7 @@
       </constraints>
       <rules>
         <rule id="235c-ee1f-442b-bd63" name="Iron Bulwark" hidden="false">
-          <description>Requires ≥3 models with this rule; if not locked in combat and successfully Charged, all models in the unit gain Battle-hardened (1) for that Assault phase.</description>
+          <description>Assault phase: if ≥3 models in the unit have Iron Bulwark and the unit is not locked in combat, all models in the unit gain Battle-hardened (1) when successfully charged.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5616,7 +5622,7 @@
       </profiles>
       <rules>
         <rule id="83d0-7a80-1fac-af84" name="Ætos Praetoria" hidden="false">
-          <description>If the army includes Rogal Dorn, it may also include the Ætos Dios; if so, Dorn must begin the battle embarked upon it.</description>
+          <description>If this army includes the Ætos Dios, Rogal Dorn must begin the battle Embarked upon it.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5743,7 +5749,7 @@
       </constraints>
       <rules>
         <rule id="2eee-5d6a-7662-e7ab" name="The Unfavoured Son" publicationId="53a4-0d21-2f8a-2c45" page="209" hidden="false">
-          <description>Cannot be in the same Detachment as Rogal Dorn. If in the same combat as Rogal Dorn, gains Fearless and It Will Not Die (5+) for the remainder of the battle.</description>
+          <description>Cannot be in the same Detachment as Rogal Dorn. If ever in the same combat as Rogal Dorn (friendly), gains Fearless and It Will Not Die (5+) for the rest of the battle.</description>
         </rule>
       </rules>
       <infoLinks>

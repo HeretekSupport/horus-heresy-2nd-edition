@@ -4,7 +4,9 @@
     <categoryEntry id="19f3-8727-02db-3ce5" name="Static Artillery" hidden="false">
       <rules>
         <rule id="74dc-daa2-228c-325e" name="Static Artillery" hidden="false">
-          <description>Cannot Embark, use Transport, Scout, or Infiltrate. Cannot be placed in Reserves (destroyed if forced into Reserves). Cannot Run, Charge, or make Reactions. Cannot make or survive Sweeping Advances (automatically destroyed if targeted). Cannot hold or deny Objectives.</description>
+          <description>- Cannot Embark, use Scout/Infiltrate, be placed in Reserves (destroyed if forced into Reserves), Run, Charge, or make Reactions.
+- Auto-fails Sweeping Advances (destroyed); cannot make Sweeping Advances.
+- Cannot hold or deny Objectives.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -1602,7 +1604,7 @@
           </selectionEntryGroups>
           <rules>
             <rule name="Legatine Retinue" id="6a3c-8394-cc95-98a0" hidden="false" publicationId="d882-d2a-5da1-92c4" page="187">
-              <description>Must be taken in the same Detachment as a Legate Marshal (its "Leader"). Takes no Force Org slot; counts as part of the Leader's unit. Must deploy together; the Leader may never voluntarily leave. Cannot be taken without a Leader.</description>
+              <description>Requires a Legate Marshal in the same Detachment. The Lifeward Section takes no Force Org slot and is treated as part of the Marshal's unit — they must deploy together and the Marshal may never voluntarily leave.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -4660,10 +4662,12 @@
           </profiles>
           <rules>
             <rule id="bcd3-ad2b-ceb1-ddc6" name="Bloody Infamy" publicationId="15a4-fc68-502d-48a9" page="85" hidden="false">
-              <description>Units (friendly and enemy) within 12" suffer –1 Leadership. May never be selected as Warlord.</description>
+              <description>- All units (friendly or enemy) with models within 12" suffer –1 Leadership.
+- Cannot be selected as Warlord.</description>
             </rule>
             <rule id="a3c7-4695-76dc-a752" name="Low-priority Target" publicationId="15a4-fc68-502d-48a9" page="85" hidden="false">
-              <description>Cannot be targeted by Shooting or trigger Reactions unless ≥1 attacking model is within 12". Lost permanently if Jovan's unit makes any Shooting Attack (including via Reaction).</description>
+              <description>- Cannot be targeted by Shooting Attacks or trigger Reactions unless ≥1 attacking model is within 12".
+- Permanently lose this rule if Jovan or any model in his unit makes a Shooting Attack (incl. as part of a Reaction).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4831,7 +4835,11 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
           </profiles>
           <rules>
             <rule id="8e38-8b21-ccef-d170" name="Medicae Support" publicationId="15a4-fc68-502d-48a9" page="135" hidden="false">
-              <description>Before the game, assign each model to a friendly Infantry unit (same Detachment). Max one per unit; cannot be assigned to units containing Independent Characters or Unique models. Once assigned, the Medicae is permanently part of that unit, gains its special rules and Sub-types (except those that forbid it), but not its Wargear options. Never awards Victory Points if removed as a casualty.</description>
+              <description>Before the first turn, each model must be permanently assigned to a friendly Infantry unit (same Detachment). Then:
+
+- Max 1 per unit; units with Independent Characters or Unique models are ineligible (though such models may join a unit containing one normally).
+- Counts as part of the unit permanently; removed with it; never awards Victory Points.
+- Gains the unit's special rules (except those that forbid it) and Sub-types, but not its Wargear options.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -5002,7 +5010,9 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
           </profiles>
           <rules>
             <rule id="6496-831a-2c8a-acee" name="Death Frenzy" publicationId="15a4-fc68-502d-48a9" page="131" hidden="false">
-              <description>When failing a Morale check, treat as passed but immediately remove 1 model (no saves). For the next player turn, all models in the unit gain +1 Attack.</description>
+              <description>Failed Morale checks are ignored, but:
+- Remove 1 model as a casualty (no saves of any kind).
+- If ≥1 model was removed this way in a player turn, all models in the unit gain +1 Attack for the next player turn.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5364,7 +5374,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
       </modifiers>
       <rules>
         <rule id="64cf-17ce-bba5-298e" name="Ultramar Pattern Cohort Rifle Section" publicationId="15a4-fc68-502d-48a9" page="70" hidden="false">
-          <description>All models in base contact with ≥1 unit-mate gain +1 to Shooting To Hit rolls.</description>
+          <description>Shooting: +1 To Hit when all models in the unit are in base contact with at least one other model in the same unit.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -6812,7 +6822,7 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
       </profiles>
       <rules>
         <rule id="58eb-a9fb-6c52-7228" name="Divisio Aeronautica Air Superiority" publicationId="15a4-fc68-502d-48a9" page="132" hidden="false">
-          <description>Before deployment, may be placed in Combat Air Patrol (Reserves; no Reserves rolls required). Grants access to the Combat Air Patrol Advanced Reaction.</description>
+          <description>Before deployment, any unit with this rule may be placed into Combat Air Patrol (Reserves; no Reserves rolls made). Grants access to the Combat Air Patrol Advanced Reaction.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9923,7 +9933,10 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
                       <modifiers>
                         <modifier type="set" field="name" value="Field Repair (5+)"/>
                       </modifiers>
-                      <description>Instead of shooting, roll a D6; on ≥ X, choose one: restore 1 Hull Point, repair a Weapon Destroyed result, or repair an Immobilised result on a friendly damaged Vehicle within 3". A weapon repaired this way cannot fire until the following phase.</description>
+                      <description>Shooting phase: instead of shooting, roll a D6. On ≥ X, choose one friendly Vehicle within 3" and apply one:
+- Restore 1 lost Hull Point.
+- Repair a Weapon Destroyed result (repaired weapon cannot fire this phase).
+- Repair an Immobilised result.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -11497,7 +11510,8 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
                   </profiles>
                   <rules>
                     <rule id="6056-96bf-7e43-8734" name="Auxilia Static Artillerists" hidden="false">
-                      <description>Each Artillery Platform requires 1 Auxilia Gunner to fire; if Gunners &lt; Platforms, only a number of Platforms equal to remaining Gunners may shoot. While Gunners ≥ Platforms, the unit cannot be Pinned.</description>
+                      <description>- Shooting phase: number of Artillery Platforms that may shoot = number of Auxilia Gunners (1 Gunner per Platform required).
+- While Gunners ≥ Platforms: auto-pass Pinning tests.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -12051,9 +12065,9 @@ If Jovan's unit includes Medicae Orderlies, remove one to either use this rule a
         <selectionEntry id="fe04-c096-f846-a6fd" name="Reborn Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="05af-452b-0e23-3b16" name="Reborn Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false">
-              <description>Infantry gain +1 Leadership and Stubborn. Stationary units may re-roll To Hit rolls of 1 when Shooting.
-
-Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initiative as 1 for Run distance, Sweeping Advance, and Reaction moves; Initiative –1 for Assault step.</description>
+              <description>- Infantry: +1 Leadership, Stubborn, but I counts as 1 for Run distance, Sweeping Advance, and Reaction moves; Initiative –1 in Assault.
+- Shooting (unit did not Move this turn): re-roll To Hit rolls of 1.
+- Max 1 Auxilia Armoured Tercio and max 1 Auxilia Artillery Tercio per Detachment.</description>
             </rule>
           </rules>
           <costs>
@@ -12063,7 +12077,8 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry id="3624-316b-4ed4-d5d1" name="Ultramar Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="70" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="e0ba-7a66-48a3-da09" name="Ultramar Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="70" hidden="false">
-              <description>Uses an alternate Organisation Chart (0-1 Line Command Section, 1-6 Auxilia Rifle Sections); no Dedicated Transports for these units. All models in a Rifle or Line Command Section gain +1 To Hit on Shooting Attacks while every model in the unit is in base contact with at least one other unit member.</description>
+              <description>- Rifle Sections use the Ultramar org chart (0–1 Line Command Section, 1–6 Rifle Sections); no Dedicated Transports for Rifle Sections or Line Command Sections.
+- Rifle Sections and Line Command Sections gain +1 To Hit on Shooting Attacks when all models in the unit are in base contact with at least one other model from the same unit.</description>
             </rule>
           </rules>
           <costs>
@@ -12073,7 +12088,10 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry id="1974-9f9a-5b14-e449" name="Armoured Fist Pattern Cohorts (Check Limitations manually)" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="a28b-aeef-6d88-8985" name="Armoured Fist Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="71" hidden="false">
-              <description>May take Auxilia Armoured Tercios as non-Compulsory Troops (each choice = 1 Leman Russ Strike Squadron only). Primary Detachment must include a single Leman Russ Command Tank as HQ; it gains Cohort Doctrines, is the Warlord, and uses **Armoured Legate**: gains Cohort Doctrines, 5+ Invulnerable Save, and +1 BS. All-Infantry units must begin the game Embarked or in Reserves.</description>
+              <description>- Non-compulsory Troops slots may take Auxilia Armoured Tercios; each such slot is a single Solar Auxilia Leman Russ Strike Squadron.
+- Primary Detachment HQ must include a single-tank Solar Auxilia Armoured Command Section (1 Leman Russ Command Tank), which gains Cohort Doctrines, must be the army's Warlord, and uses the **Armoured Legate** Warlord Trait (overrides all other Warlord selection rules; some units/Characters cannot be included as a result).
+- **Armoured Legate (Warlord Trait):** Gains Cohort Doctrines, 5+ Invulnerable Save, and +1 BS.
+- **Limitation:** All-Infantry units must begin the game Embarked on a Transport or in Reserves. *(Manual check required.)*</description>
             </rule>
           </rules>
           <costs>
@@ -12083,7 +12101,11 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry id="bfd2-7016-f5fe-be6a" name="Penal Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="72" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="dc68-cb01-b862-110a" name="Penal Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="72" hidden="false">
-              <description>Units with Tercio gain Furious Charge (1). Models may swap lasrifle/volkite charger for lascarbine, lasgun, stubcarbine, autorifle, or shotgun for free; one model per Rifle Section may instead take a heavy stubber (+5pts). Rifle Section models gain Feel No Pain (6+) (non-stacking; choose one if multiple variants available). **Restrictions:** Close-order Sub-type is lost for all units; max one Veletaris Tercio per Detachment.</description>
+              <description>- Units with the Tercio rule also gain Furious Charge (1).
+- Any model may replace a lasrifle or volkite charger with a lascarbine, lasgun, stubcarbine, autorifle, or shotgun for free; one Auxilia in any Rifle Section may replace a lasrifle with a heavy stubber (+5pts).
+- Rifle Section models gain Feel No Pain (6+) (does not stack; choose one if multiple variants available).
+- All models with the Close-order Sub-type lose it.
+- May not include more than one Auxilia Veletaris Tercio.</description>
             </rule>
           </rules>
           <costs>
@@ -12093,7 +12115,10 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry id="021e-6841-7375-7862" name="Feral Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="72" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="1a4f-9ea3-092f-f00e" name="Feral Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="72" hidden="false">
-              <description>Infantry units may take Fear (1) for +25 pts/unit. Units with Tercio gain Counter-attack (1) while In Formation. **Limitations:** All units in this Detachment must declare a Charge against any valid target at the start of their Assault phase. Loyalist Detachments treat this Detachment as Distrusted Allies regardless of the Allies Matrix.</description>
+              <description>- Any Infantry unit may gain Fear (1) for +25 pts.
+- Units with one or more Tercio models gain Counter-attack (1) while In Formation.
+- Units that begin their Assault phase within Charge range of a valid enemy target must declare a Charge (controlling player chooses target if multiple valid).
+- Loyalist Detachments treat this Detachment as Distrusted Allies, regardless of the Allies Matrix.</description>
             </rule>
           </rules>
           <costs>
@@ -12103,7 +12128,9 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry id="d9a0-4875-fb75-f9a9" name="Siege Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="bf71-d394-4968-20e3" name="Siege Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="73" hidden="false">
-              <description>Auxilia Artillery Tercios and Armoured Batteries may be taken as both Elites and Heavy Support choices. Barrage/Blast Shooting Attacks may re-roll the Scatter dice (not distance D6). All units with a Dedicated Transport option must take one (need not start Embarked).</description>
+              <description>- Artillery Tercios and Armoured Batteries may be taken as both Elites and Heavy Support choices.
+- Shooting with Barrage/Blast weapons: may re-roll the Scatter dice (not the scatter distance D6).
+- All units with a Dedicated Transport option must take one (at normal cost); need not begin the game Embarked.</description>
             </rule>
           </rules>
           <costs>
@@ -12113,7 +12140,10 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry id="e0e8-1223-7794-2e95" name="Iron Pattern Cohort" publicationId="15a4-fc68-502d-48a9" page="73" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="4d43-43ca-68bb-2608" name="Iron Pattern Cohort" publicationId="15a4-fc68-502d-48a9" page="73" hidden="false">
-              <description>Castellax Maniples and Thallax Squads available as Elites. Legate Marshal, Auxilia Marshal, or Auxilia Captain may take a cortex controller (+15 pts each); Legate Marshal also gains Master of Automata. Limited to 1 Auxilia Armoured Tercio and 1 Auxilia Artillery Tercio.</description>
+              <description>- Castellax Maniples and Thallax Squads available as Elites choices.
+- Legate Marshal, Auxilia Marshal, or Auxilia Captain may take a cortex controller (+15 pts each).
+- Legate Marshal gains Master of Automata.
+- Max 1 Auxilia Armoured Tercio and max 1 Auxilia Artillery Tercio per Detachment.</description>
             </rule>
           </rules>
           <costs>
@@ -12123,7 +12153,9 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry id="a09b-28bd-8ffc-f4f0" name="Solar Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="70" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="dd51-13b7-cd51-37ef" name="Solar Pattern Cohorts" publicationId="15a4-fc68-502d-48a9" page="70" hidden="false">
-              <description>Veletaris Tercios become Troops (gaining Line) and may take Arvus Transports as Dedicated Transports. Limited to 1 Armoured Tercio and 1 Artillery Tercio.</description>
+              <description>- Veletaris Tercios may be selected as Troops and gain the Line sub-type.
+- Veletaris Tercio units may take an Arvus Transport as a Dedicated Transport.
+- Max 1 Armoured Tercio and max 1 Artillery Tercio per Detachment.</description>
             </rule>
           </rules>
           <costs>
@@ -12133,10 +12165,13 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
         <selectionEntry type="upgrade" import="true" name="Reconnaissance Pattern Cohorts" hidden="false" id="7e09-aae1-d5ff-d43e" publicationId="d882-d2a-5da1-92c4" page="179">
           <rules>
             <rule name="Reconnaissance Pattern Cohorts" id="7e04-8329-9f52-1bc1" hidden="false" publicationId="d882-d2a-5da1-92c4" page="179">
-              <description>Hermes Light Sentinels count as Troops (Compulsory selections gain Line). Aethon Heavy Sentinel Squadrons may add up to 4 additional models (instead of 2). Limited to 1 Auxilia Armoured Tercio and 1 Auxilia Artillery Tercio.</description>
+              <description>- Hermes Light Sentinel Squadrons may be taken as Troops; compulsory Troops selections gain the Line sub-type.
+- Veletaris Assault Squadrons gain Outflank.
+- Aethon Heavy Sentinel Squadrons may include up to 4 additional models (instead of 2).
+- Max 1 Auxilia Armoured Tercio and max 1 Auxilia Artillery Tercio per Detachment.</description>
             </rule>
             <rule name="Outflank (Ambiguous Recon Cohorts)" id="bdd0-1f0c-cf43-37fb" hidden="false">
-              <description>Units in this Detachment gain Outflank.</description>
+              <description>Gain the Outflank special rule.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -12164,16 +12199,18 @@ Limitations: Max 1 Armoured Tercio and 1 Artillery Tercio. Infantry count Initia
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="bf74-20ed-ddc9-8ea1" name="Solar Auxilia Command Tank" publicationId="15a4-fc68-502d-48a9" page="136" hidden="false">
-      <description>Selected as a separate unit but must be assigned to a Leman Russ Strike or Assault Squadron during deployment. Counts as part of that unit for the rest of the game and may never leave it.</description>
+      <description>Selected as a separate unit but must be assigned to a Leman Russ Strike or Assault Squadron during deployment; thereafter counts as part of that unit and cannot leave it.</description>
     </rule>
     <rule id="25f0-12ed-08dd-0781" name="Auxilia Artillerists" publicationId="15a4-fc68-502d-48a9" page="130" hidden="false">
-      <description>Each Rapier Carrier requires 1 Auxilia Gunner to make Shooting Attacks; if Gunners &lt; Carriers, only Carriers equal to the number of Gunners may shoot. While Gunners ≥ Carriers, the unit cannot be Pinned.</description>
+      <description>- Shooting phase: only as many Rapier Carriers may shoot as there are Auxilia Gunners in the unit.
+- While Auxilia Gunners ≥ Rapier Carriers: auto-pass Pinning tests.</description>
     </rule>
     <rule id="a217-f49a-7a73-981d" name="Demolition Vehicle" publicationId="15a4-fc68-502d-48a9" page="131" hidden="false">
-      <description>In Assault, instead of rolling To Hit: inflict 1 automatic hit (Str10, AP1, Melee, Armourbane (Melee), Instant Death, Brutal (2)) on 1 enemy model in base contact, then this model is automatically removed as a casualty (does not count toward Assault resolution).</description>
+      <description>Assault phase: instead of normal attacks, inflicts 1 auto hit (S10 AP1, Melee, Armourbane (Melee), Instant Death, Brutal (2)) on one model in base contact, then is auto-removed as a casualty (does not count toward Assault resolution wounds).</description>
     </rule>
     <rule id="2d37-470b-462f-9c99" name="Independent Operators" publicationId="15a4-fc68-502d-48a9" page="133" hidden="false">
-      <description>Deploy in coherency, then immediately split into individual 1-model units for the rest of the battle. Cannot join or reform with other units. The entire original unit must be destroyed before the opponent scores Victory Points for any of its models.</description>
+      <description>Deploy in coherency, then each model immediately splits into its own 1-model unit for the rest of the battle (cannot join units or reform).
+- Opponent scores no VP for individual models — the entire original unit must be destroyed first.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

@@ -3027,7 +3027,9 @@
     <selectionEntry id="c028-dc90-e4b6-8b43" name="Leman Russ" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="00ed-3f49-ad36-075e" name="Howl of the Death Wolf" hidden="false">
-          <description>Once per battle, at the start of your turn: all friendly Space Wolves gain +1 Movement, and all enemy units containing ≥1 Space Wolves model must immediately take a Pinning test. Lasts for that player turn only.</description>
+          <description>Once per battle, at the start of your turn:
+- All friendly Space Wolves models gain +1 Movement for this turn.
+- All enemy units containing ≥1 Space Wolves model must immediately take a Pinning test.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3144,7 +3146,7 @@
           </profiles>
           <rules>
             <rule id="2616-9adc-9752-6cdb" name="Fearsome Ruin" hidden="false">
-              <description>Any unit that suffers ≥1 casualty from this weapon rolls an extra D6 on Morale checks made in the Assault phase, keeping the two highest dice.</description>
+              <description>Assault phase: units that suffer ≥1 casualty from this weapon roll an extra D6 for Morale checks, keeping the two highest dice.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3230,7 +3232,7 @@
       </constraints>
       <rules>
         <rule id="a94a-903b-1755-ce9d" name="Wolf-kin of Russ" hidden="false">
-          <description>Only valid in a Detachment containing Leman Russ. Counts as an HQ choice for rules/objectives/missions but takes no Force Organisation slots. Cannot be joined by any model except Leman Russ.</description>
+          <description>Only available in a Detachment containing Leman Russ. Counts as a HQ choice for rules, objectives, and missions but takes no Force Org slot. Cannot be joined by any model except Leman Russ.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -3407,10 +3409,10 @@
     <selectionEntry id="3fa0-d6ed-981b-e361" name="Deathsworn Pack" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="a62c-dfcc-3413-f919" name="Cult of Morkai" publicationId="817a-6288-e016-7469" page="209" hidden="false">
-          <description>Independent Characters may not join this unit, except those with the Speaker of the Dead or Caster of Runes Consul upgrades.</description>
+          <description>Only Independent Characters with the Speaker of the Dead or Caster of Runes Consul upgrade may join this unit.</description>
         </rule>
         <rule id="05cd-cb2a-96d1-863c" name="The Dreams of the Death Wolf" hidden="false">
-          <description>If a Deathsworn model is slain in the Assault phase before attacking, set it aside instead of removing it. At Initiative Step 1, each such model makes 1 attack before being removed (counts toward combat resolution).</description>
+          <description>Assault phase: if slain before attacking, set the model aside — it makes 1 attack at Initiative 1 before being removed (counts toward combat resolution).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3684,7 +3686,7 @@ When declaring a Charge, may activate Stasis Bombs (lasts until start of your ne
     <selectionEntry id="9359-61a5-fcdb-c28e" name="Varagyr Wolf Guard Terminator Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="26bf-0536-40d0-ba84" name="Lordsbane" hidden="false">
-          <description>May issue and accept Challenges as if Character sub-type. When winning a Challenge by removing the enemy challenger, count +1 additional Wound for combat resolution.</description>
+          <description>May issue and accept Challenges as if Character sub-type; when the enemy challenger is slain in a Challenge, count +1 additional Wound for determining combat resolution.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6386,7 +6388,7 @@ When declaring a Charge, may activate Stasis Bombs (lasts until start of your ne
           </profiles>
           <rules>
             <rule id="25c8-a095-eede-ea41" name="Battle Cunning" hidden="false">
-              <description>Up to 3 friendly Infantry units in the same Detachment may be given Scout.</description>
+              <description>Up to 3 friendly Infantry units in the same Detachment gain Scout.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6497,7 +6499,7 @@ When declaring a Charge, may activate Stasis Bombs (lasts until start of your ne
     <selectionEntry id="fcc8-bc3c-e443-eb3f" name="Jorlund Hunter Pack" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="2daf-4203-d5a5-9e8a" name="Scouring Tempest" hidden="false">
-          <description>Once per battle (before the unit shoots): all Flame weapons in the unit gain Pinning and Torrent (3") until end of phase.</description>
+          <description>Once per battle: activate before shooting. Until end of phase, all Flame weapons in the unit gain Pinning and Torrent (3").</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6945,7 +6947,9 @@ When declaring a Charge, may activate Stasis Bombs (lasts until start of your ne
     <selectionEntry id="f47e-c270-b62a-4205" name="Fenrisian Wolf Pack" publicationId="d0df-7166-5cd3-89fd" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="f58a-d1de-185f-b203" name="Pack Retinue" hidden="false">
-          <description>Can only be taken as a Retinue for a Space Wolves Master of the Legion (its Leader). Takes no Force Organisation slot; forms a single unit with its Leader, who must deploy with the pack and may never voluntarily leave it.</description>
+          <description>Can only be taken as a Retinue for a Master of the Legion model. Takes no Force Org slot; forms a single unit with its Leader.
+- Leader must deploy with the pack and cannot voluntarily leave.
+- Cannot be included without a Leader.</description>
         </rule>
       </rules>
       <categoryLinks>

@@ -3063,10 +3063,15 @@
     <selectionEntry id="2c54-82c1-c1e4-3aee" name="Sanguinius" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="384a-287a-50ae-ba39" name="Angelic Presence" hidden="false">
-          <description>Friendly units locked in combat with ≥1 model within 6" (and any unit Sanguinius has joined) add +1 to Wounds caused when determining combat result (does not stack with other Assault result modifiers).</description>
+          <description>Friendly units locked in combat within 6" (incl. Sanguinius's unit): +1 to Wounds caused when determining combat result (does not stack with similar effects).</description>
         </rule>
         <rule id="1703-b985-b67c-004c" name="Great Wings" hidden="false">
-          <description>At the start of your Movement phase (or on Deep Strike deployment), activate to set Movement to 14" for the turn, including Charge bonus. While active: fly over terrain, models, and units freely, but cannot end movement in Impassable Terrain or within 1" of non-unit models. Treats Difficult Terrain as Dangerous; must test for Dangerous Terrain if movement begins or ends there. Can Run while active (move 14 + Initiative"); cannot activate during Reactions.</description>
+          <description>Activate at the start of your Movement phase or upon Deep Strike deployment; lasts for your turn. Cannot activate during a Reaction.
+
+- Move up to 14" (replaces profile Move); gains all benefits of M14 incl. Charge bonus.
+- May fly over Impassable Terrain, vertical terrain, and any models freely; cannot end movement in Impassable Terrain or within 1" of a non-allied unit.
+- Treats all Difficult Terrain as Dangerous Terrain; must take Dangerous Terrain tests when ending/beginning movement or a Charge in Dangerous Terrain.
+- May still Run: move up to 14 + Initiative" ignoring terrain and models, but cannot Shoot or Charge that turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3221,7 +3226,7 @@
                   </profiles>
                   <rules>
                     <rule id="4b20-b0ac-50cd-f9f1" name="Moonsliver" hidden="false">
-                      <description>Unsaved Wounds vs. Daemon or Psyker models count as 2 Wounds each (no spillover).</description>
+                      <description>Unsaved Wounds vs Daemons or Psykers count as 2 Wounds. Excess Wounds do not spill over.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -3329,10 +3334,11 @@
       </modifiers>
       <rules>
         <rule id="808d-da54-f3db-be02" name="Ghost of Saiph" hidden="false" publicationId="4934-46f7-208b-b4af" page="159">
-          <description>On death, roll a D6: 4+ — placed in Reserves with 1 Wound remaining instead of removed. If this triggers on Turn 4+, he returns automatically at the start of your next turn.</description>
+          <description>Roll a D6 when Aster Crohne loses his last wound: on 4+, place him in Reserves with 1 Wound instead of removing him (first time only).
+- If this occurs on Turn 4+, he auto-returns at the start of your next turn.</description>
         </rule>
         <rule name="Captain of the Inductii" id="e01a-f779-01d7-ff56" hidden="false" publicationId="4934-46f7-208b-b4af" page="159">
-          <description>May join Inductii units with Legiones Astartes (Blood Angels), overriding normal Inductii joining restrictions.</description>
+          <description>May join Inductii units with Legiones Astartes (Blood Angels), overriding normal joining restrictions.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3466,7 +3472,11 @@ While a Warlord with this Trait is within 6&quot; of one or more models with bot
     <selectionEntry id="33fe-9683-bde5-95ca" name="Crimson Paladins" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="e7b7-06df-ae02-5617" name="The Blood is Forever" hidden="false">
-          <description>While engaged, gain Feel No Pain (5+) if outnumbered, or Feel No Pain (4+) if outnumbered by more than 2×. Use Bulky values when comparing model counts; ICs neither benefit nor count. If fighting multiple units, combine their sizes.</description>
+          <description>While locked in combat, if outnumbered:
+- Enemy count &gt; own count: Feel No Pain (5+)
+- Enemy count &gt; 2× own count: Feel No Pain (4+)
+
+Joined Independent Characters neither benefit nor count toward numbers. All Bulky (X) models count as X for outnumbering purposes. If facing multiple units, combine all enemy counts.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4651,7 +4661,7 @@ Those models also gain the Feel No Pain (5+) special rule when locked in combat 
           </constraints>
           <rules>
             <rule id="fa48-4084-488b-fd92" name="Archein of Wisdom" hidden="false">
-              <description>When Warlord, may select a Warlord Trait from Core traits or any Legion-specific trait from: White Scars, Imperial Fists, Space Wolves, Ultramarines, Iron Hands, Raven Guard, or Salamanders (Blood Angels units count as that Legion for trait eligibility only, gaining no other rules). Excludes named-character-only traits and Traitor Allegiance traits.</description>
+              <description>When Warlord, may select his Warlord Trait from Core traits or any Legion-specific trait belonging to: White Scars, Imperial Fists, Space Wolves, Ultramarines, Iron Hands, Raven Guard, or Salamanders. Excludes named-character-only traits and Traitor Allegiance traits. Blood Angels models in the same Detachment count as the chosen Legion solely for that trait's effects.</description>
             </rule>
           </rules>
         </entryLink>
@@ -4669,7 +4679,8 @@ Those models also gain the Feel No Pain (5+) special rule when locked in combat 
     <selectionEntry id="98d4-555a-6911-7c1a" name="Dominion Zephon" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="308f-78bb-90b4-76f9" name="Paragon of Restoration" hidden="false">
-          <description>Feel No Pain (5+). Once per battle, when reduced to 0 Wounds, roll a D6: on 4+, remain in play with 1 Wound instead of being removed.</description>
+          <description>- Feel No Pain (5+).
+- Once per battle, when Zephon would be removed as a casualty: roll a D6; on a 4+ he remains with 1 Wound remaining.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5312,7 +5323,7 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
     <selectionEntry id="3c67-35da-d64a-f22b" name="Dawnbreaker Cohort" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="9f1e-6596-d31d-699e" name="Set the Sky Aflame" hidden="false">
-          <description>Enemy units within 6" of the Deep Strike landing position suffer –1 Leadership on Pinning tests caused by that assault.</description>
+          <description>Deep Strike Assault: enemy units within 6" suffer –1 Ld on Pinning tests caused by the Deep Strike.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5769,10 +5780,12 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
           </profiles>
           <rules>
             <rule id="2da6-f772-ceb8-cf63" name="Shadows of Judgement" publicationId="d13e-e1ff-5dc7-b84b" hidden="false">
-              <description>While in a Challenge against a Legiones Astartes model: +1 Initiative, re-roll failed To Wound rolls, and gain Rending (4+).</description>
+              <description>While in a Challenge vs. a Legiones Astartes model: +1 I, re-roll failed To Wound rolls, and gain Rending (4+).</description>
             </rule>
             <rule id="584a-3164-9645-3e80" name="The Burning Eyes" publicationId="d13e-e1ff-5dc7-b84b" hidden="false">
-              <description>Cannot be Warlord. May be taken as a Retinue Squad (no Force Org slot) in a Detachment containing a Blood Angels Master of the Legion, who becomes the unit's Leader. When taken this way, the Leader must deploy with the unit and cannot voluntarily leave it.</description>
+              <description>- May never be Warlord.
+- May be taken as a Retinue Squad (no FOC slot) in a Detachment containing ≥1 model with Master of the Legion and Legiones Astartes (Blood Angels); counts as part of that model's unit.
+- The chosen Leader must deploy with the Court and may not voluntarily leave it.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6091,11 +6104,14 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
       </infoLinks>
       <rules>
         <rule name="Burning Ones" id="ed35-569c-b3cf-7c97" hidden="false" publicationId="2489-0c1d-8ed5-2515" page="9">
-          <description>If in an army with Sanguinius: all gain +1 Attack while he has ≤4 Wounds; +1 additional Attack if he is slain. If in an army without Sanguinius: friendly units locked in combat with ≥1 model within 6" of 2+ Sanguinary Guard add +1 to successful Wounds for assault resolution (does not stack).</description>
+          <description>- **With Sanguinius:** +1A while Sanguinius has ≤4 Wounds; +2A total if Sanguinius is removed as a casualty.
+- **Without Sanguinius:** Friendly units locked in combat within 6" of 2+ Sanguinary Guard models add +1 to Wounds caused for combat resolution (does not stack).</description>
           <comment>We could programmatically split this into two rules</comment>
         </rule>
         <rule name="Sanguinary Guard Retinue" id="0ee1-bf1e-156e-a659" hidden="false" publicationId="2489-0c1d-8ed5-2515" page="9">
-          <description>May be taken as a Retinue Squad (no Force Org slot) in a Detachment containing a Master of the Legion. If so, attach a Master of the Legion as its permanent Leader (deployed together; Leader may not voluntarily leave). One model may exchange their Perdition weapon for a power weapon and Legion standard (+15 pts).</description>
+          <description>May be taken as a Retinue Squad (no FOC slot) for a Master of the Legion model in the same Detachment, who becomes its Leader and must be deployed with and may not voluntarily leave the unit.
+- The Leader is considered part of the same unit as the Retinue Squad.
+- One model may swap their Perdition weapon for a power weapon and Legion standard (+15 pts).</description>
         </rule>
       </rules>
       <constraints>

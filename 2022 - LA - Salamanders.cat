@@ -3424,7 +3424,7 @@
           </profiles>
           <rules>
             <rule id="04a4-13fd-fec4-8ff3" name="Burst (D6)" publicationId="817a-6288-e016-7469" page="315" hidden="false">
-              <description>On a hit, inflict D6 hits instead of 1.</description>
+              <description>On hit, inflict D6 hits instead of 1.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3504,7 +3504,7 @@
     <selectionEntry id="71fe-d3bc-b7f9-75ca" name="Pyroclast Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="135c-a0b8-c4d6-93ee" name="Mantle of Ash" hidden="false">
-          <description>5+ Invulnerable Save against Flame, Plasma, Melta, and Volkite weapons.</description>
+          <description>5+ Invulnerable save vs Flame, Plasma, Melta, and Volkite weapons.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3795,7 +3795,7 @@
           <description>A Firedrake Squad may be selected as a Retinue Squad in a Detachment that includes at least one model with both the Master of the Legion and Legiones Astartes (Salamanders) special rules, instead of as an Elites choice. A unit selected as a ‘Retinue Squad’ must have one model with both the Master of the Legion and Legiones Astartes (Salamanders) special rules from the same Detachment selected by the controlling player as the Firedrake Squad’s Leader for the purposes of this special rule. A Firedrake Squad selected as a Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. A Firedrake Squad selected as a Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play</description>
         </rule>
         <rule id="3918-9a84-af8e-96b2" name="Forge-craft of Nocturne" hidden="false">
-          <description>Re-roll To Hit rolls of 1 in melee.</description>
+          <description>Melee: re-roll To Hit rolls of 1.</description>
         </rule>
       </rules>
       <infoLinks>

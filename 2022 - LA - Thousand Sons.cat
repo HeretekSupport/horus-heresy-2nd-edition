@@ -3284,13 +3284,14 @@
     <selectionEntry id="95cb-9366-295e-f10d" name="Castellax-Achea Automata" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="01cd-939f-c8a5-3e4a" name="Psy -automata" publicationId="09c5-eeae-f398-b653" page="267" hidden="false">
-          <description>If not within 6" of a friendly Thousand Sons Independent Character Psyker, must target the closest valid enemy unit when Shooting or Charging (controlling player chooses if tied).
+          <description>If not within 6" of a friendly Thousand Sons Independent Character Psyker, subject to Programmed Behaviour:
+- Must shoot and/or charge the closest valid enemy unit in range/LoS each turn (controlling player chooses if tied).
 
-Additionally:
-- May fire all equipped weapons each Shooting Attack (including eligible Reactions).
-- Counts as Stationary even after moving; may declare Charges regardless of Shooting made that turn.
-- Ignores Initiative penalties when Charging through Difficult/Dangerous Terrain.
-- Friendly Thousand Sons Psykers within 12" of a Castellax-Achea may use it as the origin point for Psychic Weapon Shooting Attacks.</description>
+Regardless of Programmed Behaviour:
+- May fire all equipped weapons each Shooting Attack (incl. eligible Reactions).
+- May fire Heavy and Ordnance weapons counting as Stationary even after moving; may declare Charges regardless of Shooting Attacks made that turn.
+- Ignores Initiative penalties when Charging through Difficult or Dangerous Terrain.
+- Friendly Thousand Sons Psykers within 12" of this model may use it as the origin point for Psychic Weapon Shooting Attacks (LoS and range drawn from this model).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3980,7 +3981,7 @@ Additionally:
           </profiles>
           <rules>
             <rule id="56e8-160a-ec17-17a1" name="Arch-magister of the Corvidae" hidden="false">
-              <description>Gains Minor Arcana Corvidae and the Divination and Thaumaturgy Disciplines at no additional cost.</description>
+              <description>Gains Minor Arcana Corvidae, Divination, and Thaumaturgy Disciplines for free.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4441,7 +4442,7 @@ Additionally:
       </profiles>
       <rules>
         <rule id="71f0-a260-cdcf-947d" name="Warriors of the Khenetai" publicationId="09c5-eeae-f398-b653" page="269" hidden="false">
-          <description>Grants the Mindsong of Blades Psychic Power; cannot select a Minor Arcana from Prosperine Arcana.</description>
+          <description>Gains the Mindsong of Blades Psychic Power; cannot select a Minor Arcana from Prosperine Arcana.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4794,7 +4795,7 @@ Additionally:
       </constraints>
       <rules>
         <rule id="15df-164f-dd58-b29e" name="The Eye of the Crimson King" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-          <description>When selecting psychic power targets, all models within range count as visible (except those Embarked in Transports or Buildings).</description>
+          <description>When targeting with psychic powers, all models within range count as in line of sight (except those Embarked in Transports or Buildings).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4823,7 +4824,9 @@ Additionally:
           </constraints>
           <rules>
             <rule id="26cc-e50d-a31d-729d" name="Arch-Sorcerer" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>Has access to all Core Psychic Disciplines. May use any Psychic Weapon from any Discipline when attacking, regardless of powers used that turn. Additionally, may use one Minor Arcana per turn (may vary each turn); Minor Arcana Psychic checks auto-pass without rolling.</description>
+              <description>- Has access to all Core Psychic Disciplines.
+- May use any Psychic Weapon from any Discipline when making Shooting Attacks or melee attacks, regardless of which powers were used that turn.
+- Once per turn, may use any one Minor Arcana (from Prosperine Arcana); may choose a different one each turn; auto-passes Psychic checks for Minor Arcana powers.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -4940,7 +4943,7 @@ Additionally:
           </profiles>
           <rules>
             <rule id="0d71-0a7d-ca1a-0638" name="Psyfire serpenta" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>Counts as both Plasma and Force for all related rules.</description>
+              <description>Counts as both Plasma and Force weapon for all relevant rules.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4968,7 +4971,7 @@ Additionally:
           </profiles>
           <rules>
             <rule id="422a-827d-e765-2c3f" name="The Blade of Ahn-nunurta" publicationId="09c5-eeae-f398-b653" page="261" hidden="false">
-              <description>Counts as both a Power weapon and a Force weapon for all relevant rules.</description>
+              <description>Counts as both a Power weapon and a Force weapon for all related rules.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5099,7 +5102,9 @@ Additionally:
           </profiles>
           <rules>
             <rule id="3d26-05d0-677d-032b" name="Life Warded" hidden="false">
-              <description>Cannot be allocated wounds while any other model in the unit lacks this rule (does not apply if Engaged in a Challenge). Refusing a Challenge for this unit costs the opponent their right to exclude one model from combat. Units with this rule cannot be joined by models that lack it.</description>
+              <description>- Wounds must be allocated to other unit members first; last to receive wounds (unless in a Challenge).
+- Refusing a Challenge: opponent loses the option to remove one model from combat.
+- Cannot be joined by models lacking Life Warded.</description>
             </rule>
             <rule id="3a90-1892-53a2-3f82" name="Numerologist Order" hidden="false">
               <description>Gains the Psy-synchronicity Psychic Power; cannot select a Minor Arcana from Prosperine Arcana.</description>

@@ -2124,7 +2124,7 @@ In addition, an army whose Warlord has this trait may make an additional reactio
           </infoLinks>
           <rules>
             <rule name="Charged Attacks" id="964d-fbb5-e02-54ab" hidden="false">
-              <description>Halve total Attacks (round up); change Strength to ×3.</description>
+              <description>Halve total Attacks (round up), but change S to ×3.</description>
             </rule>
           </rules>
         </selectionEntry>

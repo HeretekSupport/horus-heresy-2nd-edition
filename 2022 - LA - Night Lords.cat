@@ -3223,10 +3223,10 @@
           </profiles>
           <rules>
             <rule id="22cf-ebe1-449e-0cab" name="Dirty Fighter" hidden="false">
-              <description>While in a Challenge against a model with WS 5+, gains Instant Death on all attacks.</description>
+              <description>In a Challenge vs. a model with WS5+, all attacks gain Instant Death.</description>
             </rule>
             <rule id="2181-0c34-3234-ecf6" name="Dark Dreams" hidden="false">
-              <description>May only use the Shadows of Past and Future Psychic Power; gains no other Disciplines, Powers, or Psychic Weapons.</description>
+              <description>Sevatar knows only the Shadows of Past and Future Psychic Power; gains no other Disciplines, Psychic Powers, or Psychic Weapons.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3367,7 +3367,9 @@
           </constraints>
           <rules>
             <rule id="b300-fa84-4c3a-5cdf" name="Warlord: Master of the Atramentar" hidden="false">
-              <description>Terminator units in Sevatar's Detachment gain Deep Strike. When those units Deep Strike without Sevatar, they gain Preferred Enemy (Everything) for the turn they deploy. While Sevatar is alive, your army gains 1 additional Reaction in the Movement phase.</description>
+              <description>- Cataphractii and Tartaros Terminators in Sevatar's Detachment gain Deep Strike (Sevatar excluded).
+- Cataphractii, Tartaros, and Contekar Terminators in Sevatar's Detachment gain Preferred Enemy (Everything) for the turn they Deep Strike without Sevatar.
+- +1 Reaction during the Movement phase (while Sevatar is alive).</description>
             </rule>
           </rules>
         </entryLink>
@@ -4365,10 +4367,10 @@
       </constraints>
       <rules>
         <rule id="bb3c-af82-a6a9-1de9" name="A Death Long Foreseen" hidden="false">
-          <description>May only use the Glimpse of Death Psychic Power; gains no other Disciplines.</description>
+          <description>Knows Glimpse of Death only; gains no other Disciplines.</description>
         </rule>
         <rule id="00a2-396d-6e1c-183a" name="The King of Terrors" hidden="false">
-          <description>After winning combat (by wiping out enemies or Sweeping Advance), all enemy units not locked in combat with line of sight to Curze must take a Pinning test.</description>
+          <description>After winning combat (by wiping out or Sweeping Advance), all enemy units not locked in combat that have LoS to Curze must immediately take a Pinning test.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4534,7 +4536,8 @@
     <selectionEntry id="837e-c3ca-437e-dfbf" name="Contekar Terminator Squad" publicationId="09c5-eeae-f398-b653" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="33de-beff-3d71-ba95" name="Lords of the Night" hidden="false">
-          <description>1 Contekar Terminator Squad (≤10 models) may fill a Compulsory HQ slot if neither Sevatar nor Konrad Curze are present. If Sevatar is in the Detachment, 1 Contekar Terminator Squad may instead be taken as his Retinue (no FOC slot); it forms a single unit with Sevatar, must deploy with him, and he may not voluntarily leave it.</description>
+          <description>- 1 Contekar Terminator Squad (≤10 models) may fill a Compulsory HQ slot if neither Sevatar nor Konrad Curze are present.
+- In a Detachment including Sevatar, 1 Contekar Terminator Squad may instead be taken as his Retinue: no Force Org slot used, forms a single unit with Sevatar, must deploy together, and Sevatar may not voluntarily leave.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4785,7 +4788,7 @@
     <selectionEntry id="12d3-9df0-4118-997f" name="Atramentar Squad" publicationId="7f9d-5e88-241d-e861" page="12" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="3938-864e-6801-3410" name="Sworn Loyalty" hidden="false">
-          <description>If Warlord, Atramentar Squads may be taken as non-Compulsory Troops and count as Legion Terminator Squads for Master of the Atramentar.</description>
+          <description>If Warlord: Atramentar Squads may be taken as non-Compulsory Troops and count as Legion Terminator Squads for Master of the Atramentar.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5269,7 +5272,8 @@
           </profiles>
           <rules>
             <rule id="6ea2-325c-94b0-f3e0" name="Narphagia" hidden="false">
-              <description>End of each turn (if wounded, alive, and joined a unit with ≥1 Night Lords model): roll D6; on 4+, regain 1 Wound — a Night Lords model in the same unit suffers 1 Wound (no Armour Save or Damage Mitigation). Infantry and Cavalry models in Mawdrym's unit gain Feel No Pain (5+) (Artillery excluded).</description>
+              <description>End of turn (while wounded and joined to a unit with ≥1 Night Lords model): roll D6; on 4+, regain 1 Wound — a Night Lords model in the same unit suffers 1 Wound (no Armour Save or Damage Mitigation).
+- Infantry and Cavalry in Mawdrym's unit gain Feel No Pain (5+); Artillery models are unaffected.</description>
             </rule>
             <rule id="e802-88c0-416d-71de" name="Unfit for Command" hidden="false">
               <description>Cannot be selected as Warlord.</description>
@@ -5377,7 +5381,8 @@
           </profiles>
           <rules>
             <rule id="c879-0626-2066-ed7e" name="The Coward" hidden="false">
-              <description>After losing ≥1 wound: gains Feel No Pain (4+). At 1 wound remaining: upgrades to Feel No Pain (3+).</description>
+              <description>- After losing ≥1 wound: gains Feel No Pain (4+).
+- At 1 wound remaining: upgrades to Feel No Pain (3+).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5430,7 +5435,7 @@
           </constraints>
           <rules>
             <rule id="c884-b7be-1496-edd6" name="The Bloody Aegis" hidden="false">
-              <description>4+ Invulnerable Save (3+ in close combat). In Challenges, each To Hit roll of 1 by the opponent inflicts a S4, AP— wound on their own model.</description>
+              <description>4+ Invulnerable Save (3+ in close combat). Challenge: each To Hit roll of 1 by the opponent inflicts 1 S4 AP— wound on their own model.</description>
             </rule>
           </rules>
           <costs>
@@ -5572,10 +5577,10 @@
           </profiles>
           <rules>
             <rule id="886d-44ad-5de4-05a8" name="Electro-charge" hidden="false">
-              <description>On unsaved wound: target model's Initiative reduced to 1 until end of their controlling player's next turn.</description>
+              <description>Any model taking an unsaved wound has its I reduced to 1 until the end of its next turn.</description>
             </rule>
             <rule id="f69b-1fc7-e877-31bd" name="Web of Steel" hidden="false">
-              <description>Forfeit all normal attacks to make one attack against each enemy model within 2" (locked in combat), using this weapon's profile. Electro-charge cannot trigger from wounds caused this way.</description>
+              <description>Instead of normal attacks, make 1 attack vs each enemy model within 2" (locked in combat); Electro-charge cannot trigger from these wounds.</description>
             </rule>
           </rules>
           <costs>

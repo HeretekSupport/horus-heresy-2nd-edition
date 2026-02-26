@@ -3008,7 +3008,7 @@
           </profiles>
           <rules>
             <rule id="a603-aecb-dca4-d1ec" name="The Blade*" hidden="false">
-              <description>Gains the Deathwing +1 To Hit bonus.</description>
+              <description>+1 To Hit (from Deathwing sub-type).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3462,10 +3462,14 @@
       </profiles>
       <rules>
         <rule id="ec39-0eaa-c0d6-6447" name="Vengeful Rage" publicationId="d0df-7166-5cd3-89fd" page="56" hidden="false">
-          <description>After suffering ≥1 unsaved wounds, take a Leadership test. On a fail, enters Vengeful Rage for the remainder of the game: must move, shoot, and charge the nearest unit (friendly or enemy). Friendly units may target this model as though it were an enemy. Ties in distance are controlling player's choice.</description>
+          <description>Take a Leadership test at the end of any turn this model suffers ≥1 unsaved wound. On a fail, enters Vengeful Rage for the rest of the game (friendly units may target this model as though it were an enemy):
+
+- **Movement:** Must move toward the nearest visible unit (friendly or enemy); if none visible or equidistant, controlling player chooses an enemy unit.
+- **Shooting:** Must target the nearest unit (friendly or enemy) with all weapons; controlling player chooses if equidistant.
+- **Assault:** Must charge the nearest visible unit (friendly or enemy); controlling player chooses if equidistant. If a friendly unit is charged and the charge succeeds, attacks them as enemy models for the duration of combat.</description>
         </rule>
         <rule id="47cc-8e78-0978-4af0" name="Cybernetica Exterminator" publicationId="d0df-7166-5cd3-89fd" page="55" hidden="false">
-          <description>Has Animatus Excindor Cybertheurgic Weapon; may not select any other Cybertheurgic Arcana, Rites, or Weapons.</description>
+          <description>Has the Animatus Excindor Cybertheurgic Weapon; may not select any other Cybertheurgic Arcana, Rites, or Weapons.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3724,7 +3728,7 @@
           </profiles>
           <rules>
             <rule id="5ce2-e9bb-3ed3-3013" name="Scion of the Dreadwing" hidden="false">
-              <description>Move 4" through difficult terrain (no dice roll); re-roll failed Dangerous Terrain tests. Applies to any Legion Astartes (Dark Angels) Infantry unit joined.</description>
+              <description>Ignores difficult terrain rolls (move 4" instead); re-roll failed Dangerous Terrain tests (model and any joined Infantry unit).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3743,7 +3747,7 @@
               </constraints>
               <rules>
                 <rule id="d252-3ffd-6e56-6601" name="The Axe of Castigation" publicationId="d0df-7166-5cd3-89fd" page="45" hidden="false">
-                  <description>Choose one profile each Fight sub-phase; counts as a Power weapon.</description>
+                  <description>Choose one profile per Fight sub-phase for all attacks. Counts as a Power weapon.</description>
                 </rule>
               </rules>
               <selectionEntries>
@@ -3871,7 +3875,10 @@
           </constraints>
           <rules>
             <rule id="7adf-ea05-8905-486d" name="Master of the Arsenal" hidden="false">
-              <description>At the start of battle, choose one: Tyrhenian Neural Shredder Carbine, Magaron Atomantic Pulse Pistol, or Selenite Shard-bolt Pistol. Redloss gains use of that weapon for the battle.</description>
+              <description>Choose one weapon for Redloss to use for the battle:
+- Tyrhenian pattern Neural Shredder Carbine
+- Magaron pattern Atomantic Pulse Pistol
+- Selenite Shard-bolt Pistol</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -3907,7 +3914,7 @@
               </profiles>
               <rules>
                 <rule id="28f4-6161-a17a-cd6e" name="Moonsilver" hidden="false">
-                  <description>Unsaved Wounds against Daemons or Psykers count as 2 Wounds. Excess Wounds do not spill over.</description>
+                  <description>Unsaved wounds vs. Daemons or Psykers count as 2 wounds (no spill-over).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4038,7 +4045,7 @@
               </profiles>
               <rules>
                 <rule id="fbd8-5d81-3afd-4e6a" name="Blade charge" hidden="false">
-                  <description>Once per battle, at the start of your Assault phase: weapons with this rule gain Rending (3+) for that phase (does not replace or improve existing Rending).</description>
+                  <description>Once per battle, at the start of your Assault phase: weapons with this rule gain Rending (3+) for that phase. Does not replace or improve existing Rending (X).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4242,7 +4249,7 @@
               </constraints>
               <rules>
                 <rule id="7e7d-c43f-5b32-e3de" name="The Deathbringer’s Aegis" hidden="false">
-                  <description>2+ Armour Save, 4+ Invulnerable Save, and Feel No Pain (5+).</description>
+                  <description>2+ armour save, 4+ invulnerable save, and Feel No Pain (5+).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4556,7 +4563,7 @@
             <selectionEntry id="7b03-a316-ebfc-f197" name="Augurs of Weakness" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="a1dc-0a37-c646-f6af" name="Augurs of Weakness" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>When rolling Armor Penetration against Armour 11+, add +1 to the weapon's Strength.</description>
+                  <description>AP rolls vs Armour 11+ facing: +1 to weapon S.</description>
                 </rule>
               </rules>
               <costs>
@@ -4566,7 +4573,7 @@
             <selectionEntry id="ea47-e0d2-e3ed-e35a" name="Icons of Resolve" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="0dee-e39b-8252-1b01" name="Icons of Resolve" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>+1 Ld (max 10) on any turn this model or its unit is Charged.</description>
+                  <description>When Charged: +1 Ld (max 10).</description>
                 </rule>
               </rules>
               <costs>
@@ -4576,7 +4583,7 @@
             <selectionEntry id="c79d-c85d-fc09-195f" name="Slayers of Kings" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="c9b1-e3ce-0a55-a54d" name="Slayers of Kings" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>Re-roll To Hit rolls of 1 in melee against models with WS 5+.</description>
+                  <description>Melee: re-roll To Hit rolls of 1 vs models with WS5+.</description>
                 </rule>
               </rules>
               <costs>
@@ -4586,7 +4593,8 @@
             <selectionEntry id="6c3a-bc38-62a2-fb14" name="Hunter of Beasts" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="9db7-54d9-ad3c-bbae" name="Hunter of Beasts" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>Re-roll To Wound rolls of 1 vs. engaged units with any model at T5; re-roll all failed To Wound rolls vs. T6+.</description>
+                  <description>- Re-roll To Wound rolls of 1 vs units with any model at T5.
+- Re-roll all failed To Wound rolls vs T6+.</description>
                 </rule>
               </rules>
               <costs>
@@ -4596,7 +4604,7 @@
             <selectionEntry id="baf2-ace7-dc1f-e914" name="Reaper of Hosts" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="6eab-f409-d007-001e" name="Reaper of Hosts" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>+1 Attack if in base contact with 2+ enemy models at the start of a Fight sub-phase.</description>
+                  <description>+1 Attack when fighting in base contact with 2+ enemy models.</description>
                 </rule>
               </rules>
               <costs>
@@ -4606,7 +4614,7 @@
             <selectionEntry id="9eed-7e1c-0e7b-c249" name="Breaker of Witches" publicationId="817a-6288-e016-7469" page="161" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="e5f2-0657-e1da-5be1" name="Breaker of Witches" publicationId="817a-6288-e016-7469" page="161" hidden="false">
-                  <description>Re-roll all melee To Hit and To Wound rolls when attacking units containing any Daemon, Psyker, or Corrupted models.</description>
+                  <description>Melee: re-roll all To Hit and To Wound rolls vs units containing any Daemon, Psyker, or Corrupted model.</description>
                 </rule>
               </rules>
               <costs>
@@ -4641,7 +4649,7 @@
     <selectionEntry id="b9ad-ab3e-437e-c373" name="Inner Circle Knights Cenobium - Order of the Broken Claws" publicationId="09b3-d525-cdea-260c" page="7" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="b996-00ce-09d2-f464" name="Order of the Broken Claws" publicationId="09b3-d525-cdea-260c" page="7" hidden="false">
-          <description>Close combat attacks against Dreadnought, Corrupted, Monstrous, or Shackled Artificia targets wound on one lower result (min 2+).</description>
+          <description>Melee: To Wound rolls vs Dreadnoughts, Corrupted, Monstrous, and Shackled Artificia unit types reduced by 1 (minimum 2+).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4925,13 +4933,13 @@
           </profiles>
           <rules>
             <rule id="ca81-67ef-2137-b233" name="The Point of the Blade" hidden="false">
-              <description>After declaring a Charge, may forgo the Charge Distance roll to make a fixed 8" Charge move, ignoring Difficult and Dangerous Terrain (no Movement or Wargear bonuses apply).</description>
+              <description>After declaring a Charge, may forgo the Charge Distance roll to make a fixed 8" Charge move (ignores Difficult and Dangerous Terrain; no Movement or Wargear bonuses apply).</description>
             </rule>
             <rule id="34c3-c00f-62ff-1120" name="The Lion&apos;s Choler" hidden="false">
               <description>When reduced to 4 Wounds or less Lion El’Jonson gains +1 Attack, increased to +2 Attacks when reduced to 2 Wounds or less.</description>
             </rule>
             <rule id="d747-c520-2c03-9f01" name="Legiones Astartes (Dark Angels (The Lion))" hidden="false">
-              <description>At the start of each of your turns, choose a Hexagrammaton Unit Sub-type for Lion El'Jonson; he retains it until your next turn, when a new one may be selected (or the current one kept).</description>
+              <description>At the start of each of your turns, choose any one Hexagrammaton Sub-type for Lion El'Jonson; he retains it until your next turn, when a new Sub-type may be chosen (or the current one kept).</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4991,7 +4999,7 @@
           </profiles>
           <rules>
             <rule id="39ec-f24c-c662-01c9" name="The Fusil Actinaeus*" hidden="false">
-              <description>Gains +1 To Hit when Lion El'Jonson is using the Stormwing sub-type.</description>
+              <description>Gains +1 To Hit while Lion El'Jonson is using the Stormwing sub-type.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5044,7 +5052,7 @@
               </profiles>
               <rules>
                 <rule id="d23c-3e2e-102c-0808" name="Melee Weapon*" hidden="false">
-                  <description>While using the Deathwing Sub-type, both weapons gain the associated +1 To Hit bonus.</description>
+                  <description>Both weapons gain +1 To Hit while Lion El'Jonson is using the Deathwing Sub-type.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -5075,7 +5083,7 @@
               </profiles>
               <rules>
                 <rule id="1d7b-d4fd-ae65-eca7" name="Fearsome Ruin" hidden="false">
-                  <description>Any unit that suffers ≥1 casualty from this weapon rolls an extra D6 on Morale checks made in the Assault phase, keeping the two highest dice.</description>
+                  <description>Assault phase: units that suffer ≥1 casualty from this weapon roll an extra D6 for Morale checks, keeping the two highest dice.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -5132,7 +5140,7 @@
       </constraints>
       <rules>
         <rule id="14a8-3cea-225b-a998" name="Ancient of War" hidden="false">
-          <description>After deployment, choose 1 Faction present in the enemy army. Marduk Sedras and friendly Legiones Astartes (Dark Angels) units within 6" of him at that moment gain Preferred Enemy (chosen Faction) for the battle. No effect if Sedras is in Reserves.</description>
+          <description>After deployment, choose 1 enemy Faction (incl. Agents of the Emperor/Warmaster). Sedras and friendly Legiones Astartes (Dark Angels) units within 6" of him gain Preferred Enemy vs that Faction for the battle. No effect if Sedras is in Reserves.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5179,7 +5187,7 @@
           </profiles>
           <rules>
             <rule id="3735-3e91-99a3-ebc0" name="Curse of Dead Worlds" hidden="false">
-              <description>Hits reduce the target's Invulnerable Save by 1 (minimum 6+).</description>
+              <description>Hits from this weapon reduce the target's Invulnerable Save by -1 (min 6+).</description>
             </rule>
           </rules>
           <infoLinks>

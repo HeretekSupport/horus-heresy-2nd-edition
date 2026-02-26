@@ -4174,13 +4174,13 @@
     <selectionEntry id="4372-ad51-04a6-97ce" name="Dark Sons of Death" publicationId="09b3-d525-cdea-260c" page="11" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="7d33-191d-454e-acca" name="Shadow of Death" hidden="false">
-          <description>May only be joined by a Centurion with the Stormseer or Moritat upgrade. Techmarines and Apothecaries may not join unless they also have this rule.</description>
+          <description>Cannot be joined by characters except a Centurion with Stormseer or Moritat upgrade; Techmarines and Apothecaries may not join unless they also have this rule.</description>
         </rule>
         <rule id="33f0-02c4-2542-63e2" name="Stormseer&apos;s Conclave" hidden="true">
           <description>A Dark Sons of Death Squad may be selected as a Retinue Squad in a Detachment that includes a Legion Centurion with the Legiones Consularis: Stormseer upgrade and the Legiones Astartes (White Scars) special rules, instead of as an Elites choice. A unit selected as a ‘Retinue Squad’ must have one Legion Centurion with the Legiones Consularis: Stormseer upgrade and the Legiones Astartes (White Scars) special rules from the same Detachment selected by the controlling player as the Dark Sons of Death Squad’s Leader for the purposes of this special rule. A Dark Sons of Death Squad selected as a Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. A Dark Sons of Death Squad selected as a Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play.</description>
         </rule>
         <rule id="089b-4708-a5a0-4d1b" name="Invocation of Razing Tempest" hidden="false">
-          <description>When charging an enemy unit you outnumber: gain Fleet (2) and Rage (2) for this Assault phase.</description>
+          <description>Assault phase: when declaring a Charge vs a unit this unit outnumbers, gain Fleet (2) and Rage (2) for that phase.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4685,7 +4685,8 @@
       </constraints>
       <rules>
         <rule id="f1c6-edd2-409c-cfe5" name="Ally of the Silent Order" hidden="false">
-          <description>A Detachment with Tsolmon Khan may include one Knight Centura as a free non-Compulsory HQ (no FOC slot); that Centura may take a Raptora Cadre as a Retinue. Sisters of Silence in the army count as Sworn Brothers.</description>
+          <description>- May include 1 Knight Centura as a non-compulsory HQ (no FOC slot); that Centura may take a Raptora Cadre as a Retinue.
+- Sisters of Silence in this army count as Sworn Brothers.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5132,7 +5133,9 @@
       </constraints>
       <rules>
         <rule id="cca0-d93e-8a32-4743" name="Lightning From Blue Skies" hidden="false">
-          <description>When in Reserve, automatically arrives at the start of any friendly turn except the first (no Reserves Roll needed). If part of a Flanking Assault, all units in that assault benefit; does not apply to Deep Strike, Drop Pod, or Subterranean Assaults.</description>
+          <description>When in Reserve, no Reserve Roll needed — automatically arrives at the start of any friendly turn after the first.
+- Extends to any unit Jaghatai has joined and all units in the same Flanking Assault.
+- Does not apply to Deep Strike, Drop Pod, or Subterranean Assaults.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5163,7 +5166,8 @@
           </constraints>
           <rules>
             <rule id="df8e-76c1-925f-f9d4" name="Sojutsu Pattern Voidbike" hidden="false">
-              <description>Falls Back 3D6". May join Cavalry units and is treated as Cavalry for all targeting purposes.</description>
+              <description>- Falls Back 3D6" instead of 2D6".
+- May join Cavalry units; rules targeting Cavalry also apply to Jaghatai Khan.</description>
             </rule>
           </rules>
           <infoLinks>

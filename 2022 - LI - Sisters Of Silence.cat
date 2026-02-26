@@ -16,7 +16,7 @@
       </constraints>
       <rules>
         <rule id="04a5-fa60-5ebe-aa9d" name="Silent Sisterhood (Chamber of Judgement)" publicationId="15a4-fc68-502d-48a9" page="40" hidden="false">
-          <description>Fearless while locked in combat with any unit containing a Psyker.</description>
+          <description>While locked in combat with a unit containing any Psyker models: gain Fearless.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -40,7 +40,8 @@
     <categoryEntry id="b6d7-6924-37fb-dd32" name="Silent Sisterhood (Chamber of Vigilance)" hidden="false">
       <rules>
         <rule id="efd8-4a41-bd4b-058b" name="Silent Sisterhood (Chamber of Vigilance)" publicationId="15a4-fc68-502d-48a9" page="40" hidden="false">
-          <description>Before deployment, grant the unit Scout or Infiltrate. May be included in any Sisters of Silence army regardless of HQ selections.</description>
+          <description>- Before deployment, grant the unit Scout or Infiltrate.
+- May be included in any army list regardless of HQ selections.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -2452,7 +2453,10 @@
           </constraints>
           <rules>
             <rule id="b1fc-51e4-ccc6-f22f" name="Retinue (Questora)" hidden="false">
-              <description>May only be chosen as a Retinue for a model with Silent Sisterhood (Chamber of Judgement) and Independent Character. Takes no Force Organisation slot; forms a single unit with its Leader. Must deploy with the Leader, who may never voluntarily leave. Cannot be taken without a valid Leader.</description>
+              <description>Must be taken as a Retinue for a model with both Silent Sisterhood (Chamber of Judgement) and Independent Character.
+- Takes no Force Organisation slot; forms a single unit with its Leader.
+- Must deploy with the Leader; the Leader may never voluntarily leave.
+- Cannot be included without a valid Leader.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -2950,7 +2954,7 @@
           </profiles>
           <rules>
             <rule id="e181-6e76-57bc-4118" name="Vigilant Covenant" publicationId="15a4-fc68-502d-48a9" page="51" hidden="false">
-              <description>Before deployment, each model may leave and join another unit from the same Detachment.</description>
+              <description>Before deployment, each model may leave this unit and join another friendly unit from the same Detachment.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4521,7 +4525,7 @@
     <selectionEntry id="db4a-57f3-f451-da91" name="Pursuer Cadre" publicationId="15a4-fc68-502d-48a9" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="e946-78a7-2402-4a16" name="Pursuit Beasts" publicationId="15a4-fc68-502d-48a9" hidden="false">
-          <description>Up to a set number of Pursuit Beasts may be included in the cadre.</description>
+          <description>Up to a set number of Pursuit Beasts may be included in a Pursuer Cadre.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -7515,7 +7519,10 @@ Grants 6+ Invulnerable vs Melee, 5+ Invulnerable vs Shooting.</characteristic>
     <selectionEntry id="7117-e1f5-1a14-9716" name="Raptora Cadre" publicationId="15a4-fc68-502d-48a9" page="50" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="cfe8-1005-756d-1225" name="Retinue (Raptora)" hidden="false">
-          <description>May only serve as Retinue for a Silent Sisterhood (Chamber of Oblivion) Independent Character (its Leader). Takes no Force Org slot; forms a single unit with its Leader. Leader must deploy with and may never voluntarily leave the Cadre. Cannot be taken without a Leader.</description>
+          <description>Can only be taken as a Retinue for a Silent Sisterhood (Chamber of Oblivion) Independent Character (their Leader).
+- Takes no Force Org slot; forms a single unit with the Leader.
+- Leader must deploy with the Cadre and may not voluntarily leave.
+- Cannot be taken without a Leader.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8238,10 +8245,15 @@ Barrage: always treated as out of LoS when scattering.</characteristic>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="1d8d-3038-9267-6f1b" name="Silent Sisterhood (X)" publicationId="15a4-fc68-502d-48a9" page="39" hidden="false">
-      <description>Denotes which Chamber Militant the model belongs to, granting associated rules and restricting army selection. Per HQ choice of a given Chamber, the Detachment may include up to 3 other non-Vigilance units of that Chamber. Chamber of Vigilance units are unlimited; Dedicated Transports and Retinue units don't count against these limits.</description>
+      <description>Identifies the model's Chamber Militant, which may grant additional rules and governs army selection:
+- Per Chamber Militant (excl. Chamber of Vigilance): for each HQ of that Chamber, include up to 3 other non-HQ choices of the same Chamber.
+- Chamber of Vigilance: unlimited (FOC slots only).
+- Dedicated Transports and Retinue units don't count against these limits.</description>
     </rule>
     <rule id="7982-9292-ef54-8e84" name="Ex-Oblivio" publicationId="15a4-fc68-502d-48a9" page="132" hidden="false">
-      <description>Declare at the start of a combat, before Initiative step 10. Roll a D6: one enemy model in base contact reduces WS to 1 for the turn. On a 1, this model suffers 1 unsaveable Wound (Damage Mitigation allowed).</description>
+      <description>Assault phase: before Initiative step 10, declare use. Roll a D6 and choose one enemy model in base contact — that model's WS drops to 1 for the rest of the player turn.
+- Roll 2–6: no further effect.
+- Roll 1: this model suffers 1 Wound (no Armour, Cover, or Invulnerable saves; Damage Mitigation allowed).</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

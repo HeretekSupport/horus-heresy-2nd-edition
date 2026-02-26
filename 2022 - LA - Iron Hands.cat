@@ -4313,10 +4313,13 @@
     <selectionEntry id="af91-5d08-88ee-80d1" name="Morlock Terminator Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="3a08-c934-d93e-32d8" name="Avernian Retinue" publicationId="d13e-e1ff-5dc7-b84b" hidden="false">
-          <description>May be taken as a Retinue Squad (no Force Organisation slot) in any Detachment containing a Master of the Legion (Iron Hands). If so, a Master of the Legion from that Detachment must be chosen as its Leader—they are treated as part of the same unit, must deploy together, and the Leader may not voluntarily leave.</description>
+          <description>May be selected as a Retinue Squad (no Force Org slot) in a Detachment with a Master of the Legion model, rather than as an HQ choice.
+- A Master of the Legion from the same Detachment must be nominated as Leader; the squad is treated as part of that model's unit.
+- Leader must deploy with the squad and may not voluntarily leave it.</description>
         </rule>
         <rule id="9f16-a7f9-9311-5ab8" name="Fate of the Gorgon" publicationId="d13e-e1ff-5dc7-b84b" hidden="false">
-          <description>If the army includes Ferrus Manus, gains Chosen Warriors. If not, gains Preferred Enemy (Emperor's Children).</description>
+          <description>- If Ferrus Manus is in the army: gain Chosen Warriors.
+- If Ferrus Manus is not in the army: gain Preferred Enemy (Emperor's Children).</description>
         </rule>
       </rules>
       <infoLinks>

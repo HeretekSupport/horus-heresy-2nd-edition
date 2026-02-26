@@ -2995,7 +2995,8 @@
           </profiles>
           <rules>
             <rule id="1654-4021-8098-0327" name="The Shadowed Lord" hidden="false" publicationId="817a-6288-e016-7469" page="333">
-              <description>When using Hit &amp; Run, roll one extra die for distance and discard one die of your choice. Until your next turn after using Hit &amp; Run, re-roll failed Shrouded rolls of 1 for Corax and any unit he has joined.</description>
+              <description>- Hit &amp; Run: roll an extra die for distance; discard any one die before resolving.
+- After using Hit &amp; Run, re-roll failed Shrouded rolls of 1 for Corax and his unit until the start of your next turn.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3067,7 +3068,7 @@ While active:
               </profiles>
               <rules>
                 <rule id="0504-ce14-8f28-9d3a" name="Fighting Style" hidden="false" publicationId="817a-6288-e016-7469" page="333">
-                  <description>At the start of each Assault phase, choose one: Murderous Strike (4+), Rage (4), or Sudden Strike (3).</description>
+                  <description>Assault phase: choose one to apply to all attacks — Murderous Strike (4+), Rage (4), or Sudden Strike (3).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -3142,7 +3143,9 @@ While active:
     <selectionEntry id="c268-08ac-5b90-d034" name="Mor Deythan Squad" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="8cb7-e948-d123-218e" name="Fatal Strike" hidden="false">
-          <description>Once per battle, declare at the start of your Shooting phase: all models with this rule gain Rending (4+) for that phase. Cannot be used with Template or Blast weapons; does not replace or improve existing Rending (X).</description>
+          <description>Once per battle, declare at the start of a Shooting phase: all models with this rule gain Rending (4+) for that phase.
+- Does not replace/improve existing Rending (X).
+- Cannot be used with Template or Blast weapons.</description>
         </rule>
       </rules>
       <infoLinks>
