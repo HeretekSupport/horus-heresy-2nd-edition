@@ -17540,10 +17540,8 @@ Can't use if Pinned or Falling Back.</description>
     <rule id="0e32-5b92-a95a-8464" name="Infiltrate" publicationId="e77a-823a-da94-16b9" page="242" hidden="false">
       <description>Deploy last, after all others. If both players Infiltrate, roll off to determine order, then alternate.
 
-Setup options:
-- &gt;9" from all enemies, out of enemy LoS (incl. inside a Building &gt;9" from enemies)
-- &gt;12" from all enemies, any visibility
-
+Setup options:- &gt;9" from all enemies, out of enemy LoS (incl. inside a Building &gt;9" from enemies)
+- &gt; 12" from all enemies, any visibility
 - Dedicated Transport carrying an Infiltrating unit uses same rules.
 - Can't Charge Turn 1.
 - If held in Reserve, gains Outflank.
